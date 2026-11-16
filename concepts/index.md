@@ -15,6 +15,11 @@
 - [Data drift](/concepts/data-drift.md) — ml-governance
 - [Support vector machine](/concepts/svm.md) — classical-ml
 - [RBF network](/concepts/rbf-network.md) — classical-ml
+- [LLM-as-a-judge](/concepts/llm-as-a-judge.md) — mlops · **draft**
+- [Joint-embedding predictive architecture (JEPA)](/concepts/jepa.md) — deep-learning · **draft**
+- [Speculative decoding](/concepts/speculative-decoding.md) — llm-engineering · **draft**
+- [Prefill-decode disaggregation](/concepts/prefill-decode-disaggregation.md) — llm-engineering · **draft**
+- [Rotary position embedding (RoPE)](/concepts/rope.md) — llm-engineering · **draft**
 
 ## Backend & Systems Engineering
 

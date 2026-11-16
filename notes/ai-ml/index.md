@@ -1,3 +1,9 @@
 # Notes — AI/ML Engineering
 
-- (empty)
+- [LLM-as-a-Judge has a scoring problem (JevEval)](/notes/ai-ml/2026-11-16-jeveval-llm-as-a-judge.md) — JevEval swaps one-shot LLM judge scores for explicit questions answered as calibrated probabilities, with fixed code computing an inspectable score.
+- [Two JEPAs, one world model: the Platonic Representation Hypothesis](/notes/ai-ml/2026-11-16-platonic-representation-jepa.md) — A post on LeCun and Balestriero's result that separately trained image and text JEPAs converge on the same representation, with 42x fewer samples than next-token prediction.
+- [Which Claude model should your team use, and when?](/notes/ai-ml/2026-11-16-which-claude-model-for-your-team.md) — A short map of five Claude models to task types, from Haiku 5.5 for high-volume subagents up to Fable 5.2 for the hardest open-ended work.
+- [Building strong safety evaluations](/notes/ai-ml/2026-11-16-building-strong-safety-evaluations.md) — Anthropic's guide: a safety claim is only as good as its eval, so measure the right construct, validate LLM graders against humans and report uncertainty.
+- [Do Verifier Judgments Survive Abstraction? Measuring Verification Transport for LLM Agent Evaluation](/notes/ai-ml/2026-11-16-verifier-judgments-survive-abstraction.md) — Verifier judgments correct on full agent trajectories flip in roughly 20-31% of cases once the trace is abstracted, and restoring provenance recovers 85.5% of them.
+- [Callo: Serving Cache-Miss Requests with Speculative Decoding on Invalidated KV under Prefill-Decode Disaggregation](/notes/ai-ml/2026-11-16-callo-speculative-decoding-invalidated-kv.md) — Callo drafts tokens on a stale KV cache while the exact prefill runs, committing only verified tokens, for 1.05-1.19x speedups over vLLM on a SWE-agent workload.
+- [Understanding Positional Embeddings in Modern LLMs](/notes/ai-ml/2026-11-16-understanding-positional-embeddings.md) — Raschka traces position encoding from learned tables and sinusoids to RoPE, then how 2026 open models mix partial RoPE, NoPE layers and learned bias.

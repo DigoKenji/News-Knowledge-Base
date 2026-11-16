@@ -50,6 +50,11 @@ resource: https://app.notion.com/p/38bbaf74172d81d0b60eced16e5d7c10
 - [Data drift](/concepts/data-drift.md)
 - [Support vector machine](/concepts/svm.md)
 - [RBF network](/concepts/rbf-network.md)
+- [LLM-as-a-judge](/concepts/llm-as-a-judge.md) (draft)
+- [JEPA](/concepts/jepa.md) (draft)
+- [Speculative decoding](/concepts/speculative-decoding.md) (draft)
+- [Prefill-decode disaggregation](/concepts/prefill-decode-disaggregation.md) (draft)
+- [RoPE](/concepts/rope.md) (draft)
 
 ## Notes
 Summaries in this domain live in [/notes/ai-ml/](/notes/ai-ml/index.md).
