@@ -40,5 +40,7 @@
   "Medium data-engineering": "skipped: Medium never fetched (ADR-0006)",
   "Medium software-engineering": "skipped: Medium never fetched (ADR-0006)",
   "Hacker News (100+ pts)": "ok (20 recent)"
- }
+ },
+ "medium_backlog_cursor": 0,
+ "medium_status": "not-configured"
 }
