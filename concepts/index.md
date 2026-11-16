@@ -1,0 +1,46 @@
+# Concepts
+
+`status: stable` = accepted vocabulary · `status: draft` = proposed by the agent, waiting for Kenji. Kenji certifies a concept by adding a `verified` entry.
+
+## AI/ML Engineering
+
+- [Retrieval-augmented generation](/concepts/rag.md) — rag
+- [GraphRAG](/concepts/graph-rag.md) — rag
+- [Vectorless RAG](/concepts/vectorless-rag.md) — rag
+- [KV cache](/concepts/kv-cache.md) — llm-engineering
+- [Inference throughput/latency/cost](/concepts/inference-tradeoffs.md) — llm-engineering
+- [Multi-agent orchestration](/concepts/multi-agent-orchestration.md) — ai-agents
+- [Feature store](/concepts/feature-store.md) — mlops
+- [Concept drift](/concepts/concept-drift.md) — ml-governance
+- [Data drift](/concepts/data-drift.md) — ml-governance
+- [Support vector machine](/concepts/svm.md) — classical-ml
+- [RBF network](/concepts/rbf-network.md) — classical-ml
+
+## Backend & Systems Engineering
+
+- [Idempotency](/concepts/idempotency.md) — system-design
+- [CAP theorem](/concepts/cap-theorem.md) — system-design
+- [Saga pattern](/concepts/saga-pattern.md) — microservices
+- [Strangler fig migration](/concepts/strangler-fig.md) — microservices
+- [Bounded context](/concepts/bounded-context.md) — microservices
+- [Architecture decision record](/concepts/adr.md) — system-design
+- [ATAM tradeoff analysis](/concepts/atam.md) — system-design
+- [gRPC](/concepts/grpc.md) — api-design
+- [API versioning](/concepts/api-versioning.md) — api-design
+
+## Cloud & Infrastructure
+
+- [Well-Architected Framework](/concepts/well-architected.md) — cloud-platforms
+- [Canary / blue-green deploy](/concepts/canary-deploy.md) — devops-cicd
+
+## Cybersecurity
+
+- [OAuth 2.0](/concepts/oauth2.md) — iam
+- [OpenID Connect](/concepts/oidc.md) — iam
+- [Threat modeling](/concepts/threat-modeling.md) — appsec
+
+## Data & Data Science
+
+
+## Software Engineering Practice
+
