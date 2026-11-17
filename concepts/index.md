@@ -20,6 +20,11 @@
 - [Speculative decoding](/concepts/speculative-decoding.md) — llm-engineering · **draft**
 - [Prefill-decode disaggregation](/concepts/prefill-decode-disaggregation.md) — llm-engineering · **draft**
 - [Rotary position embedding (RoPE)](/concepts/rope.md) — llm-engineering · **draft**
+- [Model Context Protocol (MCP)](/concepts/model-context-protocol.md) — ai-agents · **draft**
+- [Calibration](/concepts/calibration.md) — mlops · **draft**
+- [Structured decision model](/concepts/structured-decision-model.md) — llm-engineering · **draft**
+- [Position bias](/concepts/position-bias.md) — mlops · **draft**
+- [Parent-child chunking](/concepts/parent-child-chunking.md) — rag · **draft**
 
 ## Backend & Systems Engineering
 
