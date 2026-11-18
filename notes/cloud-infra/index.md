@@ -1,4 +1,6 @@
 # Notes — Cloud & Infrastructure
 
+- [Yelp Migrates Cassandra to EKS by Moving EBS Volumes](/notes/cloud-infra/2026-11-18-yelp-migrates-cassandra-to-eks-by-moving-ebs-volumes.md) — Yelp moved 90 Cassandra clusters to EKS by reattaching existing EBS volumes to new pods, avoiding data copies and keeping rollback trivial.
+- [AWS PrivateLink Tunnel Endpoints Open a Whole CIDR Range to Another Account](/notes/cloud-infra/2026-11-18-aws-privatelink-tunnel-endpoints-open-a-whole-cidr-range-to.md) — AWS tunnel endpoints let a consumer VPC reach a whole shared CIDR range one way, without peering or per-resource configuration.
 - [How Rakbank built centralized observability at scale with Amazon OpenSearch Service](/notes/cloud-infra/2026-11-17-how-rakbank-built-centralized-observability-at-scale-with-am.md) — Rakbank tiers append-only logs across hot, UltraWarm and S3 cold storage to hold seven-year retention at about 55 percent less cost than all-hot.
 - [Announcing updates to the AWS Well-Architected Framework](/notes/cloud-infra/2026-11-17-announcing-updates-to-the-aws-well-architected-framework.md) — AWS reorganized its Well-Architected Framework into environment-wide Foundations and per-workload guidance so reviews can be scoped and automated.

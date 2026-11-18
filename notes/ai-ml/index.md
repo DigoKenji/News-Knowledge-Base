@@ -1,5 +1,8 @@
 # Notes — AI/ML Engineering
 
+- [Introducing Claude Fable 5.2 and Claude Mythos 5.2](/notes/ai-ml/2026-11-18-introducing-claude-fable-5-2-and-claude-mythos-5-2.md) — Fable 5.2 and Mythos 5.2 lead the prior generation on hard technical work while costing less and running faster, with safeguards gating access.
+- [Higher-Scoring Coding Models Did Not Get More Work Done](/notes/ai-ml/2026-11-18-higher-scoring-coding-models-did-not-get-more-work-done.md) — A 19-day forced switch away from Fable 5 and five later upgrades left merge rates flat despite benchmark gains.
+- [Building an Agentic Knowledge Graph for Billions of Events](/notes/ai-ml/2026-11-18-building-an-agentic-knowledge-graph-for-billions-of-events.md) — Ontology-driven observability links fragmented incident tools in one knowledge graph; the public-data rebuild works, but detectors remain the weak link.
 - [Inference engineering for software engineers](/notes/ai-ml/2026-11-17-inference-engineering-for-software-engineers.md) — Moving to open models means choosing a model, provider and deployment, and graduating from multi-tenant APIs to dedicated GPUs.
 - [Presentation: Scaling LLM-Based Ranking Systems for Latency-Critical Search & Recommendation Workloads](/notes/ai-ml/2026-11-17-presentation-scaling-llm-based-ranking-systems-for-latency-c.md) — LLM ranking at LinkedIn scales only when model size, context length and inference efficiency are optimized together.
 - [txtai: an all-in-one open-source framework for semantic search, RAG and agents](/notes/ai-ml/2026-11-17-txtai-an-all-in-one-open-source-framework-for-semantic-searc.md) — The post claims txtai unifies semantic search, RAG, agents and workflows in one open-source Python framework.

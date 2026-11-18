@@ -27,6 +27,7 @@
 - [Parent-child chunking](/concepts/parent-child-chunking.md) — rag · **draft**
 - [Agent harness](/concepts/agent-harness.md) — ai-agents · **draft**
 - [Semantic search](/concepts/semantic-search.md) — rag · **draft**
+- [Distillation](/concepts/distillation.md) — llm-engineering · **draft**
 
 ## Backend & Systems Engineering
 
@@ -41,6 +42,8 @@
 - [API versioning](/concepts/api-versioning.md) — api-design
 - [Linearizability](/concepts/linearizability.md) — system-design · **draft**
 - [Deterministic simulation testing](/concepts/deterministic-simulation-testing.md) — system-design · **draft**
+- [Retry storm](/concepts/retry-storm.md) — system-design · **draft**
+- [Adaptive concurrency limit](/concepts/adaptive-concurrency-limit.md) — system-design · **draft**
 
 ## Cloud & Infrastructure
 
@@ -53,9 +56,9 @@
 - [OpenID Connect](/concepts/oidc.md) — iam
 - [Threat modeling](/concepts/threat-modeling.md) — appsec
 - [Indirect prompt injection](/concepts/indirect-prompt-injection.md) — appsec · **draft**
+- [Zero-trust architecture](/concepts/zero-trust-architecture.md) — appsec · **draft**
 
 ## Data & Data Science
-
+- [Knowledge graph](/concepts/knowledge-graph.md) — data-engineering · **draft**
 
 ## Software Engineering Practice
-

@@ -1,5 +1,6 @@
 # Notes — Cybersecurity
 
+- [Agent Trust Infrastructure (ATI): Federated Identity and Attestation for Cross-Organization AI Agents](/notes/security/2026-11-18-agent-trust-infrastructure-ati-federated-identity-and-attest.md) — ATI adds deterministic identity, trust, attestation and policy checks outside the agent's model, raising attack containment from 43% to 84%.
 - [Safe Resemblance, Silent Propagation: Limits of Text-Similarity Guardrails for AI Agent Safety](/notes/security/2026-11-17-safe-resemblance-silent-propagation-limits-of-text-similarit.md) — A text-similarity guardrail misses functional injected outputs and flags authorized reuse, so textual resemblance cannot judge agent safety.
 - [External sandboxes for coding agents](/notes/security/2026-11-17-external-sandboxes-for-coding-agents.md) — Keeping coding agents outside a sandbox while their commands run inside one enforces limits no model judgment can bypass.
 - [GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold](/notes/security/2026-11-17-gtig-ai-threat-tracker-agentic-threat-activity-crosses-a-sig.md) — Threat actors have moved from prompting LLMs to autonomous multi-agent frameworks that run intrusions at machine speed, though they trade stealth for velocity.
