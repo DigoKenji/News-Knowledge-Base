@@ -1,0 +1,3 @@
+# Resumos semanais
+
+- (vazio)

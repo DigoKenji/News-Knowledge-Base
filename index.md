@@ -21,6 +21,9 @@ An [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-cata
 ## Digests
 - [Digests](/digests/index.md) — daily, weekly and monthly digests sent to Telegram
 
+## Português
+- [Espelho pt-br](/pt-br/index.md) — the whole base in Brazilian Portuguese, same paths
+
 ## Pipeline
 - [Inbox](/inbox/index.md) — full-text handoff from Hermes, waiting for the next run
 - [Medium requests](/requests/medium.md) — Medium articles the daily run wants Hermes to hand over
