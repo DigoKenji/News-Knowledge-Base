@@ -1,6 +1,7 @@
 # Log
 
 ## 2026-11-18
+- **Creation:** Portuguese mirror `pt-br/` (ADR-0011): 129 documents translated with Haiku (notes, concepts, domains, foundations, digests and their indexes).
 - **Creation:** MBA expansion (ADR-0009, ADR-0010): new `architecture` domain (8 subdomains) with `notes/architecture/`; new `foundations/` with 10 draft entries quoted from TOGAF 10 and 9.2 (all `partial` or `no` evidence until second bodies are added) and a candidates list.
 - **Creation:** Daily run: 7 notes (1 Medium deep dive from the PC run, 6 discovery picks incl. 2 arXiv), 5 draft concepts, digest /digests/daily/2026-11-18.md. Inbox empty; PC queue at 16, no refill.
 

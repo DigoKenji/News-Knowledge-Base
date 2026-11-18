@@ -1,0 +1,5 @@
+# Notas — Prática de Engenharia de Software
+
+- [Running the full server-side Datasette Python app in the browser with service workers and Pyodide](/pt-br/notes/software-engineering/2026-11-17-running-the-full-server-side-datasette-python-app-in-the-bro.md) — O Datasette Lite agora roda a aplicação Datasette completa, do lado do servidor, no navegador, interceptando requisições com service workers.
+- [AI-Powered Enterprise Architecture: A Strategic Imperative](/pt-br/notes/software-engineering/2026-11-17-ai-powered-enterprise-architecture-a-strategic-imperative.md) — A IA pode aprimorar cada etapa do ciclo de vida da arquitetura empresarial, embora o artigo não ofereça evidências quantificadas.
+- [Artificial Intelligence in the Firm: Bottlenecks in Software Production](/pt-br/notes/software-engineering/2026-11-17-artificial-intelligence-in-the-firm-bottlenecks-in-software.md) — Agentes de codificação com IA aumentaram a produção de código, mas a produção de software subiu apenas 13.7%, com a revisão de código como gargalo.
