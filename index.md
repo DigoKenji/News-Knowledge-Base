@@ -7,7 +7,10 @@ okf_version: "0.2"
 An [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf) v0.2 bundle. Every concept is one Markdown file; its path is its identity. Start with a domain, then follow links.
 
 ## Domains
-- [Domains](/domains/index.md) — the 6 top-level study areas and their subdomains
+- [Domains](/domains/index.md) — the 7 top-level study areas and their subdomains
+
+## Foundations
+- [Foundations](/foundations/index.md) — the golden rules: definitions backed by quoted standards, certified by Kenji; they outrank concepts
 
 ## Concepts
 - [Concepts](/concepts/index.md) — the shared vocabulary; `stable` = accepted, `draft` = proposed by the agent
