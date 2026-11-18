@@ -25,6 +25,8 @@
 - [Structured decision model](/concepts/structured-decision-model.md) — llm-engineering · **draft**
 - [Position bias](/concepts/position-bias.md) — mlops · **draft**
 - [Parent-child chunking](/concepts/parent-child-chunking.md) — rag · **draft**
+- [Agent harness](/concepts/agent-harness.md) — ai-agents · **draft**
+- [Semantic search](/concepts/semantic-search.md) — rag · **draft**
 
 ## Backend & Systems Engineering
 
@@ -37,6 +39,8 @@
 - [ATAM tradeoff analysis](/concepts/atam.md) — system-design
 - [gRPC](/concepts/grpc.md) — api-design
 - [API versioning](/concepts/api-versioning.md) — api-design
+- [Linearizability](/concepts/linearizability.md) — system-design · **draft**
+- [Deterministic simulation testing](/concepts/deterministic-simulation-testing.md) — system-design · **draft**
 
 ## Cloud & Infrastructure
 
@@ -48,6 +52,7 @@
 - [OAuth 2.0](/concepts/oauth2.md) — iam
 - [OpenID Connect](/concepts/oidc.md) — iam
 - [Threat modeling](/concepts/threat-modeling.md) — appsec
+- [Indirect prompt injection](/concepts/indirect-prompt-injection.md) — appsec · **draft**
 
 ## Data & Data Science
 
