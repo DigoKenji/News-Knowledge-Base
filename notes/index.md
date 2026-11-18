@@ -6,3 +6,4 @@
 - [Cybersecurity](/notes/security/index.md) — summaries by date
 - [Data & Data Science](/notes/data/index.md) — summaries by date
 - [Software Engineering Practice](/notes/software-engineering/index.md) — summaries by date
+- [Architecture](/notes/architecture/index.md) — summaries by date

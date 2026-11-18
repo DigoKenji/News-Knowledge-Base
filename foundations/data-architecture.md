@@ -1,0 +1,61 @@
+---
+type: Foundation
+title: Data Architecture
+description: A description of the structure of an enterprise's major types and sources of data, its logical and physical data assets, and its data management resources.
+tags:
+- foundation
+- architecture
+- data-architecture
+status: draft
+generated:
+  by: claude-opus (interactive foundation session)
+  at: '2026-11-18T18:30:00-03:00'
+sources:
+- title: TOGAF Standard — Introduction and Core Concepts (C220 Part 0)
+  publisher: The Open Group
+  edition: 10th Edition, 2025 update (evaluation copy)
+  section: §4.39 Data Architecture
+  tier: B
+- title: The TOGAF Standard, Version 9.2
+  publisher: The Open Group
+  edition: 9.2 (2018)
+  section: Part I §3.36 Data Architecture
+  tier: B
+evidence:
+  bodies:
+  - The Open Group
+  meets_standard: partial
+  gaps:
+  - DAMA-DMBOK2 (DAMA International), chapter on Data Architecture — book, Kenji to provide
+  - Data Architecture course slides (FIAP, Aula02–04) as tier E
+related:
+- architecture-domain
+- application-architecture
+domain: architecture
+lang: en
+---
+
+# Data Architecture
+
+## Working definition
+Data architecture describes what data the enterprise has and where it comes from, how it is organized logically and physically, and which resources manage it. *Follows TOGAF 10 §4.39, pending DAMA-DMBOK2.*
+
+## Authoritative definitions
+> A description of the structure of the enterprise’s major types and sources of data, logical data assets, physical data assets, and data management resources.
+> — The Open Group, TOGAF Standard 10th Ed. (C220 Part 0), §4.39 Data Architecture
+
+> A description of the structure and interaction of the enterprise’s major types and sources of data, logical data assets, physical data assets, and data management resources.
+> — The Open Group, TOGAF Standard 9.2, Part I §3.36 Data Architecture
+
+## How they differ
+- TOGAF 10 drops **“and interaction”**: data architecture describes structure only, while interactions are left to application architecture.
+- Data-platform patterns (data lake, streaming) from the Data Architecture course sit at solution level; TOGAF's definition is enterprise level.
+
+## Where it sits
+Domain subdomain `data-architecture`; with application architecture it forms TOGAF's Information Systems Architecture (ADM Phase C).
+
+## In the course
+Data Architecture (FIAP): data lake, streaming, computer-vision systems — `Materiais/Data Archictecture/`. Lectures not ingested yet.
+
+## Open questions
+- None.

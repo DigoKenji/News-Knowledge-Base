@@ -6,3 +6,4 @@
 - [Cybersecurity](/domains/security.md) — 3 concepts
 - [Data & Data Science](/domains/data.md) — 0 concepts
 - [Software Engineering Practice](/domains/software-engineering.md) — 0 concepts
+- [Architecture](/domains/architecture.md) — 0 concepts, see also [Foundations](/foundations/index.md)
