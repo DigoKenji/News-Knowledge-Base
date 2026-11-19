@@ -10,7 +10,14 @@ status: draft
 generated:
   by: claude-opus (interactive foundation session)
   at: '2026-11-18T18:30:00-03:00'
+  updated: '2026-11-19T19:00:00-03:00'
+baseline: TOGAF 9.2
 sources:
+- title: The TOGAF Standard, Version 9.2
+  publisher: The Open Group
+  edition: 9.2 (2018)
+  section: Part I §1.3 Executive Overview, "Why is an Enterprise Architecture needed?"
+  tier: B
 - title: TOGAF Standard — Introduction and Core Concepts (C220 Part 0)
   publisher: The Open Group
   edition: 10th Edition, 2025 update (evaluation copy)
@@ -41,9 +48,13 @@ translation_of: /foundations/enterprise-architecture.md
 # Arquitetura Empresarial
 
 ## Definição de trabalho
-A Arquitetura Empresarial (EA) é a arquitetura da empresa como um todo: descreve como negócio, dados, aplicações e tecnologia se encaixam em toda a empresa, e é usada para conduzir a mudança, de modo que a empresa permaneça integrada e apoie sua estratégia. *Segue o TOGAF 10 §1.1, o único texto tier B disponível até agora; a confirmar por um segundo órgão.*
+A Arquitetura Empresarial (EA) é a arquitetura da empresa como um todo: descreve como negócio, dados, aplicações e tecnologia se encaixam em toda a empresa, e é usada para conduzir a mudança, de modo que a empresa permaneça integrada e apoie sua estratégia. *Segue o TOGAF 9.2, Parte I §1.3, a referência do curso; o TOGAF dá um propósito, não uma definição formal, então esta frase é a síntese da KB e precisa de um segundo órgão.*
 
 ## Definições autoritativas
+> The purpose of Enterprise Architecture is to optimize across the enterprise the often fragmented legacy of processes (both manual and automated) into an integrated environment that is responsive to change and supportive of the delivery of the business strategy.
+> *Tradução livre:* O propósito da Arquitetura Empresarial é otimizar, em toda a empresa, o legado muitas vezes fragmentado de processos (manuais e automatizados), transformando-o em um ambiente integrado, responsivo a mudanças e que apoie a entrega da estratégia de negócio.
+> — The Open Group, TOGAF Standard 9.2, Part I §1.3 Executive Overview
+
 > The purpose of Enterprise Architecture is to optimize across the enterprise the often fragmented legacy of processes (both manual and automated) into an integrated environment that is responsive to change and supportive of the delivery of the business strategy.
 > *Tradução livre:* O propósito da Arquitetura Empresarial é otimizar, em toda a empresa, o legado muitas vezes fragmentado de processos (manuais e automatizados), transformando-o em um ambiente integrado, responsivo a mudanças e que apoie a entrega da estratégia de negócio.
 > — The Open Group, TOGAF Standard 10th Ed. (C220 Part 0), §1.1 Executive Overview
@@ -53,8 +64,10 @@ A Arquitetura Empresarial (EA) é a arquitetura da empresa como um todo: descrev
 > — The Open Group, TOGAF Standard 10th Ed. (C220 Part 0), section on enterprise agility
 
 ## Em que diferem
+- A frase de propósito é palavra por palavra a mesma no TOGAF 9.2 §1.3 e no TOGAF 10 §1.1.
 - O TOGAF descreve a Arquitetura Empresarial pelo seu **propósito** (otimizar, integrar, possibilitar a mudança) em vez de definir o que ela **é**. A definição de trabalho preenche essa lacuna combinando §4.8 Architecture com §4.43 Enterprise; essa combinação é a interpretação da KB, não uma citação.
 - O TOGAF 10 enfatiza que EA não é "apenas outro nome para arquitetura de TI" (§1.1).
+- **Baseline.** A KB segue o TOGAF 9.2 (orientação do curso, 2026-11-19: a 9.2 está consolidada, enquanto o TOGAF 10 ainda está sendo atualizado). A redação do TOGAF 10 é mantida aqui para mostrar o que mudou.
 
 ## Onde se encaixa
 Termo de escopo no domínio [Arquitetura](/pt-br/domains/architecture.md), acima da [Arquitetura de Solução](/pt-br/foundations/solution-architecture.md). O TOGAF 10 também nomeia níveis intermediários: Arquitetura Estratégica (§4.78) e Arquitetura de Segmento (§4.68).

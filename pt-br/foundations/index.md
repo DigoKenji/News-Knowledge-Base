@@ -3,6 +3,8 @@
 As regras de ouro: definições respaldadas por normas citadas (ADR-0010 em News-Automation). Elas têm precedência sobre [conceitos](/pt-br/concepts/index.md). `draft` = escrito pelo Claude Opus, aguardando o Kenji; `stable` + `verified` = certificado.
 `meets_standard`: `yes` = duas ou mais fontes de órgãos tier A/B citadas a partir dos originais; `partial` = registrado, fontes ausentes (ver `evidence.gaps` de cada entrada).
 
+**Baseline: TOGAF 9.2** (orientação do curso, 2026-11-19). O TOGAF 10 é citado ao lado para mostrar o que mudou.
+
 | Fundamento | Status | Evidência |
 |---|---|---|
 | [Arquitetura](/pt-br/foundations/architecture.md) | rascunho | parcial |
