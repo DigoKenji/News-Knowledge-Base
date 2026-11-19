@@ -1,6 +1,7 @@
 # Log
 
 ## 2026-11-19
+- **Update:** Foundations now follow TOGAF 9.2 as baseline (course guidance); TOGAF 10 kept as "what changed". 10 entries and their pt-br twins updated.
 - **Creation:** Daily run: 10 notes (2 architecture-lane picks, 8 discovery picks incl. 2 arXiv), 5 draft concepts, digest /digests/daily/2026-11-19.md. Inbox empty; no Fetched Medium rows; PC queue at 16, no refill.
 
 ## 2026-11-18

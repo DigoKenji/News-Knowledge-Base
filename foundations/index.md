@@ -5,6 +5,8 @@ The golden rules: definitions backed by quoted standards (ADR-0010 in News-Autom
 `meets_standard`: `yes` = two or more tier A/B bodies quoted from the originals; `partial` = filed, sources missing
 (see each entry's `evidence.gaps`).
 
+**Baseline: TOGAF 9.2** (course guidance, 2026-11-19). TOGAF 10 is quoted alongside to show what changed.
+
 | Foundation | Status | Evidence |
 |---|---|---|
 | [Architecture](/foundations/architecture.md) | draft | partial |
