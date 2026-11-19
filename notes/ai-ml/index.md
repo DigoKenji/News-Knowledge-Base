@@ -1,5 +1,7 @@
 # Notes — AI/ML Engineering
 
+- [Design Once, Deploy at Scale: Building a Template-Driven ML Ecosystem](/notes/ai-ml/2026-11-19-design-once-deploy-at-scale-building-a-template-driven-ml-ec.md) — Standardizing model design into shared templates lets ML techniques be tuned once and shipped across Meta's ads fleet.
+- [Resilience testing your agents on Amazon Bedrock AgentCore](/notes/ai-ml/2026-11-19-resilience-testing-your-agents-on-amazon-bedrock-agentcore.md) — Injecting tool faults into a live agent shows whether it fails safe or fabricates answers, and observability must catch the silent cases.
 - [Introducing Claude Fable 5.2 and Claude Mythos 5.2](/notes/ai-ml/2026-11-18-introducing-claude-fable-5-2-and-claude-mythos-5-2.md) — Fable 5.2 and Mythos 5.2 lead the prior generation on hard technical work while costing less and running faster, with safeguards gating access.
 - [Higher-Scoring Coding Models Did Not Get More Work Done](/notes/ai-ml/2026-11-18-higher-scoring-coding-models-did-not-get-more-work-done.md) — A 19-day forced switch away from Fable 5 and five later upgrades left merge rates flat despite benchmark gains.
 - [Building an Agentic Knowledge Graph for Billions of Events](/notes/ai-ml/2026-11-18-building-an-agentic-knowledge-graph-for-billions-of-events.md) — Ontology-driven observability links fragmented incident tools in one knowledge graph; the public-data rebuild works, but detectors remain the weak link.

@@ -1,5 +1,8 @@
 # Notas — Backend e Engenharia de Sistemas
 
+- [LinkedIn reduz de 750 para 20 as falhas diárias de fetch do shuffle no Spark com Apache Celeborn](/pt-br/notes/backend-systems/2026-11-19-linkedin-cuts-daily-spark-shuffle-fetch-failures-from-750-to.md) — Mover o armazenamento do shuffle para workers dedicados do Celeborn reduziu de 750 para 20 as falhas diárias de fetch do shuffle no Spark da LinkedIn.
+- [Cap-and-Track: otimizando o despacho de requisições de inferência de LLM com capacidade variável](/pt-br/notes/backend-systems/2026-11-19-cap-and-track-optimizing-llm-inference-request-dispatch-acro.md) — Despacho orientado a recusas, com limites por réplica, mantém as frotas de LLM ocupadas conforme a capacidade muda, servindo um classificador com 43% menos H100s.
+- [15 milhões de servidores web em uma VM – smoltcp, DPDK, AF_XDP](/pt-br/notes/backend-systems/2026-11-19-15m-web-servers-on-one-vm-smoltcp-dpdk-af-xdp.md) — A memória de socket do kernel e o espaço de portas de 16 bits, não a CPU, limitam quantos servidores cabem em uma VM; a rede em userland remove a maior parte desse custo.
 - [How we raised Databricks cluster rate limits by 7.5×](/pt-br/notes/backend-systems/2026-11-18-how-we-raised-databricks-cluster-rate-limits-by-7-5.md) — Limites fixos de taxa de requisições não protegem trabalho de longa duração, então controle quantas operações rodam conforme a saúde do sistema muda.
 - [Deterministic Simulation Testing](/pt-br/notes/backend-systems/2026-11-17-deterministic-simulation-testing.md) — Bugs distribuídos tornam-se reproduzíveis quando um núcleo single-threaded controla o avanço do relógio, da rede e do disco por meio de chamadas de tick.
 - (vazio)

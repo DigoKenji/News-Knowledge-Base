@@ -28,6 +28,8 @@
 - [Agent harness](/concepts/agent-harness.md) — ai-agents · **draft**
 - [Semantic search](/concepts/semantic-search.md) — rag · **draft**
 - [Distillation](/concepts/distillation.md) — llm-engineering · **draft**
+- [AI gateway](/concepts/ai-gateway.md) — llm-engineering · **draft**
+- [Goodput](/concepts/goodput.md) — llm-engineering · **draft**
 
 ## Backend & Systems Engineering
 
@@ -44,6 +46,8 @@
 - [Deterministic simulation testing](/concepts/deterministic-simulation-testing.md) — system-design · **draft**
 - [Retry storm](/concepts/retry-storm.md) — system-design · **draft**
 - [Adaptive concurrency limit](/concepts/adaptive-concurrency-limit.md) — system-design · **draft**
+- [Silent failure](/concepts/silent-failure.md) — system-design · **draft**
+- [Chaos engineering](/concepts/chaos-engineering.md) — system-design · **draft**
 
 ## Cloud & Infrastructure
 
@@ -57,6 +61,7 @@
 - [Threat modeling](/concepts/threat-modeling.md) — appsec
 - [Indirect prompt injection](/concepts/indirect-prompt-injection.md) — appsec · **draft**
 - [Zero-trust architecture](/concepts/zero-trust-architecture.md) — appsec · **draft**
+- [Information flow control](/concepts/information-flow-control.md) — appsec · **draft**
 
 ## Data & Data Science
 - [Knowledge graph](/concepts/knowledge-graph.md) — data-engineering · **draft**

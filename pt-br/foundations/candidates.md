@@ -30,3 +30,9 @@ Lista inicial a partir do programa do MBA (2026-11-18). As execuções diárias 
 - Economia unitária
 - Modelo mental
 - Estratégia do oceano azul
+- padrão arquitetural — visto pela primeira vez em [Open Questions in Pattern Application](/pt-br/notes/architecture/2026-11-19-open-questions-in-pattern-application.md)
+- ponto de vista (viewpoint) — visto pela primeira vez em [Open Questions in Pattern Application](/pt-br/notes/architecture/2026-11-19-open-questions-in-pattern-application.md)
+- cenário de atributo de qualidade (quality attribute scenario) — visto pela primeira vez em [Open Questions in Pattern Application](/pt-br/notes/architecture/2026-11-19-open-questions-in-pattern-application.md)
+- gateway de IA (AI gateway) — visto pela primeira vez em [How AUMOVIO centralized AI access with Databricks Unity Gateway](/pt-br/notes/architecture/2026-11-19-how-aumovio-centralized-ai-access-with-databricks-unity-gate.md)
+- chargeback — visto pela primeira vez em [How AUMOVIO centralized AI access with Databricks Unity Gateway](/pt-br/notes/architecture/2026-11-19-how-aumovio-centralized-ai-access-with-databricks-unity-gate.md)
+- infraestrutura como código (infrastructure as code) — visto pela primeira vez em [How AUMOVIO centralized AI access with Databricks Unity Gateway](/pt-br/notes/architecture/2026-11-19-how-aumovio-centralized-ai-access-with-databricks-unity-gate.md)

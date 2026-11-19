@@ -28,3 +28,9 @@ Seed list from the MBA syllabus (2026-11-18). Daily runs append terms they meet 
 - Unit economics
 - Mental model
 - Blue ocean strategy
+- architectural pattern — first seen in [Open Questions in Pattern Application](/notes/architecture/2026-11-19-open-questions-in-pattern-application.md)
+- viewpoint — first seen in [Open Questions in Pattern Application](/notes/architecture/2026-11-19-open-questions-in-pattern-application.md)
+- quality attribute scenario — first seen in [Open Questions in Pattern Application](/notes/architecture/2026-11-19-open-questions-in-pattern-application.md)
+- AI gateway — first seen in [How AUMOVIO centralized AI access with Databricks Unity Gateway](/notes/architecture/2026-11-19-how-aumovio-centralized-ai-access-with-databricks-unity-gate.md)
+- chargeback — first seen in [How AUMOVIO centralized AI access with Databricks Unity Gateway](/notes/architecture/2026-11-19-how-aumovio-centralized-ai-access-with-databricks-unity-gate.md)
+- infrastructure as code — first seen in [How AUMOVIO centralized AI access with Databricks Unity Gateway](/notes/architecture/2026-11-19-how-aumovio-centralized-ai-access-with-databricks-unity-gate.md)

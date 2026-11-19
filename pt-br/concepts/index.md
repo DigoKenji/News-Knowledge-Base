@@ -28,6 +28,8 @@
 - [Harness de agente](/pt-br/concepts/agent-harness.md) — ai-agents · **rascunho**
 - [Busca semântica](/pt-br/concepts/semantic-search.md) — rag · **rascunho**
 - [Destilação](/pt-br/concepts/distillation.md) — llm-engineering · **rascunho**
+- [Gateway de IA](/pt-br/concepts/ai-gateway.md) — llm-engineering · **rascunho**
+- [Goodput](/pt-br/concepts/goodput.md) — llm-engineering · **rascunho**
 
 ## Engenharia de Backend e Sistemas
 
@@ -44,6 +46,8 @@
 - [Teste de simulação determinística](/pt-br/concepts/deterministic-simulation-testing.md) — system-design · **rascunho**
 - [Tempestade de retentativas](/pt-br/concepts/retry-storm.md) — system-design · **rascunho**
 - [Limite adaptativo de concorrência](/pt-br/concepts/adaptive-concurrency-limit.md) — system-design · **rascunho**
+- [Falha silenciosa](/pt-br/concepts/silent-failure.md) — system-design · **rascunho**
+- [Engenharia do caos](/pt-br/concepts/chaos-engineering.md) — system-design · **rascunho**
 
 ## Nuvem e Infraestrutura
 
@@ -57,6 +61,7 @@
 - [Modelagem de ameaças](/pt-br/concepts/threat-modeling.md) — appsec
 - [Prompt injection indireta](/pt-br/concepts/indirect-prompt-injection.md) — appsec · **rascunho**
 - [Arquitetura zero-trust](/pt-br/concepts/zero-trust-architecture.md) — appsec · **rascunho**
+- [Controle de fluxo de informação](/pt-br/concepts/information-flow-control.md) — appsec · **rascunho**
 
 ## Dados e Ciência de Dados
 
