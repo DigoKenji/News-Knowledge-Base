@@ -1,5 +1,6 @@
 # Notes — Cybersecurity
 
+- [SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research](/notes/security/2026-11-20-sok-assessing-the-evolution-of-llm-capability-in-software-vu.md) — LLM agents now find, validate and patch real vulnerabilities unattended, but fix and attack timelines have not yet shifted.
 - [Kaer: Security-Aware Replanning for Multi-Agent Systems](/notes/security/2026-11-19-kaer-security-aware-replanning-for-multi-agent-systems.md) — Kaer restricts agent feedback to fixed failure templates and deterministic repairs, resisting replanning attacks with higher security than baselines.
 - [Agent Trust Infrastructure (ATI): Federated Identity and Attestation for Cross-Organization AI Agents](/notes/security/2026-11-18-agent-trust-infrastructure-ati-federated-identity-and-attest.md) — ATI adds deterministic identity, trust, attestation and policy checks outside the agent's model, raising attack containment from 43% to 84%.
 - [Safe Resemblance, Silent Propagation: Limits of Text-Similarity Guardrails for AI Agent Safety](/notes/security/2026-11-17-safe-resemblance-silent-propagation-limits-of-text-similarit.md) — A text-similarity guardrail misses functional injected outputs and flags authorized reuse, so textual resemblance cannot judge agent safety.

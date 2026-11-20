@@ -30,6 +30,8 @@
 - [Distillation](/concepts/distillation.md) — llm-engineering · **draft**
 - [AI gateway](/concepts/ai-gateway.md) — llm-engineering · **draft**
 - [Goodput](/concepts/goodput.md) — llm-engineering · **draft**
+- [AI agent](/concepts/ai-agent.md) — ai-agents · **draft**
+- [In-context learning](/concepts/in-context-learning.md) — llm-engineering · **draft**
 
 ## Backend & Systems Engineering
 
@@ -48,6 +50,9 @@
 - [Adaptive concurrency limit](/concepts/adaptive-concurrency-limit.md) — system-design · **draft**
 - [Silent failure](/concepts/silent-failure.md) — system-design · **draft**
 - [Chaos engineering](/concepts/chaos-engineering.md) — system-design · **draft**
+- [Control plane](/concepts/control-plane.md) — system-design · **draft**
+- [Correlated failure](/concepts/correlated-failure.md) — system-design · **draft**
+- [Dead-letter queue](/concepts/dead-letter-queue.md) — microservices · **draft**
 
 ## Cloud & Infrastructure
 

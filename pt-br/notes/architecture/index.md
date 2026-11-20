@@ -2,5 +2,9 @@
 
 Deep dives da trilha de arquitetura (ADR-0009), do mais recente para o mais antigo.
 
+- [Mercados digitais: quando a concorrência muda a estratégia](/pt-br/notes/architecture/2026-11-20-mercados-digitais-quando-a-concorrencia-muda-a-estrategia.md) — O projeto de lei brasileiro sobre mercados digitais deslocaria a fiscalização da concorrência para deveres ex-ante; por isso, as empresas precisam reformular canais, contratos e compliance já.
+- [Telecom sob pressão de custos](/pt-br/notes/architecture/2026-11-20-telecom-sob-pressao-de-custos.md) — Operadoras de telecom entregam mais dados com menos receita; por isso, o retorno da IA está nas operações de rede e exige governança antes de tudo.
+- [Como o Country Road Group construiu uma solução de integração orientada a padrões na AWS](/pt-br/notes/architecture/2026-11-20-how-country-road-group-built-a-pattern-driven-integration-so.md) — Substituir middleware da era BizTalk por serviços nativos da nuvem que implementam padrões de integração diretamente reduziu em 80% o custo de integração de um varejista.
+- [Os sistemas invisíveis: o que acontece entre serviços](/pt-br/notes/architecture/2026-11-20-the-invisible-systems-what-happens-between-services.md) — As chamadas entre serviços escondem custos reais; por isso, serviços saudáveis ainda podem gerar requisições com falha.
 - [Questões em Aberto na Aplicação de Padrões](/pt-br/notes/architecture/2026-11-19-open-questions-in-pattern-application.md) — Um padrão só é aplicado quando existem juntos uma decisão registrada, um registro nos elementos de design e uma verificação de conformidade.
 - [Como a AUMOVIO centralizou o acesso à IA com o Databricks Unity Gateway](/pt-br/notes/architecture/2026-11-19-how-aumovio-centralized-ai-access-with-databricks-unity-gate.md) — A AUMOVIO consolidou acessos dispersos a LLMs em um único gateway governado do Databricks, comprando a plataforma e construindo apenas as camadas que a diferenciam.

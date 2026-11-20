@@ -1,5 +1,7 @@
 # Notes — Data & Data Science
 
+- [AI on Excel Sheet: NVIDIA's Kumo Runs 23x Faster Than Google's TabFM](/notes/data/2026-11-20-ai-on-excel-sheet-nvidias-kumo-runs-23x-faster-than-googles.md) — NVIDIA's Kumo predicts from tables with no training run, and an independent benchmark confirms its speed, but its top rivals carry business-use restrictions.
+- [PostgreSQL 19 Released](/notes/data/2026-11-20-postgresql-19-released.md) — PostgreSQL 19 lets clients on a standby wait for a known WAL position, giving read-your-writes consistency without routing every read to the primary.
 - [Data Contracts](/notes/data/2026-11-19-data-contracts.md) — Data contracts apply API-design discipline to datasets, giving people and AI agents verifiable, versioned metadata they can trust.
 - [Aderant modernizes analytics data pipeline with Apache Iceberg and AWS Lambda](/notes/data/2026-11-19-aderant-modernizes-analytics-data-pipeline-with-apache-icebe.md) — Splitting gold tables by query complexity lets an event-driven Iceberg pipeline deliver near real-time analytics at lower cost.
 - [Built on object storage, served from cache](/notes/data/2026-11-17-built-on-object-storage-served-from-cache.md) — Lakebase Postgres serves 99.99999% of page reads from local caches, so object storage stays off the query path.

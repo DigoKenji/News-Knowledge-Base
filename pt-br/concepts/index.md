@@ -30,6 +30,8 @@
 - [Destilação](/pt-br/concepts/distillation.md) — llm-engineering · **rascunho**
 - [Gateway de IA](/pt-br/concepts/ai-gateway.md) — llm-engineering · **rascunho**
 - [Goodput](/pt-br/concepts/goodput.md) — llm-engineering · **rascunho**
+- [Agente de IA](/pt-br/concepts/ai-agent.md) — ai-agents · **rascunho**
+- [Aprendizado em contexto](/pt-br/concepts/in-context-learning.md) — llm-engineering · **rascunho**
 
 ## Engenharia de Backend e Sistemas
 
@@ -48,6 +50,9 @@
 - [Limite adaptativo de concorrência](/pt-br/concepts/adaptive-concurrency-limit.md) — system-design · **rascunho**
 - [Falha silenciosa](/pt-br/concepts/silent-failure.md) — system-design · **rascunho**
 - [Engenharia do caos](/pt-br/concepts/chaos-engineering.md) — system-design · **rascunho**
+- [Plano de controle](/pt-br/concepts/control-plane.md) — system-design · **rascunho**
+- [Falha correlacionada](/pt-br/concepts/correlated-failure.md) — system-design · **rascunho**
+- [Dead-letter queue](/pt-br/concepts/dead-letter-queue.md) — microservices · **rascunho**
 
 ## Nuvem e Infraestrutura
 
