@@ -1,5 +1,8 @@
 # Log
 
+## 2026-11-21
+- **Creation:** Daily run: 10 notes (2 architecture-lane picks, 8 discovery picks incl. 2 arXiv), 5 draft concepts, 6 foundation candidates, digest /digests/daily/2026-11-21.md. Inbox empty; no Fetched Medium rows; PC queue at 13, no refill.
+
 ## 2026-11-20
 - **Creation:** Daily run: 20 notes (10 Medium deep dives and 2 MIT SMR Brasil architecture-lane items from the PC run, 8 discovery picks incl. 2 arXiv), 5 draft concepts, 12 foundation candidates, digest /digests/daily/2026-11-20.md. Inbox empty; PC queue at 13, no refill.
 

@@ -1,5 +1,6 @@
 # Notas — Nuvem e Infraestrutura
 
+- [Como o Google rastreou timeouts da API do GKE até um bug de TCP no kernel Linux](/pt-br/notes/cloud-infra/2026-11-21-how-google-traced-gke-api-timeouts-to-a-linux-kernel-tcp-bug.md) — Timeouts intermitentes da API do GKE vieram de três bugs que interagiam entre PSC, Envoy e o kernel Linux, corrigidos por um patch do kernel.
 - [Agentes de codificação com IA no Amazon EC2 Mac: como a Cognition escala o Devin para macOS](/pt-br/notes/cloud-infra/2026-11-20-ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devi.md) — A Cognition executa uma VM macOS nova para cada sessão do Devin em hosts EC2 Mac bare-metal, permitindo que agentes de IA criem e testem apps da Apple.
 - [Construindo confiabilidade na nuvem: observabilidade como plano de controle para failover multirregião](/pt-br/notes/cloud-infra/2026-11-20-building-reliability-into-the-cloud-observability-as-the-con.md) — A observabilidade deve disparar ação automatizada e confirmação, pois o failover multirregião só funciona quando testado sob carga real.
 - [Yelp Migrates Cassandra to EKS by Moving EBS Volumes](/pt-br/notes/cloud-infra/2026-11-18-yelp-migrates-cassandra-to-eks-by-moving-ebs-volumes.md) — A Yelp migrou 90 clusters Cassandra para o EKS reanexando volumes EBS existentes a novos pods, evitando cópias de dados e mantendo o rollback trivial.

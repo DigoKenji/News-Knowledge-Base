@@ -32,6 +32,7 @@
 - [Goodput](/pt-br/concepts/goodput.md) — llm-engineering · **rascunho**
 - [Agente de IA](/pt-br/concepts/ai-agent.md) — ai-agents · **rascunho**
 - [Aprendizado em contexto](/pt-br/concepts/in-context-learning.md) — llm-engineering · **rascunho**
+- [Memória de agente](/pt-br/concepts/agent-memory.md) — ai-agents · **rascunho**
 
 ## Engenharia de Backend e Sistemas
 
@@ -53,6 +54,8 @@
 - [Plano de controle](/pt-br/concepts/control-plane.md) — system-design · **rascunho**
 - [Falha correlacionada](/pt-br/concepts/correlated-failure.md) — system-design · **rascunho**
 - [Dead-letter queue](/pt-br/concepts/dead-letter-queue.md) — microservices · **rascunho**
+- [Cache híbrido memória-disco](/pt-br/concepts/hybrid-memory-disk-cache.md) — system-design · **rascunho**
+- [Pressão de GC](/pt-br/concepts/gc-pressure.md) — system-design · **rascunho**
 
 ## Nuvem e Infraestrutura
 
@@ -67,9 +70,11 @@
 - [Prompt injection indireta](/pt-br/concepts/indirect-prompt-injection.md) — appsec · **rascunho**
 - [Arquitetura zero-trust](/pt-br/concepts/zero-trust-architecture.md) — appsec · **rascunho**
 - [Controle de fluxo de informação](/pt-br/concepts/information-flow-control.md) — appsec · **rascunho**
+- [Atestação remota](/pt-br/concepts/remote-attestation.md) — appsec · **rascunho**
 
 ## Dados e Ciência de Dados
 
 - [Grafo de conhecimento](/pt-br/concepts/knowledge-graph.md) — data-engineering · **rascunho**
 
 ## Práticas de Engenharia de Software
+- [Imposto de verificação](/pt-br/concepts/verification-tax.md) — ai-assisted-development · **rascunho**

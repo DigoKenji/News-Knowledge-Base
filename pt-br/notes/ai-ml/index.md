@@ -1,5 +1,6 @@
 # Notas — Engenharia de AI/ML
 
+- [MemFolder: Dobramento de memória guiado por estrutura para gerenciamento eficiente de memória de agentes](/pt-br/notes/ai-ml/2026-11-21-memfolder-structure-guided-memory-folding-for-efficient-agen.md) — Consolidar registros de memória de agentes em unidades agrupadas mantém 99.0% da precisão do Mem0 com 50% menos registros.
 - [Você acha que a IA está superestimada? Espere até ver o que vem a seguir.](/pt-br/notes/ai-ml/2026-11-20-you-think-ai-is-overhyped-just-wait-until-you-see-what-comes.md) — A IA está parcialmente superestimada em preços e prazos, mas a mudança de chatbots para agentes que agem é a parte subestimada e que mais importa.
 - [10 ferramentas de IA que todo mundo vai usar em menos de três meses](/pt-br/notes/ai-ml/2026-11-20-10-ai-tools-everyone-will-be-using-in-less-than-three-months.md) — Dez ferramentas de IA específicas removem, cada uma, um ponto de atrito, e os primeiros adotantes já estão organizando o dia de trabalho em torno delas.
 - [8 coisas legais que as pessoas estão fazendo com o Claude Opus 5.5](/pt-br/notes/ai-ml/2026-11-20-8-cool-things-people-are-using-claude-opus-5-5-for.md) — O Opus 5.5 transforma prompts isolados em animações, aplicativos, cenas 3D, apresentações e jogos que funcionam, com pouca supervisão.

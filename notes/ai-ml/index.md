@@ -1,5 +1,6 @@
 # Notes — AI/ML Engineering
 
+- [MemFolder: Structure-Guided Memory Folding for Efficient Agent Memory Management](/notes/ai-ml/2026-11-21-memfolder-structure-guided-memory-folding-for-efficient-agen.md) — Consolidating agent memory records into grouped units keeps 99.0% of Mem0 accuracy with 50% fewer records.
 - [You Think AI Is Overhyped? Just Wait Until You See What Comes Next.](/notes/ai-ml/2026-11-20-you-think-ai-is-overhyped-just-wait-until-you-see-what-comes.md) — AI is partly overhyped in prices and timelines, but the shift from chatbots to acting agents is the underrated part that matters.
 - [10 AI Tools Everyone Will Be Using in Less Than Three Months](/notes/ai-ml/2026-11-20-10-ai-tools-everyone-will-be-using-in-less-than-three-months.md) — Ten narrow AI tools each remove one friction point, and early adopters are already building their workdays around them.
 - [8 Cool Things People Are Using Claude Opus 5.5 For](/notes/ai-ml/2026-11-20-8-cool-things-people-are-using-claude-opus-5-5-for.md) — Opus 5.5 can turn single prompts into working animations, apps, 3D scenes, decks and games with little supervision.

@@ -32,6 +32,7 @@
 - [Goodput](/concepts/goodput.md) — llm-engineering · **draft**
 - [AI agent](/concepts/ai-agent.md) — ai-agents · **draft**
 - [In-context learning](/concepts/in-context-learning.md) — llm-engineering · **draft**
+- [Agent memory](/concepts/agent-memory.md) — ai-agents · **draft**
 
 ## Backend & Systems Engineering
 
@@ -53,6 +54,8 @@
 - [Control plane](/concepts/control-plane.md) — system-design · **draft**
 - [Correlated failure](/concepts/correlated-failure.md) — system-design · **draft**
 - [Dead-letter queue](/concepts/dead-letter-queue.md) — microservices · **draft**
+- [Hybrid memory-disk cache](/concepts/hybrid-memory-disk-cache.md) — system-design · **draft**
+- [GC pressure](/concepts/gc-pressure.md) — system-design · **draft**
 
 ## Cloud & Infrastructure
 
@@ -67,8 +70,10 @@
 - [Indirect prompt injection](/concepts/indirect-prompt-injection.md) — appsec · **draft**
 - [Zero-trust architecture](/concepts/zero-trust-architecture.md) — appsec · **draft**
 - [Information flow control](/concepts/information-flow-control.md) — appsec · **draft**
+- [Remote attestation](/concepts/remote-attestation.md) — appsec · **draft**
 
 ## Data & Data Science
 - [Knowledge graph](/concepts/knowledge-graph.md) — data-engineering · **draft**
 
 ## Software Engineering Practice
+- [Verification tax](/concepts/verification-tax.md) — ai-assisted-development · **draft**
