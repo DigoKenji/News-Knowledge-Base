@@ -33,6 +33,8 @@
 - [AI agent](/concepts/ai-agent.md) — ai-agents · **draft**
 - [In-context learning](/concepts/in-context-learning.md) — llm-engineering · **draft**
 - [Agent memory](/concepts/agent-memory.md) — ai-agents · **draft**
+- [Mixture of experts](/concepts/mixture-of-experts.md) — ai-ml · **draft**
+- [Multi-head latent attention](/concepts/multi-head-latent-attention.md) — ai-ml · **draft**
 
 ## Backend & Systems Engineering
 
@@ -56,6 +58,7 @@
 - [Dead-letter queue](/concepts/dead-letter-queue.md) — microservices · **draft**
 - [Hybrid memory-disk cache](/concepts/hybrid-memory-disk-cache.md) — system-design · **draft**
 - [GC pressure](/concepts/gc-pressure.md) — system-design · **draft**
+- [Cascading failure](/concepts/cascading-failure.md) — backend-systems · **draft**
 
 ## Cloud & Infrastructure
 
@@ -71,9 +74,11 @@
 - [Zero-trust architecture](/concepts/zero-trust-architecture.md) — appsec · **draft**
 - [Information flow control](/concepts/information-flow-control.md) — appsec · **draft**
 - [Remote attestation](/concepts/remote-attestation.md) — appsec · **draft**
+- [Memory poisoning](/concepts/memory-poisoning.md) — security · **draft**
 
 ## Data & Data Science
 - [Knowledge graph](/concepts/knowledge-graph.md) — data-engineering · **draft**
+- [Change data capture](/concepts/change-data-capture.md) — data · **draft**
 
 ## Software Engineering Practice
 - [Verification tax](/concepts/verification-tax.md) — ai-assisted-development · **draft**

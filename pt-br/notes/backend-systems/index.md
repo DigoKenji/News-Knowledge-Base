@@ -1,5 +1,6 @@
 # Notas — Backend e Engenharia de Sistemas
 
+- [Muru](/pt-br/notes/backend-systems/2026-11-22-muru.md) — Muru é um servidor em Rust, assistido por IA, para aplicações web em Python, e o julgamento de seu autor, não a IA, define o padrão de qualidade.
 - [Uber reduz em até 90% a memória do cache de tradução mantendo a latência P99 abaixo de 1 ms](/pt-br/notes/backend-systems/2026-11-21-uber-cuts-translation-cache-memory-by-up-to-90-while-keeping.md) — A Uber reduziu em mais de 90% a memória inicial do cache de tradução em Go, mantendo chaves e valores quentes na RAM e transferindo o restante para o disco.
 - [LinkedIn reduz de 750 para 20 as falhas diárias de fetch do shuffle no Spark com Apache Celeborn](/pt-br/notes/backend-systems/2026-11-19-linkedin-cuts-daily-spark-shuffle-fetch-failures-from-750-to.md) — Mover o armazenamento do shuffle para workers dedicados do Celeborn reduziu de 750 para 20 as falhas diárias de fetch do shuffle no Spark da LinkedIn.
 - [Cap-and-Track: otimizando o despacho de requisições de inferência de LLM com capacidade variável](/pt-br/notes/backend-systems/2026-11-19-cap-and-track-optimizing-llm-inference-request-dispatch-acro.md) — Despacho orientado a recusas, com limites por réplica, mantém as frotas de LLM ocupadas conforme a capacidade muda, servindo um classificador com 43% menos H100s.

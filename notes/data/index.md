@@ -1,5 +1,7 @@
 # Notes — Data & Data Science
 
+- [What is a semantic knowledge graph, and does your AI need one?](/notes/data/2026-11-22-what-is-a-semantic-knowledge-graph-and-does-your-ai-need-one.md) — Agentic AI needs a semantic layer and knowledge graphs that encode business context, not just data, to act reliably.
+- [How United Airlines streams database changes to Apache Iceberg with Amazon Data Firehose](/notes/data/2026-11-22-how-united-airlines-streams-database-changes-to-apache-icebe.md) — A serverless CDC pipeline from Aurora MySQL into Iceberg gives near-real-time data that several query engines can read.
 - [AI on Excel Sheet: NVIDIA's Kumo Runs 23x Faster Than Google's TabFM](/notes/data/2026-11-20-ai-on-excel-sheet-nvidias-kumo-runs-23x-faster-than-googles.md) — NVIDIA's Kumo predicts from tables with no training run, and an independent benchmark confirms its speed, but its top rivals carry business-use restrictions.
 - [PostgreSQL 19 Released](/notes/data/2026-11-20-postgresql-19-released.md) — PostgreSQL 19 lets clients on a standby wait for a known WAL position, giving read-your-writes consistency without routing every read to the primary.
 - [Data Contracts](/notes/data/2026-11-19-data-contracts.md) — Data contracts apply API-design discipline to datasets, giving people and AI agents verifiable, versioned metadata they can trust.

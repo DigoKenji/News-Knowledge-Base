@@ -33,6 +33,8 @@
 - [Agente de IA](/pt-br/concepts/ai-agent.md) — ai-agents · **rascunho**
 - [Aprendizado em contexto](/pt-br/concepts/in-context-learning.md) — llm-engineering · **rascunho**
 - [Memória de agente](/pt-br/concepts/agent-memory.md) — ai-agents · **rascunho**
+- [Mistura de especialistas](/pt-br/concepts/mixture-of-experts.md) — ai-ml · **rascunho**
+- [Atenção latente multicabeça](/pt-br/concepts/multi-head-latent-attention.md) — ai-ml · **rascunho**
 
 ## Engenharia de Backend e Sistemas
 
@@ -56,6 +58,7 @@
 - [Dead-letter queue](/pt-br/concepts/dead-letter-queue.md) — microservices · **rascunho**
 - [Cache híbrido memória-disco](/pt-br/concepts/hybrid-memory-disk-cache.md) — system-design · **rascunho**
 - [Pressão de GC](/pt-br/concepts/gc-pressure.md) — system-design · **rascunho**
+- [Falha em cascata](/pt-br/concepts/cascading-failure.md) — backend-systems · **rascunho**
 
 ## Nuvem e Infraestrutura
 
@@ -71,10 +74,12 @@
 - [Arquitetura zero-trust](/pt-br/concepts/zero-trust-architecture.md) — appsec · **rascunho**
 - [Controle de fluxo de informação](/pt-br/concepts/information-flow-control.md) — appsec · **rascunho**
 - [Atestação remota](/pt-br/concepts/remote-attestation.md) — appsec · **rascunho**
+- [Envenenamento de memória](/pt-br/concepts/memory-poisoning.md) — security · **rascunho**
 
 ## Dados e Ciência de Dados
 
 - [Grafo de conhecimento](/pt-br/concepts/knowledge-graph.md) — data-engineering · **rascunho**
+- [Captura de mudanças de dados (CDC)](/pt-br/concepts/change-data-capture.md) — data · **rascunho**
 
 ## Práticas de Engenharia de Software
 - [Imposto de verificação](/pt-br/concepts/verification-tax.md) — ai-assisted-development · **rascunho**

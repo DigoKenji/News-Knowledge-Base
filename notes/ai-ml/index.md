@@ -1,5 +1,7 @@
 # Notes — AI/ML Engineering
 
+- [Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning](/notes/ai-ml/2026-11-22-realized-versus-population-reliability-anytime-valid-self-co.md) — Under correlated rollouts, anytime-valid self-consistency certificates certify a per-prompt claim, not the population reliability claim.
+- [The US-China Open-Weight Feedback Loop](/notes/ai-ml/2026-11-22-the-us-china-open-weight-feedback-loop.md) — US and Chinese open-weight models improve each other, and proprietary models benefit too, so competition helps everyone.
 - [MemFolder: Structure-Guided Memory Folding for Efficient Agent Memory Management](/notes/ai-ml/2026-11-21-memfolder-structure-guided-memory-folding-for-efficient-agen.md) — Consolidating agent memory records into grouped units keeps 99.0% of Mem0 accuracy with 50% fewer records.
 - [You Think AI Is Overhyped? Just Wait Until You See What Comes Next.](/notes/ai-ml/2026-11-20-you-think-ai-is-overhyped-just-wait-until-you-see-what-comes.md) — AI is partly overhyped in prices and timelines, but the shift from chatbots to acting agents is the underrated part that matters.
 - [10 AI Tools Everyone Will Be Using in Less Than Three Months](/notes/ai-ml/2026-11-20-10-ai-tools-everyone-will-be-using-in-less-than-three-months.md) — Ten narrow AI tools each remove one friction point, and early adopters are already building their workdays around them.

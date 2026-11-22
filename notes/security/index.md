@@ -1,5 +1,7 @@
 # Notes — Cybersecurity
 
+- [Everything you always wanted to know about Secure Exclaves but were afraid to ask](/notes/security/2026-11-22-everything-you-always-wanted-to-know-about-secure-exclaves-b.md) — Apple's Secure Exclaves process camera and microphone data in isolated runtimes so only minimal metadata reaches the main OS.
+- [Backtracking Agent Applications Security Incidents](/notes/security/2026-11-22-backtracking-agent-applications-security-incidents.md) — Origin, a cross-layer graph tool, correctly identifies the compromise entry point in all eight agent-app attack incidents tested.
 - [Combatting adversarial distillation](/notes/security/2026-11-21-combatting-adversarial-distillation.md) — Adversarial distillation can copy frontier capabilities without safeguards, so OpenAI now protects models' hidden reasoning across requests, APIs and campaigns.
 - [How Bee implemented Zero Operator Access for personal AI on AWS](/notes/security/2026-11-21-how-bee-implemented-zero-operator-access-for-personal-ai-on.md) — Bee proves its servers run approved, publicly logged software before releasing user keys, so operators cannot read sensitive data.
 - [Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)](/notes/security/2026-11-21-replication-of-agentic-security-events-audit-and-investigati.md) — Offline replications with matched controls reproduced the reported harm in 89% of 108 replications; a hazard warning lowered harm for all five models.

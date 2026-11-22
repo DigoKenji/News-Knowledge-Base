@@ -2,6 +2,8 @@
 
 Architecture-lane deep dives (ADR-0009), newest first.
 
+- [QCon San Francisco 2026: Scaling Tech by Aligning Humans](/notes/architecture/2026-11-22-qcon-san-francisco-2026-scaling-tech-by-aligning-humans.md) — Staff-plus engineers can scale impact by aligning people around a short technical strategy, a north star and explicit bets.
+- [Presentation: Modernising Retail at Scale: Architecting a Cloud‑to‑Edge Platform for a Global Enterprise](/notes/architecture/2026-11-22-presentation-modernising-retail-at-scale-architecting-a-clou.md) — Tesco's transformation shows large-enterprise change needs talent, process and platform change together, delivered in staggered steps.
 - [A Capability-First Approach to Modernizing Retirement Services Technology Platforms](/notes/architecture/2026-11-21-a-capability-first-approach-to-modernizing-retirement-servic.md) — Modernization should start from a business capability assessment, ranking capabilities by maturity, criticality and strategic value before choosing platforms.
 - [AI is changing the build-versus-buy equation. Are CIOs ready?](/notes/architecture/2026-11-21-ai-is-changing-the-build-versus-buy-equation-are-cios-ready.md) — AI lowers the cost of building software but not owning it, so CIOs must judge build-versus-buy by total cost of ownership.
 - [Mercados digitais: quando a concorrência muda a estratégia](/notes/architecture/2026-11-20-mercados-digitais-quando-a-concorrencia-muda-a-estrategia.md) — Brazil's proposed digital-markets bill would shift competition enforcement to ex-ante duties, so companies must reshape channels, contracts and compliance now.

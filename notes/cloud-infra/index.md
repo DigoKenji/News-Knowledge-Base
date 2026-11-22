@@ -1,5 +1,6 @@
 # Notes — Cloud & Infrastructure
 
+- [Microsoft outage: A cascading failure that started with an undetected bug](/notes/cloud-infra/2026-11-22-microsoft-outage-a-cascading-failure-that-started-with-an-un.md) — A latent defect, a test environment unlike production and a shared gateway under extra load turned a July change into a day-long outage.
 - [How Google Traced GKE API Timeouts to a Linux Kernel TCP Bug](/notes/cloud-infra/2026-11-21-how-google-traced-gke-api-timeouts-to-a-linux-kernel-tcp-bug.md) — Intermittent GKE API timeouts came from three interacting bugs in PSC, Envoy and the Linux kernel, fixed by a kernel patch.
 - [AI coding agents on Amazon EC2 Mac: How Cognition scales Devin for macOS](/notes/cloud-infra/2026-11-20-ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devi.md) — Cognition runs a fresh macOS VM per Devin session on EC2 Mac bare-metal hosts, letting AI agents build and test Apple apps.
 - [Building Reliability Into the Cloud: Observability as the Control Plane for Multi-Region Failover](/notes/cloud-infra/2026-11-20-building-reliability-into-the-cloud-observability-as-the-con.md) — Observability should trigger automated action and confirmation, because multi-region failover only works when tested under real load.
