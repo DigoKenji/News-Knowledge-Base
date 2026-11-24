@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: Context engineering
-description: Deciding what information an agent sees, and in what form, so it can act like an engineer who knows the codebase.
+description: Designing and managing everything a model sees at each call - instructions, retrieved documents, memory, tool definitions and results, history - so it has exactly the information it needs, in a form it can use, within a finite window.
 tags:
 - ai-ml
 domain: ai-ml
@@ -9,6 +9,22 @@ status: draft
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-24T07:00:00-03:00'
+  expanded:
+    by: claude-opus (interactive, project thread)
+    at: '2026-11-24T20:30:00-03:00'
+sources:
+- title: Anthropic (2025). Effective context engineering for AI agents
+  resource: 'https://www.anthropic.com/research/effective-context-engineering-for-ai-agents'
+  kind: practitioner
+- title: 'Mei, L. et al. (2025). A Survey of Context Engineering for Large Language Models. arXiv:2507.13334'
+  resource: 'https://arxiv.org/abs/2507.13334'
+  kind: paper
+- title: 'Liu, N. F. et al. (2024). Lost in the Middle - How Language Models Use Long Contexts. TACL, arXiv:2307.03172'
+  resource: 'https://arxiv.org/abs/2307.03172'
+  kind: paper
+- title: LangChain (2025). The rise of "context engineering"
+  resource: 'https://www.langchain.com/blog/the-rise-of-context-engineering'
+  kind: practitioner
 relations:
 - type: part-of
   target: ai-agent
@@ -16,9 +32,32 @@ relations:
 
 # Context engineering
 
-Deciding what information an agent sees, and in what form, so it can act like an engineer who knows the codebase.
+**Definition.** Context engineering is the discipline of curating the full set of tokens given to an LLM at inference time. Prompt engineering is the part concerned with wording the instructions; context engineering also covers what to retrieve, what to remember, which tools to expose, what to drop or summarise, and how to order it all. It is the broader idea, and the main lever for agent quality once the model is fixed.
 
-Domain: [ai-ml](/domains/ai-ml.md). Proposed by the daily run on 2026-11-24, waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md). Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+
+## How it works
+
+Core techniques: retrieval (RAG) to bring in only relevant documents; writing notes or memory to files outside the window and reading them back when needed; compaction, summarising old history when the window fills; selecting a small, well-described tool set; isolating sub-tasks in sub-agents with their own clean context; and structuring content clearly (headings, XML tags, examples). The reason it matters is that more context is not free: models attend unevenly across long inputs ("lost in the middle") and quality degrades as irrelevant tokens accumulate, which Anthropic calls context rot.
+
+## Why it matters and trade-offs
+
+Most agent failures are context failures: the model lacked a fact, saw a contradictory one, or was drowned in noise. Good context engineering raises quality and cuts cost. The trade-off is engineering effort and the risk of dropping something important when you summarise or filter.
+
+## Example
+
+Netflix (2026-11-24 note) gives coding agents curated repository docs, conventions and ownership data so they behave like an engineer who knows the codebase, instead of dumping the whole repository into the prompt.
+
+## Review notes for Kenji
+
+The draft definition was tied to coding agents; it now covers any LLM application.
+
+## Sources
+
+1. Anthropic (2025). *Effective context engineering for AI agents*. <https://www.anthropic.com/research/effective-context-engineering-for-ai-agents> — Definition, context rot, compaction, note-taking and sub-agent techniques.
+2. Mei, L. et al. (2025). *A Survey of Context Engineering for Large Language Models*. arXiv:2507.13334. <https://arxiv.org/abs/2507.13334> — Academic survey framing context engineering as a discipline beyond prompt design.
+3. Liu, N. F. et al. (2024). *Lost in the Middle - How Language Models Use Long Contexts*. TACL, arXiv:2307.03172. <https://arxiv.org/abs/2307.03172> — Evidence that models use information unevenly across long contexts.
+4. LangChain (2025). *The rise of "context engineering"*. <https://www.langchain.com/blog/the-rise-of-context-engineering> — Independent practitioner framing - the right information, tools and format for the task.
 
 ## Relations
 - **part-of** [ai-agent](/concepts/ai-agent.md)

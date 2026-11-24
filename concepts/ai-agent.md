@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: AI agent
-description: A system that plans a task, uses software tools and completes multi-step work with limited supervision.
+description: A system in which a language model decides, step by step, which actions to take with tools to reach a goal, observing results and adapting, with limited human supervision.
 tags:
 - ai-ml
 - ai-agents
@@ -11,13 +11,48 @@ status: draft
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-20T07:00:00-03:00'
+  expanded:
+    by: claude-opus (interactive, project thread)
+    at: '2026-11-24T20:30:00-03:00'
+sources:
+- title: Russell, S. and Norvig, P. (2021). Artificial Intelligence - A Modern Approach, 4th ed., ch. 2 Intelligent Agents. Pearson
+  resource: 'https://aima.cs.berkeley.edu/'
+  kind: book
+- title: 'Yao, S. et al. (2023). ReAct - Synergizing Reasoning and Acting in Language Models. ICLR 2023, arXiv:2210.03629'
+  resource: 'https://arxiv.org/abs/2210.03629'
+  kind: paper
+- title: 'Wang, L. et al. (2024). A Survey on Large Language Model based Autonomous Agents. Frontiers of Computer Science, arXiv:2308.11432'
+  resource: 'https://arxiv.org/abs/2308.11432'
+  kind: paper
+- title: Anthropic (2024). Building effective agents
+  resource: 'https://www.anthropic.com/research/building-effective-agents'
+  kind: practitioner
 ---
 
 # AI agent
 
-A system that plans a task, uses software tools and completes multi-step work with limited supervision.
+**Definition.** In classic AI, an agent is anything that perceives its environment and acts on it to achieve goals. An LLM-based AI agent is a system where the model itself directs the process: it plans, chooses tools, reads the results and decides what to do next until the goal is reached or it hands back to a human. Anthropic draws the line between workflows, where code fixes the sequence of LLM calls, and agents, where the model controls the sequence.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `ai-agents`. Proposed by the daily run on 2026-11-20, waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `ai-agents`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+
+## How it works
+
+The core pattern is ReAct: the model alternates reasoning ("I need the failing test's log") with actions (call a tool) and observations (the tool's output). Around it sits a harness that supplies tools, memory and guardrails. Agents can be single or multi-agent (an orchestrator delegating to specialised sub-agents). Autonomy is a spectrum: from a chatbot that can call one API, to coding agents that run for hours, to systems that act without any human checkpoint.
+
+## Why it matters and trade-offs
+
+Agents handle open-ended tasks whose steps cannot be scripted in advance. In exchange they cost more (many model calls), are less predictable, compound errors over long chains, and widen the security surface because they act on untrusted input with real permissions. Use a fixed workflow when the steps are known; use an agent when they are not.
+
+## Example
+
+A coding agent given "fix the failing CI job" reads the log, opens the file, edits it, reruns the test and opens a pull request, choosing each step itself.
+
+## Sources
+
+1. Russell, S. and Norvig, P. (2021). *Artificial Intelligence - A Modern Approach*, 4th ed., ch. 2 Intelligent Agents. Pearson. <https://aima.cs.berkeley.edu/> — The classic definition of an agent as perceiving and acting in an environment.
+2. Yao, S. et al. (2023). *ReAct - Synergizing Reasoning and Acting in Language Models*. ICLR 2023, arXiv:2210.03629. <https://arxiv.org/abs/2210.03629> — The reason-act-observe loop behind most LLM agents.
+3. Wang, L. et al. (2024). *A Survey on Large Language Model based Autonomous Agents*. Frontiers of Computer Science, arXiv:2308.11432. <https://arxiv.org/abs/2308.11432> — Survey of agent components (profile, memory, planning, action).
+4. Anthropic (2024). *Building effective agents*. <https://www.anthropic.com/research/building-effective-agents> — Workflows vs agents, and when each is appropriate.
 
 ## Relations
 - (none yet)

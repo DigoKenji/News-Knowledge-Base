@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: Low-rank adaptation (LoRA)
-description: Trainable low-rank matrices added to frozen model weights, so a model can be adapted cheaply.
+description: Low-Rank Adaptation - a parameter-efficient fine-tuning method that freezes a model's weights and trains small low-rank matrices added to some layers, cutting trainable parameters by orders of magnitude with little quality loss.
 tags:
 - ai-ml
 domain: ai-ml
@@ -9,13 +9,48 @@ status: draft
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-24T07:00:00-03:00'
+  expanded:
+    by: claude-opus (interactive, project thread)
+    at: '2026-11-24T20:30:00-03:00'
+sources:
+- title: 'Hu, E. J. et al. (2022). LoRA - Low-Rank Adaptation of Large Language Models. ICLR 2022, arXiv:2106.09685'
+  resource: 'https://arxiv.org/abs/2106.09685'
+  kind: paper
+- title: 'Aghajanyan, A. et al. (2021). Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning. ACL 2021, arXiv:2012.13255'
+  resource: 'https://arxiv.org/abs/2012.13255'
+  kind: paper
+- title: 'Dettmers, T. et al. (2023). QLoRA - Efficient Finetuning of Quantized LLMs. NeurIPS 2023, arXiv:2305.14314'
+  resource: 'https://arxiv.org/abs/2305.14314'
+  kind: paper
+- title: Hugging Face. PEFT - LoRA conceptual guide
+  resource: 'https://huggingface.co/docs/peft/main/en/conceptual_guides/lora'
+  kind: docs
 ---
 
 # Low-rank adaptation (LoRA)
 
-Trainable low-rank matrices added to frozen model weights, so a model can be adapted cheaply.
+**Definition.** LoRA adapts a large pre-trained model to a new task by learning only a low-rank update to selected weight matrices. Instead of changing a d×d weight matrix W, it learns two thin matrices B (d×r) and A (r×d) with a small rank r (for example 8), and uses W + BA at inference. The original weights stay frozen and shared.
 
-Domain: [ai-ml](/domains/ai-ml.md). Proposed by the daily run on 2026-11-24, waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md). Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+
+## How it works
+
+The idea rests on the finding that the changes needed to adapt a model have low "intrinsic dimension". Hu et al. applied LoRA to the attention projections of GPT-3 175B and reduced trainable parameters about 10,000 times and GPU memory about 3 times, matching full fine-tuning quality. The adapter can be merged into W after training, so there is no extra inference latency, or kept separate so one base model serves many swappable adapters. QLoRA adds 4-bit quantisation of the frozen base, which made fine-tuning a 65B model possible on one 48 GB GPU.
+
+## Why it matters and trade-offs
+
+LoRA makes fine-tuning affordable and adapters tiny (megabytes), so it is the default way to customise open models. It can underperform full fine-tuning when the new task is far from pre-training (for example a new language or heavy continued pre-training), and rank and target layers are hyperparameters to tune.
+
+## Example
+
+Train a 20 MB LoRA adapter that teaches an open 8B model Kenji's deep-dive note format, and load it on top of the shared base only when summarising.
+
+## Sources
+
+1. Hu, E. J. et al. (2022). *LoRA - Low-Rank Adaptation of Large Language Models*. ICLR 2022, arXiv:2106.09685. <https://arxiv.org/abs/2106.09685> — Method, parameter and memory savings, no added inference latency.
+2. Aghajanyan, A. et al. (2021). *Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning*. ACL 2021, arXiv:2012.13255. <https://arxiv.org/abs/2012.13255> — Why low-rank updates are enough.
+3. Dettmers, T. et al. (2023). *QLoRA - Efficient Finetuning of Quantized LLMs*. NeurIPS 2023, arXiv:2305.14314. <https://arxiv.org/abs/2305.14314> — LoRA on a 4-bit quantized base model.
+4. Hugging Face. *PEFT - LoRA conceptual guide*. <https://huggingface.co/docs/peft/main/en/conceptual_guides/lora> — Practical parameters (rank, alpha, target modules) and merging.
 
 ## Relations
 - (none yet)
