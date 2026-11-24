@@ -1,5 +1,19 @@
 # Concepts — Backend & Systems Engineering
 
+## Core
+
+- [Distributed system](/concepts/backend-systems/distributed-system.md) — core · **draft**
+- [Latency, throughput and tail latency](/concepts/backend-systems/latency-throughput.md) — core · **draft**
+- [Scalability (vertical and horizontal)](/concepts/backend-systems/scalability.md) — core · **draft**
+- [Availability and reliability](/concepts/backend-systems/availability-reliability.md) — core · **draft**
+- [Fault tolerance and redundancy](/concepts/backend-systems/fault-tolerance.md) — core · **draft**
+- [Consistency models](/concepts/backend-systems/consistency-models.md) — core · **draft**
+- [Replication and partitioning (sharding)](/concepts/backend-systems/replication-partitioning.md) — core · **draft**
+- [Consensus](/concepts/backend-systems/consensus.md) — core · **draft**
+- [Caching](/concepts/backend-systems/caching.md) — core · **draft**
+- [Message queue and asynchronous messaging](/concepts/backend-systems/message-queue.md) — core · **draft**
+- [Load balancing and backpressure](/concepts/backend-systems/load-balancing-backpressure.md) — core · **draft**
+
 ## Specialised
 
 - [Idempotency](/concepts/backend-systems/idempotency.md) — system-design

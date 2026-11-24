@@ -1,5 +1,19 @@
 # Conceitos — Engenharia de Backend e Sistemas
 
+## Núcleo
+
+- [Sistema distribuído](/pt-br/concepts/backend-systems/distributed-system.md) — core · **rascunho**
+- [Latência, vazão e latência de cauda](/pt-br/concepts/backend-systems/latency-throughput.md) — core · **rascunho**
+- [Escalabilidade (vertical e horizontal)](/pt-br/concepts/backend-systems/scalability.md) — core · **rascunho**
+- [Disponibilidade e confiabilidade](/pt-br/concepts/backend-systems/availability-reliability.md) — core · **rascunho**
+- [Tolerância a falhas e redundância](/pt-br/concepts/backend-systems/fault-tolerance.md) — core · **rascunho**
+- [Modelos de consistência](/pt-br/concepts/backend-systems/consistency-models.md) — core · **rascunho**
+- [Replicação e particionamento (sharding)](/pt-br/concepts/backend-systems/replication-partitioning.md) — core · **rascunho**
+- [Consenso](/pt-br/concepts/backend-systems/consensus.md) — core · **rascunho**
+- [Cache (caching)](/pt-br/concepts/backend-systems/caching.md) — core · **rascunho**
+- [Fila de mensagens e mensageria assíncrona](/pt-br/concepts/backend-systems/message-queue.md) — core · **rascunho**
+- [Balanceamento de carga e contrapressão (backpressure)](/pt-br/concepts/backend-systems/load-balancing-backpressure.md) — core · **rascunho**
+
 ## Específicos
 
 - [Idempotência](/pt-br/concepts/backend-systems/idempotency.md) — system-design
