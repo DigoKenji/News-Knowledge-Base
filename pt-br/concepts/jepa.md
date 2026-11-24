@@ -7,7 +7,10 @@ tags:
 - deep-learning
 domain: ai-ml
 subdomain: deep-learning
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude (Project_News daily run)
   at: '2026-11-16T06:50:00-03:00'
@@ -32,7 +35,7 @@ translation_of: /concepts/jepa.md
 
 **Definição.** Uma JEPA tem dois encoders e um preditor. Um encoder gera o embedding de um "contexto" visível (parte de uma imagem ou vídeo); o outro gera o de um "alvo" oculto; o preditor aprende a prever o embedding do alvo a partir do embedding do contexto. Como a perda é calculada no espaço de embeddings, o modelo pode ignorar detalhes imprevisíveis (textura exata, ruído) e se concentrar em estrutura e semântica. Yann LeCun a propôs em 2022 como bloco de construção para modelos de mundo.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `deep-learning`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `deep-learning`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

@@ -7,7 +7,10 @@ tags:
 - system-design
 domain: backend-systems
 subdomain: system-design
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-17T21:40:00-03:00'
@@ -35,7 +38,7 @@ translation_of: /concepts/linearizability.md
 
 **Definição.** Um sistema é linearizável se, para toda execução, existe uma ordem total das operações que (1) obedece à especificação sequencial de cada objeto e (2) respeita o tempo real: se a operação A terminou antes de B começar, A vem antes de B. Informalmente, o sistema se comporta como se houvesse uma única cópia dos dados, mesmo que esteja replicado.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

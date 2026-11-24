@@ -7,7 +7,10 @@ tags:
 - appsec
 domain: security
 subdomain: appsec
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-21T07:00:00-03:00'
@@ -32,7 +35,7 @@ translation_of: /concepts/remote-attestation.md
 
 **Definição.** Na atestação remota, um atestador produz evidências sobre seu estado (medições de firmware, sistema operacional, código da aplicação), assinadas por uma raiz de confiança em hardware como um TPM ou um módulo de segurança da CPU. Um verificador checa a assinatura e compara as medições com valores de referência conhecidos e bons, e então uma parte confiante age com base no resultado. A arquitetura RATS da IETF (RFC 9334) padroniza esses papéis.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `appsec`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `appsec`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

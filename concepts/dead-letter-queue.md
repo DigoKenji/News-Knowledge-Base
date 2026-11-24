@@ -7,7 +7,10 @@ tags:
 - microservices
 domain: backend-systems
 subdomain: microservices
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-20T07:00:00-03:00'
@@ -30,7 +33,7 @@ sources:
 
 **Definition.** A dead-letter queue (DLQ), or dead letter channel in Enterprise Integration Patterns, isolates "poison" messages: ones that are malformed, expired, rejected, or that keep failing in the consumer. Moving them aside keeps the main flow healthy and preserves the failed messages instead of dropping them.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `microservices`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `microservices`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

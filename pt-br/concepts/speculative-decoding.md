@@ -7,7 +7,10 @@ tags:
 - llm-engineering
 domain: ai-ml
 subdomain: llm-engineering
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude (Project_News daily run)
   at: '2026-11-16T06:50:00-03:00'
@@ -35,7 +38,7 @@ translation_of: /concepts/speculative-decoding.md
 
 **Definição.** Speculative decoding (também speculative sampling) usa um pequeno modelo rascunho para propor k tokens e depois roda o modelo-alvo uma vez sobre os k em paralelo. Os tokens são aceitos até a primeira discordância, e ali é amostrado um token de correção. Uma regra de amostragem por rejeição garante que a saída tem exatamente a mesma distribuição do modelo-alvo sozinho, então a qualidade não muda.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

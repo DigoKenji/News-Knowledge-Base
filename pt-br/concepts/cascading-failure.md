@@ -5,7 +5,10 @@ description: Uma falha que se espalha porque a reação à falha de um component
 tags:
 - backend-systems
 domain: backend-systems
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-22T07:00:00-03:00'
@@ -30,7 +33,7 @@ translation_of: /concepts/cascading-failure.md
 
 **Definição.** Uma falha em cascata cresce por realimentação positiva: a falha de parte de um sistema aumenta a probabilidade de que outras partes falhem. O gatilho clássico é a sobrecarga, em que uma réplica cai, seu tráfego vai para as outras, elas passam da capacidade e caem também, até a camada inteira estar fora do ar.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md). Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md). Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

@@ -7,7 +7,10 @@ tags:
 - system-design
 domain: backend-systems
 subdomain: system-design
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-19T07:00:00-03:00'
@@ -32,7 +35,7 @@ translation_of: /concepts/chaos-engineering.md
 
 **Definição.** Chaos engineering é "a disciplina de experimentar num sistema para criar confiança na sua capacidade de resistir a condições turbulentas em produção" (Principles of Chaos). É um experimento, não quebra aleatória: você define o comportamento normal, prevê que ele se mantém sob uma falha, injeta a falha com raio de impacto limitado e verifica se estava certo.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

@@ -7,7 +7,10 @@ tags:
 - appsec
 domain: security
 subdomain: appsec
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-21T07:00:00-03:00'
@@ -30,7 +33,7 @@ sources:
 
 **Definition.** In remote attestation, an attester produces evidence about its state (measurements of firmware, OS, application code), signed by a hardware root of trust such as a TPM or a CPU security module. A verifier checks the signature and compares the measurements with known-good reference values, then a relying party acts on the result. The IETF RATS architecture (RFC 9334) standardises these roles.
 
-Domain: [security](/domains/security.md) · subdomain `appsec`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [security](/domains/security.md) · subdomain `appsec`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

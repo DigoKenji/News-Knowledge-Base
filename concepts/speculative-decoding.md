@@ -7,7 +7,10 @@ tags:
 - llm-engineering
 domain: ai-ml
 subdomain: llm-engineering
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude (Project_News daily run)
   at: '2026-11-16T06:50:00-03:00'
@@ -33,7 +36,7 @@ relations:
 
 **Definition.** Speculative decoding (also speculative sampling) uses a small draft model to propose k tokens, then runs the target model once over all k in parallel. Tokens are accepted up to the first disagreement, and a correction token is sampled there. A rejection-sampling rule guarantees the output has exactly the same distribution as the target model alone, so quality is unchanged.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `llm-engineering`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `llm-engineering`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

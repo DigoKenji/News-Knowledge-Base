@@ -7,7 +7,10 @@ tags:
 - mlops
 domain: ai-ml
 subdomain: mlops
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-17T07:30:00-03:00'
@@ -30,7 +33,7 @@ sources:
 
 **Definition.** Position bias is present when swapping the order of the candidates changes the verdict. In LLM-as-a-judge pairwise comparisons it shows up as a preference for answer A or B regardless of quality; in multiple choice, as a preference for certain letters; in long contexts, as better use of information at the start and end than in the middle.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `mlops`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `mlops`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

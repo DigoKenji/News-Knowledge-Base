@@ -7,7 +7,10 @@ tags:
 - data-engineering
 domain: data
 subdomain: data-engineering
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-18T07:30:00-03:00'
@@ -32,7 +35,7 @@ translation_of: /concepts/knowledge-graph.md
 
 **Definição.** Hogan et al. definem um grafo de conhecimento como "um grafo de dados destinado a acumular e transmitir conhecimento do mundo real, cujos nós representam entidades de interesse e cujas arestas representam relações entre essas entidades". O que o separa de um simples banco de grafos é a ênfase na semântica: identificadores compartilhados, tipos e uma ontologia que dá significado às relações.
 
-Domínio: [data](/pt-br/domains/data.md) · subdomínio `data-engineering`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [data](/pt-br/domains/data.md) · subdomínio `data-engineering`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

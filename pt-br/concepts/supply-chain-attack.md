@@ -5,7 +5,10 @@ description: Um ataque que compromete algo de que o alvo depende - uma bibliotec
 tags:
 - security
 domain: security
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-24T07:00:00-03:00'
@@ -33,7 +36,7 @@ translation_of: /concepts/supply-chain-attack.md
 
 **Definição.** Um ataque à cadeia de suprimentos de software mira o processo que produz e entrega software, e não o software em execução. Um único comprometimento na origem pode atingir milhares de organizações adiante, porque elas instalam e executam o que seus fornecedores entregam. O MITRE ATT&CK o classifica como técnica T1195, Supply Chain Compromise.
 
-Domínio: [security](/pt-br/domains/security.md). Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [security](/pt-br/domains/security.md). Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

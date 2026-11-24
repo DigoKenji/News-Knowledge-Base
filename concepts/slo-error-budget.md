@@ -5,7 +5,10 @@ description: An SLO is a target for a service's reliability measured by an indic
 tags:
 - cloud-infra
 domain: cloud-infra
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-24T07:00:00-03:00'
@@ -31,7 +34,7 @@ sources:
 
 **Definition.** A service level indicator (SLI) measures something users care about, such as the share of requests served successfully in under 300 ms. A service level objective (SLO) sets a target for it over a window. The error budget is 1 minus the SLO: the amount of unreliability allowed. Burn rate is how fast that budget is being used compared with the rate that would use it exactly by the end of the window.
 
-Domain: [cloud-infra](/domains/cloud-infra.md). Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [cloud-infra](/domains/cloud-infra.md). Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

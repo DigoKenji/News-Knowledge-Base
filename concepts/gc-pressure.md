@@ -7,7 +7,10 @@ tags:
 - system-design
 domain: backend-systems
 subdomain: system-design
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-21T07:00:00-03:00'
@@ -30,7 +33,7 @@ sources:
 
 **Definition.** GC pressure is how hard an application makes the garbage collector work. High allocation rates make collections more frequent; a large live heap with many objects and references makes each collection (marking, copying) more expensive. The result is less CPU for the application and latency spikes during pauses.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

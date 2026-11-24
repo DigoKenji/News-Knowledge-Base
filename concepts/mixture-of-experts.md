@@ -5,7 +5,10 @@ description: A neural-network layer made of many expert sub-networks plus a rout
 tags:
 - ai-ml
 domain: ai-ml
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-22T07:00:00-03:00'
@@ -31,7 +34,7 @@ sources:
 
 **Definition.** A mixture-of-experts (MoE) layer replaces one large feed-forward block with N smaller "experts" and a learned gating network. For each token the router picks the top-k experts (often 1 or 2 of 8 to 256) and combines their outputs. The model has many parameters in total but uses only a fraction of them for any given token, which is called sparse activation.
 
-Domain: [ai-ml](/domains/ai-ml.md). Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md). Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

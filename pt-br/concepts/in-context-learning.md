@@ -7,7 +7,10 @@ tags:
 - llm-engineering
 domain: ai-ml
 subdomain: llm-engineering
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-20T07:00:00-03:00'
@@ -35,7 +38,7 @@ translation_of: /concepts/in-context-learning.md
 
 **Definição.** Aprendizado em contexto (ICL) é aprender no momento da inferência apenas a partir do contexto. Com alguns exemplos de entrada e saída (few-shot) ou só uma descrição (zero-shot), o modelo infere o padrão e o aplica à próxima entrada. Nada é treinado; tire os exemplos e a habilidade desaparece.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

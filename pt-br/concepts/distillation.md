@@ -7,7 +7,10 @@ tags:
 - llm-engineering
 domain: ai-ml
 subdomain: llm-engineering
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-18T07:30:00-03:00'
@@ -35,7 +38,7 @@ translation_of: /concepts/distillation.md
 
 **Definição.** Destilação de conhecimento transfere o que um modelo professor aprendeu para um modelo aluno, treinando o aluno nas saídas do professor em vez dos rótulos originais (ou além deles). Hinton et al. mostraram que a distribuição completa de probabilidades do professor ("soft targets") carrega mais informação que o único rótulo correto, por exemplo que a imagem de um 2 se parece um pouco com um 3.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

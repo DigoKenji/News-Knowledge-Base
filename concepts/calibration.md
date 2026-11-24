@@ -7,7 +7,10 @@ tags:
 - mlops
 domain: ai-ml
 subdomain: mlops
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-17T07:30:00-03:00'
@@ -30,7 +33,7 @@ sources:
 
 **Definition.** A model is calibrated when its predicted probabilities can be read as real frequencies. Calibration is separate from accuracy: a model can be highly accurate yet overconfident, or weak but honest about its uncertainty.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `mlops`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `mlops`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

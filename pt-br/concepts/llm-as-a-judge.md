@@ -7,7 +7,10 @@ tags:
 - mlops
 domain: ai-ml
 subdomain: mlops
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude (Project_News daily run)
   at: '2026-11-16T06:50:00-03:00'
@@ -32,7 +35,7 @@ translation_of: /concepts/llm-as-a-judge.md
 
 **Definição.** LLM-as-a-judge é um método de avaliação em que um modelo recebe uma tarefa, uma ou mais respostas candidatas e critérios de correção, e devolve uma nota, um ranking ou uma preferência. É usado onde métricas de correspondência exata falham: respostas abertas, resumos, utilidade, tom.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `mlops`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `mlops`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

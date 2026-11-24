@@ -7,7 +7,10 @@ tags:
 - system-design
 domain: backend-systems
 subdomain: system-design
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-18T07:30:00-03:00'
@@ -35,7 +38,7 @@ translation_of: /concepts/retry-storm.md
 
 **Definição.** Um retry storm acontece quando muitos clientes respondem a erros ou timeouts repetindo a chamada, então o serviço com problema recebe um múltiplo do tráfego normal. Retentativas em várias camadas se multiplicam: se cada uma de 3 camadas tenta 3 vezes, uma ação do usuário pode virar 27 chamadas ao serviço do fundo.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

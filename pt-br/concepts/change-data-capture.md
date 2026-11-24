@@ -5,7 +5,10 @@ description: Capturar cada inserção, atualização e exclusão confirmada num 
 tags:
 - data
 domain: data
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-22T07:00:00-03:00'
@@ -30,7 +33,7 @@ translation_of: /concepts/change-data-capture.md
 
 **Definição.** Change data capture (CDC) transforma um banco de dados numa fonte de eventos. Em vez de outros sistemas consultarem tabelas periodicamente ou a aplicação escrever em dois lugares, um conector de CDC observa as mudanças confirmadas em nível de linha e as emite, na ordem de commit, para um log ou stream como o Kafka.
 
-Domínio: [data](/pt-br/domains/data.md). Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [data](/pt-br/domains/data.md). Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

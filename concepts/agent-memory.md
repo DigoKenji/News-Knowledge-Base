@@ -7,7 +7,10 @@ tags:
 - ai-agents
 domain: ai-ml
 subdomain: ai-agents
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 relations:
 - type: part-of
   target: /concepts/ai-agent.md
@@ -33,7 +36,7 @@ sources:
 
 **Definition.** Agent memory is the set of stores an agent writes to and reads from so it can use information beyond its current context window. A model call is stateless; memory is how the harness gives an agent continuity, personalization and the ability to learn from experience without retraining.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `ai-agents`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `ai-agents`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

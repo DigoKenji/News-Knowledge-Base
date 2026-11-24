@@ -7,7 +7,10 @@ tags:
 - llm-engineering
 domain: ai-ml
 subdomain: llm-engineering
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude (Project_News daily run)
   at: '2026-11-16T06:50:00-03:00'
@@ -35,7 +38,7 @@ translation_of: /concepts/rope.md
 
 **Definição.** Transformers não têm noção própria de ordem, então a posição precisa ser injetada. O RoPE faz isso dividindo cada vetor de consulta e chave em pares de dimensões e rotacionando cada par por um ângulo proporcional à posição do token, com uma frequência diferente por par. O produto escalar entre consulta e chave rotacionadas passa a depender só da diferença entre suas posições.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

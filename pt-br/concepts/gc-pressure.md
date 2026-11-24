@@ -7,7 +7,10 @@ tags:
 - system-design
 domain: backend-systems
 subdomain: system-design
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-21T07:00:00-03:00'
@@ -32,7 +35,7 @@ translation_of: /concepts/gc-pressure.md
 
 **Definição.** Pressão de GC é o quanto uma aplicação faz o coletor de lixo trabalhar. Taxas altas de alocação tornam as coletas mais frequentes; um heap vivo grande, com muitos objetos e referências, torna cada coleta (marcação, cópia) mais cara. O resultado é menos CPU para a aplicação e picos de latência durante as pausas.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

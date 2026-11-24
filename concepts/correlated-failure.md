@@ -7,7 +7,10 @@ tags:
 - system-design
 domain: backend-systems
 subdomain: system-design
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-20T07:00:00-03:00'
@@ -30,7 +33,7 @@ sources:
 
 **Definition.** Failures are correlated when the failure of one component makes the failure of another more likely. Redundancy math (two 99.9% replicas give 99.9999%) assumes independence; correlated failures break that assumption, so real availability is much lower than the math says.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

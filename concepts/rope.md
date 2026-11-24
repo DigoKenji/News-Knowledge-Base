@@ -7,7 +7,10 @@ tags:
 - llm-engineering
 domain: ai-ml
 subdomain: llm-engineering
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude (Project_News daily run)
   at: '2026-11-16T06:50:00-03:00'
@@ -33,7 +36,7 @@ sources:
 
 **Definition.** Transformers have no built-in sense of order, so position must be injected. RoPE does this by splitting each query and key vector into pairs of dimensions and rotating each pair by an angle proportional to the token's position, with a different frequency per pair. The dot product of a rotated query and key then depends only on their positions' difference.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `llm-engineering`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `llm-engineering`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

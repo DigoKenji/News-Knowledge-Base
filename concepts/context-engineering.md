@@ -5,7 +5,10 @@ description: Designing and managing everything a model sees at each call - instr
 tags:
 - ai-ml
 domain: ai-ml
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-24T07:00:00-03:00'
@@ -34,7 +37,7 @@ relations:
 
 **Definition.** Context engineering is the discipline of curating the full set of tokens given to an LLM at inference time. Prompt engineering is the part concerned with wording the instructions; context engineering also covers what to retrieve, what to remember, which tools to expose, what to drop or summarise, and how to order it all. It is the broader idea, and the main lever for agent quality once the model is fixed.
 
-Domain: [ai-ml](/domains/ai-ml.md). Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md). Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

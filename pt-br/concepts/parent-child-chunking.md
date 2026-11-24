@@ -7,7 +7,10 @@ tags:
 - rag
 domain: ai-ml
 subdomain: rag
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-17T07:30:00-03:00'
@@ -35,7 +38,7 @@ translation_of: /concepts/parent-child-chunking.md
 
 **Definição.** Parent-child chunking (também chamado de recuperação small-to-big, ou parent document retriever) divide cada documento duas vezes: em trechos pais grandes (seções, páginas) e, dentro de cada um, trechos filhos pequenos (frases, parágrafos curtos). Só os filhos recebem embedding e são buscados; quando um filho corresponde, o sistema devolve o pai ao LLM.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `rag`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `rag`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

@@ -7,7 +7,10 @@ tags:
 - llm-engineering
 domain: ai-ml
 subdomain: llm-engineering
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude (Project_News daily run)
   at: '2026-11-16T06:50:00-03:00'
@@ -40,7 +43,7 @@ translation_of: /concepts/prefill-decode-disaggregation.md
 
 **Definição.** No serviço desagregado, uma requisição vai primeiro a uma instância de prefill que processa o prompt inteiro numa passagem paralela e constrói o KV cache. O cache é então enviado por uma interconexão rápida a uma instância de decode, que gera a saída token a token.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 
