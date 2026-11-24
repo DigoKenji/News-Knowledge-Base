@@ -1,6 +1,7 @@
 # Log
 
 ## 2026-11-24
+- **Creation:** Core vocabulary batch 2: 10 software-engineering, 8 architecture, 11 backend, 9 data and 9 cloud core concepts (EN + pt-br, `subdomain: core`, draft), each with 3 sources (119 links checked); 13 flagged `foundation_candidate`. Completes the approved seed list.
 - **Certification:** Kenji certified the 22 core vocabulary concepts (AI/ML + Security, EN + pt-br).
 - **Restructure:** Concepts moved into theme folders `concepts/<domain>/` (EN + pt-br) with an index per theme (core first, then specialised); the top concepts index is now a theme table. All links in notes, digests, domains, foundations and reviews rewritten (271 files).
 - **Creation:** Core vocabulary batch 1: 12 AI/ML + 10 Security core concepts (EN + pt-br, `subdomain: core`, draft), each with 3 sources; 13 flagged `foundation_candidate`.
