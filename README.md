@@ -15,6 +15,7 @@ Kenji's study knowledge base and the source of truth for Project_News. The agent
 | `notes/<domain>/` | One summary per article or paper (`article-summarizer` format + frontmatter) |
 | `domains/`, `concepts/` | The ontology as OKF concept files. Relations are typed links. Agent-proposed concepts are `status: draft`; Kenji certifies by adding a `verified` entry. |
 | `digests/{daily,weekly,monthly}/` | Every digest sent to Telegram |
+| `reviews/` | Certification checklists: every draft in one list for Kenji to approve or fix, kept as the record afterwards |
 | `inbox/` | Full-text handoff from Hermes (Medium saves, requested Medium articles, LinkedIn posts), waiting for the next run |
 | `requests/` | Medium articles the daily run selected, for Hermes to hand over |
 | `.state/` | Run state: last run, source health |
