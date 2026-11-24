@@ -1,5 +1,6 @@
 # Notas — Nuvem e Infraestrutura
 
+- [Sondando DNS na Cloudflare](/pt-br/notes/cloud-infra/2026-11-24-probing-dns-at-cloudflare.md) — A Cloudflare estendeu seu framework de testes Flamingo para sondar a propagação de DNS continuamente, e usa essas medições de SLO para controlar as liberações.
 - [Interrupção da Microsoft: uma falha em cascata que começou com um bug não detectado](/pt-br/notes/cloud-infra/2026-11-22-microsoft-outage-a-cascading-failure-that-started-with-an-un.md) — Um defeito latente, um ambiente de teste diferente da produção e um gateway compartilhado sob carga extra transformaram uma mudança de julho em uma interrupção de um dia inteiro.
 - [Como o Google rastreou timeouts da API do GKE até um bug de TCP no kernel Linux](/pt-br/notes/cloud-infra/2026-11-21-how-google-traced-gke-api-timeouts-to-a-linux-kernel-tcp-bug.md) — Timeouts intermitentes da API do GKE vieram de três bugs que interagiam entre PSC, Envoy e o kernel Linux, corrigidos por um patch do kernel.
 - [Agentes de codificação com IA no Amazon EC2 Mac: como a Cognition escala o Devin para macOS](/pt-br/notes/cloud-infra/2026-11-20-ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devi.md) — A Cognition executa uma VM macOS nova para cada sessão do Devin em hosts EC2 Mac bare-metal, permitindo que agentes de IA criem e testem apps da Apple.

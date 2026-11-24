@@ -2,6 +2,9 @@
 
 Architecture-lane deep dives (ADR-0009), newest first.
 
+- [More control, fewer dependencies: Why DORA is forcing a connectivity rethink](/notes/architecture/2026-11-24-more-control-fewer-dependencies-why-dora-is-forcing-a-connec.md) — Several cloud providers don't add resilience if they share network paths; trace critical services down to connectivity to find shared failure points.
+- [When Transformation Succeeds but the Enterprise Fails](/notes/architecture/2026-11-24-when-transformation-succeeds-but-the-enterprise-fails.md) — Successful transformations can still fail the enterprise; effective change needs architecture-led governance tying delivery to strategy, stakeholders and measured value.
+- [Agoda Reduces API Code Review Time by 64% with Modular Architecture](/notes/architecture/2026-11-24-agoda-reduces-api-code-review-time-by-64-with-modular-archit.md) — Agoda's modular-monolith framework enforces domain boundaries with automated tests, cutting median review time 64% without a rewrite.
 - [QCon San Francisco 2026: Scaling Tech by Aligning Humans](/notes/architecture/2026-11-22-qcon-san-francisco-2026-scaling-tech-by-aligning-humans.md) — Staff-plus engineers can scale impact by aligning people around a short technical strategy, a north star and explicit bets.
 - [Presentation: Modernising Retail at Scale: Architecting a Cloud‑to‑Edge Platform for a Global Enterprise](/notes/architecture/2026-11-22-presentation-modernising-retail-at-scale-architecting-a-clou.md) — Tesco's transformation shows large-enterprise change needs talent, process and platform change together, delivered in staggered steps.
 - [A Capability-First Approach to Modernizing Retirement Services Technology Platforms](/notes/architecture/2026-11-21-a-capability-first-approach-to-modernizing-retirement-servic.md) — Modernization should start from a business capability assessment, ranking capabilities by maturity, criticality and strategic value before choosing platforms.

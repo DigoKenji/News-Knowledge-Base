@@ -1,5 +1,7 @@
 # Notes — Software Engineering Practice
 
+- [The FAA outage is a warning about technical debt in the AI era](/notes/software-engineering/2026-11-24-the-faa-outage-is-a-warning-about-technical-debt-in-the-ai-e.md) — AI-assisted coding speeds delivery, but its gains survive only with sustained investment in retiring technical debt.
+- [Netflix at QConSF 2026: Retrofitting the SDLC for AI Coding Agents](/notes/software-engineering/2026-11-24-netflix-at-qconsf-2026-retrofitting-the-sdlc-for-ai-coding-a.md) — Netflix Commerce made AI coding agents safe to ship by turning architecture decisions, docs and review rules into context both agents and engineers read.
 - [Fragments: November 20](/notes/software-engineering/2026-11-21-fragments-november-20.md) — Agentic engineering depends on healthy code, human-paced oversight and verification, because these decide review cost and governability.
 - [What developers and QA need from each other when AI writes the code](/notes/software-engineering/2026-11-21-what-developers-and-qa-need-from-each-other-when-ai-writes-t.md) — AI speeds up code change, so proof becomes the bottleneck and the Development-to-QA handoff must carry a shared evidence contract.
 - [Prompting Is Now the Slowest, Buggiest Way to Code with AI. Here's the Fast, Clean One](/notes/software-engineering/2026-11-20-prompting-is-now-the-slowest-buggiest-way-to-code-with-ai-he.md) — Prompts cannot recover hidden business rules; AI coding needs explicit, context-dependent specifications and independent verification to deliver reliable software.

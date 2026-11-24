@@ -35,6 +35,8 @@
 - [Memória de agente](/pt-br/concepts/agent-memory.md) — ai-agents · **rascunho**
 - [Mistura de especialistas](/pt-br/concepts/mixture-of-experts.md) — ai-ml · **rascunho**
 - [Atenção latente multicabeça](/pt-br/concepts/multi-head-latent-attention.md) — ai-ml · **rascunho**
+- [Engenharia de contexto](/pt-br/concepts/context-engineering.md) — ai-ml · **rascunho**
+- [Adaptação de baixo posto (LoRA)](/pt-br/concepts/lora.md) — ai-ml · **rascunho**
 
 ## Engenharia de Backend e Sistemas
 
@@ -64,6 +66,7 @@
 
 - [Well-Architected Framework](/pt-br/concepts/well-architected.md) — cloud-platforms
 - [Deploy canary / blue-green](/pt-br/concepts/canary-deploy.md) — devops-cicd
+- [Orçamento de erros de SLO](/pt-br/concepts/slo-error-budget.md) — cloud-infra · **rascunho**
 
 ## Cibersegurança
 
@@ -75,6 +78,7 @@
 - [Controle de fluxo de informação](/pt-br/concepts/information-flow-control.md) — appsec · **rascunho**
 - [Atestação remota](/pt-br/concepts/remote-attestation.md) — appsec · **rascunho**
 - [Envenenamento de memória](/pt-br/concepts/memory-poisoning.md) — security · **rascunho**
+- [Ataque à cadeia de suprimentos](/pt-br/concepts/supply-chain-attack.md) — security · **rascunho**
 
 ## Dados e Ciência de Dados
 
@@ -83,3 +87,6 @@
 
 ## Práticas de Engenharia de Software
 - [Imposto de verificação](/pt-br/concepts/verification-tax.md) — ai-assisted-development · **rascunho**
+
+## Arquitetura
+- [Monólito modular](/pt-br/concepts/modular-monolith.md) — architecture · **rascunho**

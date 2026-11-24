@@ -1,5 +1,6 @@
 # Daily digests
 
+- [2026-11-24](/digests/daily/2026-11-24.md) — Agent context and evals, software supply-chain risk, modular monoliths and network resilience. 10 notes, 5 draft concepts
 - [2026-11-22](/digests/daily/2026-11-22.md) — Retail cloud-to-edge transformation, CDC to Iceberg, agent-app forensics and a cascading cloud outage. 10 notes, 5 draft concepts
 - [2026-11-21](/digests/daily/2026-11-21.md) — Verifying and governing AI-written code, zero operator access, agent memory and incidents. 10 notes, 5 draft concepts
 - [2026-11-20](/digests/daily/2026-11-20.md) — Agent harnesses and specs, multi-region failover, integration patterns; 10 Medium deep dives from the PC run. 20 notes, 5 draft concepts

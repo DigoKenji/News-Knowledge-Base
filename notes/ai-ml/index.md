@@ -1,5 +1,7 @@
 # Notes — AI/ML Engineering
 
+- [LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents](/notes/ai-ml/2026-11-24-livelora-exact-kv-cache-migration-across-lora-updates-for-ll.md) — LiveLoRA migrates active agent sessions to a new LoRA adapter without replaying history, reaching a 68.98x publication speedup on a 32-session benchmark.
+- [How to build and maintain an agentic evaluation](/notes/ai-ml/2026-11-24-how-to-build-and-maintain-an-agentic-evaluation.md) — Agentic evaluations are trustworthy only when every component is built, validated and shared openly, since each one moves the score.
 - [Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning](/notes/ai-ml/2026-11-22-realized-versus-population-reliability-anytime-valid-self-co.md) — Under correlated rollouts, anytime-valid self-consistency certificates certify a per-prompt claim, not the population reliability claim.
 - [The US-China Open-Weight Feedback Loop](/notes/ai-ml/2026-11-22-the-us-china-open-weight-feedback-loop.md) — US and Chinese open-weight models improve each other, and proprietary models benefit too, so competition helps everyone.
 - [MemFolder: Structure-Guided Memory Folding for Efficient Agent Memory Management](/notes/ai-ml/2026-11-21-memfolder-structure-guided-memory-folding-for-efficient-agen.md) — Consolidating agent memory records into grouped units keeps 99.0% of Mem0 accuracy with 50% fewer records.

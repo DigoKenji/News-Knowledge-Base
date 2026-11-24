@@ -35,6 +35,8 @@
 - [Agent memory](/concepts/agent-memory.md) — ai-agents · **draft**
 - [Mixture of experts](/concepts/mixture-of-experts.md) — ai-ml · **draft**
 - [Multi-head latent attention](/concepts/multi-head-latent-attention.md) — ai-ml · **draft**
+- [Context engineering](/concepts/context-engineering.md) — ai-ml · **draft**
+- [Low-rank adaptation (LoRA)](/concepts/lora.md) — ai-ml · **draft**
 
 ## Backend & Systems Engineering
 
@@ -64,6 +66,7 @@
 
 - [Well-Architected Framework](/concepts/well-architected.md) — cloud-platforms
 - [Canary / blue-green deploy](/concepts/canary-deploy.md) — devops-cicd
+- [SLO error budget](/concepts/slo-error-budget.md) — cloud-infra · **draft**
 
 ## Cybersecurity
 
@@ -75,6 +78,7 @@
 - [Information flow control](/concepts/information-flow-control.md) — appsec · **draft**
 - [Remote attestation](/concepts/remote-attestation.md) — appsec · **draft**
 - [Memory poisoning](/concepts/memory-poisoning.md) — security · **draft**
+- [Supply-chain attack](/concepts/supply-chain-attack.md) — security · **draft**
 
 ## Data & Data Science
 - [Knowledge graph](/concepts/knowledge-graph.md) — data-engineering · **draft**
@@ -82,3 +86,6 @@
 
 ## Software Engineering Practice
 - [Verification tax](/concepts/verification-tax.md) — ai-assisted-development · **draft**
+
+## Architecture
+- [Modular monolith](/concepts/modular-monolith.md) — architecture · **draft**

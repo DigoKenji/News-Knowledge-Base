@@ -1,5 +1,8 @@
 # Log
 
+## 2026-11-24
+- **Creation:** Daily run: 10 notes (2 architecture-lane picks, 8 discovery picks incl. 2 arXiv), 5 draft concepts, 9 foundation candidates, digest /digests/daily/2026-11-24.md. Lookback since 2026-11-22 (no run on 2026-11-23). Inbox empty; no Fetched Medium rows; PC queue at 13, no refill. Raschka's short post was swapped for a deeper CIO.com pick.
+
 ## 2026-11-22
 - **Creation:** Daily run: 10 notes (2 architecture-lane picks, 8 discovery picks incl. 2 arXiv), 5 draft concepts, 6 foundation candidates, digest /digests/daily/2026-11-22.md. Inbox empty; no Fetched Medium rows; PC queue at 13, no refill. Two CIO.com picks were dropped as sponsored BrandPosts and replaced.
 
