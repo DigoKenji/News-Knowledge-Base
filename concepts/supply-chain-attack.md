@@ -5,7 +5,10 @@ description: An attack that compromises something a target depends on - a third-
 tags:
 - security
 domain: security
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-24T07:00:00-03:00'
@@ -31,7 +34,7 @@ sources:
 
 **Definition.** A software supply-chain attack targets the process that produces and delivers software rather than the running software itself. One compromise upstream can reach thousands of downstream organisations, because they install and run what their suppliers give them. MITRE ATT&CK classifies it as technique T1195, Supply Chain Compromise.
 
-Domain: [security](/domains/security.md). Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [security](/domains/security.md). Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

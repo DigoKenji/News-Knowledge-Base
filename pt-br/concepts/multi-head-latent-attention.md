@@ -5,7 +5,10 @@ description: Uma variante de atenção introduzida no DeepSeek-V2 que comprime a
 tags:
 - ai-ml
 domain: ai-ml
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-22T07:00:00-03:00'
@@ -33,7 +36,7 @@ translation_of: /concepts/multi-head-latent-attention.md
 
 **Definição.** Multi-head latent attention (MLA) guarda, para cada token anterior, um único vetor latente de baixa dimensão em vez de vetores de chave e valor separados para cada cabeça de atenção. Na hora da atenção, as chaves e valores de cada cabeça são reconstruídos (ou incorporados às projeções de consulta e saída) a partir desse latente.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md). Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md). Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

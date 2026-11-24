@@ -7,7 +7,10 @@ tags:
 - appsec
 domain: security
 subdomain: appsec
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-17T21:40:00-03:00'
@@ -35,7 +38,7 @@ translation_of: /concepts/indirect-prompt-injection.md
 
 **Definição.** Prompt injection direta é o usuário digitar instruções maliciosas. Indirect prompt injection, nomeada por Greshake et al. (2023), planta essas instruções em dados que o modelo vai processar depois. Como LLMs recebem instruções e dados no mesmo fluxo de tokens e não conseguem distingui-los com confiabilidade, um texto recuperado pode se sobrepor à intenção do desenvolvedor e do usuário.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `appsec`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `appsec`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

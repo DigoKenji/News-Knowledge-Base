@@ -7,7 +7,10 @@ tags:
 - llm-engineering
 domain: ai-ml
 subdomain: llm-engineering
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-18T07:30:00-03:00'
@@ -33,7 +36,7 @@ sources:
 
 **Definition.** Knowledge distillation transfers what a teacher model has learned into a student model by training the student on the teacher's outputs instead of (or in addition to) the original labels. Hinton et al. showed that the teacher's full probability distribution ("soft targets") carries more information than the single correct label, for example that a picture of a 2 looks a bit like a 3.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `llm-engineering`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `llm-engineering`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

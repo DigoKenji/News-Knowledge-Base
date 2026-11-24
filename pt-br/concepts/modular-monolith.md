@@ -5,7 +5,10 @@ description: Uma aplicação implantada como uma única unidade mas dividida int
 tags:
 - architecture
 domain: architecture
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-24T07:00:00-03:00'
@@ -36,7 +39,7 @@ translation_of: /concepts/modular-monolith.md
 
 **Definição.** Um monólito modular é um monólito projetado em torno de módulos, geralmente alinhados a capacidades de negócio ou bounded contexts. Os módulos conversam só por interfaces públicas (chamadas no mesmo processo ou eventos internos), não acessam o interior nem as tabelas uns dos outros, e as fronteiras são verificadas por ferramentas, não só por convenção.
 
-Domínio: [architecture](/pt-br/domains/architecture.md). Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [architecture](/pt-br/domains/architecture.md). Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

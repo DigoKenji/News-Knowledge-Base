@@ -7,7 +7,10 @@ tags:
 - llm-engineering
 domain: ai-ml
 subdomain: llm-engineering
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-19T07:00:00-03:00'
@@ -32,7 +35,7 @@ translation_of: /concepts/goodput.md
 
 **Definição.** Goodput é o throughput contado apenas para o trabalho que de fato cumpriu seu propósito. O termo vem de redes, onde significa dados da aplicação entregues por segundo excluindo overhead de protocolo e retransmissões. Em serviço de LLM, o DistServe o definiu como a taxa máxima de requisições que um sistema consegue sustentar cumprindo seus SLOs de latência (tempo até o primeiro token e tempo por token de saída).
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

@@ -7,7 +7,10 @@ tags:
 - ai-agents
 domain: ai-ml
 subdomain: ai-agents
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 relations:
 - type: part-of
   target: /concepts/ai-agent.md
@@ -35,7 +38,7 @@ translation_of: /concepts/agent-memory.md
 
 **Definição.** Memória de agente é o conjunto de repositórios em que um agente escreve e dos quais lê para usar informação além da sua janela de contexto atual. Uma chamada ao modelo não guarda estado; a memória é como o harness dá ao agente continuidade, personalização e a capacidade de aprender com a experiência sem retreinar.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `ai-agents`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `ai-agents`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

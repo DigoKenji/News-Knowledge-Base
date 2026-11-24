@@ -7,7 +7,10 @@ tags:
 - system-design
 domain: backend-systems
 subdomain: system-design
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-19T07:00:00-03:00'
@@ -33,7 +36,7 @@ sources:
 
 **Definition.** A silent failure is a fault whose symptoms do not trip any alarm: no exception, no 5xx, no crash. Examples range from hardware silent data corruption to a pipeline that quietly processes zero records, a cache serving stale data, or an ML model whose accuracy degrades while still answering confidently.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

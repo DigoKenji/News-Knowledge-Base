@@ -7,7 +7,10 @@ tags:
 - mlops
 domain: ai-ml
 subdomain: mlops
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-17T07:30:00-03:00'
@@ -32,7 +35,7 @@ translation_of: /concepts/calibration.md
 
 **Definição.** Um modelo é calibrado quando suas probabilidades previstas podem ser lidas como frequências reais. Calibração é diferente de precisão: um modelo pode ser muito preciso e ainda assim confiante demais, ou fraco mas honesto sobre sua incerteza.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `mlops`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `mlops`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

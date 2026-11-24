@@ -5,7 +5,10 @@ description: An application deployed as a single unit but internally divided int
 tags:
 - architecture
 domain: architecture
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-24T07:00:00-03:00'
@@ -34,7 +37,7 @@ relations:
 
 **Definition.** A modular monolith is a monolith designed around modules, usually aligned with business capabilities or bounded contexts. Modules talk only through public interfaces (in-process calls or internal events), do not reach into each other's internals or tables, and the boundaries are checked by tooling, not just convention.
 
-Domain: [architecture](/domains/architecture.md). Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [architecture](/domains/architecture.md). Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

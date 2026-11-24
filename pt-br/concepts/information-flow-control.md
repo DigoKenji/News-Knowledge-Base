@@ -7,7 +7,10 @@ tags:
 - appsec
 domain: security
 subdomain: appsec
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-19T07:00:00-03:00'
@@ -38,7 +41,7 @@ translation_of: /concepts/information-flow-control.md
 
 **Definição.** Controle de acesso pergunta "este sujeito pode ler este objeto?". Controle de fluxo de informação (IFC) faz a pergunta seguinte: "para onde a informação pode ir depois de lida?". Cada valor carrega um rótulo, os rótulos se combinam quando os valores se combinam, e o sistema aplica regras como "dados secretos não podem chegar a uma saída pública" (confidencialidade) ou "dados não confiáveis não podem influenciar uma decisão confiável" (integridade).
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `appsec`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `appsec`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

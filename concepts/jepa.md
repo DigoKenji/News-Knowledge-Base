@@ -7,7 +7,10 @@ tags:
 - deep-learning
 domain: ai-ml
 subdomain: deep-learning
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude (Project_News daily run)
   at: '2026-11-16T06:50:00-03:00'
@@ -30,7 +33,7 @@ sources:
 
 **Definition.** A JEPA has two encoders and a predictor. One encoder embeds a visible "context" (part of an image or video); the other embeds a hidden "target"; the predictor learns to predict the target's embedding from the context's. Because the loss is computed in embedding space, the model can ignore unpredictable detail (exact texture, noise) and focus on structure and semantics. Yann LeCun proposed it in 2022 as a building block for world models.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `deep-learning`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `deep-learning`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

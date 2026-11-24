@@ -7,7 +7,10 @@ tags:
 - system-design
 domain: backend-systems
 subdomain: system-design
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-21T07:00:00-03:00'
@@ -32,7 +35,7 @@ translation_of: /concepts/hybrid-memory-disk-cache.md
 
 **Definição.** Um cache híbrido (em camadas) coloca DRAM sobre flash. As consultas verificam a memória primeiro; faltas na memória ainda podem acertar no SSD, muito mais barato por gigabyte e muito mais rápido do que ir ao banco de dados de origem. Itens são promovidos, rebaixados ou descartados entre as camadas por políticas de admissão e descarte.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

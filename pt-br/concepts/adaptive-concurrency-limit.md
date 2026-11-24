@@ -7,7 +7,10 @@ tags:
 - system-design
 domain: backend-systems
 subdomain: system-design
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-18T07:30:00-03:00'
@@ -32,7 +35,7 @@ translation_of: /concepts/adaptive-concurrency-limit.md
 
 **Definição.** Um limite de concorrência adaptativo aplica ideias de controle de congestionamento do TCP a serviços. O servidor (ou o cliente) mantém um limite de requisições em andamento; o excesso é rejeitado rapidamente ou fica pouco tempo na fila. O limite é reestimado continuamente a partir de sinais como a latência de ida e volta comparada ao seu mínimo sem carga, ou a partir de timeouts e descartes.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

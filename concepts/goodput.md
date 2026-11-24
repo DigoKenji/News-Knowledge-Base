@@ -7,7 +7,10 @@ tags:
 - llm-engineering
 domain: ai-ml
 subdomain: llm-engineering
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-19T07:00:00-03:00'
@@ -30,7 +33,7 @@ sources:
 
 **Definition.** Goodput is throughput counted only for work that actually served its purpose. The term comes from networking, where it means application data delivered per second excluding protocol overhead and retransmissions. In LLM serving, DistServe defined it as the maximum request rate a system can sustain while meeting its latency SLOs (time to first token and time per output token).
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `llm-engineering`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `llm-engineering`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

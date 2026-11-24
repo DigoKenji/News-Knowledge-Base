@@ -7,7 +7,10 @@ tags:
 - appsec
 domain: security
 subdomain: appsec
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-18T07:30:00-03:00'
@@ -30,7 +33,7 @@ sources:
 
 **Definition.** NIST SP 800-207 defines zero trust as a set of principles that "assumes there is no implicit trust granted to assets or user accounts based solely on their physical or network location". A zero trust architecture (ZTA) is an enterprise's plan that applies those principles: protect resources rather than network segments, and decide access per session.
 
-Domain: [security](/domains/security.md) · subdomain `appsec`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [security](/domains/security.md) · subdomain `appsec`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

@@ -7,7 +7,10 @@ tags:
 - system-design
 domain: backend-systems
 subdomain: system-design
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-17T21:40:00-03:00'
@@ -32,7 +35,7 @@ translation_of: /concepts/deterministic-simulation-testing.md
 
 **Definição.** Teste por simulação determinística (DST) remove toda fonte de não determinismo do sistema testado (threads, relógios, tempo de rede, I/O, números aleatórios) fazendo-as passar por um simulador guiado por uma única semente pseudoaleatória. O simulador então explora milhões de intercalações e combinações de falhas, e uma semente que falha reproduz exatamente a mesma execução sempre.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

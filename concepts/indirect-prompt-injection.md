@@ -7,7 +7,10 @@ tags:
 - appsec
 domain: security
 subdomain: appsec
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-17T21:40:00-03:00'
@@ -33,7 +36,7 @@ sources:
 
 **Definition.** Direct prompt injection is the user typing malicious instructions. Indirect prompt injection, named by Greshake et al. (2023), plants them in data the model will process later. Because LLMs receive instructions and data in the same token stream and cannot reliably tell them apart, retrieved text can override the developer's and user's intent.
 
-Domain: [security](/domains/security.md) · subdomain `appsec`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [security](/domains/security.md) · subdomain `appsec`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

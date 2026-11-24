@@ -5,7 +5,10 @@ description: Low-Rank Adaptation - um método de fine-tuning eficiente em parâm
 tags:
 - ai-ml
 domain: ai-ml
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-24T07:00:00-03:00'
@@ -33,7 +36,7 @@ translation_of: /concepts/lora.md
 
 **Definição.** LoRA adapta um grande modelo pré-treinado a uma nova tarefa aprendendo apenas uma atualização de posto baixo em matrizes de pesos selecionadas. Em vez de mudar uma matriz de pesos W de d×d, aprende duas matrizes finas B (d×r) e A (r×d) com posto r pequeno (por exemplo 8), e usa W + BA na inferência. Os pesos originais ficam congelados e compartilhados.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md). Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md). Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

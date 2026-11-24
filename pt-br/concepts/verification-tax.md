@@ -7,7 +7,10 @@ tags:
 - ai-assisted-development
 domain: software-engineering
 subdomain: ai-assisted-development
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-21T07:00:00-03:00'
@@ -32,7 +35,7 @@ translation_of: /concepts/verification-tax.md
 
 **Definição.** O imposto de verificação é o custo de checar um trabalho que você não escreveu. Com assistentes de código com IA, escrever código fica mais barato, mas cada linha ainda precisa ser entendida, revisada e testada por alguém responsável por ela. À medida que o volume gerado cresce, a revisão vira o gargalo e o ganho líquido de produtividade pode diminuir ou ficar negativo.
 
-Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `ai-assisted-development`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `ai-assisted-development`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

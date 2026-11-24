@@ -7,7 +7,10 @@ tags:
 - rag
 domain: ai-ml
 subdomain: rag
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-17T21:40:00-03:00'
@@ -33,7 +36,7 @@ sources:
 
 **Definition.** Semantic search retrieves documents that are about the same thing as the query even when they share no words with it. Modern systems use dense retrieval: a neural encoder maps text to vectors such that similar meanings land close together, and an approximate nearest-neighbour index finds the closest documents.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `rag`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `rag`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

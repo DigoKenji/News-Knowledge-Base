@@ -5,7 +5,10 @@ description: Um ataque que planta entradas falsas ou maliciosas na memória de l
 tags:
 - security
 domain: security
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-22T07:00:00-03:00'
@@ -33,7 +36,7 @@ translation_of: /concepts/memory-poisoning.md
 
 **Definição.** Envenenamento de memória corrompe o que um agente "lembra". Diferente de uma prompt injection pontual que afeta uma única sessão, a memória envenenada persiste: toda recuperação futura traz de volta o conteúdo do atacante, e o agente o trata como conhecimento próprio. O OWASP o lista como a primeira ameaça na sua taxonomia de ameaças de IA agêntica.
 
-Domínio: [security](/pt-br/domains/security.md). Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [security](/pt-br/domains/security.md). Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

@@ -7,7 +7,10 @@ tags:
 - llm-engineering
 domain: ai-ml
 subdomain: llm-engineering
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-19T07:00:00-03:00'
@@ -32,7 +35,7 @@ translation_of: /concepts/ai-gateway.md
 
 **Definição.** Um AI gateway é um API gateway especializado em tráfego de modelos. As aplicações chamam um único endpoint; o gateway encaminha cada requisição a um provedor de modelo (OpenAI, Anthropic, um modelo próprio) e aplica controles da organização no caminho: quem pode usar qual modelo, quanto pode gastar, o que pode ser registrado e o que fazer quando um provedor falha.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

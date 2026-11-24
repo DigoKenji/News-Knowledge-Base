@@ -7,7 +7,10 @@ tags:
 - ai-agents
 domain: ai-ml
 subdomain: ai-agents
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-20T07:00:00-03:00'
@@ -33,7 +36,7 @@ sources:
 
 **Definition.** In classic AI, an agent is anything that perceives its environment and acts on it to achieve goals. An LLM-based AI agent is a system where the model itself directs the process: it plans, chooses tools, reads the results and decides what to do next until the goal is reached or it hands back to a human. Anthropic draws the line between workflows, where code fixes the sequence of LLM calls, and agents, where the model controls the sequence.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `ai-agents`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `ai-agents`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

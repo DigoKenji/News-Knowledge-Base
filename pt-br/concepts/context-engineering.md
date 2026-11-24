@@ -5,7 +5,10 @@ description: Projetar e gerenciar tudo o que um modelo vê em cada chamada - ins
 tags:
 - ai-ml
 domain: ai-ml
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-24T07:00:00-03:00'
@@ -36,7 +39,7 @@ translation_of: /concepts/context-engineering.md
 
 **Definição.** Engenharia de contexto é a disciplina de selecionar o conjunto completo de tokens entregue a um LLM no momento da inferência. Engenharia de prompt é a parte que cuida da redação das instruções; engenharia de contexto também cobre o que recuperar, o que lembrar, quais ferramentas expor, o que descartar ou resumir e em que ordem colocar tudo. É a ideia mais ampla, e a principal alavanca de qualidade de um agente quando o modelo está fixo.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md). Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md). Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

@@ -7,7 +7,10 @@ tags:
 - system-design
 domain: backend-systems
 subdomain: system-design
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-19T07:00:00-03:00'
@@ -35,7 +38,7 @@ translation_of: /concepts/silent-failure.md
 
 **Definição.** Uma falha silenciosa é uma falha cujos sintomas não disparam nenhum alarme: sem exceção, sem 5xx, sem crash. Os exemplos vão de corrupção silenciosa de dados no hardware até um pipeline que processa zero registros sem avisar, um cache servindo dados velhos ou um modelo de ML cuja precisão cai enquanto continua respondendo com confiança.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

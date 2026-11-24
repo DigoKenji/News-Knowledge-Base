@@ -5,7 +5,10 @@ description: Um SLO é uma meta de confiabilidade de um serviço medida por um i
 tags:
 - cloud-infra
 domain: cloud-infra
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-24T07:00:00-03:00'
@@ -33,7 +36,7 @@ translation_of: /concepts/slo-error-budget.md
 
 **Definição.** Um indicador de nível de serviço (SLI) mede algo que importa aos usuários, como a parcela de requisições atendidas com sucesso em menos de 300 ms. Um objetivo de nível de serviço (SLO) define uma meta para ele numa janela de tempo. O orçamento de erros é 1 menos o SLO: a quantidade de falta de confiabilidade permitida. Burn rate é a velocidade com que o orçamento está sendo gasto, comparada com a velocidade que o gastaria exatamente até o fim da janela.
 
-Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md). Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md). Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

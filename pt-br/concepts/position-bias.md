@@ -7,7 +7,10 @@ tags:
 - mlops
 domain: ai-ml
 subdomain: mlops
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-17T07:30:00-03:00'
@@ -32,7 +35,7 @@ translation_of: /concepts/position-bias.md
 
 **Definição.** Há viés de posição quando trocar a ordem dos candidatos muda o veredito. Em comparações em pares de LLM-as-a-judge aparece como preferência pela resposta A ou B independentemente da qualidade; em múltipla escolha, como preferência por certas letras; em contextos longos, como uso melhor da informação do começo e do fim do que do meio.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `mlops`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `mlops`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

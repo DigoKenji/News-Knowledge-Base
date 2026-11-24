@@ -5,7 +5,10 @@ description: A failure that spreads because the reaction to one component failin
 tags:
 - backend-systems
 domain: backend-systems
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-22T07:00:00-03:00'
@@ -28,7 +31,7 @@ sources:
 
 **Definition.** A cascading failure grows through positive feedback: the failure of part of a system increases the probability that other parts fail. The classic trigger is overload, where one replica dies, its traffic moves to the others, they exceed capacity and die too, until the whole tier is down.
 
-Domain: [backend-systems](/domains/backend-systems.md). Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md). Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

@@ -5,7 +5,10 @@ description: Uma camada de rede neural feita de muitas sub-redes especialistas m
 tags:
 - ai-ml
 domain: ai-ml
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-22T07:00:00-03:00'
@@ -33,7 +36,7 @@ translation_of: /concepts/mixture-of-experts.md
 
 **Definição.** Uma camada de mistura de especialistas (MoE) substitui um grande bloco feed-forward por N "especialistas" menores e uma rede de roteamento aprendida. Para cada token o roteador escolhe os top-k especialistas (muitas vezes 1 ou 2 de 8 a 256) e combina suas saídas. O modelo tem muitos parâmetros no total mas usa só uma fração deles para cada token, o que se chama ativação esparsa.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md). Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md). Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

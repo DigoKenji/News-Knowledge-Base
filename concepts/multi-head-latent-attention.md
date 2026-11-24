@@ -5,7 +5,10 @@ description: An attention variant introduced in DeepSeek-V2 that compresses each
 tags:
 - ai-ml
 domain: ai-ml
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-22T07:00:00-03:00'
@@ -31,7 +34,7 @@ sources:
 
 **Definition.** Multi-head latent attention (MLA) stores, for each past token, a single low-dimensional latent vector instead of separate key and value vectors for every attention head. At attention time the per-head keys and values are reconstructed (or folded into the query and output projections) from that latent.
 
-Domain: [ai-ml](/domains/ai-ml.md). Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md). Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

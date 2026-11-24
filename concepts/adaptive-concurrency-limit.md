@@ -7,7 +7,10 @@ tags:
 - system-design
 domain: backend-systems
 subdomain: system-design
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-18T07:30:00-03:00'
@@ -30,7 +33,7 @@ sources:
 
 **Definition.** An adaptive concurrency limit applies TCP congestion-control ideas to services. The server (or client) keeps a limit on in-flight requests; excess requests are rejected fast or queued briefly. The limit is continuously re-estimated from signals such as round-trip latency compared to its no-load minimum, or from timeouts and drops.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

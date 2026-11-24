@@ -7,7 +7,10 @@ tags:
 - ai-agents
 domain: ai-ml
 subdomain: ai-agents
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-17T07:30:00-03:00'
@@ -30,7 +33,7 @@ sources:
 
 **Definition.** The Model Context Protocol (MCP) defines a client-server contract between an AI application (the host, such as Claude Desktop or an IDE) and servers that expose capabilities. Anthropic introduced it in November 2024 as an open standard; it is often described as "USB-C for AI apps" because it replaces one custom integration per app-tool pair with one protocol.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `ai-agents`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `ai-agents`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

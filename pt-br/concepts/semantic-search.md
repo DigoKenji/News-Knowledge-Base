@@ -7,7 +7,10 @@ tags:
 - rag
 domain: ai-ml
 subdomain: rag
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-17T21:40:00-03:00'
@@ -35,7 +38,7 @@ translation_of: /concepts/semantic-search.md
 
 **Definição.** Busca semântica recupera documentos que tratam do mesmo assunto da consulta mesmo quando não compartilham nenhuma palavra com ela. Sistemas modernos usam recuperação densa: um encoder neural mapeia texto para vetores de modo que significados parecidos fiquem próximos, e um índice de vizinhos mais próximos aproximado encontra os documentos mais perto.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `rag`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `rag`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

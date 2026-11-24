@@ -7,7 +7,10 @@ tags:
 - system-design
 domain: backend-systems
 subdomain: system-design
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-20T07:00:00-03:00'
@@ -32,7 +35,7 @@ translation_of: /concepts/control-plane.md
 
 **Definição.** A divisão plano de controle / plano de dados vem de redes: o plano de controle calcula rotas, o plano de dados encaminha pacotes. Em sistemas de nuvem e distribuídos, o plano de controle é a camada de gestão (APIs para criar, alterar e excluir recursos, escalonadores, controladores que reconciliam estado desejado e real), e o plano de dados é o que atende o tráfego (VMs, contêineres, balanceadores, leituras e escritas em armazenamento).
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

@@ -7,7 +7,10 @@ tags:
 - data-engineering
 domain: data
 subdomain: data-engineering
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-18T07:30:00-03:00'
@@ -30,7 +33,7 @@ sources:
 
 **Definition.** Hogan et al. define a knowledge graph as "a graph of data intended to accumulate and convey knowledge of the real world, whose nodes represent entities of interest and whose edges represent relations between these entities". What separates it from a plain graph database is the emphasis on semantics: shared identifiers, types and an ontology that gives the relations meaning.
 
-Domain: [data](/domains/data.md) · subdomain `data-engineering`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [data](/domains/data.md) · subdomain `data-engineering`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

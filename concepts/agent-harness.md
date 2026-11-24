@@ -7,7 +7,10 @@ tags:
 - ai-agents
 domain: ai-ml
 subdomain: ai-agents
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-17T21:40:00-03:00'
@@ -30,7 +33,7 @@ sources:
 
 **Definition.** An agent harness is everything in an AI agent that is not the model weights: the code that assembles the prompt and context for each step, offers tools and executes the calls the model asks for, runs the plan-act-observe loop, decides when to stop, and stores memory, logs and checkpoints. The same model can behave very differently inside different harnesses.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `ai-agents`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `ai-agents`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

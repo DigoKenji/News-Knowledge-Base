@@ -7,7 +7,10 @@ tags:
 - appsec
 domain: security
 subdomain: appsec
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-19T07:00:00-03:00'
@@ -36,7 +39,7 @@ relations:
 
 **Definition.** Access control asks "may this subject read this object?". Information flow control (IFC) asks the follow-up question "where can the information go after it is read?". Each value carries a label, labels combine when values are combined, and the system enforces rules such as "secret data may not reach a public output" (confidentiality) or "untrusted data may not influence a trusted decision" (integrity).
 
-Domain: [security](/domains/security.md) · subdomain `appsec`. Expanded on 2026-11-24 with independent sources; still a draft waiting for Kenji to certify.
+Domain: [security](/domains/security.md) · subdomain `appsec`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

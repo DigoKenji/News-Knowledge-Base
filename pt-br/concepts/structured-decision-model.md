@@ -7,7 +7,10 @@ tags:
 - llm-engineering
 domain: ai-ml
 subdomain: llm-engineering
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-17T07:30:00-03:00'
@@ -32,7 +35,7 @@ translation_of: /concepts/structured-decision-model.md
 
 **Definição.** Um modelo de decisão estruturado devolve uma resposta legível por máquina que segue um schema (por exemplo {"route": "billing", "confidence": 0.92}) para que o código possa agir sobre ela diretamente. Pode ser um pequeno classificador treinado para a tarefa, ou um LLM geral forçado ao schema com structured outputs ou decodificação restrita.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

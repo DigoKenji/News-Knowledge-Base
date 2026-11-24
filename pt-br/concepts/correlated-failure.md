@@ -7,7 +7,10 @@ tags:
 - system-design
 domain: backend-systems
 subdomain: system-design
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-20T07:00:00-03:00'
@@ -32,7 +35,7 @@ translation_of: /concepts/correlated-failure.md
 
 **Definição.** Falhas são correlacionadas quando a falha de um componente torna mais provável a falha de outro. A matemática da redundância (duas réplicas de 99,9% dão 99,9999%) supõe independência; falhas correlacionadas quebram essa suposição, então a disponibilidade real fica muito abaixo do que a conta diz.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; ainda um rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 
