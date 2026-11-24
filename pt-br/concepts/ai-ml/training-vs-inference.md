@@ -7,7 +7,10 @@ tags:
 - core
 domain: ai-ml
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -29,7 +32,7 @@ translation_of: /concepts/ai-ml/training-vs-inference.md
 
 **Definição.** O treino passa os dados pelo modelo, mede o erro e atualiza os pesos de trás para frente (backpropagation), em muitas passagens. A inferência só executa a passagem direta com pesos fixos. Em LLMs, o treino se divide em pré-treino (auto-supervisionado, em corpora enormes) e pós-treino (fine-tuning, RLHF); a inferência se divide em prefill (ler o prompt) e decode (gerar tokens).
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

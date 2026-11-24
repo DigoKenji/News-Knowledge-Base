@@ -2,18 +2,18 @@
 
 ## Núcleo
 
-- [Inteligência artificial](/pt-br/concepts/ai-ml/artificial-intelligence.md) — core · **rascunho**
-- [Machine learning (aprendizado de máquina)](/pt-br/concepts/ai-ml/machine-learning.md) — core · **rascunho**
-- [Aprendizado supervisionado](/pt-br/concepts/ai-ml/supervised-learning.md) — core · **rascunho**
-- [Aprendizado não supervisionado e auto-supervisionado](/pt-br/concepts/ai-ml/unsupervised-learning.md) — core · **rascunho**
-- [Aprendizado por reforço](/pt-br/concepts/ai-ml/reinforcement-learning.md) — core · **rascunho**
-- [Redes neurais e deep learning](/pt-br/concepts/ai-ml/deep-learning.md) — core · **rascunho**
-- [Treino vs inferência](/pt-br/concepts/ai-ml/training-vs-inference.md) — core · **rascunho**
-- [Overfitting e generalização](/pt-br/concepts/ai-ml/overfitting.md) — core · **rascunho**
-- [Avaliação de modelos e métricas](/pt-br/concepts/ai-ml/model-evaluation.md) — core · **rascunho**
-- [Transformer e atenção](/pt-br/concepts/ai-ml/transformer.md) — core · **rascunho**
-- [Grande modelo de linguagem (LLM) e modelo de fundação](/pt-br/concepts/ai-ml/large-language-model.md) — core · **rascunho**
-- [Embedding](/pt-br/concepts/ai-ml/embedding.md) — core · **rascunho**
+- [Inteligência artificial](/pt-br/concepts/ai-ml/artificial-intelligence.md) — core
+- [Machine learning (aprendizado de máquina)](/pt-br/concepts/ai-ml/machine-learning.md) — core
+- [Aprendizado supervisionado](/pt-br/concepts/ai-ml/supervised-learning.md) — core
+- [Aprendizado não supervisionado e auto-supervisionado](/pt-br/concepts/ai-ml/unsupervised-learning.md) — core
+- [Aprendizado por reforço](/pt-br/concepts/ai-ml/reinforcement-learning.md) — core
+- [Redes neurais e deep learning](/pt-br/concepts/ai-ml/deep-learning.md) — core
+- [Treino vs inferência](/pt-br/concepts/ai-ml/training-vs-inference.md) — core
+- [Overfitting e generalização](/pt-br/concepts/ai-ml/overfitting.md) — core
+- [Avaliação de modelos e métricas](/pt-br/concepts/ai-ml/model-evaluation.md) — core
+- [Transformer e atenção](/pt-br/concepts/ai-ml/transformer.md) — core
+- [Grande modelo de linguagem (LLM) e modelo de fundação](/pt-br/concepts/ai-ml/large-language-model.md) — core
+- [Embedding](/pt-br/concepts/ai-ml/embedding.md) — core
 
 ## Específicos
 

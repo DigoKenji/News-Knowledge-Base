@@ -7,7 +7,10 @@ tags:
 - core
 domain: ai-ml
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -29,7 +32,7 @@ translation_of: /concepts/ai-ml/transformer.md
 
 **Definição.** Apresentado em "Attention Is All You Need" (2017), o transformer empilha camadas de self-attention multi-head e redes feed-forward. Na atenção, cada token produz uma consulta (query), uma chave (key) e um valor (value); a consulta é comparada com todas as chaves para obter pesos, e a saída é a mistura ponderada dos valores. A informação de posição é adicionada à parte (por exemplo com RoPE).
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

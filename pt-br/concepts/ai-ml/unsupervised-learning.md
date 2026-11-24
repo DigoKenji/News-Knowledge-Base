@@ -7,7 +7,10 @@ tags:
 - core
 domain: ai-ml
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -30,7 +33,7 @@ translation_of: /concepts/ai-ml/unsupervised-learning.md
 
 **Definição.** O aprendizado não supervisionado modela a estrutura de dados sem rótulos: agrupamento (k-means), redução de dimensionalidade (PCA), estimação de densidade e detecção de anomalias. O aprendizado auto-supervisionado é uma variante moderna que transforma dados sem rótulos numa tarefa supervisionada, escondendo parte da entrada e treinando o modelo para prevê-la.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

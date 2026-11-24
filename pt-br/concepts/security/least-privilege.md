@@ -7,7 +7,10 @@ tags:
 - core
 domain: security
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -30,7 +33,7 @@ translation_of: /concepts/security/least-privilege.md
 
 **Definição.** Saltzer e Schroeder (1975) incluíram o privilégio mínimo entre seus princípios de projeto para proteção: todo programa e usuário deve operar com o menor conjunto de privilégios necessário para fazer o trabalho. O NIST SP 800-53 o transforma no controle AC-6. Defesa em profundidade, termo da estratégia militar, significa sobrepor controles de pessoas, tecnologia e operações para que um atacante precise vencer vários deles.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

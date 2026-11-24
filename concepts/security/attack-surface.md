@@ -7,7 +7,10 @@ tags:
 - core
 domain: security
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -27,7 +30,7 @@ sources:
 
 **Definition.** Manadhata and Wing formalised a system's attack surface as the set of entry and exit points, channels and untrusted data items an attacker can use. NIST defines it as the set of points on the boundary of a system where an attacker can try to enter, cause an effect on, or extract data from it. Larger surfaces mean more places to defend.
 
-Domain: [security](/domains/security.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [security](/domains/security.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

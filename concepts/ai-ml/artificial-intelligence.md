@@ -7,7 +7,10 @@ tags:
 - core
 domain: ai-ml
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -28,7 +31,7 @@ foundation_candidate: true
 
 **Definition.** AI is both a research field and a kind of system. The OECD (definition updated in 2023, also used by the EU AI Act) describes an AI system as a machine-based system that, for explicit or implicit objectives, infers from the input it receives how to generate outputs such as predictions, content, recommendations or decisions that can influence physical or virtual environments. ISO/IEC 22989 is the international standard vocabulary for the field.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

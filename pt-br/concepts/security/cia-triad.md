@@ -7,7 +7,10 @@ tags:
 - core
 domain: security
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -30,7 +33,7 @@ translation_of: /concepts/security/cia-triad.md
 
 **Definição.** A ISO/IEC 27000 define segurança da informação como a preservação da confidencialidade, integridade e disponibilidade da informação. O NIST FIPS 199 usa os mesmos três objetivos para classificar a gravidade de uma perda para cada sistema de informação (impacto baixo, moderado, alto). Alguns frameworks acrescentam propriedades como autenticidade, responsabilização e não repúdio.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

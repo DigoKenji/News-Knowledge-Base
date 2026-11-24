@@ -7,7 +7,10 @@ tags:
 - core
 domain: ai-ml
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -30,7 +33,7 @@ translation_of: /concepts/ai-ml/machine-learning.md
 
 **Definição.** A definição clássica de Tom Mitchell: um programa aprende com a experiência E em relação a uma tarefa T e uma medida de desempenho P se seu desempenho em T, medido por P, melhora com E. Na prática, ML ajusta os parâmetros de um modelo a dados de treino para que ele faça previsões ou decisões sobre dados novos. A ISO/IEC 23053 descreve o framework para sistemas de IA baseados em ML.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

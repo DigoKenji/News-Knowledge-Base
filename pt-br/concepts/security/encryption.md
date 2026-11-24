@@ -7,7 +7,10 @@ tags:
 - core
 domain: security
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -30,7 +33,7 @@ translation_of: /concepts/security/encryption.md
 
 **Definição.** A criptografia converte texto claro em texto cifrado com um algoritmo e uma chave; a decifração faz o inverso. Algoritmos simétricos como o AES (FIPS 197) são rápidos e usam a mesma chave secreta dos dois lados. Algoritmos assimétricos (RSA, curvas elípticas), introduzidos por Diffie e Hellman em 1976, usam uma chave pública que qualquer um pode conhecer e uma chave privada mantida em segredo, o que resolve a troca de chaves e permite assinaturas digitais.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

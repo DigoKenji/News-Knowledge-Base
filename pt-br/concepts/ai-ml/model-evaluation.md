@@ -7,7 +7,10 @@ tags:
 - core
 domain: ai-ml
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -29,7 +32,7 @@ translation_of: /concepts/ai-ml/model-evaluation.md
 
 **Definição.** A avaliação estima o desempenho no mundo real testando em dados separados e resumindo os resultados com métricas que refletem o que importa no caso de uso. Precisão é a parcela dos positivos previstos que estão corretos; recall é a parcela dos positivos reais encontrados; F1 equilibra os dois. Regressão usa MAE ou RMSE. A ISO/IEC TS 4213 padroniza como avaliar desempenho de classificação.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

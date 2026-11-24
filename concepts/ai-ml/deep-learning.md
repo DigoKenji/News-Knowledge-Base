@@ -7,7 +7,10 @@ tags:
 - core
 domain: ai-ml
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -28,7 +31,7 @@ foundation_candidate: true
 
 **Definition.** A neural network computes its output by passing the input through layers; each unit takes a weighted sum of its inputs and applies a non-linear function. Training adjusts the weights with gradient descent, using backpropagation to compute how much each weight contributed to the error. Deep learning uses networks with many layers, which learn features directly from raw data instead of relying on hand-crafted ones.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

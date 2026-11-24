@@ -7,7 +7,10 @@ tags:
 - core
 domain: ai-ml
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -27,7 +30,7 @@ sources:
 
 **Definition.** Training runs data forward through the model, measures the error and updates the weights backwards (backpropagation), over many passes. Inference only runs the forward pass with fixed weights. For LLMs, training splits further into pre-training (self-supervised, on huge corpora) and post-training (fine-tuning, RLHF); inference splits into prefill (reading the prompt) and decode (generating tokens).
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

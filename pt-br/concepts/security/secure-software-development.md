@@ -7,7 +7,10 @@ tags:
 - core
 domain: security
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -30,7 +33,7 @@ translation_of: /concepts/security/secure-software-development.md
 
 **Definição.** Um ciclo de vida de desenvolvimento seguro acrescenta práticas de segurança a cada etapa: requisitos de segurança, modelagem de ameaças no projeto, padrões de codificação segura, revisão de código, análise estática e dinâmica (SAST, DAST), varredura de dependências, build e entrega seguros, e resposta a vulnerabilidades após a entrega. O Secure Software Development Framework do NIST (SSDF, SP 800-218) agrupa isso em quatro áreas: preparar a organização, proteger o software, produzir software bem protegido e responder a vulnerabilidades.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

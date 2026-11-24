@@ -7,7 +7,10 @@ tags:
 - core
 domain: security
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -28,7 +31,7 @@ foundation_candidate: true
 
 **Definition.** Saltzer and Schroeder (1975) listed least privilege among their design principles for protection: every program and user should operate with the least set of privileges necessary to complete the job. NIST SP 800-53 turns it into control AC-6. Defense in depth, a term from military strategy, means layering people, technology and operations controls so an attacker must defeat several of them.
 
-Domain: [security](/domains/security.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [security](/domains/security.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

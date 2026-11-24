@@ -7,7 +7,10 @@ tags:
 - core
 domain: security
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -29,7 +32,7 @@ translation_of: /concepts/security/attack-surface.md
 
 **Definição.** Manadhata e Wing formalizaram a superfície de ataque de um sistema como o conjunto de pontos de entrada e saída, canais e itens de dados não confiáveis que um atacante pode usar. O NIST a define como o conjunto de pontos na fronteira de um sistema em que um atacante pode tentar entrar, causar um efeito ou extrair dados. Superfícies maiores significam mais lugares a defender.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

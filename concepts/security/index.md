@@ -2,16 +2,16 @@
 
 ## Core
 
-- [CIA triad (confidentiality, integrity, availability)](/concepts/security/cia-triad.md) — core · **draft**
-- [Threat, vulnerability and risk](/concepts/security/threat-vulnerability-risk.md) — core · **draft**
-- [Authentication vs authorization](/concepts/security/authentication-authorization.md) — core · **draft**
-- [Least privilege and defense in depth](/concepts/security/least-privilege.md) — core · **draft**
-- [Encryption](/concepts/security/encryption.md) — core · **draft**
-- [Identity and access management (IAM)](/concepts/security/identity-access-management.md) — core · **draft**
-- [Attack surface](/concepts/security/attack-surface.md) — core · **draft**
-- [Secure software development (SSDLC)](/concepts/security/secure-software-development.md) — core · **draft**
-- [Common vulnerability classes](/concepts/security/common-vulnerability-classes.md) — core · **draft**
-- [AI security and adversarial machine learning](/concepts/security/ai-security.md) — core · **draft**
+- [CIA triad (confidentiality, integrity, availability)](/concepts/security/cia-triad.md) — core
+- [Threat, vulnerability and risk](/concepts/security/threat-vulnerability-risk.md) — core
+- [Authentication vs authorization](/concepts/security/authentication-authorization.md) — core
+- [Least privilege and defense in depth](/concepts/security/least-privilege.md) — core
+- [Encryption](/concepts/security/encryption.md) — core
+- [Identity and access management (IAM)](/concepts/security/identity-access-management.md) — core
+- [Attack surface](/concepts/security/attack-surface.md) — core
+- [Secure software development (SSDLC)](/concepts/security/secure-software-development.md) — core
+- [Common vulnerability classes](/concepts/security/common-vulnerability-classes.md) — core
+- [AI security and adversarial machine learning](/concepts/security/ai-security.md) — core
 
 ## Specialised
 

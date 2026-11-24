@@ -7,7 +7,10 @@ tags:
 - core
 domain: security
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -30,7 +33,7 @@ translation_of: /concepts/security/ai-security.md
 
 **Definição.** A taxonomia de machine learning adversarial do NIST (AI 100-2) classifica os ataques pela fase do ciclo de vida do sistema e pelo objetivo do atacante: evasão (entradas criadas para causar saídas erradas), envenenamento (corromper dados de treino ou modelos), ataques de privacidade (extrair dados de treino ou o próprio modelo) e, para IA generativa, abusos como prompt injection e jailbreaks. Segurança de IA também cobre a segurança comum do sistema em volta, já que os modelos rodam dentro de aplicações com dados, credenciais e ferramentas.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

@@ -7,7 +7,10 @@ tags:
 - core
 domain: ai-ml
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -28,7 +31,7 @@ foundation_candidate: true
 
 **Definition.** Tom Mitchell's classic definition: a program learns from experience E with respect to a task T and performance measure P if its performance at T, measured by P, improves with E. In practice, ML fits the parameters of a model to training data so it can make predictions or decisions on new data. ISO/IEC 23053 describes the framework for ML-based AI systems.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

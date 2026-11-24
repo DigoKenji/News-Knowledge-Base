@@ -2,16 +2,16 @@
 
 ## Núcleo
 
-- [Tríade CIA (confidencialidade, integridade, disponibilidade)](/pt-br/concepts/security/cia-triad.md) — core · **rascunho**
-- [Ameaça, vulnerabilidade e risco](/pt-br/concepts/security/threat-vulnerability-risk.md) — core · **rascunho**
-- [Autenticação vs autorização](/pt-br/concepts/security/authentication-authorization.md) — core · **rascunho**
-- [Privilégio mínimo e defesa em profundidade](/pt-br/concepts/security/least-privilege.md) — core · **rascunho**
-- [Criptografia](/pt-br/concepts/security/encryption.md) — core · **rascunho**
-- [Gestão de identidades e acessos (IAM)](/pt-br/concepts/security/identity-access-management.md) — core · **rascunho**
-- [Superfície de ataque](/pt-br/concepts/security/attack-surface.md) — core · **rascunho**
-- [Desenvolvimento seguro de software (SSDLC)](/pt-br/concepts/security/secure-software-development.md) — core · **rascunho**
-- [Classes comuns de vulnerabilidade](/pt-br/concepts/security/common-vulnerability-classes.md) — core · **rascunho**
-- [Segurança de IA e machine learning adversarial](/pt-br/concepts/security/ai-security.md) — core · **rascunho**
+- [Tríade CIA (confidencialidade, integridade, disponibilidade)](/pt-br/concepts/security/cia-triad.md) — core
+- [Ameaça, vulnerabilidade e risco](/pt-br/concepts/security/threat-vulnerability-risk.md) — core
+- [Autenticação vs autorização](/pt-br/concepts/security/authentication-authorization.md) — core
+- [Privilégio mínimo e defesa em profundidade](/pt-br/concepts/security/least-privilege.md) — core
+- [Criptografia](/pt-br/concepts/security/encryption.md) — core
+- [Gestão de identidades e acessos (IAM)](/pt-br/concepts/security/identity-access-management.md) — core
+- [Superfície de ataque](/pt-br/concepts/security/attack-surface.md) — core
+- [Desenvolvimento seguro de software (SSDLC)](/pt-br/concepts/security/secure-software-development.md) — core
+- [Classes comuns de vulnerabilidade](/pt-br/concepts/security/common-vulnerability-classes.md) — core
+- [Segurança de IA e machine learning adversarial](/pt-br/concepts/security/ai-security.md) — core
 
 ## Específicos
 

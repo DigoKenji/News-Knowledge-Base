@@ -7,7 +7,10 @@ tags:
 - core
 domain: ai-ml
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -27,7 +30,7 @@ sources:
 
 **Definition.** Evaluation estimates real-world performance by testing on held-out data and summarising results with metrics that reflect what matters for the use case. Precision is the share of predicted positives that are correct; recall is the share of actual positives found; F1 balances them. Regression uses MAE or RMSE. ISO/IEC TS 4213 standardises how to assess classification performance.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

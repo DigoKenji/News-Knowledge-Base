@@ -7,7 +7,10 @@ tags:
 - core
 domain: ai-ml
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -27,7 +30,7 @@ sources:
 
 **Definition.** An LLM learns language, facts and reasoning patterns as a by-product of predicting the next token over trillions of tokens (self-supervised pre-training). Post-training (supervised fine-tuning on instructions, RLHF and similar) turns it into an assistant. Stanford's CRFM coined "foundation model" (2021) for models trained on broad data at scale that can be adapted to a wide range of tasks; LLMs are the main example, and many are now multimodal.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

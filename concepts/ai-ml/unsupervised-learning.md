@@ -7,7 +7,10 @@ tags:
 - core
 domain: ai-ml
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -28,7 +31,7 @@ foundation_candidate: true
 
 **Definition.** Unsupervised learning models the structure of unlabelled data: clustering (k-means), dimensionality reduction (PCA), density estimation and anomaly detection. Self-supervised learning is a modern variant that turns unlabelled data into a supervised task by hiding part of the input and training the model to predict it.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

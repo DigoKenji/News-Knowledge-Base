@@ -7,7 +7,10 @@ tags:
 - core
 domain: ai-ml
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -29,7 +32,7 @@ translation_of: /concepts/ai-ml/large-language-model.md
 
 **Definição.** Um LLM aprende linguagem, fatos e padrões de raciocínio como subproduto de prever o próximo token em trilhões de tokens (pré-treino auto-supervisionado). O pós-treino (fine-tuning supervisionado com instruções, RLHF e similares) o transforma num assistente. O CRFM de Stanford cunhou "foundation model" (2021) para modelos treinados em dados amplos e em escala que podem ser adaptados a muitas tarefas; os LLMs são o principal exemplo, e muitos já são multimodais.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

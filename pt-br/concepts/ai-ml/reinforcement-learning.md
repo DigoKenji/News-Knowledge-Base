@@ -7,7 +7,10 @@ tags:
 - core
 domain: ai-ml
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -30,7 +33,7 @@ translation_of: /concepts/ai-ml/reinforcement-learning.md
 
 **Definição.** No aprendizado por reforço (RL) um agente observa um estado, executa uma ação, recebe uma recompensa e um novo estado, e aprende uma política (uma regra para escolher ações) que maximiza a recompensa de longo prazo. A dificuldade central é o equilíbrio entre explorar ações novas e aproveitar o que já funciona, e atribuir recompensas a ações tomadas muito antes.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

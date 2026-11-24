@@ -2,18 +2,18 @@
 
 ## Core
 
-- [Artificial intelligence](/concepts/ai-ml/artificial-intelligence.md) — core · **draft**
-- [Machine learning](/concepts/ai-ml/machine-learning.md) — core · **draft**
-- [Supervised learning](/concepts/ai-ml/supervised-learning.md) — core · **draft**
-- [Unsupervised and self-supervised learning](/concepts/ai-ml/unsupervised-learning.md) — core · **draft**
-- [Reinforcement learning](/concepts/ai-ml/reinforcement-learning.md) — core · **draft**
-- [Neural networks and deep learning](/concepts/ai-ml/deep-learning.md) — core · **draft**
-- [Training vs inference](/concepts/ai-ml/training-vs-inference.md) — core · **draft**
-- [Overfitting and generalisation](/concepts/ai-ml/overfitting.md) — core · **draft**
-- [Model evaluation and metrics](/concepts/ai-ml/model-evaluation.md) — core · **draft**
-- [Transformer and attention](/concepts/ai-ml/transformer.md) — core · **draft**
-- [Large language model and foundation model](/concepts/ai-ml/large-language-model.md) — core · **draft**
-- [Embedding](/concepts/ai-ml/embedding.md) — core · **draft**
+- [Artificial intelligence](/concepts/ai-ml/artificial-intelligence.md) — core
+- [Machine learning](/concepts/ai-ml/machine-learning.md) — core
+- [Supervised learning](/concepts/ai-ml/supervised-learning.md) — core
+- [Unsupervised and self-supervised learning](/concepts/ai-ml/unsupervised-learning.md) — core
+- [Reinforcement learning](/concepts/ai-ml/reinforcement-learning.md) — core
+- [Neural networks and deep learning](/concepts/ai-ml/deep-learning.md) — core
+- [Training vs inference](/concepts/ai-ml/training-vs-inference.md) — core
+- [Overfitting and generalisation](/concepts/ai-ml/overfitting.md) — core
+- [Model evaluation and metrics](/concepts/ai-ml/model-evaluation.md) — core
+- [Transformer and attention](/concepts/ai-ml/transformer.md) — core
+- [Large language model and foundation model](/concepts/ai-ml/large-language-model.md) — core
+- [Embedding](/concepts/ai-ml/embedding.md) — core
 
 ## Specialised
 

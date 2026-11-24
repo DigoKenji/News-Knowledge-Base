@@ -7,7 +7,10 @@ tags:
 - core
 domain: security
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -28,7 +31,7 @@ foundation_candidate: true
 
 **Definition.** NIST's adversarial machine learning taxonomy (AI 100-2) classifies attacks by the system's lifecycle stage and the attacker's goal: evasion (inputs crafted to cause wrong outputs), poisoning (corrupting training data or models), privacy attacks (extracting training data or the model itself), and, for generative AI, abuse such as prompt injection and jailbreaks. AI security also covers ordinary security of the surrounding system, since models run inside applications with data, credentials and tools.
 
-Domain: [security](/domains/security.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [security](/domains/security.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

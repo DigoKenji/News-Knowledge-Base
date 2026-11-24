@@ -7,7 +7,10 @@ tags:
 - core
 domain: security
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -30,7 +33,7 @@ translation_of: /concepts/security/authentication-authorization.md
 
 **Definição.** Autenticação (authn) prova uma alegação de identidade usando fatores: algo que você sabe (senha), tem (chave de segurança, celular) ou é (biometria); autenticação multifator combina dois ou mais. Autorização (authz) aplica uma política à identidade autenticada para conceder ou negar acesso a um recurso ou ação, usando modelos como controle de acesso baseado em papéis (RBAC) ou em atributos (ABAC).
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

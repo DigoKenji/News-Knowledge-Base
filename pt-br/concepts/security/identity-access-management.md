@@ -7,7 +7,10 @@ tags:
 - core
 domain: security
 subdomain: core
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-24'
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
   at: '2026-11-24T20:45:00-03:00'
@@ -29,7 +32,7 @@ translation_of: /concepts/security/identity-access-management.md
 
 **Definição.** IAM responde "quem é este, e o que pode fazer?" em toda uma organização. Inclui o ciclo de vida da identidade (entrada, mudança, saída), um provedor de identidade que autentica usuários, single sign-on e federação com padrões como SAML e OpenID Connect, modelos de permissão (papéis, políticas) e governança (revisões periódicas de acesso, logs de auditoria). Provedores de nuvem têm seus próprios serviços de IAM para controlar o acesso a recursos.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 
