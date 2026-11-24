@@ -1,6 +1,8 @@
 # Log
 
 ## 2026-11-24
+- **Update:** All 45 draft concepts (and their pt-br twins) expanded from one-liners into full entries: definition, how it works, trade-offs, example, and 3+ independent sources each (147 links checked). Still drafts; checklist refreshed.
+- **Review:** Certification checklist /reviews/2026-11-24-certification.md with all 45 draft concepts and 10 draft foundations, waiting for Kenji.
 - **Creation:** Daily run: 10 notes (2 architecture-lane picks, 8 discovery picks incl. 2 arXiv), 5 draft concepts, 9 foundation candidates, digest /digests/daily/2026-11-24.md. Lookback since 2026-11-22 (no run on 2026-11-23). Inbox empty; no Fetched Medium rows; PC queue at 13, no refill. Raschka's short post was swapped for a deeper CIO.com pick.
 
 ## 2026-11-22
