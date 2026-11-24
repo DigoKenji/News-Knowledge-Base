@@ -124,9 +124,9 @@ Interpretação, não a afirmação dos autores: uma replicação como esta serv
 - Teste exato de Fisher e procedimento de Benjamini–Hochberg — como o artigo decide se uma replicação é apoiada.
 
 ## Conceitos
-- [ai-agent](/pt-br/concepts/ai-agent.md)
-- [agent-harness](/pt-br/concepts/agent-harness.md)
-- [indirect-prompt-injection](/pt-br/concepts/indirect-prompt-injection.md)
-- [model-context-protocol](/pt-br/concepts/model-context-protocol.md)
-- [information-flow-control](/pt-br/concepts/information-flow-control.md)
-- [llm-as-a-judge](/pt-br/concepts/llm-as-a-judge.md)
+- [ai-agent](/pt-br/concepts/ai-ml/ai-agent.md)
+- [agent-harness](/pt-br/concepts/ai-ml/agent-harness.md)
+- [indirect-prompt-injection](/pt-br/concepts/security/indirect-prompt-injection.md)
+- [model-context-protocol](/pt-br/concepts/ai-ml/model-context-protocol.md)
+- [information-flow-control](/pt-br/concepts/security/information-flow-control.md)
+- [llm-as-a-judge](/pt-br/concepts/ai-ml/llm-as-a-judge.md)

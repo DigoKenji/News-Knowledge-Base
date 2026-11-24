@@ -34,7 +34,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d81c6b6b5ce6f714ab326
 **Source:** https://aws.amazon.com/blogs/architecture/announcing-updates-to-the-aws-well-architected-framework-3/
 **Author:** AWS Architecture Blog
 **Date:** 2026-11-16
-**Concepts:** [Well-Architected Framework](/concepts/well-architected.md)
+**Concepts:** [Well-Architected Framework](/concepts/cloud-infra/well-architected.md)
 
 ---
 

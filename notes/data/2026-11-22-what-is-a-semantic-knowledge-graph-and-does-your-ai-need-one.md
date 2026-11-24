@@ -139,7 +139,7 @@ For a Staff Architect deciding how agents get enterprise context, the semantic l
 - Retrieval-augmented generation with vector databases — the older approach the article contrasts with knowledge graphs for agent work.
 
 ## Concepts
-- [Knowledge graph](/concepts/knowledge-graph.md)
-- [Retrieval-augmented generation](/concepts/rag.md)
-- [AI agent](/concepts/ai-agent.md)
-- [Multi-agent orchestration](/concepts/multi-agent-orchestration.md)
+- [Knowledge graph](/concepts/data/knowledge-graph.md)
+- [Retrieval-augmented generation](/concepts/ai-ml/rag.md)
+- [AI agent](/concepts/ai-ml/ai-agent.md)
+- [Multi-agent orchestration](/concepts/ai-ml/multi-agent-orchestration.md)

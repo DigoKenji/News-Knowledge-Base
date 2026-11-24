@@ -241,4 +241,4 @@ Esta é a sua interpretação, não a do autor. Para um Staff Architect, a ideia
 - Descarte de carga com filas limitadas — como rejeitar ou expirar trabalho antes que ele desperdice capacidade escassa.
 
 ## Conceitos
-[Tempestade de retentativas](/pt-br/concepts/retry-storm.md) · [Limite de concorrência adaptativo](/pt-br/concepts/adaptive-concurrency-limit.md)
+[Tempestade de retentativas](/pt-br/concepts/backend-systems/retry-storm.md) · [Limite de concorrência adaptativo](/pt-br/concepts/backend-systems/adaptive-concurrency-limit.md)

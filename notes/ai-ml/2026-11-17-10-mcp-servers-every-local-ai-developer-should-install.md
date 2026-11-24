@@ -34,7 +34,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d8155b635d054cf401bbc
 **Source:** https://medium.com/python-in-plain-english/10-mcp-servers-every-local-ai-developer-should-install-3d80ddb24001
 **Author:** Arham Ali
 **Date:** 2026-09-17
-**Concepts:** [Model Context Protocol (MCP)](/concepts/model-context-protocol.md)
+**Concepts:** [Model Context Protocol (MCP)](/concepts/ai-ml/model-context-protocol.md)
 
 ---
 

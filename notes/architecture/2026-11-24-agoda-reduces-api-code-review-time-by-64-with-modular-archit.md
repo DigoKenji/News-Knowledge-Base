@@ -177,5 +177,5 @@ This is a useful case for an architect who has inherited a tangled service and c
 - Data Mapper pattern — the persistence pattern used to keep storage models out of business logic.
 
 ## 🔗 Concepts
-- [bounded-context](/concepts/bounded-context.md)
-- [Modular monolith](/concepts/modular-monolith.md)
+- [bounded-context](/concepts/backend-systems/bounded-context.md)
+- [Modular monolith](/concepts/architecture/modular-monolith.md)

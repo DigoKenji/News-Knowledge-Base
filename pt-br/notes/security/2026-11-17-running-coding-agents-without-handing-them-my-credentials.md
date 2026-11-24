@@ -36,7 +36,7 @@ translation_of: /notes/security/2026-11-17-running-coding-agents-without-handing
 **Fonte:** https://blog.antonio.cx/running-agents-with-lend
 **Autor:** Antonio Mika
 **Data:** 2026-11-13
-**Conceitos:** [Model Context Protocol (MCP)](/pt-br/concepts/model-context-protocol.md)
+**Conceitos:** [Model Context Protocol (MCP)](/pt-br/concepts/ai-ml/model-context-protocol.md)
 
 ---
 

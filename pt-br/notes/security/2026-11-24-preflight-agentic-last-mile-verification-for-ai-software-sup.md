@@ -114,7 +114,7 @@ Esta é uma interpretação, não uma afirmação dos autores. O lugar natural p
 - DySec, análise dinâmica baseada em ML para pacotes PyPI maliciosos (IEEE TIFS 2026) — uma alternativa aprendida aos vereditos comportamentais baseados em regras.
 
 ## 🔗 Conceitos
-- [ai-agent](/pt-br/concepts/ai-agent.md)
-- [threat-modeling](/pt-br/concepts/threat-modeling.md)
-- [zero-trust-architecture](/pt-br/concepts/zero-trust-architecture.md)
-- [Supply-chain attack](/pt-br/concepts/supply-chain-attack.md)
+- [ai-agent](/pt-br/concepts/ai-ml/ai-agent.md)
+- [threat-modeling](/pt-br/concepts/security/threat-modeling.md)
+- [zero-trust-architecture](/pt-br/concepts/security/zero-trust-architecture.md)
+- [Supply-chain attack](/pt-br/concepts/security/supply-chain-attack.md)

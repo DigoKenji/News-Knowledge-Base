@@ -34,7 +34,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d81879d26f4d4e6e9d194
 **Source:** https://medium.com/@anulagarwal12/jev-ai-explained-the-new-model-making-ai-decisions-ridiculously-cheap-24de2a6b7d37
 **Author:** Anul Agarwal
 **Date:** 2026-09-20
-**Concepts:** [Structured decision model](/concepts/structured-decision-model.md)
+**Concepts:** [Structured decision model](/concepts/ai-ml/structured-decision-model.md)
 
 ---
 

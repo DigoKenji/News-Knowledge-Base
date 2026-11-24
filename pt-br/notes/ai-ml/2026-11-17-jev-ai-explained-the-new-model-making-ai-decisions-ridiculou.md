@@ -36,7 +36,7 @@ translation_of: /notes/ai-ml/2026-11-17-jev-ai-explained-the-new-model-making-ai
 **Fonte:** https://medium.com/@anulagarwal12/jev-ai-explained-the-new-model-making-ai-decisions-ridiculously-cheap-24de2a6b7d37
 **Autor:** Anul Agarwal
 **Data:** 2026-09-20
-**Conceitos:** [Modelo de decisão estruturada](/pt-br/concepts/structured-decision-model.md)
+**Conceitos:** [Modelo de decisão estruturada](/pt-br/concepts/ai-ml/structured-decision-model.md)
 
 ---
 

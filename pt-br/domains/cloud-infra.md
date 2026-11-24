@@ -26,8 +26,8 @@ translation_of: /domains/cloud-infra.md
 - `containers`
 
 ## Conceitos
-- [Well-Architected Framework](/pt-br/concepts/well-architected.md)
-- [Deploy canary / blue-green](/pt-br/concepts/canary-deploy.md)
+- [Well-Architected Framework](/pt-br/concepts/cloud-infra/well-architected.md)
+- [Deploy canary / blue-green](/pt-br/concepts/cloud-infra/canary-deploy.md)
 
 ## Notas
 Os resumos deste domínio ficam em [/notes/cloud-infra/](/pt-br/notes/cloud-infra/index.md).

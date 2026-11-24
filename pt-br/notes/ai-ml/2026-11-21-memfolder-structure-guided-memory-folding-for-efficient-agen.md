@@ -115,7 +115,7 @@ Interpretação, não afirmação dos autores: se você executa um assistente de
 - Clustering by fast search and find of density peaks (Rodriguez and Laio, 2014) — o critério de picos de densidade usado para escolher a primeira âncora.
 
 ## Conceitos
-- [ai-agent](/pt-br/concepts/ai-agent.md)
-- [rag](/pt-br/concepts/rag.md)
-- [llm-as-a-judge](/pt-br/concepts/llm-as-a-judge.md)
-- [agent-memory](/pt-br/concepts/agent-memory.md)
+- [ai-agent](/pt-br/concepts/ai-ml/ai-agent.md)
+- [rag](/pt-br/concepts/ai-ml/rag.md)
+- [llm-as-a-judge](/pt-br/concepts/ai-ml/llm-as-a-judge.md)
+- [agent-memory](/pt-br/concepts/ai-ml/agent-memory.md)

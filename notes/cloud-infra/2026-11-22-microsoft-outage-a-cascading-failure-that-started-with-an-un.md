@@ -129,6 +129,6 @@ This is your interpretation, not the author's. In an architect's work, the lesso
 - Failure domains and cell-based isolation — to understand how shared dependencies defeat redundancy, the core issue in the gateway failover.
 
 ## Concepts
-- [Correlated failure](/concepts/correlated-failure.md)
-- [Silent failure](/concepts/silent-failure.md)
-- [Cascading failure](/concepts/cascading-failure.md)
+- [Correlated failure](/concepts/backend-systems/correlated-failure.md)
+- [Silent failure](/concepts/backend-systems/silent-failure.md)
+- [Cascading failure](/concepts/backend-systems/cascading-failure.md)

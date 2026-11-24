@@ -123,4 +123,4 @@ _Interpretation, not the authors' claim:_ ATI would sit as a security proxy in f
 - Confidential computing attestation with TPM and TEE hardware — what the authors say would strengthen the host-trust gap.
 
 ## Concepts
-[Multi-agent orchestration](/concepts/multi-agent-orchestration.md) · [Model Context Protocol (MCP)](/concepts/model-context-protocol.md) · [OAuth 2.0](/concepts/oauth2.md) · [OpenID Connect](/concepts/oidc.md) · [Threat modeling](/concepts/threat-modeling.md) · [Indirect prompt injection](/concepts/indirect-prompt-injection.md) · [Zero-trust architecture](/concepts/zero-trust-architecture.md)
+[Multi-agent orchestration](/concepts/ai-ml/multi-agent-orchestration.md) · [Model Context Protocol (MCP)](/concepts/ai-ml/model-context-protocol.md) · [OAuth 2.0](/concepts/security/oauth2.md) · [OpenID Connect](/concepts/security/oidc.md) · [Threat modeling](/concepts/security/threat-modeling.md) · [Indirect prompt injection](/concepts/security/indirect-prompt-injection.md) · [Zero-trust architecture](/concepts/security/zero-trust-architecture.md)

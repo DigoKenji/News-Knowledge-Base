@@ -172,4 +172,4 @@ This is your interpretation, not the author's. For a Staff Architect, the practi
 - Business continuity testing for critical services — how to test failover against real traffic and usability targets.
 
 ## 🔗 Concepts
-- [correlated-failure](/concepts/correlated-failure.md)
+- [correlated-failure](/concepts/backend-systems/correlated-failure.md)

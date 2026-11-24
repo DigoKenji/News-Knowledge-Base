@@ -117,5 +117,5 @@ This is your interpretation, not the author's. In a platform architecture, corre
 - PROXY protocol — the proxy handling that Google corrected in its second fix.
 
 ## Concepts
-- [control-plane](/concepts/control-plane.md)
+- [control-plane](/concepts/backend-systems/control-plane.md)
 

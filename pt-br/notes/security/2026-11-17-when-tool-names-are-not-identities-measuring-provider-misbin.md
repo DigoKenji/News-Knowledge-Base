@@ -38,7 +38,7 @@ translation_of: /notes/security/2026-11-17-when-tool-names-are-not-identities-me
 **Fonte:** https://arxiv.org/abs/2611.21577
 **Autores:** Zeynab Anbiaee, Sajjad Dadkhah, Ali A. Ghorbani
 **Data:** 2026-11-16
-**Conceitos:** [Modelagem de ameaças](/pt-br/concepts/threat-modeling.md) · [Model Context Protocol (MCP)](/pt-br/concepts/model-context-protocol.md)
+**Conceitos:** [Modelagem de ameaças](/pt-br/concepts/security/threat-modeling.md) · [Model Context Protocol (MCP)](/pt-br/concepts/ai-ml/model-context-protocol.md)
 
 ---
 

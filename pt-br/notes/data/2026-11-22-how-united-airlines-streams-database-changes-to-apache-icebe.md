@@ -279,5 +279,5 @@ Este é o padrão para um feed de dados de referência quase em tempo real em um
 - Manutenção de tabelas Iceberg (compactação e expiração de snapshots) — como manter arquivos pequenos e arquivos de exclusão longe de deixar as leituras lentas.
 
 ## Conceitos
-- [Fila de mensagens mortas (dead-letter queue)](/pt-br/concepts/dead-letter-queue.md)
-- [Captura de dados de alteração (change data capture)](/pt-br/concepts/change-data-capture.md)
+- [Fila de mensagens mortas (dead-letter queue)](/pt-br/concepts/backend-systems/dead-letter-queue.md)
+- [Captura de dados de alteração (change data capture)](/pt-br/concepts/data/change-data-capture.md)

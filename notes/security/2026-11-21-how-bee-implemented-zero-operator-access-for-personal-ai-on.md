@@ -167,5 +167,5 @@ The extracted article text includes link text only, not URLs, so each item below
 - AWS Service Control Policies — how separation of duties is enforced across accounts.
 
 ## Concepts
-- [zero-trust-architecture](/concepts/zero-trust-architecture.md)
-- [remote-attestation](/concepts/remote-attestation.md)
+- [zero-trust-architecture](/concepts/security/zero-trust-architecture.md)
+- [remote-attestation](/concepts/security/remote-attestation.md)

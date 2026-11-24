@@ -251,6 +251,6 @@ Your interpretation, not the author's: this matters for any enterprise architect
 - Agentic commerce protocols and MCP — the article is cautious about UCP and ACP, so the current state is worth checking yourself.
 
 ## Concepts
-- [AI agent](/concepts/ai-agent.md)
-- [Model Context Protocol (MCP)](/concepts/model-context-protocol.md)
-- [Bounded context](/concepts/bounded-context.md)
+- [AI agent](/concepts/ai-ml/ai-agent.md)
+- [Model Context Protocol (MCP)](/concepts/ai-ml/model-context-protocol.md)
+- [Bounded context](/concepts/backend-systems/bounded-context.md)

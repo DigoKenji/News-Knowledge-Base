@@ -76,7 +76,7 @@ Build scenarios from observed usage, red-team transcripts and incident reports, 
 Avoid contamination (use data newer than the training cutoff), close shortcuts such as reward hacking, and randomize details like answer order. Single-turn suites sit at 94% to 98% harmless response rates, so make saturated evals harder while preserving the construct, not with trick questions.
 
 ### Carefully calibrate your grader
-Most modern evals use another model as an [LLM-as-a-judge](/concepts/llm-as-a-judge.md), since no human team can read every transcript. Graders can fail silently, so the post recommends:
+Most modern evals use another model as an [LLM-as-a-judge](/concepts/ai-ml/llm-as-a-judge.md), since no human team can read every transcript. Graders can fail silently, so the post recommends:
 
 - Use atomic yes/no criteria rather than one holistic score, and state what does not meet each one.
 - Keep the grader blind to design metadata, prefer a different model than the one tested, and check for length and position bias.

@@ -40,7 +40,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d811ca5cbf40ffc57c3cd
 **Source:** https://medium.com/@ravjot03/jev-vs-llms-do-ai-agents-really-need-a-language-model-for-every-decision-fbf9240a28e3
 **Author:** Ravjot Singh
 **Date:** 2026-09-22
-**Concepts:** [Multi-agent orchestration](/concepts/multi-agent-orchestration.md) · [Inference throughput/latency/cost](/concepts/inference-tradeoffs.md) · [LLM-as-a-judge](/concepts/llm-as-a-judge.md) · [Structured decision model](/concepts/structured-decision-model.md)
+**Concepts:** [Multi-agent orchestration](/concepts/ai-ml/multi-agent-orchestration.md) · [Inference throughput/latency/cost](/concepts/ai-ml/inference-tradeoffs.md) · [LLM-as-a-judge](/concepts/ai-ml/llm-as-a-judge.md) · [Structured decision model](/concepts/ai-ml/structured-decision-model.md)
 
 ---
 

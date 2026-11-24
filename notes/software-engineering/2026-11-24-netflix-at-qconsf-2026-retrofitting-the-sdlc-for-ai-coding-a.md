@@ -182,8 +182,8 @@ The last rule carries the most weight in the article's own practice. Changes are
 - The Robots Exclusion Protocol (robots.txt): the search-engine convention behind the team's findability analogy.
 
 ## 🔗 Concepts
-- [ai-agent](/concepts/ai-agent.md)
-- [adr](/concepts/adr.md)
-- [graph-rag](/concepts/graph-rag.md)
-- [model-context-protocol](/concepts/model-context-protocol.md)
-- [Context engineering](/concepts/context-engineering.md)
+- [ai-agent](/concepts/ai-ml/ai-agent.md)
+- [adr](/concepts/backend-systems/adr.md)
+- [graph-rag](/concepts/ai-ml/graph-rag.md)
+- [model-context-protocol](/concepts/ai-ml/model-context-protocol.md)
+- [Context engineering](/concepts/ai-ml/context-engineering.md)

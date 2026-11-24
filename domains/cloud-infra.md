@@ -24,8 +24,8 @@ resource: https://app.notion.com/p/38bbaf74172d81b18f28d2fdbbd48245
 - `containers`
 
 ## Concepts
-- [Well-Architected Framework](/concepts/well-architected.md)
-- [Canary / blue-green deploy](/concepts/canary-deploy.md)
+- [Well-Architected Framework](/concepts/cloud-infra/well-architected.md)
+- [Canary / blue-green deploy](/concepts/cloud-infra/canary-deploy.md)
 
 ## Notes
 Summaries in this domain live in [/notes/cloud-infra/](/notes/cloud-infra/index.md).

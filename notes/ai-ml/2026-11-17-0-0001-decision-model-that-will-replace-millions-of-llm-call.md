@@ -42,7 +42,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d81d0b5f9edc20efc83c4
 **Source:** https://medium.com/@agentnativedev/0-0001-decision-model-that-will-replace-millions-of-llm-calls-4633222ff7ab
 **Author:** Agent Native
 **Date:** 2026-09-18
-**Concepts:** [Inference throughput/latency/cost](/concepts/inference-tradeoffs.md) · [LLM-as-a-judge](/concepts/llm-as-a-judge.md) · [Multi-agent orchestration](/concepts/multi-agent-orchestration.md) · [Retrieval-augmented generation](/concepts/rag.md) · [Calibration](/concepts/calibration.md)
+**Concepts:** [Inference throughput/latency/cost](/concepts/ai-ml/inference-tradeoffs.md) · [LLM-as-a-judge](/concepts/ai-ml/llm-as-a-judge.md) · [Multi-agent orchestration](/concepts/ai-ml/multi-agent-orchestration.md) · [Retrieval-augmented generation](/concepts/ai-ml/rag.md) · [Calibration](/concepts/ai-ml/calibration.md)
 
 ---
 

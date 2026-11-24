@@ -48,11 +48,11 @@ translation_of: /notes/ai-ml/2026-11-16-callo-speculative-decoding-invalidated-k
 
 ## 📄 Resumo (em linguagem simples)
 
-Sessões de agentes frequentemente editam o seu contexto, o que invalida o [cache KV](/pt-br/concepts/kv-cache.md) do sufixo editado e força um novo prefill antes da decodificação. O CALLO gera rascunhos de tokens a partir desse KV invalidado enquanto o KV exato é recalculado, e então verifica os rascunhos contra o KV exato antes de confirmá-los. Em um testbed com duas GPUs e o SWE-agent, ele relata speedups de 1,05 a 1,19× sobre o vLLM para todas as requisições, com carga moderada.
+Sessões de agentes frequentemente editam o seu contexto, o que invalida o [cache KV](/pt-br/concepts/ai-ml/kv-cache.md) do sufixo editado e força um novo prefill antes da decodificação. O CALLO gera rascunhos de tokens a partir desse KV invalidado enquanto o KV exato é recalculado, e então verifica os rascunhos contra o KV exato antes de confirmá-los. Em um testbed com duas GPUs e o SWE-agent, ele relata speedups de 1,05 a 1,19× sobre o vLLM para todas as requisições, com carga moderada.
 
 ## 🎯 Contribuição central
 
-Os autores argumentam que a penalidade do miss é uma espera na instância de decodificação, e que essa instância já contém o KV invalidado, que está próximo o bastante do KV exato para servir de base aos rascunhos [Kwon et al., 2023]. As soluções existentes não se encaixam neste caso: a [Desagregação prefill-decode](/pt-br/concepts/prefill-decode-disaggregation.md) [Zhong et al., 2024] tira o prefill do caminho de decodificação, mas não ajuda a sessão afetada, e métodos de KV aproximado, como o de [Ma et al., 2026], podem alterar as saídas. O CALLO se mantém sem perdas ao usar o KV invalidado apenas para propor tokens e ao confirmar somente o que o KV exato confirma.
+Os autores argumentam que a penalidade do miss é uma espera na instância de decodificação, e que essa instância já contém o KV invalidado, que está próximo o bastante do KV exato para servir de base aos rascunhos [Kwon et al., 2023]. As soluções existentes não se encaixam neste caso: a [Desagregação prefill-decode](/pt-br/concepts/ai-ml/prefill-decode-disaggregation.md) [Zhong et al., 2024] tira o prefill do caminho de decodificação, mas não ajuda a sessão afetada, e métodos de KV aproximado, como o de [Ma et al., 2026], podem alterar as saídas. O CALLO se mantém sem perdas ao usar o KV invalidado apenas para propor tokens e ao confirmar somente o que o KV exato confirma.
 
 ## 🏗️ Metodologia
 
@@ -62,7 +62,7 @@ Um miss induzido por edição coloca o re-prefill exato no caminho crítico. O o
 
 ### Método proposto: CALLO
 
-O CALLO roda sobre um vLLM desagregado, com uma instância P (prefill) e uma instância D (decodificação). A instância D gera rascunhos com o modelo alvo sobre o KV invalidado reposicionado, usando [Decodificação especulativa](/pt-br/concepts/speculative-decoding.md) no sentido de rascunhar e verificar de [Leviathan et al., 2023] e [Chen et al., 2023].
+O CALLO roda sobre um vLLM desagregado, com uma instância P (prefill) e uma instância D (decodificação). A instância D gera rascunhos com o modelo alvo sobre o KV invalidado reposicionado, usando [Decodificação especulativa](/pt-br/concepts/ai-ml/speculative-decoding.md) no sentido de rascunhar e verificar de [Leviathan et al., 2023] e [Chen et al., 2023].
 
 ### Staging provisório do KV
 
@@ -114,7 +114,7 @@ Execuções com uma única requisição no Llama-3.3-70B (Tabela 4):
 
 ### Corretude e custos
 
-Em 1.928 eventos de verificação e 44.792 tokens confirmados, as execuções instrumentadas não mostram divergências de fingerprint de KV nem violações de aceitação, saída ou rollback. Requisições sem especulação no mesmo D-instance ficam cerca de 2% mais lentas com carga baixa e 6% mais lentas perto da capacidade; os ganhos informados já incluem esse custo. O resultado é um trade-off entre latência e capacidade do tipo discutido em [Throughput/latência/custo de inferência](/pt-br/concepts/inference-tradeoffs.md).
+Em 1.928 eventos de verificação e 44.792 tokens confirmados, as execuções instrumentadas não mostram divergências de fingerprint de KV nem violações de aceitação, saída ou rollback. Requisições sem especulação no mesmo D-instance ficam cerca de 2% mais lentas com carga baixa e 6% mais lentas perto da capacidade; os ganhos informados já incluem esse custo. O resultado é um trade-off entre latência e capacidade do tipo discutido em [Throughput/latência/custo de inferência](/pt-br/concepts/ai-ml/inference-tradeoffs.md).
 
 ### Simulação em escala de cluster
 

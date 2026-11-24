@@ -49,7 +49,7 @@ Um guia curto para equipes sobre qual modelo Claude serve a cada tipo de trabalh
 - **Opus 5.5:** programação e trabalho de conhecimento do dia a dia, como depurar uma release ou revisar um contrato.
 - **Fable 5.2:** os projetos mais difíceis e mais abertos, como grandes migrações ou planejamento de arquitetura.
 - **Sonnet 5.5:** tarefas bem delimitadas em que velocidade e uso importam.
-- **Haiku 5.5:** trabalho de alto volume e [subagentes](/pt-br/concepts/multi-agent-orchestration.md) via API. Os trade-offs de vazão e custo por trás dessa escolha estão em [Vazão/latência/custo de inferência](/pt-br/concepts/inference-tradeoffs.md).
+- **Haiku 5.5:** trabalho de alto volume e [subagentes](/pt-br/concepts/ai-ml/multi-agent-orchestration.md) via API. Os trade-offs de vazão e custo por trás dessa escolha estão em [Vazão/latência/custo de inferência](/pt-br/concepts/ai-ml/inference-tradeoffs.md).
 - **Mythos 5.2:** cibersegurança e biologia avançada.
 
 > A ideia central: escolha o modelo pelo formato da tarefa (aberta, bem delimitada ou de alto volume), em vez de usar um único modelo para tudo.

@@ -242,6 +242,6 @@ Isso se aplica diretamente ao trabalho de arquitetura no nível Staff, porque o 
 - Migração strangler fig — A substituição em etapas que o artigo descreve, com sistemas antigos e novos coexistindo.
 
 ## Conceitos
-- [bounded-context](/pt-br/concepts/bounded-context.md)
-- [ai-agent](/pt-br/concepts/ai-agent.md)
-- [strangler-fig](/pt-br/concepts/strangler-fig.md)
+- [bounded-context](/pt-br/concepts/backend-systems/bounded-context.md)
+- [ai-agent](/pt-br/concepts/ai-ml/ai-agent.md)
+- [strangler-fig](/pt-br/concepts/backend-systems/strangler-fig.md)

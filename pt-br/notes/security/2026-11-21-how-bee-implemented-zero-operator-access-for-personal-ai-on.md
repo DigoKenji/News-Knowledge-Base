@@ -168,5 +168,5 @@ O texto extraído do artigo inclui apenas o texto dos links, não as URLs, entã
 - AWS Service Control Policies — como a separação de funções é imposta entre contas.
 
 ## Conceitos
-- [zero-trust-architecture](/pt-br/concepts/zero-trust-architecture.md)
-- [remote-attestation](/pt-br/concepts/remote-attestation.md)
+- [zero-trust-architecture](/pt-br/concepts/security/zero-trust-architecture.md)
+- [remote-attestation](/pt-br/concepts/security/remote-attestation.md)

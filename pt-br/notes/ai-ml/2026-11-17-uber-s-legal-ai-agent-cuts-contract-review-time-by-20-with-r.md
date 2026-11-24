@@ -36,7 +36,7 @@ translation_of: /notes/ai-ml/2026-11-17-uber-s-legal-ai-agent-cuts-contract-revi
 **Fonte:** https://www.infoq.com/news/2026/11/uber-legal-redlining-agent/
 **Autor(a):** Leela Kumili
 **Data:** 2026-11-16
-**Conceitos:** [Geração aumentada por recuperação (RAG)](/pt-br/concepts/rag.md)
+**Conceitos:** [Geração aumentada por recuperação (RAG)](/pt-br/concepts/ai-ml/rag.md)
 
 ---
 

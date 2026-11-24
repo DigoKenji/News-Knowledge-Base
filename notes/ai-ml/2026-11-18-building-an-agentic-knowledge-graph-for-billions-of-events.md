@@ -801,7 +801,7 @@ The printed rows show three incident-related conversations, two of them urgent. 
 
 > ❌ **Anti-pattern — free-form model labels:** the model answers with whatever category it likes. **Why people do it:** JSON mode feels like enough structure. **Consequence:** the same conversation gets different labels on each run, and the labels cannot be counted. **Fix:** give the model a closed list read from the schema and validate every reply in code.
 
-This is the [structured decision model](/concepts/structured-decision-model.md) pattern applied to chat: typed outputs with fixed choices rather than free text.
+This is the [structured decision model](/concepts/ai-ml/structured-decision-model.md) pattern applied to chat: typed outputs with fixed choices rather than free text.
 
 ## Correlation Engine
 Every incident review asks what changed just before. Wikimedia logged 283,743 changes, one every 10.1 minutes, and the correlation code starts by counting how many changes sit near a moment.
@@ -1006,7 +1006,7 @@ On the 41 development failures with a named component, the topology lifts accura
 - Compares three rankings: the loudest signal, timing-only chains and topology chains.
 - Shows that topology chains raise top-three accuracy (AC@3) from 4.9% to 26.8%.
 
-Only 6% of the chains scoring above 0.9 pointed at the correct component, for a Brier score of 0.871. The score orders causes, and it is not a probability. The [calibration](/concepts/calibration.md) of the chain score is poor, so it should be read as a ranking.
+Only 6% of the chains scoring above 0.9 pointed at the correct component, for a Brier score of 0.871. The score orders causes, and it is not a probability. The [calibration](/concepts/ai-ml/calibration.md) of the chain score is poor, so it should be read as a ranking.
 
 > 🔎 Added context: the Brier score measures the mean squared gap between predicted probabilities and actual outcomes, where 0 is perfect and higher is worse. A score of 0.871 therefore shows the chain score is not a usable probability.
 
@@ -1014,7 +1014,7 @@ Only 6% of the chains scoring above 0.9 pointed at the correct component, for a 
 Each resolved failure comes with its answer, and every answer can teach the next investigation where to look. The full run learned how much more often each kind of signal sits on a root cause than on a bystander. Graded on lifts learned from the other failures, it put the right component first in 29.3% of them, against 4.9% for loudness. On a cluster it had never seen, it beat hand-written rules on 7 failures and lost on 8.
 
 ## Root-Cause Specialists
-Reading the evidence is the job of specialist agents. Each is an [agent harness](/concepts/agent-harness.md): a fixed model wrapped in typed tools, a turn limit and a required output shape. A specialist never reads raw data. Its typed tools return rows with ids it may cite, and they remember every id they gave out.
+Reading the evidence is the job of specialist agents. Each is an [agent harness](/concepts/ai-ml/agent-harness.md): a fixed model wrapped in typed tools, a turn limit and a required output shape. A specialist never reads raw data. Its typed tools return rows with ids it may cite, and they remember every id they gave out.
 
 ```python
 """agents.py: specialists with tools, a verifier for their evidence, a reconciler that may ask back."""
@@ -1535,4 +1535,4 @@ Your watsonx.governance background maps well onto the provenance layer: per-run 
 - W3C PROV-O and SHACL — the provenance vocabulary and the shape language behind the store and the validator.
 
 ## Concepts
-[Agent harness](/concepts/agent-harness.md) · [Structured decision model](/concepts/structured-decision-model.md) · [Calibration](/concepts/calibration.md) · [Knowledge graph](/concepts/knowledge-graph.md)
+[Agent harness](/concepts/ai-ml/agent-harness.md) · [Structured decision model](/concepts/ai-ml/structured-decision-model.md) · [Calibration](/concepts/ai-ml/calibration.md) · [Knowledge graph](/concepts/data/knowledge-graph.md)

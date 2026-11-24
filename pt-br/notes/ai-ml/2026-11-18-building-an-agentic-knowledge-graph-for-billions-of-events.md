@@ -802,7 +802,7 @@ As linhas impressas mostram três conversas relacionadas a incidentes, duas dela
 
 > ❌ **Anti-padrão — rótulos livres do modelo:** o modelo responde com qualquer categoria que preferir. **Por que as pessoas fazem isso:** o modo JSON parece estrutura suficiente. **Consequência:** a mesma conversa recebe rótulos diferentes a cada execução, e os rótulos não podem ser contados. **Correção:** dar ao modelo uma lista fechada lida do esquema e validar cada resposta em código.
 
-Isto é o padrão de [modelo de decisão estruturado](/pt-br/concepts/structured-decision-model.md) aplicado ao chat: saídas tipadas com escolhas fixas, em vez de texto livre.
+Isto é o padrão de [modelo de decisão estruturado](/pt-br/concepts/ai-ml/structured-decision-model.md) aplicado ao chat: saídas tipadas com escolhas fixas, em vez de texto livre.
 
 ## Motor de correlação
 Toda revisão de incidente pergunta o que mudou logo antes. A Wikimedia registrou 283,743 mudanças, uma a cada 10.1 minutos, e o código de correlação começa contando quantas mudanças ficam perto de um determinado momento.
@@ -1007,7 +1007,7 @@ Nas 41 falhas de desenvolvimento com um componente nomeado, a topologia melhora 
 - Compara três rankings: o sinal mais barulhento, cadeias apenas por tempo e cadeias por topologia.
 - Mostra que as cadeias por topologia elevam a precisão no top três (AC@3) de 4.9% para 26.8%.
 
-Apenas 6% das cadeias com pontuação acima de 0.9 apontaram para o componente correto, com um escore de Brier de 0.871. A pontuação ordena causas e não é uma probabilidade. A [calibração](/pt-br/concepts/calibration.md) do escore de cadeia é fraca, então ele deve ser lido como um ranking.
+Apenas 6% das cadeias com pontuação acima de 0.9 apontaram para o componente correto, com um escore de Brier de 0.871. A pontuação ordena causas e não é uma probabilidade. A [calibração](/pt-br/concepts/ai-ml/calibration.md) do escore de cadeia é fraca, então ele deve ser lido como um ranking.
 
 > 🔎 Contexto adicional: o escore de Brier mede a diferença quadrática média entre probabilidades previstas e resultados reais, em que 0 é perfeito e valores maiores são piores. Um escore de 0.871 mostra, portanto, que o escore de cadeia não é uma probabilidade utilizável.
 
@@ -1015,7 +1015,7 @@ Apenas 6% das cadeias com pontuação acima de 0.9 apontaram para o componente c
 Cada falha resolvida vem com a sua resposta, e cada resposta pode ensinar à próxima investigação onde olhar. A execução completa aprendeu o quanto cada tipo de sinal aparece com mais frequência em uma causa raiz do que em um espectador. Avaliado pelos ganhos aprendidos nas outras falhas, colocou o componente certo em primeiro lugar em 29.3% delas, contra 4.9% da intensidade. Em um cluster que nunca tinha visto, superou regras escritas à mão em 7 falhas e perdeu em 8.
 
 ## Especialistas em causa raiz
-Ler as evidências é o trabalho de agentes especialistas. Cada um é um [harness de agente](/pt-br/concepts/agent-harness.md): um modelo fixo envolto em ferramentas tipadas, com um limite de turnos e um formato de saída obrigatório. Um especialista nunca lê dados brutos. Suas ferramentas tipadas devolvem linhas com ids que ele pode citar, e lembram de cada id que entregaram.
+Ler as evidências é o trabalho de agentes especialistas. Cada um é um [harness de agente](/pt-br/concepts/ai-ml/agent-harness.md): um modelo fixo envolto em ferramentas tipadas, com um limite de turnos e um formato de saída obrigatório. Um especialista nunca lê dados brutos. Suas ferramentas tipadas devolvem linhas com ids que ele pode citar, e lembram de cada id que entregaram.
 
 ```python
 """agents.py: specialists with tools, a verifier for their evidence, a reconciler that may ask back."""
@@ -1536,4 +1536,4 @@ Sua experiência com watsonx.governance se encaixa bem na camada de proveniênci
 - W3C PROV-O e SHACL — o vocabulário de proveniência e a linguagem de formas por trás do armazenamento e do validador.
 
 ## Conceitos
-[Harness de agente](/pt-br/concepts/agent-harness.md) · [Modelo de decisão estruturado](/pt-br/concepts/structured-decision-model.md) · [Calibração](/pt-br/concepts/calibration.md) · [Grafo de conhecimento](/pt-br/concepts/knowledge-graph.md)
+[Harness de agente](/pt-br/concepts/ai-ml/agent-harness.md) · [Modelo de decisão estruturado](/pt-br/concepts/ai-ml/structured-decision-model.md) · [Calibração](/pt-br/concepts/ai-ml/calibration.md) · [Grafo de conhecimento](/pt-br/concepts/data/knowledge-graph.md)

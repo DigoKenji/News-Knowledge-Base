@@ -206,4 +206,4 @@ Esta é a sua interpretação, não a do autor. Na governança de arquitetura, o
 - Cenários de atributos de qualidade — o cartão de seis cenários do artigo; leia como uma resposta mensurável é especificada.
 
 ## 🔗 Conceitos
-- [adr](/pt-br/concepts/adr.md)
+- [adr](/pt-br/concepts/backend-systems/adr.md)

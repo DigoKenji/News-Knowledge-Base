@@ -350,5 +350,5 @@ This is your interpretation, not the author's: for architecture work, an evaluat
 - Clustered standard errors for rollout-based scores — how to avoid overstating confidence when tasks are few.
 
 ## 🔗 Concepts
-- [agent-harness](/concepts/agent-harness.md)
-- [ai-agent](/concepts/ai-agent.md)
+- [agent-harness](/concepts/ai-ml/agent-harness.md)
+- [ai-agent](/concepts/ai-ml/ai-agent.md)

@@ -77,7 +77,7 @@ Construa cenários a partir do uso observado, de transcrições de red-team e de
 Evite contaminação (use dados mais novos que o corte de treinamento), feche atalhos como reward hacking e randomize detalhes como a ordem das respostas. Suítes de turno único estão em taxas de resposta inofensiva entre 94% e 98%, então torne os evals saturados mais difíceis preservando o construto, e não com perguntas-armadilha.
 
 ### Calibre cuidadosamente o seu avaliador
-A maioria dos evals modernos usa outro modelo como [LLM-as-a-judge](/pt-br/concepts/llm-as-a-judge.md), já que nenhuma equipe humana consegue ler todas as transcrições. Avaliadores podem falhar em silêncio, então o post recomenda:
+A maioria dos evals modernos usa outro modelo como [LLM-as-a-judge](/pt-br/concepts/ai-ml/llm-as-a-judge.md), já que nenhuma equipe humana consegue ler todas as transcrições. Avaliadores podem falhar em silêncio, então o post recomenda:
 
 - Use critérios atômicos de sim/não em vez de uma pontuação holística, e informe o que não atende a cada um deles.
 - Mantenha o avaliador cego para os metadados do desenho, prefira um modelo diferente do que foi testado e verifique viés de tamanho e de posição.

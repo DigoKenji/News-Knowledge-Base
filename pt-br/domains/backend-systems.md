@@ -26,15 +26,15 @@ translation_of: /domains/backend-systems.md
 - `microservices`
 
 ## Conceitos
-- [Idempotência](/pt-br/concepts/idempotency.md)
-- [Teorema CAP](/pt-br/concepts/cap-theorem.md)
-- [Padrão Saga](/pt-br/concepts/saga-pattern.md)
-- [Migração strangler fig](/pt-br/concepts/strangler-fig.md)
-- [Contexto delimitado](/pt-br/concepts/bounded-context.md)
-- [Registro de decisão de arquitetura](/pt-br/concepts/adr.md)
-- [Análise de trade-offs ATAM](/pt-br/concepts/atam.md)
-- [gRPC](/pt-br/concepts/grpc.md)
-- [Versionamento de API](/pt-br/concepts/api-versioning.md)
+- [Idempotência](/pt-br/concepts/backend-systems/idempotency.md)
+- [Teorema CAP](/pt-br/concepts/backend-systems/cap-theorem.md)
+- [Padrão Saga](/pt-br/concepts/backend-systems/saga-pattern.md)
+- [Migração strangler fig](/pt-br/concepts/backend-systems/strangler-fig.md)
+- [Contexto delimitado](/pt-br/concepts/backend-systems/bounded-context.md)
+- [Registro de decisão de arquitetura](/pt-br/concepts/backend-systems/adr.md)
+- [Análise de trade-offs ATAM](/pt-br/concepts/backend-systems/atam.md)
+- [gRPC](/pt-br/concepts/backend-systems/grpc.md)
+- [Versionamento de API](/pt-br/concepts/backend-systems/api-versioning.md)
 
 ## Notas
 Os resumos deste domínio ficam em [/notes/backend-systems/](/pt-br/notes/backend-systems/index.md).

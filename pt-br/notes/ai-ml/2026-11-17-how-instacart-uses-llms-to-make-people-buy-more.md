@@ -38,7 +38,7 @@ translation_of: /notes/ai-ml/2026-11-17-how-instacart-uses-llms-to-make-people-b
 **Fonte:** https://blog.bytebytego.com/p/how-instacart-uses-llms-to-make-people
 **Autor:** ByteByteGo
 **Data:** 2026-11-16
-**Conceitos:** [Geração aumentada por recuperação (RAG)](/pt-br/concepts/rag.md) · [Vazão, latência e custo de inferência](/pt-br/concepts/inference-tradeoffs.md)
+**Conceitos:** [Geração aumentada por recuperação (RAG)](/pt-br/concepts/ai-ml/rag.md) · [Vazão, latência e custo de inferência](/pt-br/concepts/ai-ml/inference-tradeoffs.md)
 
 ---
 

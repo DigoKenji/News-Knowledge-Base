@@ -36,7 +36,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d81448119c16027420c89
 **Source:** https://medium.com/@kuriko-iwai/how-to-architect-semantic-chunking-pipelines-for-high-performance-rag-c539ea658865
 **Author:** Kuriko Iwai
 **Date:** 2026-09-29
-**Concepts:** [Retrieval-augmented generation](/concepts/rag.md) · [Parent-child chunking](/concepts/parent-child-chunking.md)
+**Concepts:** [Retrieval-augmented generation](/concepts/ai-ml/rag.md) · [Parent-child chunking](/concepts/ai-ml/parent-child-chunking.md)
 
 ---
 

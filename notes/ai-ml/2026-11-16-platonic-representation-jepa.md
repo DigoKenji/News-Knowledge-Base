@@ -39,7 +39,7 @@ notion_url: https://app.notion.com/p/41abaf74172d81d6b296dc0cc88b2882
 
 ## What This Is About
 
-The Platonic Representation Hypothesis says that models trained on different modalities, such as images and text, eventually learn similar representations of the world. The post's point is that how a model is trained matters more than simply scaling it up. It claims the researchers show mathematically that, under certain conditions, two [JEPA](/concepts/jepa.md)s trained completely separately learn essentially the same underlying representation. One learns from different images of the same scene, the other from different descriptions of that scene, and neither is trained on image-text pairs.
+The Platonic Representation Hypothesis says that models trained on different modalities, such as images and text, eventually learn similar representations of the world. The post's point is that how a model is trained matters more than simply scaling it up. It claims the researchers show mathematically that, under certain conditions, two [JEPA](/concepts/ai-ml/jepa.md)s trained completely separately learn essentially the same underlying representation. One learns from different images of the same scene, the other from different descriptions of that scene, and neither is trained on image-text pairs.
 
 ## Results Cited in the Post
 

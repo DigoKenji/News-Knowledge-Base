@@ -204,4 +204,4 @@ This is your interpretation, not the author's. In architecture governance, the a
 - Quality attribute scenarios — the article's six-scenario card; read how a measurable response is specified.
 
 ## 🔗 Concepts
-- [adr](/concepts/adr.md)
+- [adr](/concepts/backend-systems/adr.md)

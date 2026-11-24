@@ -46,11 +46,11 @@ notion_url: https://app.notion.com/p/41abaf74172d8191acbce9e684f19975
 
 ## 📄 Abstract (in plain language)
 
-Agent sessions often edit their context, which invalidates the [KV cache](/concepts/kv-cache.md) of the edited suffix and forces a re-prefill before decoding. CALLO drafts tokens from this invalidated KV while exact KV is recomputed, then verifies drafts against exact KV before committing them. On a two-GPU SWE-agent testbed it reports all-request speedups of 1.05–1.19× over vLLM at moderate load.
+Agent sessions often edit their context, which invalidates the [KV cache](/concepts/ai-ml/kv-cache.md) of the edited suffix and forces a re-prefill before decoding. CALLO drafts tokens from this invalidated KV while exact KV is recomputed, then verifies drafts against exact KV before committing them. On a two-GPU SWE-agent testbed it reports all-request speedups of 1.05–1.19× over vLLM at moderate load.
 
 ## 🎯 Core Contribution
 
-The authors argue that the miss penalty is a wait on the decode instance, and that this instance already holds the invalidated KV, which is close enough to the exact KV to draft from [Kwon et al., 2023]. Existing remedies do not fit this case: [Prefill-decode disaggregation](/concepts/prefill-decode-disaggregation.md) [Zhong et al., 2024] moves prefill off the decode path but does not help the affected session, and approximate-KV methods such as [Ma et al., 2026] can change outputs. CALLO stays lossless by using invalidated KV only to propose tokens and committing only what exact KV confirms.
+The authors argue that the miss penalty is a wait on the decode instance, and that this instance already holds the invalidated KV, which is close enough to the exact KV to draft from [Kwon et al., 2023]. Existing remedies do not fit this case: [Prefill-decode disaggregation](/concepts/ai-ml/prefill-decode-disaggregation.md) [Zhong et al., 2024] moves prefill off the decode path but does not help the affected session, and approximate-KV methods such as [Ma et al., 2026] can change outputs. CALLO stays lossless by using invalidated KV only to propose tokens and committing only what exact KV confirms.
 
 ## 🏗️ Methodology
 
@@ -60,7 +60,7 @@ An edit-induced miss puts exact re-prefill on the critical path. The goal is to 
 
 ### Proposed Method: CALLO
 
-CALLO runs on disaggregated vLLM with a P-instance (prefill) and a D-instance (decode). The D-instance drafts with the target model over repositioned invalidated KV, using [Speculative decoding](/concepts/speculative-decoding.md) in the draft-and-verify sense of [Leviathan et al., 2023] and [Chen et al., 2023].
+CALLO runs on disaggregated vLLM with a P-instance (prefill) and a D-instance (decode). The D-instance drafts with the target model over repositioned invalidated KV, using [Speculative decoding](/concepts/ai-ml/speculative-decoding.md) in the draft-and-verify sense of [Leviathan et al., 2023] and [Chen et al., 2023].
 
 ### Provisional KV Staging
 
@@ -112,7 +112,7 @@ Single-request runs on Llama-3.3-70B (Table 4):
 
 ### Correctness and Overheads
 
-Across 1,928 verification events and 44,792 committed tokens, instrumented runs show no KV-fingerprint mismatches and no acceptance, output or rollback violations. Non-speculating requests on the same D-instance are about 2% slower at low load and 6% slower near capacity; the reported gains include this cost. The result is a latency-versus-capacity trade-off of the kind discussed in [Inference throughput/latency/cost](/concepts/inference-tradeoffs.md).
+Across 1,928 verification events and 44,792 committed tokens, instrumented runs show no KV-fingerprint mismatches and no acceptance, output or rollback violations. Non-speculating requests on the same D-instance are about 2% slower at low load and 6% slower near capacity; the reported gains include this cost. The result is a latency-versus-capacity trade-off of the kind discussed in [Inference throughput/latency/cost](/concepts/ai-ml/inference-tradeoffs.md).
 
 ### Cluster-Scale Simulation
 

@@ -36,7 +36,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d81b9b54df1bea2b96ba8
 **Source:** https://arxiv.org/abs/2611.21577
 **Author:** Zeynab Anbiaee, Sajjad Dadkhah, Ali A. Ghorbani
 **Date:** 2026-11-16
-**Concepts:** [Threat modeling](/concepts/threat-modeling.md) · [Model Context Protocol (MCP)](/concepts/model-context-protocol.md)
+**Concepts:** [Threat modeling](/concepts/security/threat-modeling.md) · [Model Context Protocol (MCP)](/concepts/ai-ml/model-context-protocol.md)
 
 ---
 

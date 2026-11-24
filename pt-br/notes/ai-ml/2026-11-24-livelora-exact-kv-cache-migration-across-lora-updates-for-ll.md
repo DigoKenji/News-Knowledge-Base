@@ -120,8 +120,8 @@ Esta é uma interpretação, não uma afirmação dos autores. Uma camada de ser
 - Revisiting dynamic evaluation: Online adaptation for large language models — o cenário de cache em streaming por trás dos intervalos de atualização do artigo.
 
 ## 🔗 Conceitos
-- [kv-cache](/pt-br/concepts/kv-cache.md)
-- [rope](/pt-br/concepts/rope.md)
-- [ai-agent](/pt-br/concepts/ai-agent.md)
-- [inference-tradeoffs](/pt-br/concepts/inference-tradeoffs.md)
-- [Adaptação de baixo posto (LoRA)](/pt-br/concepts/lora.md)
+- [kv-cache](/pt-br/concepts/ai-ml/kv-cache.md)
+- [rope](/pt-br/concepts/ai-ml/rope.md)
+- [ai-agent](/pt-br/concepts/ai-ml/ai-agent.md)
+- [inference-tradeoffs](/pt-br/concepts/ai-ml/inference-tradeoffs.md)
+- [Adaptação de baixo posto (LoRA)](/pt-br/concepts/ai-ml/lora.md)

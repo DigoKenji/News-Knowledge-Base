@@ -36,7 +36,7 @@ translation_of: /notes/ai-ml/2026-11-17-8-cool-things-people-use-the-jev-model-f
 **Fonte:** https://medium.com/generative-ai/8-cool-things-people-use-the-jev-model-for-dd0ed8e785d4
 **Autor:** Jim Clyde Monge
 **Data:** 2026-09-20
-**Conceitos:** [Throughput/latência/custo de inferência](/pt-br/concepts/inference-tradeoffs.md)
+**Conceitos:** [Throughput/latência/custo de inferência](/pt-br/concepts/ai-ml/inference-tradeoffs.md)
 
 ---
 

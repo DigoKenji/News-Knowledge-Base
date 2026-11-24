@@ -183,8 +183,8 @@ A última regra tem o maior peso na prática descrita pelo próprio artigo. As m
 - O Robots Exclusion Protocol (robots.txt): a convenção dos buscadores por trás da analogia de localizabilidade da equipe.
 
 ## 🔗 Conceitos
-- [ai-agent](/pt-br/concepts/ai-agent.md)
-- [adr](/pt-br/concepts/adr.md)
-- [graph-rag](/pt-br/concepts/graph-rag.md)
-- [model-context-protocol](/pt-br/concepts/model-context-protocol.md)
-- [Engenharia de contexto](/pt-br/concepts/context-engineering.md)
+- [ai-agent](/pt-br/concepts/ai-ml/ai-agent.md)
+- [adr](/pt-br/concepts/backend-systems/adr.md)
+- [graph-rag](/pt-br/concepts/ai-ml/graph-rag.md)
+- [model-context-protocol](/pt-br/concepts/ai-ml/model-context-protocol.md)
+- [Engenharia de contexto](/pt-br/concepts/ai-ml/context-engineering.md)

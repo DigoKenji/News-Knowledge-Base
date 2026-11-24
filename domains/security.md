@@ -24,9 +24,9 @@ resource: https://app.notion.com/p/38bbaf74172d818b9c6bf6f0c32f95c1
 - `appsec`
 
 ## Concepts
-- [OAuth 2.0](/concepts/oauth2.md)
-- [OpenID Connect](/concepts/oidc.md)
-- [Threat modeling](/concepts/threat-modeling.md)
+- [OAuth 2.0](/concepts/security/oauth2.md)
+- [OpenID Connect](/concepts/security/oidc.md)
+- [Threat modeling](/concepts/security/threat-modeling.md)
 
 ## Notes
 Summaries in this domain live in [/notes/security/](/notes/security/index.md).

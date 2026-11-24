@@ -123,10 +123,10 @@ Interpretation, not the authors' claim: a replication like this fits as a releas
 - Fisher's exact test and the Benjamini–Hochberg procedure — how the paper decides whether a replication is supported.
 
 ## Concepts
-- [ai-agent](/concepts/ai-agent.md)
-- [agent-harness](/concepts/agent-harness.md)
-- [indirect-prompt-injection](/concepts/indirect-prompt-injection.md)
-- [model-context-protocol](/concepts/model-context-protocol.md)
-- [information-flow-control](/concepts/information-flow-control.md)
-- [llm-as-a-judge](/concepts/llm-as-a-judge.md)
+- [ai-agent](/concepts/ai-ml/ai-agent.md)
+- [agent-harness](/concepts/ai-ml/agent-harness.md)
+- [indirect-prompt-injection](/concepts/security/indirect-prompt-injection.md)
+- [model-context-protocol](/concepts/ai-ml/model-context-protocol.md)
+- [information-flow-control](/concepts/security/information-flow-control.md)
+- [llm-as-a-judge](/concepts/ai-ml/llm-as-a-judge.md)
 

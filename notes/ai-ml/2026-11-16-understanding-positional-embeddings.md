@@ -40,7 +40,7 @@ notion_url: https://app.notion.com/p/41abaf74172d814881fcc33b2038e53a
 ---
 
 ## 💬 What This Is About
-Raschka explains how LLMs encode token position, from the learned absolute embeddings in GPT-2 to [RoPE](/concepts/rope.md) and the choices recent open-weight models make. It is a deliberately technical foundation for a later architecture-trends article, with visual examples, some math and a small PyTorch implementation.
+Raschka explains how LLMs encode token position, from the learned absolute embeddings in GPT-2 to [RoPE](/concepts/ai-ml/rope.md) and the choices recent open-weight models make. It is a deliberately technical foundation for a later architecture-trends article, with visual examples, some math and a small PyTorch implementation.
 
 ## 1. Where position information enters an LLM
 Position information is added at different points. GPT-2 adds a position vector right after the token embedding. MiniMax-M3 injects it inside attention in each block, using RoPE. Plain self-attention can't tell "The red fox jumps over the gray fox" from its swapped version, since the tokens and embeddings are identical. A causal mask supplies some implicit order, but it can't distinguish a gap of one position from ten, so explicit signals still help.
@@ -54,7 +54,7 @@ GPT-2 learns one vector per position (1,024 of them) and adds it to the token em
 The 2017 transformer adds fixed sine and cosine vectors instead. They can be computed beyond the training length, though that doesn't guarantee good quality there. The paper hypothesized that this structure makes relative offsets easy to learn.
 
 ## 3. Encoding relative position with RoPE
-[RoPE](/concepts/rope.md) (Su et al., 2021) keeps the sinusoidal idea but moves it into attention. Queries and keys are rotated by an angle set by their position, while values bypass the rotation. The dot product then depends only on the offset between positions. In the worked example, shifting both tokens by three positions leaves the score at 13, while moving only the key one position closer changes it to about 19.92.
+[RoPE](/concepts/ai-ml/rope.md) (Su et al., 2021) keeps the sinusoidal idea but moves it into attention. Queries and keys are rotated by an angle set by their position, while values bypass the rotation. The dot product then depends only on the offset between positions. In the worked example, shifting both tokens by three positions leaves the score at 13, while moving only the key one position closer changes it to about 19.92.
 
 ## 4. Computing rotation frequencies
 Each feature pair gets a frequency θᵢ = b^(−2i/d), with base b = 10,000 in the RoFormer paper. Several frequencies let some pairs change quickly with position and others slowly. For head dimension 8, this gives [1, 0.1, 0.01, 0.001] radians per position.
@@ -66,7 +66,7 @@ The cosine and sine tables are computed once per model and broadcast across batc
 Full RoPE in every block has been a staple of open-weight models since LLaMA, but many newer designs vary it.
 
 ### 6.1 Partial RoPE
-Partial RoPE rotates only part of each head. MiniMax-M3 rotates 64 of 128 dimensions, halving the cosine and sine tables. The [KV cache](/concepts/kv-cache.md) still stores full keys and values, so the saving is modest. Raschka calls partial RoPE "hardly worth it" in his opinion, citing a paper where about 10% of features often matched full RoPE.
+Partial RoPE rotates only part of each head. MiniMax-M3 rotates 64 of 128 dimensions, halving the cosine and sine tables. The [KV cache](/concepts/ai-ml/kv-cache.md) still stores full keys and values, so the saving is modest. Raschka calls partial RoPE "hardly worth it" in his opinion, citing a paper where about 10% of features often matched full RoPE.
 
 ### 6.2 NoPE layers
 NoPE uses no explicit positional encoding, relying on the causal mask. In a toy example, the first token's weight shrinks as the prefix grows, which a later layer can read as position. A 107M NoPE model ranked first on length generalization across ten tasks, but a 1.3B code model degraded at the longest lengths. SmolLM3 (3B) applies RoPE in three of every four blocks, and its authors reported better long-context performance.

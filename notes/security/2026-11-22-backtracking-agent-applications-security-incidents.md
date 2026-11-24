@@ -115,10 +115,10 @@ This is interpretation, not the authors' claim. Origin would sit in an agent pla
 - OWASP Top 10 threats for agent applications (cited as [54]) — the threat list that places IPI and MC-Poison as the two most prevalent.
 
 ## Concepts
-- [AI agent](/concepts/ai-agent.md)
-- [Agent memory](/concepts/agent-memory.md)
-- [Indirect prompt injection](/concepts/indirect-prompt-injection.md)
-- [Retrieval-augmented generation](/concepts/rag.md)
-- [Multi-agent orchestration](/concepts/multi-agent-orchestration.md)
-- [Memory poisoning](/concepts/memory-poisoning.md)
-- [Information flow control](/concepts/information-flow-control.md)
+- [AI agent](/concepts/ai-ml/ai-agent.md)
+- [Agent memory](/concepts/ai-ml/agent-memory.md)
+- [Indirect prompt injection](/concepts/security/indirect-prompt-injection.md)
+- [Retrieval-augmented generation](/concepts/ai-ml/rag.md)
+- [Multi-agent orchestration](/concepts/ai-ml/multi-agent-orchestration.md)
+- [Memory poisoning](/concepts/security/memory-poisoning.md)
+- [Information flow control](/concepts/security/information-flow-control.md)

@@ -116,10 +116,10 @@ Esta é uma interpretação, não uma afirmação dos autores. O Origin ficaria 
 - Top 10 da OWASP para ameaças em aplicações de agentes (citado como [54]) — a lista de ameaças que coloca IPI e MC-Poison como os dois mais prevalentes.
 
 ## Conceitos
-- [Agente de IA](/pt-br/concepts/ai-agent.md)
-- [Memória de agente](/pt-br/concepts/agent-memory.md)
-- [Injeção indireta de prompt](/pt-br/concepts/indirect-prompt-injection.md)
-- [Geração aumentada por recuperação (RAG)](/pt-br/concepts/rag.md)
-- [Orquestração multiagente](/pt-br/concepts/multi-agent-orchestration.md)
-- [Envenenamento de memória](/pt-br/concepts/memory-poisoning.md)
-- [Controle de fluxo de informação](/pt-br/concepts/information-flow-control.md)
+- [Agente de IA](/pt-br/concepts/ai-ml/ai-agent.md)
+- [Memória de agente](/pt-br/concepts/ai-ml/agent-memory.md)
+- [Injeção indireta de prompt](/pt-br/concepts/security/indirect-prompt-injection.md)
+- [Geração aumentada por recuperação (RAG)](/pt-br/concepts/ai-ml/rag.md)
+- [Orquestração multiagente](/pt-br/concepts/ai-ml/multi-agent-orchestration.md)
+- [Envenenamento de memória](/pt-br/concepts/security/memory-poisoning.md)
+- [Controle de fluxo de informação](/pt-br/concepts/security/information-flow-control.md)

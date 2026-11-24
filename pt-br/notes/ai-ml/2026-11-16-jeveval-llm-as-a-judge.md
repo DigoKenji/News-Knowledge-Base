@@ -40,7 +40,7 @@ translation_of: /notes/ai-ml/2026-11-16-jeveval-llm-as-a-judge.md
 ---
 
 ## Sobre o que trata
-O post argumenta que a maioria das métricas personalizadas de [LLM-as-a-judge](/pt-br/concepts/llm-as-a-judge.md) pede a uma única chamada de modelo que faça tudo de uma vez: interpretar critérios vagos, emitir um julgamento, gerar uma nota e explicar o raciocínio. É por isso que a mesma resposta pode receber 0,71 em uma execução e 0,66 em outra, sem um motivo claro. O JevEval (o post chama a abordagem de "Jev-as-a-Judge") é a correção proposta. Você escreve a avaliação como perguntas explícitas, o modelo juiz responde a elas com probabilidades calibradas, e código fixo converte essas probabilidades em uma nota.
+O post argumenta que a maioria das métricas personalizadas de [LLM-as-a-judge](/pt-br/concepts/ai-ml/llm-as-a-judge.md) pede a uma única chamada de modelo que faça tudo de uma vez: interpretar critérios vagos, emitir um julgamento, gerar uma nota e explicar o raciocínio. É por isso que a mesma resposta pode receber 0,71 em uma execução e 0,66 em outra, sem um motivo claro. O JevEval (o post chama a abordagem de "Jev-as-a-Judge") é a correção proposta. Você escreve a avaliação como perguntas explícitas, o modelo juiz responde a elas com probabilidades calibradas, e código fixo converte essas probabilidades em uma nota.
 
 ## Como funciona
 O post descreve três tipos de pergunta:

@@ -42,7 +42,7 @@ translation_of: /notes/ai-ml/2026-11-16-understanding-positional-embeddings.md
 ---
 
 ## 💬 Sobre o que é
-Raschka explica como LLMs codificam a posição dos tokens, desde os embeddings absolutos aprendidos do GPT-2 até o [RoPE](/pt-br/concepts/rope.md) e as escolhas que os modelos abertos mais recentes fazem. É um fundamento deliberadamente técnico para um futuro artigo sobre tendências de arquitetura, com exemplos visuais, alguma matemática e uma pequena implementação em PyTorch.
+Raschka explica como LLMs codificam a posição dos tokens, desde os embeddings absolutos aprendidos do GPT-2 até o [RoPE](/pt-br/concepts/ai-ml/rope.md) e as escolhas que os modelos abertos mais recentes fazem. É um fundamento deliberadamente técnico para um futuro artigo sobre tendências de arquitetura, com exemplos visuais, alguma matemática e uma pequena implementação em PyTorch.
 
 ## 1. Onde a informação de posição entra em um LLM
 A informação de posição é adicionada em pontos diferentes. O GPT-2 soma um vetor de posição logo após o embedding do token. O MiniMax-M3 a injeta dentro da atenção em cada bloco, usando RoPE. A auto-atenção simples não consegue distinguir "The red fox jumps over the gray fox" da versão com as palavras trocadas, já que os tokens e os embeddings são idênticos. Uma máscara causal fornece alguma ordem implícita, mas não consegue distinguir uma distância de uma posição de uma distância de dez, então sinais explícitos ainda ajudam.
@@ -56,7 +56,7 @@ O GPT-2 aprende um vetor por posição (1,024 deles) e o soma ao embedding do to
 O transformer de 2017 soma vetores fixos de seno e cosseno. Eles podem ser calculados além do comprimento de treinamento, embora isso não garanta boa qualidade ali. O artigo levantou a hipótese de que essa estrutura facilita o aprendizado de deslocamentos relativos.
 
 ## 3. Codificando a posição relativa com RoPE
-[RoPE](/pt-br/concepts/rope.md) (Su et al., 2021) mantém a ideia senoidal, mas a move para dentro da atenção. Queries e keys são rotacionadas por um ângulo definido por sua posição, enquanto os values não passam pela rotação. O produto escalar então depende apenas do deslocamento entre as posições. No exemplo trabalhado, deslocar os dois tokens em três posições mantém o score em 13, enquanto aproximar apenas a key em uma posição o muda para cerca de 19.92.
+[RoPE](/pt-br/concepts/ai-ml/rope.md) (Su et al., 2021) mantém a ideia senoidal, mas a move para dentro da atenção. Queries e keys são rotacionadas por um ângulo definido por sua posição, enquanto os values não passam pela rotação. O produto escalar então depende apenas do deslocamento entre as posições. No exemplo trabalhado, deslocar os dois tokens em três posições mantém o score em 13, enquanto aproximar apenas a key em uma posição o muda para cerca de 19.92.
 
 ## 4. Calculando as frequências de rotação
 Cada par de features recebe uma frequência θᵢ = b^(−2i/d), com base b = 10,000 no artigo RoFormer. Várias frequências permitem que alguns pares mudem rapidamente com a posição e outros lentamente. Para uma dimensão de cabeça igual a 8, isso resulta em [1, 0.1, 0.01, 0.001] radianos por posição.
@@ -68,7 +68,7 @@ As tabelas de cosseno e seno são calculadas uma vez por modelo e broadcastadas 
 O RoPE completo em cada bloco é um item básico dos modelos abertos desde o LLaMA, mas muitos designs mais novos o variam.
 
 ### 6.1 RoPE parcial
-O RoPE parcial rotaciona apenas parte de cada cabeça. O MiniMax-M3 rotaciona 64 de 128 dimensões, reduzindo pela metade as tabelas de cosseno e seno. O [KV cache](/pt-br/concepts/kv-cache.md) ainda armazena keys e values completos, então a economia é modesta. Raschka chama o RoPE parcial de "hardly worth it" na opinião dele, citando um artigo em que cerca de 10% das features frequentemente igualaram o RoPE completo.
+O RoPE parcial rotaciona apenas parte de cada cabeça. O MiniMax-M3 rotaciona 64 de 128 dimensões, reduzindo pela metade as tabelas de cosseno e seno. O [KV cache](/pt-br/concepts/ai-ml/kv-cache.md) ainda armazena keys e values completos, então a economia é modesta. Raschka chama o RoPE parcial de "hardly worth it" na opinião dele, citando um artigo em que cerca de 10% das features frequentemente igualaram o RoPE completo.
 
 ### 6.2 Camadas NoPE
 O NoPE não usa codificação posicional explícita e depende da máscara causal. Em um exemplo simplificado, o peso do primeiro token diminui conforme o prefixo cresce, o que uma camada posterior pode interpretar como posição. Um modelo NoPE de 107M ficou em primeiro lugar em generalização de comprimento em dez tarefas, mas um modelo de código de 1.3B degradou nos comprimentos mais longos. O SmolLM3 (3B) aplica RoPE em três de cada quatro blocos, e seus autores relataram melhor desempenho em contexto longo.

@@ -38,7 +38,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d81cc90d8e9c155504851
 **Source:** https://medium.com/data-science-collective/i-tested-typesafes-jev-a-470-cheaper-decision-model-against-claude-gpt-6-kimi-minimax-and-d36ed152e861
 **Author:** Manjunath Janardhan
 **Date:** 2026-09-19
-**Concepts:** [Inference throughput/latency/cost](/concepts/inference-tradeoffs.md) · [Calibration](/concepts/calibration.md) · [Structured decision model](/concepts/structured-decision-model.md)
+**Concepts:** [Inference throughput/latency/cost](/concepts/ai-ml/inference-tradeoffs.md) · [Calibration](/concepts/ai-ml/calibration.md) · [Structured decision model](/concepts/ai-ml/structured-decision-model.md)
 
 ---
 

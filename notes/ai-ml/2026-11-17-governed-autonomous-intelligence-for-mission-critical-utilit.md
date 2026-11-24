@@ -38,7 +38,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d81ed941fc5270812f39f
 **Source:** https://www.infoq.com/articles/utility-governed-autonomous-intelligence-ai/
 **Author:** Purnang Borah
 **Date:** 2026-11-16
-**Concepts:** [Retrieval-augmented generation](/concepts/rag.md) · [Multi-agent orchestration](/concepts/multi-agent-orchestration.md) · [Concept drift](/concepts/concept-drift.md)
+**Concepts:** [Retrieval-augmented generation](/concepts/ai-ml/rag.md) · [Multi-agent orchestration](/concepts/ai-ml/multi-agent-orchestration.md) · [Concept drift](/concepts/ai-ml/concept-drift.md)
 
 ---
 

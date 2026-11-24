@@ -344,7 +344,7 @@ O texto extraído do artigo contém apenas este título. Nenhuma biografia de au
 - Condições de parada para experimentos de injeção de falhas — como escolher alarmes que protejam os clientes sem encerrar o teste cedo demais.
 
 ## 🔗 Conceitos
-- [well-architected](/pt-br/concepts/well-architected.md)
-- [llm-as-a-judge](/pt-br/concepts/llm-as-a-judge.md)
-- [silent-failure](/pt-br/concepts/silent-failure.md)
-- [chaos-engineering](/pt-br/concepts/chaos-engineering.md)
+- [well-architected](/pt-br/concepts/cloud-infra/well-architected.md)
+- [llm-as-a-judge](/pt-br/concepts/ai-ml/llm-as-a-judge.md)
+- [silent-failure](/pt-br/concepts/backend-systems/silent-failure.md)
+- [chaos-engineering](/pt-br/concepts/backend-systems/chaos-engineering.md)

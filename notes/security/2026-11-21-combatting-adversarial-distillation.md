@@ -179,5 +179,5 @@ This is your interpretation, not the author's. For an architect working on AI go
 - Anthropic's SWE-bench Verified result on training with full reasoning transcripts versus summaries (footnote 1) — a similar finding in software engineering.
 
 ## Concepts
-- [distillation](/concepts/distillation.md)
+- [distillation](/concepts/ai-ml/distillation.md)
 

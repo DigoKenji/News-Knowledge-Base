@@ -34,7 +34,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d81c8ba91c6ed87dc70f6
 **Source:** https://blog.antonio.cx/running-agents-with-lend
 **Author:** Antonio Mika
 **Date:** 2026-11-13
-**Concepts:** [Model Context Protocol (MCP)](/concepts/model-context-protocol.md)
+**Concepts:** [Model Context Protocol (MCP)](/concepts/ai-ml/model-context-protocol.md)
 
 ---
 

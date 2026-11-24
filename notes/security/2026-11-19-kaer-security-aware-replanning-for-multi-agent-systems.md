@@ -115,9 +115,9 @@ This is interpretation, not the authors' claim. In a real architecture, the patt
 - Planning-time attacks on workflows (FlowSteer, Li et al.) — why a plan that the planner can rewrite is itself an attack surface.
 
 ## 🔗 Concepts
-- [indirect-prompt-injection](/concepts/indirect-prompt-injection.md)
-- [multi-agent-orchestration](/concepts/multi-agent-orchestration.md)
-- [model-context-protocol](/concepts/model-context-protocol.md)
-- [llm-as-a-judge](/concepts/llm-as-a-judge.md)
-- [threat-modeling](/concepts/threat-modeling.md)
-- [information-flow-control](/concepts/information-flow-control.md)
+- [indirect-prompt-injection](/concepts/security/indirect-prompt-injection.md)
+- [multi-agent-orchestration](/concepts/ai-ml/multi-agent-orchestration.md)
+- [model-context-protocol](/concepts/ai-ml/model-context-protocol.md)
+- [llm-as-a-judge](/concepts/ai-ml/llm-as-a-judge.md)
+- [threat-modeling](/concepts/security/threat-modeling.md)
+- [information-flow-control](/concepts/security/information-flow-control.md)
