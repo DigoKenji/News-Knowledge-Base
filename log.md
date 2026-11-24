@@ -1,6 +1,7 @@
 # Log
 
 ## 2026-11-24
+- **Creation:** Core vocabulary batch 1: 12 AI/ML + 10 Security core concepts (EN + pt-br, `subdomain: core`, draft), each with 3 sources; 13 flagged `foundation_candidate`.
 - **Plan:** Core vocabulary seed list (~70 terms across 7 domains) approved by Kenji: /reviews/2026-11-24-core-vocabulary.md. Entries follow in batches.
 - **Certification:** Kenji certified all 45 expanded concepts (EN + pt-br now `stable` + `verified`). Checklist /reviews/2026-11-24-certification.md closed; foundations stay draft.
 - **Update:** All 45 draft concepts (and their pt-br twins) expanded from one-liners into full entries: definition, how it works, trade-offs, example, and 3+ independent sources each (147 links checked). Still drafts; checklist refreshed.

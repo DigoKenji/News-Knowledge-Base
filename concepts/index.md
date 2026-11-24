@@ -4,6 +4,18 @@
 
 ## AI/ML Engineering
 
+- [Artificial intelligence](/concepts/artificial-intelligence.md) — core · **draft**
+- [Machine learning](/concepts/machine-learning.md) — core · **draft**
+- [Supervised learning](/concepts/supervised-learning.md) — core · **draft**
+- [Unsupervised and self-supervised learning](/concepts/unsupervised-learning.md) — core · **draft**
+- [Reinforcement learning](/concepts/reinforcement-learning.md) — core · **draft**
+- [Neural networks and deep learning](/concepts/deep-learning.md) — core · **draft**
+- [Training vs inference](/concepts/training-vs-inference.md) — core · **draft**
+- [Overfitting and generalisation](/concepts/overfitting.md) — core · **draft**
+- [Model evaluation and metrics](/concepts/model-evaluation.md) — core · **draft**
+- [Transformer and attention](/concepts/transformer.md) — core · **draft**
+- [Large language model and foundation model](/concepts/large-language-model.md) — core · **draft**
+- [Embedding](/concepts/embedding.md) — core · **draft**
 - [Retrieval-augmented generation](/concepts/rag.md) — rag
 - [GraphRAG](/concepts/graph-rag.md) — rag
 - [Vectorless RAG](/concepts/vectorless-rag.md) — rag
@@ -70,6 +82,16 @@
 
 ## Cybersecurity
 
+- [CIA triad (confidentiality, integrity, availability)](/concepts/cia-triad.md) — core · **draft**
+- [Threat, vulnerability and risk](/concepts/threat-vulnerability-risk.md) — core · **draft**
+- [Authentication vs authorization](/concepts/authentication-authorization.md) — core · **draft**
+- [Least privilege and defense in depth](/concepts/least-privilege.md) — core · **draft**
+- [Encryption](/concepts/encryption.md) — core · **draft**
+- [Identity and access management (IAM)](/concepts/identity-access-management.md) — core · **draft**
+- [Attack surface](/concepts/attack-surface.md) — core · **draft**
+- [Secure software development (SSDLC)](/concepts/secure-software-development.md) — core · **draft**
+- [Common vulnerability classes](/concepts/common-vulnerability-classes.md) — core · **draft**
+- [AI security and adversarial machine learning](/concepts/ai-security.md) — core · **draft**
 - [OAuth 2.0](/concepts/oauth2.md) — iam
 - [OpenID Connect](/concepts/oidc.md) — iam
 - [Threat modeling](/concepts/threat-modeling.md) — appsec

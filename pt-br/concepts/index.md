@@ -4,6 +4,18 @@
 
 ## Engenharia de IA/ML
 
+- [Inteligência artificial](/pt-br/concepts/artificial-intelligence.md) — core · **rascunho**
+- [Machine learning (aprendizado de máquina)](/pt-br/concepts/machine-learning.md) — core · **rascunho**
+- [Aprendizado supervisionado](/pt-br/concepts/supervised-learning.md) — core · **rascunho**
+- [Aprendizado não supervisionado e auto-supervisionado](/pt-br/concepts/unsupervised-learning.md) — core · **rascunho**
+- [Aprendizado por reforço](/pt-br/concepts/reinforcement-learning.md) — core · **rascunho**
+- [Redes neurais e deep learning](/pt-br/concepts/deep-learning.md) — core · **rascunho**
+- [Treino vs inferência](/pt-br/concepts/training-vs-inference.md) — core · **rascunho**
+- [Overfitting e generalização](/pt-br/concepts/overfitting.md) — core · **rascunho**
+- [Avaliação de modelos e métricas](/pt-br/concepts/model-evaluation.md) — core · **rascunho**
+- [Transformer e atenção](/pt-br/concepts/transformer.md) — core · **rascunho**
+- [Grande modelo de linguagem (LLM) e modelo de fundação](/pt-br/concepts/large-language-model.md) — core · **rascunho**
+- [Embedding](/pt-br/concepts/embedding.md) — core · **rascunho**
 - [Geração aumentada por recuperação](/pt-br/concepts/rag.md) — rag
 - [GraphRAG](/pt-br/concepts/graph-rag.md) — rag
 - [RAG sem vetores](/pt-br/concepts/vectorless-rag.md) — rag
@@ -70,6 +82,16 @@
 
 ## Cibersegurança
 
+- [Tríade CIA (confidencialidade, integridade, disponibilidade)](/pt-br/concepts/cia-triad.md) — core · **rascunho**
+- [Ameaça, vulnerabilidade e risco](/pt-br/concepts/threat-vulnerability-risk.md) — core · **rascunho**
+- [Autenticação vs autorização](/pt-br/concepts/authentication-authorization.md) — core · **rascunho**
+- [Privilégio mínimo e defesa em profundidade](/pt-br/concepts/least-privilege.md) — core · **rascunho**
+- [Criptografia](/pt-br/concepts/encryption.md) — core · **rascunho**
+- [Gestão de identidades e acessos (IAM)](/pt-br/concepts/identity-access-management.md) — core · **rascunho**
+- [Superfície de ataque](/pt-br/concepts/attack-surface.md) — core · **rascunho**
+- [Desenvolvimento seguro de software (SSDLC)](/pt-br/concepts/secure-software-development.md) — core · **rascunho**
+- [Classes comuns de vulnerabilidade](/pt-br/concepts/common-vulnerability-classes.md) — core · **rascunho**
+- [Segurança de IA e machine learning adversarial](/pt-br/concepts/ai-security.md) — core · **rascunho**
 - [OAuth 2.0](/pt-br/concepts/oauth2.md) — iam
 - [OpenID Connect](/pt-br/concepts/oidc.md) — iam
 - [Modelagem de ameaças](/pt-br/concepts/threat-modeling.md) — appsec
