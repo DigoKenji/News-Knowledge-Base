@@ -169,5 +169,5 @@ Esta é a sua interpretação, não a do autor. Para um arquiteto, a transferên
 - CodeScene — a fonte da medida CodeHealth usada no experimento.
 
 ## Conceitos
-- [ai-agent](/pt-br/concepts/ai-agent.md)
-- [multi-agent-orchestration](/pt-br/concepts/multi-agent-orchestration.md)
+- [ai-agent](/pt-br/concepts/ai-ml/ai-agent.md)
+- [multi-agent-orchestration](/pt-br/concepts/ai-ml/multi-agent-orchestration.md)

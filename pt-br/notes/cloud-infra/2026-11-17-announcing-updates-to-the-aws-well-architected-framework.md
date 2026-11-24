@@ -36,7 +36,7 @@ translation_of: /notes/cloud-infra/2026-11-17-announcing-updates-to-the-aws-well
 **Fonte:** https://aws.amazon.com/blogs/architecture/announcing-updates-to-the-aws-well-architected-framework-3/
 **Autor:** AWS Architecture Blog
 **Data:** 2026-11-16
-**Conceitos:** [Well-Architected Framework](/pt-br/concepts/well-architected.md)
+**Conceitos:** [Well-Architected Framework](/pt-br/concepts/cloud-infra/well-architected.md)
 
 ---
 

@@ -167,6 +167,6 @@ This is your interpretation, not the author's. For an architect, the useful tran
 - CodeScene — the source of the CodeHealth measure used in the experiment.
 
 ## Concepts
-- [ai-agent](/concepts/ai-agent.md)
-- [multi-agent-orchestration](/concepts/multi-agent-orchestration.md)
+- [ai-agent](/concepts/ai-ml/ai-agent.md)
+- [multi-agent-orchestration](/concepts/ai-ml/multi-agent-orchestration.md)
 

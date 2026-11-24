@@ -182,5 +182,5 @@ Este é um caso útil para um arquiteto que herdou um serviço emaranhado e não
 - Padrão Data Mapper — o padrão de persistência usado para manter modelos de armazenamento fora da lógica de negócio.
 
 ## 🔗 Conceitos
-- [bounded-context](/pt-br/concepts/bounded-context.md)
-- [Modular monolith](/pt-br/concepts/modular-monolith.md)
+- [bounded-context](/pt-br/concepts/backend-systems/bounded-context.md)
+- [Modular monolith](/pt-br/concepts/architecture/modular-monolith.md)

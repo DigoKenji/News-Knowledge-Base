@@ -121,5 +121,5 @@ Esta é a sua interpretação, não a do autor. Para a arquitetura de sistemas, 
 - Caches híbridos de memória e disco — designs relacionados que mantêm um índice na RAM.
 
 ## Conceitos
-- [hybrid-memory-disk-cache](/pt-br/concepts/hybrid-memory-disk-cache.md)
-- [gc-pressure](/pt-br/concepts/gc-pressure.md)
+- [hybrid-memory-disk-cache](/pt-br/concepts/backend-systems/hybrid-memory-disk-cache.md)
+- [gc-pressure](/pt-br/concepts/backend-systems/gc-pressure.md)

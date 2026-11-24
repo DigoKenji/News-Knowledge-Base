@@ -42,7 +42,7 @@ translation_of: /notes/ai-ml/2026-11-17-jev-killed-llm-as-a-judge.md
 **Fonte:** https://medium.com/womenintechnology/jev-killed-llm-as-a-judge-0695a87ce149
 **Autor:** Sakshi Jaiswal
 **Data:** 2026-09-23
-**Conceitos:** [LLM-as-a-judge](/pt-br/concepts/llm-as-a-judge.md) · [Geração aumentada por recuperação](/pt-br/concepts/rag.md) · [Calibração](/pt-br/concepts/calibration.md) · [Viés de posição](/pt-br/concepts/position-bias.md)
+**Conceitos:** [LLM-as-a-judge](/pt-br/concepts/ai-ml/llm-as-a-judge.md) · [Geração aumentada por recuperação](/pt-br/concepts/ai-ml/rag.md) · [Calibração](/pt-br/concepts/ai-ml/calibration.md) · [Viés de posição](/pt-br/concepts/ai-ml/position-bias.md)
 
 ---
 

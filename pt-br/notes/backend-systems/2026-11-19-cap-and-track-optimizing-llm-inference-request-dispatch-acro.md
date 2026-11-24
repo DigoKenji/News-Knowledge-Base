@@ -126,9 +126,9 @@ Isto é interpretação, não afirmação dos autores. O padrão poderia ser plu
 - Lei de Little — como taxa de requisições e tempo de espera definem o tamanho da fila que um timeout precisa cobrir.
 
 ## 🔗 Conceitos
-- [adaptive-concurrency-limit](/pt-br/concepts/adaptive-concurrency-limit.md)
-- [inference-tradeoffs](/pt-br/concepts/inference-tradeoffs.md)
-- [kv-cache](/pt-br/concepts/kv-cache.md)
-- [prefill-decode-disaggregation](/pt-br/concepts/prefill-decode-disaggregation.md)
-- [retry-storm](/pt-br/concepts/retry-storm.md)
-- [goodput](/pt-br/concepts/goodput.md)
+- [adaptive-concurrency-limit](/pt-br/concepts/backend-systems/adaptive-concurrency-limit.md)
+- [inference-tradeoffs](/pt-br/concepts/ai-ml/inference-tradeoffs.md)
+- [kv-cache](/pt-br/concepts/ai-ml/kv-cache.md)
+- [prefill-decode-disaggregation](/pt-br/concepts/ai-ml/prefill-decode-disaggregation.md)
+- [retry-storm](/pt-br/concepts/backend-systems/retry-storm.md)
+- [goodput](/pt-br/concepts/ai-ml/goodput.md)

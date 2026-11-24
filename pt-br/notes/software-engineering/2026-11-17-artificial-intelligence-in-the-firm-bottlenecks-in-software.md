@@ -36,7 +36,7 @@ translation_of: /notes/software-engineering/2026-11-17-artificial-intelligence-i
 **Fonte:** https://fion.ac/jellyfish.pdf
 **Autores:** Fiona Chen, James Stratton
 **Data:** 2026-11-14
-**Conceitos:** [LLM-as-a-judge](/pt-br/concepts/llm-as-a-judge.md)
+**Conceitos:** [LLM-as-a-judge](/pt-br/concepts/ai-ml/llm-as-a-judge.md)
 
 ---
 

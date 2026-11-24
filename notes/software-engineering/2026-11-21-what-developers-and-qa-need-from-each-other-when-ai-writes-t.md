@@ -167,4 +167,4 @@ This is your interpretation, not the author's. For a Staff Architect, the handof
 - McKinsey 2026 State of AI survey: the source of the workflow redesign comparison.
 
 ## Concepts
-- [verification-tax](/concepts/verification-tax.md)
+- [verification-tax](/concepts/software-engineering/verification-tax.md)

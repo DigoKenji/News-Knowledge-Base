@@ -169,4 +169,4 @@ Esta é a sua interpretação, não a do autor. Para um Staff Architect, o contr
 - Pesquisa State of AI 2026 da McKinsey: a fonte da comparação de redesenho de fluxos de trabalho.
 
 ## Conceitos
-- [verification-tax](/pt-br/concepts/verification-tax.md)
+- [verification-tax](/pt-br/concepts/software-engineering/verification-tax.md)

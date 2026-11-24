@@ -40,7 +40,7 @@ translation_of: /notes/ai-ml/2026-11-17-i-tested-typesafe-s-jev-a-478-cheaper-de
 **Fonte:** https://medium.com/data-science-collective/i-tested-typesafes-jev-a-470-cheaper-decision-model-against-claude-gpt-6-kimi-minimax-and-d36ed152e861
 **Autor:** Manjunath Janardhan
 **Data:** 2026-09-19
-**Conceitos:** [Throughput/latência/custo de inferência](/pt-br/concepts/inference-tradeoffs.md) · [Calibração](/pt-br/concepts/calibration.md) · [Modelo de decisão estruturado](/pt-br/concepts/structured-decision-model.md)
+**Conceitos:** [Throughput/latência/custo de inferência](/pt-br/concepts/ai-ml/inference-tradeoffs.md) · [Calibração](/pt-br/concepts/ai-ml/calibration.md) · [Modelo de decisão estruturado](/pt-br/concepts/ai-ml/structured-decision-model.md)
 
 ---
 

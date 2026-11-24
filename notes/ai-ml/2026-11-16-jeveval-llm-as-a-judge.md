@@ -39,7 +39,7 @@ notion_url: https://app.notion.com/p/41abaf74172d8100b77ec67af665737b
 
 ## What This Is About
 
-The post argues that most custom [LLM-as-a-judge](/concepts/llm-as-a-judge.md) metrics ask one model call to do everything at once: interpret vague criteria, make a judgment, generate a score, and explain the reasoning. That is why the same response can score 0.71 on one run and 0.66 on another, with no clear reason. JevEval (the post calls the approach "Jev-as-a-Judge") is the proposed fix. You write the evaluation as explicit questions, the judge model answers them with calibrated probabilities, and fixed code turns those probabilities into a score.
+The post argues that most custom [LLM-as-a-judge](/concepts/ai-ml/llm-as-a-judge.md) metrics ask one model call to do everything at once: interpret vague criteria, make a judgment, generate a score, and explain the reasoning. That is why the same response can score 0.71 on one run and 0.66 on another, with no clear reason. JevEval (the post calls the approach "Jev-as-a-Judge") is the proposed fix. You write the evaluation as explicit questions, the judge model answers them with calibrated probabilities, and fixed code turns those probabilities into a score.
 
 ## How It Works
 

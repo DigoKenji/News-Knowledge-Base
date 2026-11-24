@@ -38,7 +38,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d8121a217fb1a2c7081f3
 **Source:** https://medium.com/@agentnativedev/top-10-jev-use-cases-in-agentic-apps-ranked-by-theoretical-gain-over-llms-5be9e293ea19
 **Author:** Agent Native
 **Date:** 2026-09-19
-**Concepts:** [Retrieval-augmented generation](/concepts/rag.md) · [Inference throughput/latency/cost](/concepts/inference-tradeoffs.md) · [Structured decision model](/concepts/structured-decision-model.md)
+**Concepts:** [Retrieval-augmented generation](/concepts/ai-ml/rag.md) · [Inference throughput/latency/cost](/concepts/ai-ml/inference-tradeoffs.md) · [Structured decision model](/concepts/ai-ml/structured-decision-model.md)
 
 ---
 

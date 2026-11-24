@@ -36,7 +36,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d810d9be8fab230cc53cb
 **Source:** https://arxiv.org/abs/2611.21478
 **Author:** Ruizhe Li, Licheng Zhang, Mingxuan Du, Zhendong Mao
 **Date:** 2026-11-16
-**Concepts:** [Retrieval-augmented generation](/concepts/rag.md) · [Inference throughput/latency/cost](/concepts/inference-tradeoffs.md)
+**Concepts:** [Retrieval-augmented generation](/concepts/ai-ml/rag.md) · [Inference throughput/latency/cost](/concepts/ai-ml/inference-tradeoffs.md)
 
 ---
 

@@ -342,7 +342,7 @@ The extracted article text contains this heading only. No author biographies wer
 - Stop conditions for fault-injection experiments — how to choose alarms that protect customers without ending the test too early.
 
 ## 🔗 Concepts
-- [well-architected](/concepts/well-architected.md)
-- [llm-as-a-judge](/concepts/llm-as-a-judge.md)
-- [silent-failure](/concepts/silent-failure.md)
-- [chaos-engineering](/concepts/chaos-engineering.md)
+- [well-architected](/concepts/cloud-infra/well-architected.md)
+- [llm-as-a-judge](/concepts/ai-ml/llm-as-a-judge.md)
+- [silent-failure](/concepts/backend-systems/silent-failure.md)
+- [chaos-engineering](/concepts/backend-systems/chaos-engineering.md)

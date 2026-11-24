@@ -113,7 +113,7 @@ This is interpretation, not the authors' claim. The natural place for this check
 - DySec, ML-based dynamic analysis for malicious PyPI packages (IEEE TIFS 2026) — a learned alternative to rule-based behavioral verdicts.
 
 ## 🔗 Concepts
-- [ai-agent](/concepts/ai-agent.md)
-- [threat-modeling](/concepts/threat-modeling.md)
-- [zero-trust-architecture](/concepts/zero-trust-architecture.md)
-- [Supply-chain attack](/concepts/supply-chain-attack.md)
+- [ai-agent](/concepts/ai-ml/ai-agent.md)
+- [threat-modeling](/concepts/security/threat-modeling.md)
+- [zero-trust-architecture](/concepts/security/zero-trust-architecture.md)
+- [Supply-chain attack](/concepts/security/supply-chain-attack.md)

@@ -124,4 +124,4 @@ _Interpretação, não afirmação dos autores:_ o ATI ficaria como um proxy de 
 - Atestação de computação confidencial com hardware TPM e TEE — o que, segundo os autores, fortaleceria a lacuna de confiança no host.
 
 ## Conceitos
-[Orquestração multiagente](/pt-br/concepts/multi-agent-orchestration.md) · [Model Context Protocol (MCP)](/pt-br/concepts/model-context-protocol.md) · [OAuth 2.0](/pt-br/concepts/oauth2.md) · [OpenID Connect](/pt-br/concepts/oidc.md) · [Modelagem de ameaças](/pt-br/concepts/threat-modeling.md) · [Injeção indireta de prompt](/pt-br/concepts/indirect-prompt-injection.md) · [Arquitetura zero trust](/pt-br/concepts/zero-trust-architecture.md)
+[Orquestração multiagente](/pt-br/concepts/ai-ml/multi-agent-orchestration.md) · [Model Context Protocol (MCP)](/pt-br/concepts/ai-ml/model-context-protocol.md) · [OAuth 2.0](/pt-br/concepts/security/oauth2.md) · [OpenID Connect](/pt-br/concepts/security/oidc.md) · [Modelagem de ameaças](/pt-br/concepts/security/threat-modeling.md) · [Injeção indireta de prompt](/pt-br/concepts/security/indirect-prompt-injection.md) · [Arquitetura zero trust](/pt-br/concepts/security/zero-trust-architecture.md)

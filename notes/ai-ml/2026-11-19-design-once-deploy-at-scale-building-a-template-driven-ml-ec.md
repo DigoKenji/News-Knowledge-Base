@@ -188,4 +188,4 @@ This is your interpretation, not the author's. For an architect designing enterp
 - Offline-to-online metric transfer: why offline gains may or may not predict online lift.
 
 ## 🔗 Concepts
-- [multi-agent-orchestration](/concepts/multi-agent-orchestration.md)
+- [multi-agent-orchestration](/concepts/ai-ml/multi-agent-orchestration.md)

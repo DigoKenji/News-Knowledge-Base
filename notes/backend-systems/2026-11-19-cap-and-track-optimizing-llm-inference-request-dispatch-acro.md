@@ -123,9 +123,9 @@ This is interpretation, not the authors' claim. The pattern would plug in as a d
 - Little's law — how request rate and wait time set the queue length that a timeout must cover.
 
 ## 🔗 Concepts
-- [adaptive-concurrency-limit](/concepts/adaptive-concurrency-limit.md)
-- [inference-tradeoffs](/concepts/inference-tradeoffs.md)
-- [kv-cache](/concepts/kv-cache.md)
-- [prefill-decode-disaggregation](/concepts/prefill-decode-disaggregation.md)
-- [retry-storm](/concepts/retry-storm.md)
-- [goodput](/concepts/goodput.md)
+- [adaptive-concurrency-limit](/concepts/backend-systems/adaptive-concurrency-limit.md)
+- [inference-tradeoffs](/concepts/ai-ml/inference-tradeoffs.md)
+- [kv-cache](/concepts/ai-ml/kv-cache.md)
+- [prefill-decode-disaggregation](/concepts/ai-ml/prefill-decode-disaggregation.md)
+- [retry-storm](/concepts/backend-systems/retry-storm.md)
+- [goodput](/concepts/ai-ml/goodput.md)

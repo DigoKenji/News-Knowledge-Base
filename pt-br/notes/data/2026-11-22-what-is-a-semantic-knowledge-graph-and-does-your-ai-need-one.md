@@ -141,7 +141,7 @@ Para um Staff Architect que decide como os agentes obtêm contexto corporativo, 
 - Geração aumentada por recuperação com bancos de dados vetoriais — a abordagem mais antiga que o artigo contrapõe aos grafos de conhecimento para o trabalho de agentes.
 
 ## Conceitos
-- [Grafo de conhecimento](/pt-br/concepts/knowledge-graph.md)
-- [Geração aumentada por recuperação](/pt-br/concepts/rag.md)
-- [Agente de IA](/pt-br/concepts/ai-agent.md)
-- [Orquestração multiagente](/pt-br/concepts/multi-agent-orchestration.md)
+- [Grafo de conhecimento](/pt-br/concepts/data/knowledge-graph.md)
+- [Geração aumentada por recuperação](/pt-br/concepts/ai-ml/rag.md)
+- [Agente de IA](/pt-br/concepts/ai-ml/ai-agent.md)
+- [Orquestração multiagente](/pt-br/concepts/ai-ml/multi-agent-orchestration.md)

@@ -185,4 +185,4 @@ Your work on AI governance maps directly onto the article's safety and access se
 - Distillation and model-output extraction — the threat model behind the anti-distillation measures and preserved thinking.
 
 ## Concepts
-[Agent harness](/concepts/agent-harness.md) · [Multi-agent orchestration](/concepts/multi-agent-orchestration.md) · [Model Context Protocol (MCP)](/concepts/model-context-protocol.md) · [Calibration](/concepts/calibration.md) · [Inference throughput/latency/cost](/concepts/inference-tradeoffs.md) · [Distillation](/concepts/distillation.md)
+[Agent harness](/concepts/ai-ml/agent-harness.md) · [Multi-agent orchestration](/concepts/ai-ml/multi-agent-orchestration.md) · [Model Context Protocol (MCP)](/concepts/ai-ml/model-context-protocol.md) · [Calibration](/concepts/ai-ml/calibration.md) · [Inference throughput/latency/cost](/concepts/ai-ml/inference-tradeoffs.md) · [Distillation](/concepts/ai-ml/distillation.md)

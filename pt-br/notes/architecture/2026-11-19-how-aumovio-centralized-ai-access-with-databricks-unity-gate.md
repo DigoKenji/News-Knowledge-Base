@@ -221,7 +221,7 @@ Um gateway central coloca em um único serviço compartilhado o acesso a vários
 - Custo total de propriedade de construir versus comprar para plataformas internas — como precificar anos de operação de um serviço compartilhado.
 
 ## 🔗 Conceitos
-- [model-context-protocol](/pt-br/concepts/model-context-protocol.md)
-- [oidc](/pt-br/concepts/oidc.md)
-- [oauth2](/pt-br/concepts/oauth2.md)
-- [ai-gateway](/pt-br/concepts/ai-gateway.md)
+- [model-context-protocol](/pt-br/concepts/ai-ml/model-context-protocol.md)
+- [oidc](/pt-br/concepts/security/oidc.md)
+- [oauth2](/pt-br/concepts/security/oauth2.md)
+- [ai-gateway](/pt-br/concepts/ai-ml/ai-gateway.md)

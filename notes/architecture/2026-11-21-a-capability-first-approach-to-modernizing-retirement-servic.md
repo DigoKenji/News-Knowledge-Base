@@ -240,7 +240,7 @@ This applies directly to architecture work at the Staff level, because the artic
 - Strangler fig migration — The staged replacement that the article describes with coexisting old and new systems.
 
 ## Concepts
-- [bounded-context](/concepts/bounded-context.md)
-- [ai-agent](/concepts/ai-agent.md)
-- [strangler-fig](/concepts/strangler-fig.md)
+- [bounded-context](/concepts/backend-systems/bounded-context.md)
+- [ai-agent](/concepts/ai-ml/ai-agent.md)
+- [strangler-fig](/concepts/backend-systems/strangler-fig.md)
 

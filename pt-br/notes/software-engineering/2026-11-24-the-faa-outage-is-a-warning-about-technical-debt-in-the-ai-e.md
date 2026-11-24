@@ -127,4 +127,4 @@ Esta é a sua interpretação, não a do autor. No trabalho de arquitetura, o al
 - A pesquisa do autor com Geoffrey Parker e Burcu Tan sobre codificação assistida por IA e dívida técnica — entrevistas e um modelo de simulação; o artigo não informa o título, então pesquise pelos nomes dos autores.
 
 ## 🔗 Conceitos
-- [cascading-failure](/pt-br/concepts/cascading-failure.md)
+- [cascading-failure](/pt-br/concepts/backend-systems/cascading-failure.md)

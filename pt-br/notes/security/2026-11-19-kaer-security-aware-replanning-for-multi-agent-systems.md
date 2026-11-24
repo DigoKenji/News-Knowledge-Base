@@ -118,9 +118,9 @@ Isto é interpretação, não uma afirmação dos autores. Em uma arquitetura re
 - Planning-time attacks on workflows (FlowSteer, Li et al.) — por que um plano que o planejador pode reescrever é ele próprio uma superfície de ataque.
 
 ## 🔗 Conceitos
-- [indirect-prompt-injection](/pt-br/concepts/indirect-prompt-injection.md)
-- [multi-agent-orchestration](/pt-br/concepts/multi-agent-orchestration.md)
-- [model-context-protocol](/pt-br/concepts/model-context-protocol.md)
-- [llm-as-a-judge](/pt-br/concepts/llm-as-a-judge.md)
-- [threat-modeling](/pt-br/concepts/threat-modeling.md)
-- [information-flow-control](/pt-br/concepts/information-flow-control.md)
+- [indirect-prompt-injection](/pt-br/concepts/security/indirect-prompt-injection.md)
+- [multi-agent-orchestration](/pt-br/concepts/ai-ml/multi-agent-orchestration.md)
+- [model-context-protocol](/pt-br/concepts/ai-ml/model-context-protocol.md)
+- [llm-as-a-judge](/pt-br/concepts/ai-ml/llm-as-a-judge.md)
+- [threat-modeling](/pt-br/concepts/security/threat-modeling.md)
+- [information-flow-control](/pt-br/concepts/security/information-flow-control.md)

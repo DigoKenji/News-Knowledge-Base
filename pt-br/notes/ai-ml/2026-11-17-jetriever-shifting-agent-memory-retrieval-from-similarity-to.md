@@ -38,7 +38,7 @@ translation_of: /notes/ai-ml/2026-11-17-jetriever-shifting-agent-memory-retrieva
 **Fonte:** https://arxiv.org/abs/2611.21478
 **Autor:** Ruizhe Li, Licheng Zhang, Mingxuan Du, Zhendong Mao
 **Data:** 2026-11-16
-**Conceitos:** [Geração aumentada por recuperação (RAG)](/pt-br/concepts/rag.md) · [Throughput/latência/custo de inferência](/pt-br/concepts/inference-tradeoffs.md)
+**Conceitos:** [Geração aumentada por recuperação (RAG)](/pt-br/concepts/ai-ml/rag.md) · [Throughput/latência/custo de inferência](/pt-br/concepts/ai-ml/inference-tradeoffs.md)
 
 ---
 

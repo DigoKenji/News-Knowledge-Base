@@ -42,7 +42,7 @@ translation_of: /notes/ai-ml/2026-11-17-jev-vs-llms-do-ai-agents-really-need-a-l
 **Fonte:** https://medium.com/@ravjot03/jev-vs-llms-do-ai-agents-really-need-a-language-model-for-every-decision-fbf9240a28e3
 **Autor:** Ravjot Singh
 **Data:** 2026-09-22
-**Conceitos:** [Orquestração multiagente](/pt-br/concepts/multi-agent-orchestration.md) · [Throughput/latência/custo de inferência](/pt-br/concepts/inference-tradeoffs.md) · [LLM-as-a-judge](/pt-br/concepts/llm-as-a-judge.md) · [Modelo de decisão estruturado](/pt-br/concepts/structured-decision-model.md)
+**Conceitos:** [Orquestração multiagente](/pt-br/concepts/ai-ml/multi-agent-orchestration.md) · [Throughput/latência/custo de inferência](/pt-br/concepts/ai-ml/inference-tradeoffs.md) · [LLM-as-a-judge](/pt-br/concepts/ai-ml/llm-as-a-judge.md) · [Modelo de decisão estruturado](/pt-br/concepts/ai-ml/structured-decision-model.md)
 
 ---
 

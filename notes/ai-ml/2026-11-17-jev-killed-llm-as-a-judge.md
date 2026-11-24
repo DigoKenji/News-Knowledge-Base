@@ -40,7 +40,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d8125a083ddaf118c8887
 **Source:** https://medium.com/womenintechnology/jev-killed-llm-as-a-judge-0695a87ce149
 **Author:** Sakshi Jaiswal
 **Date:** 2026-09-23
-**Concepts:** [LLM-as-a-judge](/concepts/llm-as-a-judge.md) · [Retrieval-augmented generation](/concepts/rag.md) · [Calibration](/concepts/calibration.md) · [Position bias](/concepts/position-bias.md)
+**Concepts:** [LLM-as-a-judge](/concepts/ai-ml/llm-as-a-judge.md) · [Retrieval-augmented generation](/concepts/ai-ml/rag.md) · [Calibration](/concepts/ai-ml/calibration.md) · [Position bias](/concepts/ai-ml/position-bias.md)
 
 ---
 

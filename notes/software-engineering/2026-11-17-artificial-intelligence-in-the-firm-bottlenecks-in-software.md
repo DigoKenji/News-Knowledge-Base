@@ -34,7 +34,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d81548bd3f03f417d3791
 **Source:** https://fion.ac/jellyfish.pdf
 **Author:** Fiona Chen, James Stratton
 **Date:** 2026-11-14
-**Concepts:** [LLM-as-a-judge](/concepts/llm-as-a-judge.md)
+**Concepts:** [LLM-as-a-judge](/concepts/ai-ml/llm-as-a-judge.md)
 
 ---
 

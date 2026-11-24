@@ -351,5 +351,5 @@ Esta é a sua interpretação, não a do autor: para trabalho de arquitetura, um
 - Erros padrão agrupados para pontuações baseadas em rollouts — como evitar superestimar a confiança quando há poucas tarefas.
 
 ## 🔗 Conceitos
-- [agent-harness](/pt-br/concepts/agent-harness.md)
-- [ai-agent](/pt-br/concepts/ai-agent.md)
+- [agent-harness](/pt-br/concepts/ai-ml/agent-harness.md)
+- [ai-agent](/pt-br/concepts/ai-ml/ai-agent.md)

@@ -119,8 +119,8 @@ This is interpretation, not the authors' claim. A serving layer for many agents 
 - Revisiting dynamic evaluation: Online adaptation for large language models — the streaming-cache setting behind the paper's update intervals.
 
 ## 🔗 Concepts
-- [kv-cache](/concepts/kv-cache.md)
-- [rope](/concepts/rope.md)
-- [ai-agent](/concepts/ai-agent.md)
-- [inference-tradeoffs](/concepts/inference-tradeoffs.md)
-- [Low-rank adaptation (LoRA)](/concepts/lora.md)
+- [kv-cache](/concepts/ai-ml/kv-cache.md)
+- [rope](/concepts/ai-ml/rope.md)
+- [ai-agent](/concepts/ai-ml/ai-agent.md)
+- [inference-tradeoffs](/concepts/ai-ml/inference-tradeoffs.md)
+- [Low-rank adaptation (LoRA)](/concepts/ai-ml/lora.md)

@@ -113,7 +113,7 @@ Interpretation, not the authors' claim: if you run a long-lived assistant on a M
 - Clustering by fast search and find of density peaks (Rodriguez and Laio, 2014) — the density-peak criterion used to pick the first anchor.
 
 ## Concepts
-- [ai-agent](/concepts/ai-agent.md)
-- [rag](/concepts/rag.md)
-- [llm-as-a-judge](/concepts/llm-as-a-judge.md)
-- [agent-memory](/concepts/agent-memory.md)
+- [ai-agent](/concepts/ai-ml/ai-agent.md)
+- [rag](/concepts/ai-ml/rag.md)
+- [llm-as-a-judge](/concepts/ai-ml/llm-as-a-judge.md)
+- [agent-memory](/concepts/ai-ml/agent-memory.md)

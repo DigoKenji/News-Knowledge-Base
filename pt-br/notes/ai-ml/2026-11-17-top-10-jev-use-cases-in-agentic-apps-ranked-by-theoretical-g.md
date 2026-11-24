@@ -40,7 +40,7 @@ translation_of: /notes/ai-ml/2026-11-17-top-10-jev-use-cases-in-agentic-apps-ran
 **Fonte:** https://medium.com/@agentnativedev/top-10-jev-use-cases-in-agentic-apps-ranked-by-theoretical-gain-over-llms-5be9e293ea19
 **Autor:** Agent Native
 **Data:** 2026-09-19
-**Conceitos:** [Geração aumentada por recuperação](/pt-br/concepts/rag.md) · [Vazão/latência/custo de inferência](/pt-br/concepts/inference-tradeoffs.md) · [Modelo estruturado de decisão](/pt-br/concepts/structured-decision-model.md)
+**Conceitos:** [Geração aumentada por recuperação](/pt-br/concepts/ai-ml/rag.md) · [Vazão/latência/custo de inferência](/pt-br/concepts/ai-ml/inference-tradeoffs.md) · [Modelo estruturado de decisão](/pt-br/concepts/ai-ml/structured-decision-model.md)
 
 ---
 

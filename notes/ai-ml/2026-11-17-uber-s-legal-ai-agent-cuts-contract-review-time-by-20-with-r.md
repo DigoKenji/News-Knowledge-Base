@@ -34,7 +34,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d817c9a4bf174b09ef2f1
 **Source:** https://www.infoq.com/news/2026/11/uber-legal-redlining-agent/
 **Author:** Leela Kumili
 **Date:** 2026-11-16
-**Concepts:** [Retrieval-augmented generation](/concepts/rag.md)
+**Concepts:** [Retrieval-augmented generation](/concepts/ai-ml/rag.md)
 
 ---
 

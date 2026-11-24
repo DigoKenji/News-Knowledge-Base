@@ -180,4 +180,4 @@ Esta é a sua interpretação, não a do autor. Para um arquiteto que trabalha c
 - Resultado da Anthropic no SWE-bench Verified sobre treinamento com transcrições completas de raciocínio versus resumos (nota de rodapé 1) — um achado semelhante em engenharia de software.
 
 ## Conceitos
-- [distillation](/pt-br/concepts/distillation.md)
+- [distillation](/pt-br/concepts/ai-ml/distillation.md)

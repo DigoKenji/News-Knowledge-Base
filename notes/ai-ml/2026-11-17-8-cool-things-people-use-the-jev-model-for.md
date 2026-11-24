@@ -34,7 +34,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d81dea956e1a305308ad7
 **Source:** https://medium.com/generative-ai/8-cool-things-people-use-the-jev-model-for-dd0ed8e785d4
 **Author:** Jim Clyde Monge
 **Date:** 2026-09-20
-**Concepts:** [Inference throughput/latency/cost](/concepts/inference-tradeoffs.md)
+**Concepts:** [Inference throughput/latency/cost](/concepts/ai-ml/inference-tradeoffs.md)
 
 ---
 

@@ -41,7 +41,7 @@ translation_of: /notes/ai-ml/2026-11-16-platonic-representation-jepa.md
 
 ## Sobre o que é
 
-A Hipótese da Representação Platônica diz que modelos treinados em modalidades diferentes, como imagens e texto, acabam aprendendo representações semelhantes do mundo. O ponto do post é que a forma como um modelo é treinado importa mais do que simplesmente aumentá-lo. Ele afirma que os pesquisadores mostram matematicamente que, sob certas condições, dois [JEPA](/pt-br/concepts/jepa.md)s treinados completamente de forma separada aprendem essencialmente a mesma representação subjacente. Um aprende a partir de imagens diferentes da mesma cena, o outro a partir de descrições diferentes dessa cena, e nenhum dos dois é treinado com pares imagem-texto.
+A Hipótese da Representação Platônica diz que modelos treinados em modalidades diferentes, como imagens e texto, acabam aprendendo representações semelhantes do mundo. O ponto do post é que a forma como um modelo é treinado importa mais do que simplesmente aumentá-lo. Ele afirma que os pesquisadores mostram matematicamente que, sob certas condições, dois [JEPA](/pt-br/concepts/ai-ml/jepa.md)s treinados completamente de forma separada aprendem essencialmente a mesma representação subjacente. Um aprende a partir de imagens diferentes da mesma cena, o outro a partir de descrições diferentes dessa cena, e nenhum dos dois é treinado com pares imagem-texto.
 
 ## Resultados citados no post
 

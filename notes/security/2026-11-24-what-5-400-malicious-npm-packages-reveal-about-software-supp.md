@@ -219,4 +219,4 @@ In an architect's work this applies to dependency governance: which registries a
 - npm scoped packages and registry resolution — how build tools choose between private and public registries.
 
 ## 🔗 Concepts
-- [oidc](/concepts/oidc.md)
+- [oidc](/concepts/security/oidc.md)

@@ -39,22 +39,22 @@ resource: https://app.notion.com/p/38bbaf74172d81d0b60eced16e5d7c10
 - `ml-governance`
 
 ## Concepts
-- [Retrieval-augmented generation](/concepts/rag.md)
-- [GraphRAG](/concepts/graph-rag.md)
-- [Vectorless RAG](/concepts/vectorless-rag.md)
-- [KV cache](/concepts/kv-cache.md)
-- [Inference throughput/latency/cost](/concepts/inference-tradeoffs.md)
-- [Multi-agent orchestration](/concepts/multi-agent-orchestration.md)
-- [Feature store](/concepts/feature-store.md)
-- [Concept drift](/concepts/concept-drift.md)
-- [Data drift](/concepts/data-drift.md)
-- [Support vector machine](/concepts/svm.md)
-- [RBF network](/concepts/rbf-network.md)
-- [LLM-as-a-judge](/concepts/llm-as-a-judge.md) (draft)
-- [JEPA](/concepts/jepa.md) (draft)
-- [Speculative decoding](/concepts/speculative-decoding.md) (draft)
-- [Prefill-decode disaggregation](/concepts/prefill-decode-disaggregation.md) (draft)
-- [RoPE](/concepts/rope.md) (draft)
+- [Retrieval-augmented generation](/concepts/ai-ml/rag.md)
+- [GraphRAG](/concepts/ai-ml/graph-rag.md)
+- [Vectorless RAG](/concepts/ai-ml/vectorless-rag.md)
+- [KV cache](/concepts/ai-ml/kv-cache.md)
+- [Inference throughput/latency/cost](/concepts/ai-ml/inference-tradeoffs.md)
+- [Multi-agent orchestration](/concepts/ai-ml/multi-agent-orchestration.md)
+- [Feature store](/concepts/ai-ml/feature-store.md)
+- [Concept drift](/concepts/ai-ml/concept-drift.md)
+- [Data drift](/concepts/ai-ml/data-drift.md)
+- [Support vector machine](/concepts/ai-ml/svm.md)
+- [RBF network](/concepts/ai-ml/rbf-network.md)
+- [LLM-as-a-judge](/concepts/ai-ml/llm-as-a-judge.md) (draft)
+- [JEPA](/concepts/ai-ml/jepa.md) (draft)
+- [Speculative decoding](/concepts/ai-ml/speculative-decoding.md) (draft)
+- [Prefill-decode disaggregation](/concepts/ai-ml/prefill-decode-disaggregation.md) (draft)
+- [RoPE](/concepts/ai-ml/rope.md) (draft)
 
 ## Notes
 Summaries in this domain live in [/notes/ai-ml/](/notes/ai-ml/index.md).

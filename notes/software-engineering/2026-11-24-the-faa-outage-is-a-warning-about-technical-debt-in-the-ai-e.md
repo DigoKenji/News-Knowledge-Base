@@ -126,4 +126,4 @@ This is your interpretation, not the author's. In architecture work, the warning
 - The author's research with Geoffrey Parker and Burcu Tan on AI-assisted coding and technical debt — interviews and a simulation model; the article gives no title, so search by the authors' names.
 
 ## 🔗 Concepts
-- [cascading-failure](/concepts/cascading-failure.md)
+- [cascading-failure](/concepts/backend-systems/cascading-failure.md)

@@ -40,7 +40,7 @@ translation_of: /notes/ai-ml/2026-11-17-governed-autonomous-intelligence-for-mis
 **Fonte:** https://www.infoq.com/articles/utility-governed-autonomous-intelligence-ai/
 **Autor:** Purnang Borah
 **Data:** 2026-11-16
-**Conceitos:** [Geração aumentada por recuperação (RAG)](/pt-br/concepts/rag.md) · [Orquestração multiagente](/pt-br/concepts/multi-agent-orchestration.md) · [Deriva de conceito (concept drift)](/pt-br/concepts/concept-drift.md)
+**Conceitos:** [Geração aumentada por recuperação (RAG)](/pt-br/concepts/ai-ml/rag.md) · [Orquestração multiagente](/pt-br/concepts/ai-ml/multi-agent-orchestration.md) · [Deriva de conceito (concept drift)](/pt-br/concepts/ai-ml/concept-drift.md)
 
 ---
 

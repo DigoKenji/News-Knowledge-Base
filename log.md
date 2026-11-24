@@ -1,6 +1,7 @@
 # Log
 
 ## 2026-11-24
+- **Restructure:** Concepts moved into theme folders `concepts/<domain>/` (EN + pt-br) with an index per theme (core first, then specialised); the top concepts index is now a theme table. All links in notes, digests, domains, foundations and reviews rewritten (271 files).
 - **Creation:** Core vocabulary batch 1: 12 AI/ML + 10 Security core concepts (EN + pt-br, `subdomain: core`, draft), each with 3 sources; 13 flagged `foundation_candidate`.
 - **Plan:** Core vocabulary seed list (~70 terms across 7 domains) approved by Kenji: /reviews/2026-11-24-core-vocabulary.md. Entries follow in batches.
 - **Certification:** Kenji certified all 45 expanded concepts (EN + pt-br now `stable` + `verified`). Checklist /reviews/2026-11-24-certification.md closed; foundations stay draft.

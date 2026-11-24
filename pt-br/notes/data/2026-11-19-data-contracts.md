@@ -614,5 +614,5 @@ Interpretação própria, não do autor: as partes de contexto para IA, as restr
 - Consumer-driven contract testing — a origem da ideia, aplicada pelo artigo aos dados, de um contrato do lado do consumidor.
 
 ## 🔗 Conceitos
-- [api-versioning](/pt-br/concepts/api-versioning.md)
-- [model-context-protocol](/pt-br/concepts/model-context-protocol.md)
+- [api-versioning](/pt-br/concepts/backend-systems/api-versioning.md)
+- [model-context-protocol](/pt-br/concepts/ai-ml/model-context-protocol.md)

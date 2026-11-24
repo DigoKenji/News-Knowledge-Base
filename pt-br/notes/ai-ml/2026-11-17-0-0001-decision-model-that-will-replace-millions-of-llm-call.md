@@ -44,7 +44,7 @@ translation_of: /notes/ai-ml/2026-11-17-0-0001-decision-model-that-will-replace-
 **Fonte:** https://medium.com/@agentnativedev/0-0001-decision-model-that-will-replace-millions-of-llm-calls-4633222ff7ab
 **Autor:** Agent Native
 **Data:** 2026-09-18
-**Conceitos:** [Vazão, latência e custo de inferência](/pt-br/concepts/inference-tradeoffs.md) · [LLM-as-a-judge](/pt-br/concepts/llm-as-a-judge.md) · [Orquestração multiagente](/pt-br/concepts/multi-agent-orchestration.md) · [Geração aumentada por recuperação (RAG)](/pt-br/concepts/rag.md) · [Calibração](/pt-br/concepts/calibration.md)
+**Conceitos:** [Vazão, latência e custo de inferência](/pt-br/concepts/ai-ml/inference-tradeoffs.md) · [LLM-as-a-judge](/pt-br/concepts/ai-ml/llm-as-a-judge.md) · [Orquestração multiagente](/pt-br/concepts/ai-ml/multi-agent-orchestration.md) · [Geração aumentada por recuperação (RAG)](/pt-br/concepts/ai-ml/rag.md) · [Calibração](/pt-br/concepts/ai-ml/calibration.md)
 
 ---
 

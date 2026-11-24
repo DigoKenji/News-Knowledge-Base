@@ -131,6 +131,6 @@ Esta é a sua interpretação, não a do autor. No trabalho de um arquiteto, as 
 - Domínios de falha e isolamento baseado em células — para entender como dependências compartilhadas anulam a redundância, o problema central do failover do gateway.
 
 ## Conceitos
-- [Falha correlacionada](/pt-br/concepts/correlated-failure.md)
-- [Falha silenciosa](/pt-br/concepts/silent-failure.md)
-- [Falha em cascata](/pt-br/concepts/cascading-failure.md)
+- [Falha correlacionada](/pt-br/concepts/backend-systems/correlated-failure.md)
+- [Falha silenciosa](/pt-br/concepts/backend-systems/silent-failure.md)
+- [Falha em cascata](/pt-br/concepts/backend-systems/cascading-failure.md)

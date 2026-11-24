@@ -48,7 +48,7 @@ A short guide for teams on which Claude model fits which kind of work. The post 
 - **Opus 5.5:** everyday coding and knowledge work, such as debugging a release or redlining a contract.
 - **Fable 5.2:** the hardest, most open-ended projects, such as large migrations or architecture planning.
 - **Sonnet 5.5:** well-scoped tasks where speed and usage matter.
-- **Haiku 5.5:** high-volume work and [subagents](/concepts/multi-agent-orchestration.md) through the API. The throughput and cost trade-offs behind that choice are covered in [Inference throughput/latency/cost](/concepts/inference-tradeoffs.md).
+- **Haiku 5.5:** high-volume work and [subagents](/concepts/ai-ml/multi-agent-orchestration.md) through the API. The throughput and cost trade-offs behind that choice are covered in [Inference throughput/latency/cost](/concepts/ai-ml/inference-tradeoffs.md).
 - **Mythos 5.2:** cybersecurity and advanced biology.
 
 > The key idea: choose the model by the shape of the task (open-ended, well-scoped, or high-volume) rather than defaulting to one model for everything.

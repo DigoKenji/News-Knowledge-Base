@@ -186,4 +186,4 @@ Seu trabalho em governança de IA se mapeia diretamente nas seções de seguran�
 - Destilação e extração de saídas de modelos — o modelo de ameaça por trás das medidas anti-destilação e do preserved thinking.
 
 ## Conceitos
-[Agent harness](/pt-br/concepts/agent-harness.md) · [Orquestração multiagente](/pt-br/concepts/multi-agent-orchestration.md) · [Model Context Protocol (MCP)](/pt-br/concepts/model-context-protocol.md) · [Calibração](/pt-br/concepts/calibration.md) · [Throughput/latência/custo de inferência](/pt-br/concepts/inference-tradeoffs.md) · [Destilação](/pt-br/concepts/distillation.md)
+[Agent harness](/pt-br/concepts/ai-ml/agent-harness.md) · [Orquestração multiagente](/pt-br/concepts/ai-ml/multi-agent-orchestration.md) · [Model Context Protocol (MCP)](/pt-br/concepts/ai-ml/model-context-protocol.md) · [Calibração](/pt-br/concepts/ai-ml/calibration.md) · [Throughput/latência/custo de inferência](/pt-br/concepts/ai-ml/inference-tradeoffs.md) · [Destilação](/pt-br/concepts/ai-ml/distillation.md)

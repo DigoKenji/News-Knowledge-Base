@@ -239,4 +239,4 @@ This is your interpretation, not the author's. For a Staff Architect, the transf
 - Load shedding with bounded queues — how to reject or expire work before it wastes scarce capacity.
 
 ## Concepts
-[Retry storm](/concepts/retry-storm.md) · [Adaptive concurrency limit](/concepts/adaptive-concurrency-limit.md)
+[Retry storm](/concepts/backend-systems/retry-storm.md) · [Adaptive concurrency limit](/concepts/backend-systems/adaptive-concurrency-limit.md)

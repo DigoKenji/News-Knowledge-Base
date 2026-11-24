@@ -172,4 +172,4 @@ Esta é a sua interpretação, não a do autor. Para um Staff Architect, o passo
 - Testes de continuidade de negócio para serviços críticos — como testar failover com tráfego real e metas de usabilidade.
 
 ## 🔗 Conceitos
-- [correlated-failure](/pt-br/concepts/correlated-failure.md)
+- [correlated-failure](/pt-br/concepts/backend-systems/correlated-failure.md)

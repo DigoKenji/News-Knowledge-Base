@@ -612,5 +612,5 @@ Interpretation, not the author's: the AI context, constraints and terms of use a
 - Consumer-driven contract testing — the origin of the consumer-side idea the article applies to data.
 
 ## 🔗 Concepts
-- [api-versioning](/concepts/api-versioning.md)
-- [model-context-protocol](/concepts/model-context-protocol.md)
+- [api-versioning](/concepts/backend-systems/api-versioning.md)
+- [model-context-protocol](/concepts/ai-ml/model-context-protocol.md)

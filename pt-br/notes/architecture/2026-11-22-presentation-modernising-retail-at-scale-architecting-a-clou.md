@@ -252,6 +252,6 @@ Sua interpretação, não a do autor: isso importa para qualquer arquiteto corpo
 - Protocolos de comércio agêntico e MCP — o artigo é cauteloso com UCP e ACP, então vale verificar o estado atual por conta própria.
 
 ## Conceitos
-- [Agente de IA](/pt-br/concepts/ai-agent.md)
-- [Model Context Protocol (MCP)](/pt-br/concepts/model-context-protocol.md)
-- [Bounded context](/pt-br/concepts/bounded-context.md)
+- [Agente de IA](/pt-br/concepts/ai-ml/ai-agent.md)
+- [Model Context Protocol (MCP)](/pt-br/concepts/ai-ml/model-context-protocol.md)
+- [Bounded context](/pt-br/concepts/backend-systems/bounded-context.md)

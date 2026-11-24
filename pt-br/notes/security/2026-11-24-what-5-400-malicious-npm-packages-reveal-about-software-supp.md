@@ -220,4 +220,4 @@ No trabalho de um arquiteto, isso se aplica à governança de dependências: qua
 - Escopos de pacotes do npm e resolução de registros — como as ferramentas de build escolhem entre registros privados e públicos.
 
 ## 🔗 Conceitos
-- [oidc](/pt-br/concepts/oidc.md)
+- [oidc](/pt-br/concepts/security/oidc.md)

@@ -41,22 +41,22 @@ translation_of: /domains/ai-ml.md
 - `ml-governance`
 
 ## Conceitos
-- [Geração aumentada por recuperação (RAG)](/pt-br/concepts/rag.md)
-- [GraphRAG](/pt-br/concepts/graph-rag.md)
-- [RAG sem vetores](/pt-br/concepts/vectorless-rag.md)
-- [KV cache](/pt-br/concepts/kv-cache.md)
-- [Throughput/latência/custo de inferência](/pt-br/concepts/inference-tradeoffs.md)
-- [Orquestração multiagente](/pt-br/concepts/multi-agent-orchestration.md)
-- [Feature store](/pt-br/concepts/feature-store.md)
-- [Concept drift](/pt-br/concepts/concept-drift.md)
-- [Data drift](/pt-br/concepts/data-drift.md)
-- [Máquina de vetores de suporte (SVM)](/pt-br/concepts/svm.md)
-- [Rede RBF](/pt-br/concepts/rbf-network.md)
-- [LLM-as-a-judge](/pt-br/concepts/llm-as-a-judge.md) (rascunho)
-- [JEPA](/pt-br/concepts/jepa.md) (rascunho)
-- [Decodificação especulativa](/pt-br/concepts/speculative-decoding.md) (rascunho)
-- [Desagregação prefill-decode](/pt-br/concepts/prefill-decode-disaggregation.md) (rascunho)
-- [RoPE](/pt-br/concepts/rope.md) (rascunho)
+- [Geração aumentada por recuperação (RAG)](/pt-br/concepts/ai-ml/rag.md)
+- [GraphRAG](/pt-br/concepts/ai-ml/graph-rag.md)
+- [RAG sem vetores](/pt-br/concepts/ai-ml/vectorless-rag.md)
+- [KV cache](/pt-br/concepts/ai-ml/kv-cache.md)
+- [Throughput/latência/custo de inferência](/pt-br/concepts/ai-ml/inference-tradeoffs.md)
+- [Orquestração multiagente](/pt-br/concepts/ai-ml/multi-agent-orchestration.md)
+- [Feature store](/pt-br/concepts/ai-ml/feature-store.md)
+- [Concept drift](/pt-br/concepts/ai-ml/concept-drift.md)
+- [Data drift](/pt-br/concepts/ai-ml/data-drift.md)
+- [Máquina de vetores de suporte (SVM)](/pt-br/concepts/ai-ml/svm.md)
+- [Rede RBF](/pt-br/concepts/ai-ml/rbf-network.md)
+- [LLM-as-a-judge](/pt-br/concepts/ai-ml/llm-as-a-judge.md) (rascunho)
+- [JEPA](/pt-br/concepts/ai-ml/jepa.md) (rascunho)
+- [Decodificação especulativa](/pt-br/concepts/ai-ml/speculative-decoding.md) (rascunho)
+- [Desagregação prefill-decode](/pt-br/concepts/ai-ml/prefill-decode-disaggregation.md) (rascunho)
+- [RoPE](/pt-br/concepts/ai-ml/rope.md) (rascunho)
 
 ## Notas
 Os resumos deste domínio ficam em [/notes/ai-ml/](/pt-br/notes/ai-ml/index.md).

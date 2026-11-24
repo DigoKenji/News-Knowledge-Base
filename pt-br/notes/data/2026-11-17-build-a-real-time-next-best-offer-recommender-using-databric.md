@@ -38,7 +38,7 @@ translation_of: /notes/data/2026-11-17-build-a-real-time-next-best-offer-recomme
 **Fonte:** https://www.databricks.com/blog/build-real-time-next-best-offer-recommender-using-databricks-feature-views
 **Autor:** Tian Tan
 **Data:** 2026-11-16
-**Conceitos:** [Feature store](/pt-br/concepts/feature-store.md) · [Throughput/latência/custo de inferência](/pt-br/concepts/inference-tradeoffs.md)
+**Conceitos:** [Feature store](/pt-br/concepts/ai-ml/feature-store.md) · [Throughput/latência/custo de inferência](/pt-br/concepts/ai-ml/inference-tradeoffs.md)
 
 ---
 

@@ -36,7 +36,7 @@ translation_of: /notes/ai-ml/2026-11-17-10-mcp-servers-every-local-ai-developer-
 **Fonte:** https://medium.com/python-in-plain-english/10-mcp-servers-every-local-ai-developer-should-install-3d80ddb24001
 **Autor:** Arham Ali
 **Data:** 2026-09-17
-**Conceitos:** [Model Context Protocol (MCP)](/pt-br/concepts/model-context-protocol.md)
+**Conceitos:** [Model Context Protocol (MCP)](/pt-br/concepts/ai-ml/model-context-protocol.md)
 
 ---
 

@@ -121,5 +121,5 @@ This is your interpretation, not the author's. For an architect, memory layout a
 - Hybrid memory and disk caches — related designs that keep an index in RAM.
 
 ## Concepts
-- [hybrid-memory-disk-cache](/concepts/hybrid-memory-disk-cache.md)
-- [gc-pressure](/concepts/gc-pressure.md)
+- [hybrid-memory-disk-cache](/concepts/backend-systems/hybrid-memory-disk-cache.md)
+- [gc-pressure](/concepts/backend-systems/gc-pressure.md)

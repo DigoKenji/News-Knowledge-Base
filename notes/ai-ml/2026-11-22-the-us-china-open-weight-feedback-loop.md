@@ -118,7 +118,7 @@ Interpretation, not the author's: the table works as a practical map of which at
 - Implementing LLM Architectures From Scratch (Read Next item) — comparing open-weight implementations against reference code.
 
 ## Concepts
-- [Rotary position embedding (RoPE)](/concepts/rope.md)
-- [KV cache](/concepts/kv-cache.md)
-- [Mixture of experts](/concepts/mixture-of-experts.md)
-- [Multi-head latent attention](/concepts/multi-head-latent-attention.md)
+- [Rotary position embedding (RoPE)](/concepts/ai-ml/rope.md)
+- [KV cache](/concepts/ai-ml/kv-cache.md)
+- [Mixture of experts](/concepts/ai-ml/mixture-of-experts.md)
+- [Multi-head latent attention](/concepts/ai-ml/multi-head-latent-attention.md)

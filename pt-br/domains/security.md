@@ -26,9 +26,9 @@ translation_of: /domains/security.md
 - `appsec`
 
 ## Conceitos
-- [OAuth 2.0](/pt-br/concepts/oauth2.md)
-- [OpenID Connect](/pt-br/concepts/oidc.md)
-- [Modelagem de ameaças](/pt-br/concepts/threat-modeling.md)
+- [OAuth 2.0](/pt-br/concepts/security/oauth2.md)
+- [OpenID Connect](/pt-br/concepts/security/oidc.md)
+- [Modelagem de ameaças](/pt-br/concepts/security/threat-modeling.md)
 
 ## Notas
 Os resumos deste domínio ficam em [/notes/security/](/pt-br/notes/security/index.md).

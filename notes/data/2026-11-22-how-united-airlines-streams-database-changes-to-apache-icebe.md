@@ -278,5 +278,5 @@ This is the pattern for a near-real-time reference-data feed into a multi-engine
 - Iceberg table maintenance (compaction and snapshot expiry) — how to keep small files and delete files from slowing reads.
 
 ## Concepts
-- [Dead-letter queue](/concepts/dead-letter-queue.md)
-- [Change data capture](/concepts/change-data-capture.md)
+- [Dead-letter queue](/concepts/backend-systems/dead-letter-queue.md)
+- [Change data capture](/concepts/data/change-data-capture.md)

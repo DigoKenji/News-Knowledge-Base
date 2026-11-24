@@ -36,7 +36,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d8138b6bde7d04a65dc14
 **Source:** https://www.databricks.com/blog/build-real-time-next-best-offer-recommender-using-databricks-feature-views
 **Author:** Tian Tan
 **Date:** 2026-11-16
-**Concepts:** [Feature store](/concepts/feature-store.md) · [Inference throughput/latency/cost](/concepts/inference-tradeoffs.md)
+**Concepts:** [Feature store](/concepts/ai-ml/feature-store.md) · [Inference throughput/latency/cost](/concepts/ai-ml/inference-tradeoffs.md)
 
 ---
 

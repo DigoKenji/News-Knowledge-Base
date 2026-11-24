@@ -219,7 +219,7 @@ A central gateway puts access to multiple models, governance, cost visibility an
 - Build-versus-buy total cost of ownership for internal platforms — how to price years of operating a shared service.
 
 ## 🔗 Concepts
-- [model-context-protocol](/concepts/model-context-protocol.md)
-- [oidc](/concepts/oidc.md)
-- [oauth2](/concepts/oauth2.md)
-- [ai-gateway](/concepts/ai-gateway.md)
+- [model-context-protocol](/concepts/ai-ml/model-context-protocol.md)
+- [oidc](/concepts/security/oidc.md)
+- [oauth2](/concepts/security/oauth2.md)
+- [ai-gateway](/concepts/ai-ml/ai-gateway.md)

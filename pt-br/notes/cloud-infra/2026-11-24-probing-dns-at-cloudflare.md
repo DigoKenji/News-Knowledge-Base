@@ -278,6 +278,6 @@ Esta é a sua interpretação, não a do autor. Na governança de arquitetura, o
 - Canary e entrega progressiva com rollback automatizado — o padrão de controle de releases do qual o artigo depende.
 
 ## 🔗 Conceitos
-- [control-plane](/pt-br/concepts/control-plane.md)
-- [canary-deploy](/pt-br/concepts/canary-deploy.md)
-- [SLO error budget](/pt-br/concepts/slo-error-budget.md)
+- [control-plane](/pt-br/concepts/backend-systems/control-plane.md)
+- [canary-deploy](/pt-br/concepts/cloud-infra/canary-deploy.md)
+- [SLO error budget](/pt-br/concepts/cloud-infra/slo-error-budget.md)

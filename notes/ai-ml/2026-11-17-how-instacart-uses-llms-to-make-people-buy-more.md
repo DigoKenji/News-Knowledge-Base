@@ -36,7 +36,7 @@ notion_url: https://app.notion.com/p/41bbaf74172d810d88d9cad76f39ce7c
 **Source:** https://blog.bytebytego.com/p/how-instacart-uses-llms-to-make-people
 **Author:** ByteByteGo
 **Date:** 2026-11-16
-**Concepts:** [Retrieval-augmented generation](/concepts/rag.md) · [Inference throughput/latency/cost](/concepts/inference-tradeoffs.md)
+**Concepts:** [Retrieval-augmented generation](/concepts/ai-ml/rag.md) · [Inference throughput/latency/cost](/concepts/ai-ml/inference-tradeoffs.md)
 
 ---
 
