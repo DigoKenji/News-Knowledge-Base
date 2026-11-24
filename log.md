@@ -1,6 +1,7 @@
 # Log
 
 ## 2026-11-24
+- **Plan:** Core vocabulary seed list (~70 terms across 7 domains) approved by Kenji: /reviews/2026-11-24-core-vocabulary.md. Entries follow in batches.
 - **Certification:** Kenji certified all 45 expanded concepts (EN + pt-br now `stable` + `verified`). Checklist /reviews/2026-11-24-certification.md closed; foundations stay draft.
 - **Update:** All 45 draft concepts (and their pt-br twins) expanded from one-liners into full entries: definition, how it works, trade-offs, example, and 3+ independent sources each (147 links checked). Still drafts; checklist refreshed.
 - **Review:** Certification checklist /reviews/2026-11-24-certification.md with all 45 draft concepts and 10 draft foundations, waiting for Kenji.

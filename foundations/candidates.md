@@ -6,6 +6,8 @@ description: Terms proposed for the foundational base, from the MBA syllabus and
 
 # Foundation candidates
 
+The approved core vocabulary (terms marked F) is in [/reviews/2026-11-24-core-vocabulary.md](/reviews/2026-11-24-core-vocabulary.md).
+
 Seed list from the MBA syllabus (2026-11-18). Daily runs append terms they meet in architecture notes.
 
 - Value stream

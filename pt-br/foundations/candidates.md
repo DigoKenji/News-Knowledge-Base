@@ -8,6 +8,8 @@ translation_of: /foundations/candidates.md
 
 # Candidatos a fundamento
 
+O vocabulário central aprovado (termos marcados F) está em [/reviews/2026-11-24-core-vocabulary.md](/reviews/2026-11-24-core-vocabulary.md).
+
 Lista inicial a partir do programa do MBA (2026-11-18). As execuções diárias acrescentam os termos que encontram nas notas de arquitetura.
 
 - Fluxo de valor
