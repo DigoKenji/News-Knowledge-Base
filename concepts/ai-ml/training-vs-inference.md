@@ -24,6 +24,18 @@ sources:
 - title: Google. Machine Learning Glossary - training, inference
   resource: 'https://developers.google.com/machine-learning/glossary'
   kind: docs
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 9 Inference Optimization, pp. 405-447 (inference overview p. 406; performance metrics p. 412)'
+- title: 'Iusztin, P. and Labonne, M. (2024). LLM Engineer''s Handbook. Packt'
+  resource: 'https://books.google.com/books?vid=ISBN9781836200079'
+  kind: book
+  locator: 'ch. 10 Inference Pipeline Deployment, pp. 355-400'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Training vs inference
@@ -49,11 +61,20 @@ A lab spends months and millions of dollars training a model once; every Telegra
 - [Low-rank adaptation (LoRA)](/concepts/ai-ml/lora.md)
 - [Distillation](/concepts/ai-ml/distillation.md)
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 9 Inference Optimization, pp. 405-447 (inference overview p. 406; performance metrics p. 412): Inference as its own engineering problem: compute- vs memory-bound phases, TTFT/TPOT, accelerators.
+- **Iusztin, P. and Labonne, M. (2024)**, *LLM Engineer's Handbook*, ch. 10 Inference Pipeline Deployment, pp. 355-400: Online, asynchronous and batch deployment types and their trade-offs.
+
 ## Sources
 
 1. Goodfellow, I., Bengio, Y. and Courville, A. (2016). *Deep Learning*, ch. 6 and 8. MIT Press. <https://www.deeplearningbook.org/> — Forward pass, backpropagation and optimisation in training.
 2. Pope, R. et al. (2023). *Efficiently Scaling Transformer Inference*. MLSys 2023, arXiv:2211.05102. <https://arxiv.org/abs/2211.05102> — Inference cost, latency and the prefill/decode distinction.
 3. Google. *Machine Learning Glossary* - training, inference. <https://developers.google.com/machine-learning/glossary> — Practitioner definitions of both terms.
+4. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 9 Inference Optimization, pp. 405-447 (inference overview p. 406; performance metrics p. 412). Inference as its own engineering problem: compute- vs memory-bound phases, TTFT/TPOT, accelerators.
+5. Iusztin, P. and Labonne, M. (2024). *LLM Engineer's Handbook*. Packt. <https://books.google.com/books?vid=ISBN9781836200079> — ch. 10 Inference Pipeline Deployment, pp. 355-400. Online, asynchronous and batch deployment types and their trade-offs.
 
 ## Relations
 - (none yet)

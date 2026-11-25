@@ -24,7 +24,19 @@ sources:
 - title: ISO/IEC (2022). ISO/IEC 22989 - Artificial intelligence concepts and terminology, ML section
   resource: 'https://www.iso.org/standard/74296.html'
   kind: standard
+- title: 'Raschka, S., Liu, Y. and Mirjalili, V. (2022). Machine Learning with PyTorch and Scikit-Learn. Packt'
+  resource: 'https://books.google.com/books?vid=ISBN9781801819312'
+  kind: book
+  locator: 'ch. 2-3, pp. 19-104 (perceptron, Adaline, logistic regression, SVM, trees, k-NN)'
+- title: 'Goodfellow, I., Bengio, Y. and Courville, A. (2016). Deep Learning. MIT Press'
+  resource: 'https://www.deeplearningbook.org/'
+  kind: book
+  locator: '§5.7 Supervised Learning Algorithms, p. 140'
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Supervised learning
@@ -50,11 +62,20 @@ Classification - predict whether a transaction is fraud (yes/no). Regression - p
 
 Foundation candidate: a standards body defines this term (see sources). It moves to `foundations/` once verbatim quotes from two independent issuing bodies are collected (ADR-0010).
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Raschka, S., Liu, Y. and Mirjalili, V. (2022)**, *Machine Learning with PyTorch and Scikit-Learn*, ch. 2-3, pp. 19-104 (perceptron, Adaline, logistic regression, SVM, trees, k-NN): Builds the main supervised classifiers step by step and compares them in scikit-learn.
+- **Goodfellow, I., Bengio, Y. and Courville, A. (2016)**, *Deep Learning*, §5.7 Supervised Learning Algorithms, p. 140: Short formal overview of supervised learning as estimating p(y | x).
+
 ## Sources
 
 1. Hastie, T., Tibshirani, R. and Friedman, J. (2009). *The Elements of Statistical Learning*, 2nd ed., ch. 2. Springer. <https://hastie.su.domains/ElemStatLearn/> — Formal treatment of supervised learning, classification and regression.
 2. Google. *Machine Learning Glossary* - supervised machine learning. <https://developers.google.com/machine-learning/glossary> — Practitioner definitions of labels, features, classification and regression.
 3. ISO/IEC (2022). *ISO/IEC 22989 - Artificial intelligence concepts and terminology*, ML section. <https://www.iso.org/standard/74296.html> — Standard term (paywalled; cited, not quoted).
+4. Raschka, S., Liu, Y. and Mirjalili, V. (2022). *Machine Learning with PyTorch and Scikit-Learn*. Packt. <https://books.google.com/books?vid=ISBN9781801819312> — ch. 2-3, pp. 19-104 (perceptron, Adaline, logistic regression, SVM, trees, k-NN). Builds the main supervised classifiers step by step and compares them in scikit-learn.
+5. Goodfellow, I., Bengio, Y. and Courville, A. (2016). *Deep Learning*. MIT Press. <https://www.deeplearningbook.org/> — §5.7 Supervised Learning Algorithms, p. 140. Short formal overview of supervised learning as estimating p(y | x).
 
 ## Relations
 - (none yet)

@@ -24,6 +24,22 @@ sources:
 - title: 'Liang, P. et al. (2023). Holistic Evaluation of Language Models (HELM). TMLR, arXiv:2211.09110'
   resource: 'https://arxiv.org/abs/2211.09110'
   kind: paper
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 3 Evaluation Methodology, pp. 113-157 (perplexity p. 121; exact evaluation p. 125; AI as a judge p. 136); ch. 4 Evaluate AI Systems, pp. 159-209'
+- title: 'Raschka, S., Liu, Y. and Mirjalili, V. (2022). Machine Learning with PyTorch and Scikit-Learn. Packt'
+  resource: 'https://books.google.com/books?vid=ISBN9781801819312'
+  kind: book
+  locator: 'ch. 6 Model Evaluation and Hyperparameter Tuning, pp. 171-204 (k-fold CV p. 175; metrics p. 193)'
+- title: 'Iusztin, P. and Labonne, M. (2024). LLM Engineer''s Handbook. Packt'
+  resource: 'https://books.google.com/books?vid=ISBN9781836200079'
+  kind: book
+  locator: 'ch. 7 Evaluating LLMs, pp. 261-288 (RAG evaluation and Ragas p. 271)'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Model evaluation and metrics
@@ -46,11 +62,22 @@ A fraud model flags 100 transactions, 80 really are fraud (precision 80%), and i
 - [Position bias](/concepts/ai-ml/position-bias.md)
 - [Calibration](/concepts/ai-ml/calibration.md)
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 3 Evaluation Methodology, pp. 113-157 (perplexity p. 121; exact evaluation p. 125; AI as a judge p. 136); ch. 4 Evaluate AI Systems, pp. 159-209: Evaluation for open-ended generative output and how to design an evaluation pipeline.
+- **Raschka, S., Liu, Y. and Mirjalili, V. (2022)**, *Machine Learning with PyTorch and Scikit-Learn*, ch. 6 Model Evaluation and Hyperparameter Tuning, pp. 171-204 (k-fold CV p. 175; metrics p. 193): Classic evaluation: cross-validation, confusion matrix, precision/recall, ROC.
+- **Iusztin, P. and Labonne, M. (2024)**, *LLM Engineer's Handbook*, ch. 7 Evaluating LLMs, pp. 261-288 (RAG evaluation and Ragas p. 271): General, domain and task-specific LLM evaluations, plus RAG evaluation.
+
 ## Sources
 
 1. scikit-learn. *Metrics and scoring - quantifying the quality of predictions*. <https://scikit-learn.org/stable/modules/model_evaluation.html> — Definitions and use of classification and regression metrics.
 2. ISO/IEC (2022). *ISO/IEC TS 4213 - Assessment of machine learning classification performance*. <https://www.iso.org/standard/79799.html> — Standardised assessment of classification performance (paywalled; cited, not quoted).
 3. Liang, P. et al. (2023). *Holistic Evaluation of Language Models (HELM)*. TMLR, arXiv:2211.09110. <https://arxiv.org/abs/2211.09110> — Multi-metric evaluation of language models beyond accuracy.
+4. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 3 Evaluation Methodology, pp. 113-157 (perplexity p. 121; exact evaluation p. 125; AI as a judge p. 136); ch. 4 Evaluate AI Systems, pp. 159-209. Evaluation for open-ended generative output and how to design an evaluation pipeline.
+5. Raschka, S., Liu, Y. and Mirjalili, V. (2022). *Machine Learning with PyTorch and Scikit-Learn*. Packt. <https://books.google.com/books?vid=ISBN9781801819312> — ch. 6 Model Evaluation and Hyperparameter Tuning, pp. 171-204 (k-fold CV p. 175; metrics p. 193). Classic evaluation: cross-validation, confusion matrix, precision/recall, ROC.
+6. Iusztin, P. and Labonne, M. (2024). *LLM Engineer's Handbook*. Packt. <https://books.google.com/books?vid=ISBN9781836200079> — ch. 7 Evaluating LLMs, pp. 261-288 (RAG evaluation and Ragas p. 271). General, domain and task-specific LLM evaluations, plus RAG evaluation.
 
 ## Relations
 - (none yet)

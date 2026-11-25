@@ -30,8 +30,20 @@ sources:
 - title: 'Xu, X. et al. (2024). A Survey on Knowledge Distillation of Large Language Models. arXiv:2402.13116'
   resource: 'https://arxiv.org/abs/2402.13116'
   kind: paper
+- title: 'Tunstall, L., von Werra, L. and Wolf, T. (2022). Natural Language Processing with Transformers, revised edition. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098136796'
+  kind: book
+  locator: 'ch. 8 Making Models Smaller via Knowledge Distillation, pp. 217-229'
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 8 Model Distillation, p. 395'
 lang: pt-br
 translation_of: /concepts/ai-ml/distillation.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Destilação
@@ -56,12 +68,21 @@ Gerar 50.000 tickets de suporte rotulados com um modelo de fronteira e depois fa
 
 O rascunho ("extrair capacidades") descrevia só o caso adversarial; a definição agora é a técnica geral, com o uso adversarial como ressalva.
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Tunstall, L., von Werra, L. and Wolf, T. (2022)**, *Natural Language Processing with Transformers, revised edition*, ch. 8 Making Models Smaller via Knowledge Distillation, pp. 217-229: Destila um transformer com fine-tuning e avalia o modelo aluno.
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 8 Model Distillation, p. 395: Destilação como técnica de síntese de dados para treinar modelos menores.
+
 ## Fontes
 
 1. Hinton, G., Vinyals, O. and Dean, J. (2015). *Distilling the Knowledge in a Neural Network*. arXiv:1503.02531. <https://arxiv.org/abs/1503.02531> — Soft targets, temperatura, o método professor-aluno.
 2. Bucilă, C., Caruana, R. and Niculescu-Mizil, A. (2006). *Model Compression*. KDD 2006. <https://dl.acm.org/doi/10.1145/1150402.1150464> — A ideia anterior de comprimir um ensemble num único modelo pequeno treinado nas suas saídas.
 3. Sanh, V. et al. (2019). *DistilBERT, a distilled version of BERT*. arXiv:1910.01108. <https://arxiv.org/abs/1910.01108> — Números concretos de tamanho, velocidade e qualidade de um modelo de linguagem destilado.
 4. Xu, X. et al. (2024). *A Survey on Knowledge Distillation of Large Language Models*. arXiv:2402.13116. <https://arxiv.org/abs/2402.13116> — Destilação caixa-branca vs caixa-preta para LLMs.
+5. Tunstall, L., von Werra, L. and Wolf, T. (2022). *Natural Language Processing with Transformers, revised edition*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098136796> — ch. 8 Making Models Smaller via Knowledge Distillation, pp. 217-229. Destila um transformer com fine-tuning e avalia o modelo aluno.
+6. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 8 Model Distillation, p. 395. Destilação como técnica de síntese de dados para treinar modelos menores.
 
 ## Relações
 - (nenhuma ainda)

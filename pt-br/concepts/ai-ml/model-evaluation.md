@@ -24,8 +24,24 @@ sources:
 - title: 'Liang, P. et al. (2023). Holistic Evaluation of Language Models (HELM). TMLR, arXiv:2211.09110'
   resource: 'https://arxiv.org/abs/2211.09110'
   kind: paper
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 3 Evaluation Methodology, pp. 113-157 (perplexity p. 121; exact evaluation p. 125; AI as a judge p. 136); ch. 4 Evaluate AI Systems, pp. 159-209'
+- title: 'Raschka, S., Liu, Y. and Mirjalili, V. (2022). Machine Learning with PyTorch and Scikit-Learn. Packt'
+  resource: 'https://books.google.com/books?vid=ISBN9781801819312'
+  kind: book
+  locator: 'ch. 6 Model Evaluation and Hyperparameter Tuning, pp. 171-204 (k-fold CV p. 175; metrics p. 193)'
+- title: 'Iusztin, P. and Labonne, M. (2024). LLM Engineer''s Handbook. Packt'
+  resource: 'https://books.google.com/books?vid=ISBN9781836200079'
+  kind: book
+  locator: 'ch. 7 Evaluating LLMs, pp. 261-288 (RAG evaluation and Ragas p. 271)'
 lang: pt-br
 translation_of: /concepts/ai-ml/model-evaluation.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Avaliação de modelos e métricas
@@ -48,11 +64,22 @@ Um modelo de fraude marca 100 transações, 80 são de fato fraude (precisão de
 - [Viés de posição](/pt-br/concepts/ai-ml/position-bias.md)
 - [Calibração](/pt-br/concepts/ai-ml/calibration.md)
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 3 Evaluation Methodology, pp. 113-157 (perplexity p. 121; exact evaluation p. 125; AI as a judge p. 136); ch. 4 Evaluate AI Systems, pp. 159-209: Avaliação de saídas generativas abertas e como desenhar um pipeline de avaliação.
+- **Raschka, S., Liu, Y. and Mirjalili, V. (2022)**, *Machine Learning with PyTorch and Scikit-Learn*, ch. 6 Model Evaluation and Hyperparameter Tuning, pp. 171-204 (k-fold CV p. 175; metrics p. 193): Avaliação clássica: validação cruzada, matriz de confusão, precisão/recall, ROC.
+- **Iusztin, P. and Labonne, M. (2024)**, *LLM Engineer's Handbook*, ch. 7 Evaluating LLMs, pp. 261-288 (RAG evaluation and Ragas p. 271): Avaliações gerais, de domínio e de tarefa para LLMs, além da avaliação de RAG.
+
 ## Fontes
 
 1. scikit-learn. *Metrics and scoring - quantifying the quality of predictions*. <https://scikit-learn.org/stable/modules/model_evaluation.html> — Definições e uso de métricas de classificação e regressão.
 2. ISO/IEC (2022). *ISO/IEC TS 4213 - Assessment of machine learning classification performance*. <https://www.iso.org/standard/79799.html> — Avaliação padronizada de desempenho de classificação (pago; citado, não transcrito).
 3. Liang, P. et al. (2023). *Holistic Evaluation of Language Models (HELM)*. TMLR, arXiv:2211.09110. <https://arxiv.org/abs/2211.09110> — Avaliação de modelos de linguagem com múltiplas métricas além da acurácia.
+4. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 3 Evaluation Methodology, pp. 113-157 (perplexity p. 121; exact evaluation p. 125; AI as a judge p. 136); ch. 4 Evaluate AI Systems, pp. 159-209. Avaliação de saídas generativas abertas e como desenhar um pipeline de avaliação.
+5. Raschka, S., Liu, Y. and Mirjalili, V. (2022). *Machine Learning with PyTorch and Scikit-Learn*. Packt. <https://books.google.com/books?vid=ISBN9781801819312> — ch. 6 Model Evaluation and Hyperparameter Tuning, pp. 171-204 (k-fold CV p. 175; metrics p. 193). Avaliação clássica: validação cruzada, matriz de confusão, precisão/recall, ROC.
+6. Iusztin, P. and Labonne, M. (2024). *LLM Engineer's Handbook*. Packt. <https://books.google.com/books?vid=ISBN9781836200079> — ch. 7 Evaluating LLMs, pp. 261-288 (RAG evaluation and Ragas p. 271). Avaliações gerais, de domínio e de tarefa para LLMs, além da avaliação de RAG.
 
 ## Relações
 - (nenhuma ainda)

@@ -50,3 +50,11 @@
 - [Multi-head latent attention](/concepts/ai-ml/multi-head-latent-attention.md) — ai-ml
 - [Context engineering](/concepts/ai-ml/context-engineering.md) — ai-ml
 - [Low-rank adaptation (LoRA)](/concepts/ai-ml/lora.md) — ai-ml
+- [Gradient descent and backpropagation](/concepts/ai-ml/gradient-descent-backpropagation.md) — deep-learning (draft)
+- [Regularization and the bias-variance trade-off](/concepts/ai-ml/regularization.md) — classical-ml (draft)
+- [Tokenization](/concepts/ai-ml/tokenization.md) — nlp (draft)
+- [Fine-tuning](/concepts/ai-ml/fine-tuning.md) — llm-engineering (draft)
+- [Prompt engineering](/concepts/ai-ml/prompt-engineering.md) — llm-engineering (draft)
+- [Generative models (VAE, GAN, diffusion, autoregressive)](/concepts/ai-ml/generative-models.md) — deep-learning (draft)
+- [Quantization](/concepts/ai-ml/quantization.md) — llm-engineering (draft)
+- [MLOps and LLMOps](/concepts/ai-ml/mlops-llmops.md) — mlops (draft)

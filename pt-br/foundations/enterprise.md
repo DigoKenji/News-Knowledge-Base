@@ -23,12 +23,20 @@ sources:
   edition: 10th Edition, 2025 update (evaluation copy)
   section: §4.43 Enterprise; §1.1 Executive Overview, "What is an Enterprise?"
   tier: B
+- title: 'SEBoK - Guide to the Systems Engineering Body of Knowledge, glossary: Enterprise'
+  publisher: 'BKCASE Editorial Board (INCOSE, IEEE Systems Council, Stevens Institute/SERC)'
+  edition: 'v2.x (online, accessed 2026-11-25)'
+  section: 'Glossary entry, quoting the standards listed'
+  resource: 'https://sebokwiki.org/wiki/Enterprise_(glossary)'
+  tier: B
 evidence:
   bodies:
   - The Open Group
-  meets_standard: partial
+  - ISO (ISO 15704, via SEBoK)
+  - US Federal CIO Council (FEAF, via SEBoK)
+  meets_standard: yes
   gaps:
-  - 'A second body: e.g. ISO 15704 (enterprise modelling) or ArchiMate 3.2 glossary (same body, does not count); a peer-reviewed EA text such as Ross, Weill & Robertson, Enterprise Architecture as Strategy (2006)'
+  - 'Both quotes are via SEBoK; the ISO 15704 original is paywalled'
 related:
 - enterprise-architecture
 - architecture
@@ -59,7 +67,14 @@ Uma empresa (enterprise) é qualquer conjunto de organizações que compartilham
 > *Tradução livre:* O TOGAF Standard considera "empresa" (enterprise) qualquer conjunto de organizações que têm objetivos comuns.
 > — The Open Group, TOGAF Standard 10th Ed. (C220 Part 0), §1.1 Executive Overview
 
+> one or more organizations sharing a definite mission, goals, and objectives to offer an output such as a product or service
+> — ISO 15704:2000, as reproduced in the [SEBoK glossary: Enterprise](https://sebokwiki.org/wiki/Enterprise_(glossary))
+
+> An organization (or cross organizational entity) supporting a defined business scope and mission that includes interdependent resources (people, organizations and technologies) that must coordinate their functions and share information in support of a common mission (or set of related missions).
+> — US Federal CIO Council, Federal Enterprise Architecture Framework (1999), as reproduced in the SEBoK glossary
+
 ## Em que diferem
+- **Mais dois órgãos concordam com a ideia central do TOGAF.** A ISO 15704 e o framework federal de EA dos EUA definem a empresa como uma ou mais organizações unidas por missão e objetivos comuns, o que corresponde à "coleção de organizações com objetivos comuns" do TOGAF. O FEAF acrescenta os recursos interdependentes (pessoas, organizações, tecnologia) que precisam compartilhar informação.
 - A definição formal é palavra por palavra a mesma no 9.2 e no 10.
 - O TOGAF 10 §1.1 acrescenta a regra de escopo: "Enterprise" em Arquitetura Empresarial pode significar a empresa inteira ou "uma ou mais áreas específicas de interesse dentro da empresa", podendo incluir parceiros, fornecedores e clientes.
 - **Baseline.** A KB segue o TOGAF 9.2 (orientação do curso, 2026-11-19: a 9.2 está consolidada, enquanto o TOGAF 10 ainda está sendo atualizado). A redação do TOGAF 10 é mantida aqui para mostrar o que mudou.
@@ -68,7 +83,7 @@ Uma empresa (enterprise) é qualquer conjunto de organizações que compartilham
 Define o escopo da [Arquitetura Empresarial](/pt-br/foundations/enterprise-architecture.md). Não é sinônimo de *companhia*: uma companhia pode conter várias empresas, e uma empresa pode abranger várias companhias.
 
 ## No curso
-A Arquitetura de Negócio (Prof. Rogério Kobayashi) enquadra a empresa por meio de propósito, missão, visão e estratégia. Aulas ainda não ingeridas.
+A Arquitetura de Negócio enquadra a empresa por meio de propósito, missão, visão e estratégia. Aulas ainda não ingeridas.
 
 ## Questões em aberto
 - Para estudos de caso do MBA (por exemplo, Tem Tudo para Carro), tratar cada empresa do caso como uma única empresa?

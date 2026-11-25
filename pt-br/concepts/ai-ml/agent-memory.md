@@ -30,8 +30,16 @@ sources:
 - title: 'Packer, C. et al. (2023). MemGPT - Towards LLMs as Operating Systems. arXiv:2310.08560'
   resource: 'https://arxiv.org/abs/2310.08560'
   kind: paper
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 6 Memory, pp. 300-305'
 lang: pt-br
 translation_of: /concepts/ai-ml/agent-memory.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Memória de agente
@@ -56,11 +64,18 @@ A própria pasta de memória deste projeto é memória de agente: um arquivo por
 
 RAG sobre um corpus fixo de documentos é recuperação, não memória: o agente não escreve nele. Fine-tuning muda os pesos; a memória não os toca.
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 6 Memory, pp. 300-305: Conhecimento interno, contexto de curto prazo e memória externa de longo prazo para agentes.
+
 ## Fontes
 
 1. Sumers, T. et al. (2024). *Cognitive Architectures for Language Agents (CoALA)*. TMLR, arXiv:2309.02427. <https://arxiv.org/abs/2309.02427> — Memória de trabalho vs episódica, semântica e procedural para agentes de linguagem.
 2. Park, J. S. et al. (2023). *Generative Agents - Interactive Simulacra of Human Behavior*. UIST 2023, arXiv:2304.03442. <https://arxiv.org/abs/2304.03442> — Fluxo de memória com recuperação por recência, importância e relevância, mais reflexão.
 3. Packer, C. et al. (2023). *MemGPT - Towards LLMs as Operating Systems*. arXiv:2310.08560. <https://arxiv.org/abs/2310.08560> — Janela de contexto como memória principal, repositórios externos como disco, paginação entre eles.
+4. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 6 Memory, pp. 300-305. Conhecimento interno, contexto de curto prazo e memória externa de longo prazo para agentes.
 
 ## Relações
 - **part-of** [Agente de IA](/pt-br/concepts/ai-ml/ai-agent.md)

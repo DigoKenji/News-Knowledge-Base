@@ -30,6 +30,18 @@ sources:
 - title: 'Olsson, C. et al. (2022). In-context Learning and Induction Heads. Transformer Circuits Thread, arXiv:2209.11895'
   resource: 'https://arxiv.org/abs/2209.11895'
   kind: paper
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 5 In-Context Learning: Zero-Shot and Few-Shot, pp. 213-215'
+- title: 'Tunstall, L., von Werra, L. and Wolf, T. (2022). Natural Language Processing with Transformers, revised edition. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098136796'
+  kind: book
+  locator: 'ch. 9 In-Context and Few-Shot Learning with Prompts, p. 288'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # In-context learning
@@ -50,12 +62,21 @@ ICL lets you adapt a model in minutes with no training pipeline, which is why pr
 
 Prompt "great movie → positive; boring plot → negative; loved the cast →" and the model answers "positive".
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 5 In-Context Learning: Zero-Shot and Few-Shot, pp. 213-215: How shots in the prompt substitute for training examples.
+- **Tunstall, L., von Werra, L. and Wolf, T. (2022)**, *Natural Language Processing with Transformers, revised edition*, ch. 9 In-Context and Few-Shot Learning with Prompts, p. 288: Few-shot prompting compared with fine-tuning when labels are scarce.
+
 ## Sources
 
 1. Brown, T. et al. (2020). *Language Models are Few-Shot Learners*. NeurIPS 2020, arXiv:2005.14165. <https://arxiv.org/abs/2005.14165> — Zero-, one- and few-shot in-context learning and its growth with scale.
 2. Dong, Q. et al. (2024). *A Survey on In-context Learning*. EMNLP 2024, arXiv:2301.00234. <https://arxiv.org/abs/2301.00234> — Definition, demonstration design and explanations of ICL.
 3. Min, S. et al. (2022). *Rethinking the Role of Demonstrations - What Makes In-Context Learning Work?* EMNLP 2022, arXiv:2202.12837. <https://arxiv.org/abs/2202.12837> — Format and input distribution matter more than correct labels.
 4. Olsson, C. et al. (2022). *In-context Learning and Induction Heads*. Transformer Circuits Thread, arXiv:2209.11895. <https://arxiv.org/abs/2209.11895> — A mechanistic explanation of ICL.
+5. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 5 In-Context Learning: Zero-Shot and Few-Shot, pp. 213-215. How shots in the prompt substitute for training examples.
+6. Tunstall, L., von Werra, L. and Wolf, T. (2022). *Natural Language Processing with Transformers, revised edition*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098136796> — ch. 9 In-Context and Few-Shot Learning with Prompts, p. 288. Few-shot prompting compared with fine-tuning when labels are scarce.
 
 ## Relations
 - (none yet)

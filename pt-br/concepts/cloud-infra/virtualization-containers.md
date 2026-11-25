@@ -21,8 +21,20 @@ sources:
 - title: Docker. What is a container?
   resource: 'https://www.docker.com/resources/what-container/'
   kind: docs
+- title: 'Stallings, W. and Brown, L. (2015). Computer Security: Principles and Practice, 3rd edition. Pearson'
+  resource: 'https://books.google.com/books?vid=ISBN9780133773927'
+  kind: book
+  locator: '§12.8 Virtualization Security, pp. 432-436'
+- title: 'Dotson, C. (2019). Practical Cloud Security: A Guide for Secure Design and Deployment. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781492037514'
+  kind: book
+  locator: 'ch. 3 Cloud Asset Management and Protection, pp. 29-48'
 lang: pt-br
 translation_of: /concepts/cloud-infra/virtualization-containers.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Virtualização e contêineres
@@ -45,11 +57,20 @@ Um servidor físico roda 20 máquinas virtuais de clientes diferentes. Dentro de
 - [Serverless (sem servidor)](/pt-br/concepts/cloud-infra/serverless.md)
 - [Atestação remota](/pt-br/concepts/security/remote-attestation.md)
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Stallings, W. and Brown, L. (2015)**, *Computer Security: Principles and Practice, 3rd edition*, §12.8 Virtualization Security, pp. 432-436: Tipos de hipervisor e questões de segurança da virtualização.
+- **Dotson, C. (2019)**, *Practical Cloud Security: A Guide for Secure Design and Deployment*, ch. 3 Cloud Asset Management and Protection, pp. 29-48: Inventário e proteção de VMs, contêineres e outros ativos de nuvem.
+
 ## Fontes
 
 1. Popek, G. J. and Goldberg, R. P. (1974). *Formal Requirements for Virtualizable Third Generation Architectures*. Communications of the ACM 17(7). <https://doi.org/10.1145/361011.361073> — Requisitos formais para monitores de máquinas virtuais.
 2. Open Container Initiative. *OCI Runtime and Image Specifications*. <https://opencontainers.org/> — Padrões abertos para imagens e runtimes de contêineres.
 3. Docker. *What is a container?*. <https://www.docker.com/resources/what-container/> — Contêineres versus máquinas virtuais na prática.
+4. Stallings, W. and Brown, L. (2015). *Computer Security: Principles and Practice, 3rd edition*. Pearson. <https://books.google.com/books?vid=ISBN9780133773927> — §12.8 Virtualization Security, pp. 432-436. Tipos de hipervisor e questões de segurança da virtualização.
+5. Dotson, C. (2019). *Practical Cloud Security: A Guide for Secure Design and Deployment*. O'Reilly. <https://books.google.com/books?vid=ISBN9781492037514> — ch. 3 Cloud Asset Management and Protection, pp. 29-48. Inventário e proteção de VMs, contêineres e outros ativos de nuvem.
 
 ## Relações
 - (nenhuma ainda)

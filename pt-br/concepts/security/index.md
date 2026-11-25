@@ -24,3 +24,11 @@
 - [Atestação remota](/pt-br/concepts/security/remote-attestation.md) — appsec
 - [Envenenamento de memória](/pt-br/concepts/security/memory-poisoning.md) — security
 - [Ataque à cadeia de suprimentos](/pt-br/concepts/security/supply-chain-attack.md) — security
+- [Teste de intrusão (pentest) e avaliação de vulnerabilidades](/pt-br/concepts/security/penetration-testing.md) — appsec (rascunho)
+- [Resposta a incidentes](/pt-br/concepts/security/incident-response.md) — security (rascunho)
+- [Controles de segurança](/pt-br/concepts/security/security-controls.md) — security (rascunho)
+- [Gestão de riscos de segurança e análise de impacto no negócio](/pt-br/concepts/security/security-risk-management.md) — security (rascunho)
+- [Modelo de responsabilidade compartilhada](/pt-br/concepts/security/shared-responsibility-model.md) — cloud-security (rascunho)
+- [Controles de segurança de rede (firewalls, segmentação, IDS/IPS)](/pt-br/concepts/security/network-security.md) — security (rascunho)
+- [Gestão de vulnerabilidades](/pt-br/concepts/security/vulnerability-management.md) — security (rascunho)
+- [Engenharia social e phishing](/pt-br/concepts/security/social-engineering.md) — security (rascunho)

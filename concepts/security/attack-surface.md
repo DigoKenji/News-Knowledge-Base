@@ -24,6 +24,18 @@ sources:
 - title: OWASP. Attack Surface Analysis Cheat Sheet
   resource: 'https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html'
   kind: practitioner
+- title: 'Stallings, W. and Brown, L. (2015). Computer Security: Principles and Practice, 3rd edition. Pearson'
+  resource: 'https://books.google.com/books?vid=ISBN9780133773927'
+  kind: book
+  locator: '§1.5 Attack Surfaces and Attack Trees, pp. 31-34'
+- title: 'Stuttard, D. and Pinto, M. (2008). The Web Application Hacker''s Handbook. Wiley'
+  resource: 'https://books.google.com/books?vid=ISBN9780470170779'
+  kind: book
+  locator: 'ch. 4 Mapping the Application, pp. 61-93'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Attack surface
@@ -46,11 +58,20 @@ A web app exposes its public site, an admin panel, a REST API, a file-upload for
 - [Model Context Protocol (MCP)](/concepts/ai-ml/model-context-protocol.md)
 - [Indirect prompt injection](/concepts/security/indirect-prompt-injection.md)
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Stallings, W. and Brown, L. (2015)**, *Computer Security: Principles and Practice, 3rd edition*, §1.5 Attack Surfaces and Attack Trees, pp. 31-34: Network, software and human attack surfaces, and attack trees.
+- **Stuttard, D. and Pinto, M. (2008)**, *The Web Application Hacker's Handbook*, ch. 4 Mapping the Application, pp. 61-93: Enumerating a web app's attack surface (content, parameters, technologies).
+
 ## Sources
 
 1. Manadhata, P. K. and Wing, J. M. (2011). *An Attack Surface Metric*. IEEE Transactions on Software Engineering 37(3). <https://doi.org/10.1109/TSE.2010.60> — Formal definition and measurement of attack surface.
 2. NIST CSRC. *Glossary - attack surface*. <https://csrc.nist.gov/glossary/term/attack_surface> — Standard definition.
 3. OWASP. *Attack Surface Analysis Cheat Sheet*. <https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html> — How to map and reduce an application's attack surface.
+4. Stallings, W. and Brown, L. (2015). *Computer Security: Principles and Practice, 3rd edition*. Pearson. <https://books.google.com/books?vid=ISBN9780133773927> — §1.5 Attack Surfaces and Attack Trees, pp. 31-34. Network, software and human attack surfaces, and attack trees.
+5. Stuttard, D. and Pinto, M. (2008). *The Web Application Hacker's Handbook*. Wiley. <https://books.google.com/books?vid=ISBN9780470170779> — ch. 4 Mapping the Application, pp. 61-93. Enumerating a web app's attack surface (content, parameters, technologies).
 
 ## Relations
 - (none yet)

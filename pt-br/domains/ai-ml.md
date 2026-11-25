@@ -57,6 +57,14 @@ translation_of: /domains/ai-ml.md
 - [Decodificação especulativa](/pt-br/concepts/ai-ml/speculative-decoding.md) (rascunho)
 - [Desagregação prefill-decode](/pt-br/concepts/ai-ml/prefill-decode-disaggregation.md) (rascunho)
 - [RoPE](/pt-br/concepts/ai-ml/rope.md) (rascunho)
+- [Gradiente descendente e retropropagação](/pt-br/concepts/ai-ml/gradient-descent-backpropagation.md) (rascunho)
+- [Regularização e o trade-off viés-variância](/pt-br/concepts/ai-ml/regularization.md) (rascunho)
+- [Tokenização](/pt-br/concepts/ai-ml/tokenization.md) (rascunho)
+- [Fine-tuning (ajuste fino)](/pt-br/concepts/ai-ml/fine-tuning.md) (rascunho)
+- [Engenharia de prompt](/pt-br/concepts/ai-ml/prompt-engineering.md) (rascunho)
+- [Modelos generativos (VAE, GAN, difusão, autorregressivos)](/pt-br/concepts/ai-ml/generative-models.md) (rascunho)
+- [Quantização](/pt-br/concepts/ai-ml/quantization.md) (rascunho)
+- [MLOps e LLMOps](/pt-br/concepts/ai-ml/mlops-llmops.md) (rascunho)
 
 ## Notas
 Os resumos deste domínio ficam em [/notes/ai-ml/](/pt-br/notes/ai-ml/index.md).

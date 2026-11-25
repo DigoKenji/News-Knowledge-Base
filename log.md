@@ -1,5 +1,12 @@
 # Log
 
+## 2026-11-25
+- **Creation:** MBA library digest: 16 new draft concepts (8 AI/ML: gradient descent and backpropagation, regularization, tokenization, fine-tuning, prompt engineering, generative models, quantization, MLOps/LLMOps; 8 security: penetration testing, incident response, security controls, risk management and BIA, shared responsibility, network security, vulnerability management, social engineering), EN + pt-br, from the books Kenji added to FIAP-MBA/Materiais/Referencias on 2026-11-24.
+- **Update:** 38 existing concepts (AI/ML, security, cloud) got a "From the MBA library" section and book sources with chapter/page locators (EN + pt-br); certified definitions unchanged. Four seed stubs (rag, kv-cache, inference-tradeoffs, threat-modeling) got a short definition.
+- **Update:** Foundations: BIZBOK Guide v9.0 (Business Architecture Guild, FEAPO definitions) and Whelan & Meaden (2012) added as second sources (EN + pt-br). Business architecture, business capability, application, data and technology architecture now meet the two-body rule; enterprise architecture moves from no to partial; still draft. Lecturer name removed from three foundation pages.
+- **Update:** Foundations: the remaining five (architecture, enterprise, enterprise architecture, architecture domain, solution architecture) got second sources from public SEBoK glossary entries (ISO/IEC/IEEE 42010, ISO 15704, US FEAF, Gartner) and BIZBOK v9 §6.1-6.2; all 10 foundations now meet the two-body rule, still draft.
+- **Review:** Checklist /reviews/2026-11-25-mba-library.md, waiting for Kenji.
+
 ## 2026-11-24
 - **Creation:** Core vocabulary batch 2: 10 software-engineering, 8 architecture, 11 backend, 9 data and 9 cloud core concepts (EN + pt-br, `subdomain: core`, draft), each with 3 sources (119 links checked); 13 flagged `foundation_candidate`. Completes the approved seed list.
 - **Certification:** Kenji certified the 22 core vocabulary concepts (AI/ML + Security, EN + pt-br).

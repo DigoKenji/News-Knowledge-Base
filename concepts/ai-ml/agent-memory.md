@@ -30,6 +30,14 @@ sources:
 - title: 'Packer, C. et al. (2023). MemGPT - Towards LLMs as Operating Systems. arXiv:2310.08560'
   resource: 'https://arxiv.org/abs/2310.08560'
   kind: paper
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 6 Memory, pp. 300-305'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Agent memory
@@ -54,11 +62,18 @@ This project's own memory folder is agent memory: one file per subject that late
 
 RAG over a fixed document corpus is retrieval, not memory: the agent does not write to it. Fine-tuning changes the weights; memory leaves them untouched.
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 6 Memory, pp. 300-305: Internal knowledge, short-term context and long-term external memory for agents.
+
 ## Sources
 
 1. Sumers, T. et al. (2024). *Cognitive Architectures for Language Agents (CoALA)*. TMLR, arXiv:2309.02427. <https://arxiv.org/abs/2309.02427> — Working vs episodic, semantic and procedural memory for language agents.
 2. Park, J. S. et al. (2023). *Generative Agents - Interactive Simulacra of Human Behavior*. UIST 2023, arXiv:2304.03442. <https://arxiv.org/abs/2304.03442> — Memory stream with retrieval by recency, importance and relevance, plus reflection.
 3. Packer, C. et al. (2023). *MemGPT - Towards LLMs as Operating Systems*. arXiv:2310.08560. <https://arxiv.org/abs/2310.08560> — Context window as main memory, external stores as disk, paging between them.
+4. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 6 Memory, pp. 300-305. Internal knowledge, short-term context and long-term external memory for agents.
 
 ## Relations
 - **part-of** [AI agent](/concepts/ai-ml/ai-agent.md)

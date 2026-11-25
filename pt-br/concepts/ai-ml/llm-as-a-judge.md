@@ -27,8 +27,16 @@ sources:
 - title: 'Gu, J. et al. (2024). A Survey on LLM-as-a-Judge. arXiv:2411.15594'
   resource: 'https://arxiv.org/abs/2411.15594'
   kind: paper
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 3 AI as a Judge, pp. 136-148 (limitations p. 141; which models can judge p. 145)'
 lang: pt-br
 translation_of: /concepts/ai-ml/llm-as-a-judge.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # LLM como juiz
@@ -49,11 +57,18 @@ Torna a avaliação de aplicações de LLM barata e contínua, permitindo testes
 
 Antes de mudar o prompt do resumidor, rode 50 artigos pelos prompts antigo e novo e pergunte a um modelo juiz qual resumo segue melhor a rubrica de deep dive, trocando as posições.
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 3 AI as a Judge, pp. 136-148 (limitations p. 141; which models can judge p. 145): Por que e como usar juízes de IA, e seus vieses e inconsistências.
+
 ## Fontes
 
 1. Zheng, L. et al. (2023). *Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena*. NeurIPS 2023, arXiv:2306.05685. <https://arxiv.org/abs/2306.05685> — O termo, concordância com humanos e vieses de posição, verbosidade e autopromoção.
 2. Liu, Y. et al. (2023). *G-Eval - NLG Evaluation using GPT-4 with Better Human Alignment*. EMNLP 2023, arXiv:2303.16634. <https://arxiv.org/abs/2303.16634> — Julgamento com rubrica mais chain-of-thought e sua correlação com humanos.
 3. Gu, J. et al. (2024). *A Survey on LLM-as-a-Judge*. arXiv:2411.15594. <https://arxiv.org/abs/2411.15594> — Taxonomia de formatos, vieses e práticas de confiabilidade.
+4. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 3 AI as a Judge, pp. 136-148 (limitations p. 141; which models can judge p. 145). Por que e como usar juízes de IA, e seus vieses e inconsistências.
 
 ## Relações
 - (nenhuma ainda)

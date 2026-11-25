@@ -23,12 +23,18 @@ sources:
   edition: 10th Edition, 2025 update (evaluation copy)
   section: §4.81 Technology Architecture
   tier: B
+- title: 'A Guide to the Business Architecture Body of Knowledge (BIZBOK Guide)'
+  publisher: Business Architecture Guild
+  edition: v9.0 (2020)
+  section: 'Appendix A: Glossary, Technical Architecture (PDF p. 1038); FEAPO definition, adopted 2017'
+  tier: B
 evidence:
   bodies:
   - The Open Group
-  meets_standard: partial
+  - Business Architecture Guild (BIZBOK Guide; FEAPO-adopted definitions)
+  meets_standard: yes
   gaps:
-  - A second body, e.g. ArchiMate 3.2 Technology Layer (same body), or NIST SP 500-292 Cloud Computing Reference Architecture (tier A/B, public) for cloud technology services
+  - 'Terminology: the KB keeps TOGAF''s ''technology architecture'' as the title and lists ''technical architecture'' as the BIZBOK/FEAPO synonym'
 related:
 - architecture-domain
 - application-architecture
@@ -48,7 +54,11 @@ Technology architecture describes the technology services (such as hosting, netw
 > A description of the structure and interaction of the technology services and technology components.
 > — The Open Group, TOGAF Standard 10th Ed. (C220 Part 0), §4.81 Technology Architecture
 
+> Technical architecture represents the logical and physical interconnection of infrastructure elements to enable the deployment and management of data architecture, application architecture, business architecture, and strategy.
+> — Business Architecture Guild®, BIZBOK® Guide v9.0 (2020), Appendix A: Glossary, *Technical Architecture* (FEAPO definition, adopted 2017)
+
 ## How they differ
+- **Different name, same domain.** BIZBOK v9 (FEAPO wording) says *technical* architecture (its version history notes it replaced "technology architecture") and defines it as the interconnection of infrastructure elements that lets the other three domains be deployed and managed; TOGAF describes the same layer as the structure and interaction of technology services and components.
 - Identical in 9.2 and 10.
 - **Baseline.** The KB follows TOGAF 9.2 (course guidance, 2026-11-19: 9.2 is consolidated, while TOGAF 10 is still being updated). TOGAF 10 wording is kept here to show what changed.
 

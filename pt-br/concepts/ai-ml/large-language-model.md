@@ -24,8 +24,20 @@ sources:
 - title: NIST (2024). AI 600-1 - Artificial Intelligence Risk Management Framework - Generative Artificial Intelligence Profile
   resource: 'https://doi.org/10.6028/NIST.AI.600-1'
   kind: standard
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 1 From Language Models to Foundation Models, pp. 2-16; ch. 2 Understanding Foundation Models, pp. 49-111'
+- title: 'Iusztin, P. and Labonne, M. (2024). LLM Engineer''s Handbook. Packt'
+  resource: 'https://books.google.com/books?vid=ISBN9781836200079'
+  kind: book
+  locator: 'ch. 1 The LLM Twin Concept and Architecture, pp. 1-24'
 lang: pt-br
 translation_of: /concepts/ai-ml/large-language-model.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Grande modelo de linguagem (LLM) e modelo de fundação
@@ -51,11 +63,20 @@ Claude, GPT, Gemini e Llama são LLMs; o mesmo modelo base pode escrever um resu
 - [Agente de IA](/pt-br/concepts/ai-ml/ai-agent.md)
 - [LLM como juiz](/pt-br/concepts/ai-ml/llm-as-a-judge.md)
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 1 From Language Models to Foundation Models, pp. 2-16; ch. 2 Understanding Foundation Models, pp. 49-111: Dados de treino, arquitetura e tamanho, pós-treino e amostragem - por que as saídas são probabilísticas.
+- **Iusztin, P. and Labonne, M. (2024)**, *LLM Engineer's Handbook*, ch. 1 The LLM Twin Concept and Architecture, pp. 1-24: Um produto de LLM desenhado de ponta a ponta.
+
 ## Fontes
 
 1. Bommasani, R. et al. (2021). *On the Opportunities and Risks of Foundation Models*. Stanford CRFM, arXiv:2108.07258. <https://arxiv.org/abs/2108.07258> — Definição de modelos de fundação, adaptação, riscos.
 2. Zhao, W. X. et al. (2023). *A Survey of Large Language Models*. arXiv:2303.18223. <https://arxiv.org/abs/2303.18223> — Pré-treino, pós-treino, capacidades e avaliação de LLMs.
 3. NIST (2024). *AI 600-1 - Artificial Intelligence Risk Management Framework - Generative Artificial Intelligence Profile*. <https://doi.org/10.6028/NIST.AI.600-1> — Descrição em padrão governamental da IA generativa e de seus riscos.
+4. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 1 From Language Models to Foundation Models, pp. 2-16; ch. 2 Understanding Foundation Models, pp. 49-111. Dados de treino, arquitetura e tamanho, pós-treino e amostragem - por que as saídas são probabilísticas.
+5. Iusztin, P. and Labonne, M. (2024). *LLM Engineer's Handbook*. Packt. <https://books.google.com/books?vid=ISBN9781836200079> — ch. 1 The LLM Twin Concept and Architecture, pp. 1-24. Um produto de LLM desenhado de ponta a ponta.
 
 ## Relações
 - (nenhuma ainda)

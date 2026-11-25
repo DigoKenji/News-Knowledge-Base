@@ -27,11 +27,23 @@ sources:
 - title: 'Cai, T. et al. (2024). Medusa - Simple LLM Inference Acceleration Framework with Multiple Decoding Heads. ICML 2024, arXiv:2401.10774'
   resource: 'https://arxiv.org/abs/2401.10774'
   kind: paper
+- title: 'Iusztin, P. and Labonne, M. (2024). LLM Engineer''s Handbook. Packt'
+  resource: 'https://books.google.com/books?vid=ISBN9781836200079'
+  kind: book
+  locator: 'ch. 8 Speculative decoding, pp. 295-303'
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 9 Model Optimization (overcoming the autoregressive bottleneck), pp. 426-440'
 relations:
 - type: part-of
   target: /concepts/ai-ml/inference-tradeoffs.md
 lang: pt-br
 translation_of: /concepts/ai-ml/speculative-decoding.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Decodificação especulativa
@@ -52,11 +64,20 @@ Respostas mais rápidas com a mesma qualidade, por isso a maioria dos motores de
 
 O rascunho propõe "o gato sentou no"; o alvo aceita "o gato sentou", rejeita "no" e amostra "perto" no lugar, então três tokens mais uma correção saem de uma única passagem do alvo.
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Iusztin, P. and Labonne, M. (2024)**, *LLM Engineer's Handbook*, ch. 8 Speculative decoding, pp. 295-303: Decodificação com rascunho e verificação, com código.
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 9 Model Optimization (overcoming the autoregressive bottleneck), pp. 426-440: Decodificação especulativa ao lado de outras acelerações de decodificação.
+
 ## Fontes
 
 1. Leviathan, Y., Kalman, M. and Matias, Y. (2023). *Fast Inference from Transformers via Speculative Decoding*. ICML 2023, arXiv:2211.17192. <https://arxiv.org/abs/2211.17192> — Método e prova de que as saídas seguem a distribuição do alvo.
 2. Chen, C. et al. (2023). *Accelerating Large Language Model Decoding with Speculative Sampling*. arXiv:2302.01318. <https://arxiv.org/abs/2302.01318> — Derivação independente da DeepMind, aceleração de 2-2,5× no Chinchilla 70B.
 3. Cai, T. et al. (2024). *Medusa - Simple LLM Inference Acceleration Framework with Multiple Decoding Heads*. ICML 2024, arXiv:2401.10774. <https://arxiv.org/abs/2401.10774> — Variante sem modelo rascunho usando cabeças extras no modelo-alvo.
+4. Iusztin, P. and Labonne, M. (2024). *LLM Engineer's Handbook*. Packt. <https://books.google.com/books?vid=ISBN9781836200079> — ch. 8 Speculative decoding, pp. 295-303. Decodificação com rascunho e verificação, com código.
+5. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 9 Model Optimization (overcoming the autoregressive bottleneck), pp. 426-440. Decodificação especulativa ao lado de outras acelerações de decodificação.
 
 ## Relações
 - **parte de** [Throughput/latência/custo de inferência](/pt-br/concepts/ai-ml/inference-tradeoffs.md)

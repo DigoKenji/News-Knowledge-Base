@@ -24,6 +24,22 @@ sources:
 - title: Google. Machine Learning Crash Course - Embeddings
   resource: 'https://developers.google.com/machine-learning/crash-course/embeddings'
   kind: docs
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 3 Introduction to Embedding, pp. 134-136; ch. 6 embedding-based retrieval, p. 257'
+- title: 'Tunstall, L., von Werra, L. and Wolf, T. (2022). Natural Language Processing with Transformers, revised edition. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098136796'
+  kind: book
+  locator: 'ch. 9 Using Embeddings as a Lookup Table, p. 275'
+- title: 'Raschka, S., Liu, Y. and Mirjalili, V. (2022). Machine Learning with PyTorch and Scikit-Learn. Packt'
+  resource: 'https://books.google.com/books?vid=ISBN9781801819312'
+  kind: book
+  locator: 'ch. 15 Embedding layers for sentence encoding, p. 517'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Embedding
@@ -47,11 +63,22 @@ Embeddings are the bridge between unstructured data and computation: they power 
 - [GraphRAG](/concepts/ai-ml/graph-rag.md)
 - [Knowledge graph](/concepts/data/knowledge-graph.md)
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 3 Introduction to Embedding, pp. 134-136; ch. 6 embedding-based retrieval, p. 257: Embeddings for similarity measurement and retrieval.
+- **Tunstall, L., von Werra, L. and Wolf, T. (2022)**, *Natural Language Processing with Transformers, revised edition*, ch. 9 Using Embeddings as a Lookup Table, p. 275: Embeddings as a zero-label classification trick.
+- **Raschka, S., Liu, Y. and Mirjalili, V. (2022)**, *Machine Learning with PyTorch and Scikit-Learn*, ch. 15 Embedding layers for sentence encoding, p. 517: How an embedding layer is learned inside a network.
+
 ## Sources
 
 1. Mikolov, T. et al. (2013). *Efficient Estimation of Word Representations in Vector Space*. arXiv:1301.3781. <https://arxiv.org/abs/1301.3781> — Word2vec and vector arithmetic on word embeddings.
 2. Reimers, N. and Gurevych, I. (2019). *Sentence-BERT - Sentence Embeddings using Siamese BERT-Networks*. EMNLP 2019, arXiv:1908.10084. <https://arxiv.org/abs/1908.10084> — Sentence-level embeddings for similarity.
 3. Google. *Machine Learning Crash Course - Embeddings*. <https://developers.google.com/machine-learning/crash-course/embeddings> — Practitioner introduction to embedding spaces.
+4. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 3 Introduction to Embedding, pp. 134-136; ch. 6 embedding-based retrieval, p. 257. Embeddings for similarity measurement and retrieval.
+5. Tunstall, L., von Werra, L. and Wolf, T. (2022). *Natural Language Processing with Transformers, revised edition*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098136796> — ch. 9 Using Embeddings as a Lookup Table, p. 275. Embeddings as a zero-label classification trick.
+6. Raschka, S., Liu, Y. and Mirjalili, V. (2022). *Machine Learning with PyTorch and Scikit-Learn*. Packt. <https://books.google.com/books?vid=ISBN9781801819312> — ch. 15 Embedding layers for sentence encoding, p. 517. How an embedding layer is learned inside a network.
 
 ## Relations
 - (none yet)

@@ -27,6 +27,14 @@ sources:
 - title: 'Gu, J. et al. (2024). A Survey on LLM-as-a-Judge. arXiv:2411.15594'
   resource: 'https://arxiv.org/abs/2411.15594'
   kind: paper
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 3 AI as a Judge, pp. 136-148 (limitations p. 141; which models can judge p. 145)'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # LLM-as-a-judge
@@ -47,11 +55,18 @@ It makes evaluation of LLM apps cheap and continuous, enabling regression tests 
 
 Before changing the summarizer prompt, run 50 articles through old and new prompts and ask a judge model which summary follows the deep-dive rubric better, with positions swapped.
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 3 AI as a Judge, pp. 136-148 (limitations p. 141; which models can judge p. 145): Why and how to use AI judges and their biases and inconsistency.
+
 ## Sources
 
 1. Zheng, L. et al. (2023). *Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena*. NeurIPS 2023, arXiv:2306.05685. <https://arxiv.org/abs/2306.05685> — The term, agreement with humans, and position, verbosity and self-enhancement biases.
 2. Liu, Y. et al. (2023). *G-Eval - NLG Evaluation using GPT-4 with Better Human Alignment*. EMNLP 2023, arXiv:2303.16634. <https://arxiv.org/abs/2303.16634> — Rubric plus chain-of-thought judging and its correlation with humans.
 3. Gu, J. et al. (2024). *A Survey on LLM-as-a-Judge*. arXiv:2411.15594. <https://arxiv.org/abs/2411.15594> — Taxonomy of setups, biases and reliability practices.
+4. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 3 AI as a Judge, pp. 136-148 (limitations p. 141; which models can judge p. 145). Why and how to use AI judges and their biases and inconsistency.
 
 ## Relations
 - (none yet)

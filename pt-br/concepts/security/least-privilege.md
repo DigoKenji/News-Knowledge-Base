@@ -24,9 +24,25 @@ sources:
 - title: NIST CSRC. Glossary - defense-in-depth
   resource: 'https://csrc.nist.gov/glossary/term/defense_in_depth'
   kind: standard
+- title: 'Stallings, W. and Brown, L. (2015). Computer Security: Principles and Practice, 3rd edition. Pearson'
+  resource: 'https://books.google.com/books?vid=ISBN9780133773927'
+  kind: book
+  locator: '§1.4 Fundamental Security Design Principles, pp. 27-31'
+- title: 'Dotson, C. (2019). Practical Cloud Security: A Guide for Secure Design and Deployment. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781492037514'
+  kind: book
+  locator: 'ch. 1 Least Privilege and Defense in Depth, pp. 1-6'
+- title: 'Chapple, M. and Seidl, D. (2017). CompTIA Cybersecurity Analyst (CSA+) Study Guide, Exam CS0-001. Sybex'
+  resource: 'https://books.google.com/books?vid=ISBN9781119348979'
+  kind: book
+  locator: 'ch. 10 Defense-in-Depth Security Architectures'
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/security/least-privilege.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Privilégio mínimo e defesa em profundidade
@@ -53,11 +69,22 @@ A tarefa da execução diária só pode fazer push no próprio branch, não no m
 
 Candidato a fundamento: um órgão de padronização define este termo (veja as fontes). Ele passa para `foundations/` quando forem reunidas citações literais de dois órgãos emissores independentes (ADR-0010).
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Stallings, W. and Brown, L. (2015)**, *Computer Security: Principles and Practice, 3rd edition*, §1.4 Fundamental Security Design Principles, pp. 27-31: Menor privilégio, separação de privilégio, padrões seguros em falha, mediação completa, camadas.
+- **Dotson, C. (2019)**, *Practical Cloud Security: A Guide for Secure Design and Deployment*, ch. 1 Least Privilege and Defense in Depth, pp. 1-6: Os dois princípios aplicados a ambientes de nuvem.
+- **Chapple, M. and Seidl, D. (2017)**, *CompTIA Cybersecurity Analyst (CSA+) Study Guide, Exam CS0-001*, ch. 10 Defense-in-Depth Security Architectures: Arquitetura de segurança em camadas na visão do analista.
+
 ## Fontes
 
 1. Saltzer, J. H. and Schroeder, M. D. (1975). *The Protection of Information in Computer Systems*. Proceedings of the IEEE 63(9). <https://web.mit.edu/Saltzer/www/publications/protection/> — Privilégio mínimo e os outros princípios clássicos de projeto seguro.
 2. NIST (2020). *SP 800-53 Rev. 5 - Security and Privacy Controls for Information Systems and Organizations* (AC-6 Least Privilege). <https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final> — Privilégio mínimo como controle formal.
 3. NIST CSRC. *Glossary - defense-in-depth*. <https://csrc.nist.gov/glossary/term/defense_in_depth> — Definição de defesa em profundidade.
+4. Stallings, W. and Brown, L. (2015). *Computer Security: Principles and Practice, 3rd edition*. Pearson. <https://books.google.com/books?vid=ISBN9780133773927> — §1.4 Fundamental Security Design Principles, pp. 27-31. Menor privilégio, separação de privilégio, padrões seguros em falha, mediação completa, camadas.
+5. Dotson, C. (2019). *Practical Cloud Security: A Guide for Secure Design and Deployment*. O'Reilly. <https://books.google.com/books?vid=ISBN9781492037514> — ch. 1 Least Privilege and Defense in Depth, pp. 1-6. Os dois princípios aplicados a ambientes de nuvem.
+6. Chapple, M. and Seidl, D. (2017). *CompTIA Cybersecurity Analyst (CSA+) Study Guide, Exam CS0-001*. Sybex. <https://books.google.com/books?vid=ISBN9781119348979> — ch. 10 Defense-in-Depth Security Architectures. Arquitetura de segurança em camadas na visão do analista.
 
 ## Relações
 - (nenhuma ainda)

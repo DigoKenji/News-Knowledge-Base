@@ -9,15 +9,15 @@ The golden rules: definitions backed by quoted standards (ADR-0010 in News-Autom
 
 | Foundation | Status | Evidence |
 |---|---|---|
-| [Architecture](/foundations/architecture.md) | draft | partial |
-| [Enterprise](/foundations/enterprise.md) | draft | partial |
-| [Enterprise Architecture](/foundations/enterprise-architecture.md) | draft | no |
-| [Architecture domain](/foundations/architecture-domain.md) | draft | partial |
-| [Business Architecture](/foundations/business-architecture.md) | draft | partial |
-| [Data Architecture](/foundations/data-architecture.md) | draft | partial |
-| [Application Architecture](/foundations/application-architecture.md) | draft | partial |
-| [Technology Architecture](/foundations/technology-architecture.md) | draft | partial |
-| [Solution Architecture](/foundations/solution-architecture.md) | draft | partial |
-| [Business capability](/foundations/business-capability.md) | draft | partial |
+| [Architecture](/foundations/architecture.md) | draft | yes |
+| [Enterprise](/foundations/enterprise.md) | draft | yes |
+| [Enterprise Architecture](/foundations/enterprise-architecture.md) | draft | yes |
+| [Architecture domain](/foundations/architecture-domain.md) | draft | yes |
+| [Business Architecture](/foundations/business-architecture.md) | draft | yes |
+| [Data Architecture](/foundations/data-architecture.md) | draft | yes |
+| [Application Architecture](/foundations/application-architecture.md) | draft | yes |
+| [Technology Architecture](/foundations/technology-architecture.md) | draft | yes |
+| [Solution Architecture](/foundations/solution-architecture.md) | draft | yes |
+| [Business capability](/foundations/business-capability.md) | draft | yes |
 
 - [Candidates](/foundations/candidates.md) — terms waiting for an entry
