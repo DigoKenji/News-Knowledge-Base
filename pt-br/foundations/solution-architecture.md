@@ -28,13 +28,18 @@ sources:
   edition: v9.0 (2020)
   section: 'Appendix A: Glossary, Solution Architecture (PDF p. 1037); the Guild cites John Critchley, 2006'
   tier: B
+- title: 'A Guide to the Business Architecture Body of Knowledge (BIZBOK Guide)'
+  publisher: 'Business Architecture Guild'
+  edition: 'v9.0 (2020)'
+  section: '§6.1 IT Architecture Overview (PDF p. 619); §6.2 Enterprise Architecture (PDF p. 633)'
+  tier: B
 evidence:
   bodies:
   - The Open Group
   - Business Architecture Guild (BIZBOK Guide; FEAPO-adopted definitions)
-  meets_standard: 'partial'
+  meets_standard: yes
   gaps:
-  - 'The BIZBOK entry is an individual author''s definition (Critchley 2006) adopted by the Guild; a standards-body definition would make this ''yes'''
+  - 'The Guild''s own statement (§6.2) is descriptive rather than a glossary definition; its glossary entry quotes an individual author (Critchley 2006)'
 related:
 - enterprise-architecture
 - architecture
@@ -66,7 +71,11 @@ A arquitetura de solução descreve uma operação ou mudança de negócio focad
 > The discipline of generating a creative and communicable technical design that aligns a feasible business solution with stakeholder expectation within the bounds of mandated delivery parameters.
 > — Business Architecture Guild®, BIZBOK® Guide v9.0 (2020), Appendix A: Glossary, *Solution Architecture* (the Guild cites John Critchley, 2006)
 
+> Solution architecture, which is considered to be initiative or portfolio-specific, embodies aspects of business, data, application, and technical architecture.
+> — Business Architecture Guild®, BIZBOK® Guide v9.0 (2020), §6.2 Enterprise Architecture
+
 ## Em que diferem
+- **A redação do próprio Guild (§6.2) corresponde ao escopo do TOGAF.** A arquitetura de soluções é específica de uma iniciativa ou portfólio e atravessa as arquiteturas de negócio, dados, aplicações e técnica, que é como o TOGAF a usa (um único projeto ou release). O BIZBOK §6.1 alerta contra usar o termo de forma vaga quando se quer falar dos quatro domínios específicos.
 - **O BIZBOK v9** adota a definição de Critchley (2006): arquitetura de soluções como uma *disciplina* que produz um desenho técnico ajustado às expectativas dos stakeholders dentro das restrições de entrega, enquanto o TOGAF descreve a *descrição* de uma operação ou atividade específica. O verbete do Guild cita um autor individual, por isso é mais fraco que os verbetes da FEAPO.
 - O TOGAF 10 mantém a definição, mas retira a nota da 9.2 que a vinculava a um único projeto ou release.
 - O TOGAF 10 a coloca numa hierarquia de níveis: Arquitetura Estratégica (§4.78, executiva, de longo prazo), Arquitetura de Segmento (§4.68, programa ou portfólio) e Arquitetura de Solução (projeto).

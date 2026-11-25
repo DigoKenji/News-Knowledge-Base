@@ -33,13 +33,21 @@ sources:
   edition: v9.0 (2020)
   section: 'Appendix A: Glossary, Enterprise Architecture (PDF p. 1030); FEAPO definition, adopted 2017'
   tier: B
+- title: 'SEBoK - Guide to the Systems Engineering Body of Knowledge, glossary: Enterprise Architecture'
+  publisher: 'BKCASE Editorial Board (INCOSE, IEEE Systems Council, Stevens Institute/SERC)'
+  edition: 'v2.x (online, accessed 2026-11-25)'
+  section: 'Glossary entry, quoting the standards listed'
+  resource: 'https://sebokwiki.org/wiki/Enterprise_Architecture_(glossary)'
+  tier: B
 evidence:
   bodies:
   - The Open Group
   - Business Architecture Guild (BIZBOK Guide; FEAPO-adopted definitions)
-  meets_standard: 'partial'
+  - US Federal CIO Council (FEAF, via SEBoK)
+  - Gartner (tier D, via SEBoK)
+  meets_standard: yes
   gaps:
-  - 'TOGAF 10 still has no formal entry in its Definitions chapter; the Open Group side rests on the purpose statement (9.2 §1.3), so evidence is ''partial'' (two bodies, one formal definition)'
+  - 'TOGAF still has no formal entry; the KB now relies on FEAPO (via BIZBOK) and FEAF for formal definitions, with Gartner as supporting evidence'
 related:
 - enterprise
 - architecture
@@ -67,7 +75,14 @@ Enterprise Architecture is the architecture of an enterprise as a whole: it desc
 > Enterprise architecture represents the holistic planning, analysis, design, and implementation for the development and execution of strategy by applying principles and practices to guide organizations through the integration and interoperation of all other architecture domains.
 > — Business Architecture Guild®, BIZBOK® Guide v9.0 (2020), Appendix A: Glossary, *Enterprise Architecture* (FEAPO definition, adopted 2017)
 
+> A strategic information asset base, which defines the business, the information necessary to operate the business, the technologies necessary to support the business operations, and the transitional processes necessary for implementing new technologies in response to the changing business needs. It is a representation or blueprint.
+> — US Federal CIO Council, FEAF (1999), as reproduced in the [SEBoK glossary: Enterprise Architecture](https://sebokwiki.org/wiki/Enterprise_Architecture_(glossary))
+
+> A discipline for proactively and holistically leading enterprise responses to disruptive forces by identifying and analyzing the execution of change toward desired business vision and outcomes.
+> — Gartner (2013), as reproduced in the SEBoK glossary (Gartner's own glossary page blocks automated access)
+
 ## How they differ
+- **Formal definitions now come from outside The Open Group.** FEAPO (via BIZBOK) and the US federal FEAF give formal definitions, with Gartner as supporting evidence. They split two ways: FEAF and TOGAF's purpose statement describe EA as a *blueprint* of business, information and technology, while FEAPO and Gartner describe it as a *discipline* that steers strategy execution and change.
 - **BIZBOK v9 (FEAPO wording) gives the formal definition TOGAF lacks**: enterprise architecture as the discipline that turns strategy into execution by integrating all the other architecture domains. It fits TOGAF's purpose statement (9.2 §1.3, 10 §1.1), but now there is a quotable entry from a second body.
 - The purpose sentence is word for word the same in TOGAF 9.2 §1.3 and TOGAF 10 §1.1.
 - TOGAF describes Enterprise Architecture by its **purpose** (optimize, integrate, enable change) rather than defining what it **is**. The working definition fills that gap by combining §4.8 Architecture with §4.43 Enterprise; that combination is the KB's interpretation, not a quote.

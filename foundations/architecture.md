@@ -34,13 +34,19 @@ sources:
   edition: 10th Edition, 2025 update (evaluation copy)
   section: §4.8 Architecture
   tier: B
+- title: 'SEBoK - Guide to the Systems Engineering Body of Knowledge, glossary: Architecture'
+  publisher: 'BKCASE Editorial Board (INCOSE, IEEE Systems Council, Stevens Institute/SERC)'
+  edition: 'v2.x (online, accessed 2026-11-25)'
+  section: 'Glossary entry, quoting the standards listed'
+  resource: 'https://sebokwiki.org/wiki/Architecture_(glossary)'
+  tier: B
 evidence:
   bodies:
   - ISO/IEC/IEEE
   - The Open Group
-  meets_standard: partial
+  meets_standard: yes
   gaps:
-  - ISO/IEC/IEEE 42010:2022 original text (paywalled at iso.org); the ISO quote is via TOGAF 10 until checked
+  - 'The ISO 2011/2015 wording is now confirmed from a source independent of TOGAF (SEBoK); the 42010:2022 wording is still quoted via TOGAF 10 (the standard itself is paywalled)'
 related:
 - architecture-domain
 - enterprise-architecture
@@ -63,7 +69,11 @@ An architecture is the set of fundamental concepts or properties of a system in 
 > 2. The structure of components, their inter-relationships, and the principles and guidelines governing their design and evolution over time
 > — The Open Group, TOGAF Standard 10th Ed. (C220 Part 0), §4.8 Architecture
 
+> fundamental concepts or properties of a system in its environment embodied in its elements, relationships, and in the principles of its design and evolution
+> — ISO/IEC/IEEE 42010:2011 §3.2 (and ISO/IEC/IEEE 15288:2015 §4.5), as reproduced in the [SEBoK glossary: Architecture](https://sebokwiki.org/wiki/Architecture_(glossary))
+
 ## How they differ
+- **ISO wording confirmed outside TOGAF.** SEBoK (a public body of knowledge run by INCOSE, the IEEE Systems Council and SERC) reproduces the ISO/IEC/IEEE 42010:2011 and 15288:2015 definition word for word as TOGAF 9.2 quotes it. The 2022 revision (quoted in TOGAF 10) widens "system" to "entity" and adds life cycle processes.
 - **System → entity.** ISO 42010:2011 defined the architecture of a *system*; the 2022 edition (as quoted by TOGAF 10) speaks of an *entity*, so the definition now covers enterprises, systems of systems and other things that are not software systems.
 - **Embodied in elements → governing principles.** 2011 said the concepts are *embodied in its elements, relationships*; 2022 drops that phrase and adds *governing principles for the realization and evolution* and *related lifecycle processes*. Architecture is less "the parts" and more "the decisions and principles".
 - **Two meanings in TOGAF.** Both TOGAF editions keep a second, more structural meaning (components, inter-relationships, principles). Definition 2 is unchanged between 9.2 and 10.

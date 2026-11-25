@@ -7,15 +7,15 @@ As regras de ouro: definições respaldadas por normas citadas (ADR-0010 em News
 
 | Fundamento | Status | Evidência |
 |---|---|---|
-| [Arquitetura](/pt-br/foundations/architecture.md) | rascunho | parcial |
-| [Empresa (enterprise)](/pt-br/foundations/enterprise.md) | rascunho | parcial |
-| [Arquitetura Empresarial](/pt-br/foundations/enterprise-architecture.md) | rascunho | parcial |
-| [Domínio de arquitetura](/pt-br/foundations/architecture-domain.md) | rascunho | parcial |
+| [Arquitetura](/pt-br/foundations/architecture.md) | rascunho | sim |
+| [Empresa (enterprise)](/pt-br/foundations/enterprise.md) | rascunho | sim |
+| [Arquitetura Empresarial](/pt-br/foundations/enterprise-architecture.md) | rascunho | sim |
+| [Domínio de arquitetura](/pt-br/foundations/architecture-domain.md) | rascunho | sim |
 | [Arquitetura de Negócio](/pt-br/foundations/business-architecture.md) | rascunho | sim |
 | [Arquitetura de Dados](/pt-br/foundations/data-architecture.md) | rascunho | sim |
 | [Arquitetura de Aplicações](/pt-br/foundations/application-architecture.md) | rascunho | sim |
 | [Arquitetura de Tecnologia](/pt-br/foundations/technology-architecture.md) | rascunho | sim |
-| [Arquitetura de Solução](/pt-br/foundations/solution-architecture.md) | rascunho | parcial |
+| [Arquitetura de Solução](/pt-br/foundations/solution-architecture.md) | rascunho | sim |
 | [Capacidade de negócio](/pt-br/foundations/business-capability.md) | rascunho | sim |
 
 - [Candidatos](/pt-br/foundations/candidates.md) — termos aguardando um fundamento

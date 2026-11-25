@@ -119,7 +119,17 @@ Kenji added two architecture books on 2026-11-25: the **BIZBOK Guide v9.0** (Bus
 | [Enterprise Architecture](/foundations/enterprise-architecture.md) | BIZBOK glossary (FEAPO); TOGAF still has no formal entry | no → partial |
 | [Solution Architecture](/foundations/solution-architecture.md) | BIZBOK glossary (quotes Critchley 2006, an individual) | stays partial |
 
-Still `partial`: Architecture, Enterprise, Architecture domain. Neither book defines them independently (Whelan & Meaden quote IEEE 1471 and TOGAF).
+**Remaining five, from public sources (Kenji approved pulling public definitions, 2026-11-25):**
+
+| Foundation | Second source | Evidence now |
+|---|---|---|
+| [Architecture](/foundations/architecture.md) | [SEBoK glossary](https://sebokwiki.org/wiki/Architecture_(glossary)) reproducing ISO/IEC/IEEE 42010:2011 / 15288:2015 (confirms the ISO quote outside TOGAF) | partial → **yes** |
+| [Enterprise](/foundations/enterprise.md) | [SEBoK glossary](https://sebokwiki.org/wiki/Enterprise_(glossary)): ISO 15704:2000 and US FEAF (1999) | partial → **yes** |
+| [Enterprise Architecture](/foundations/enterprise-architecture.md) | [SEBoK glossary](https://sebokwiki.org/wiki/Enterprise_Architecture_(glossary)): FEAF (1999), Gartner (2013) + FEAPO above | partial → **yes** |
+| [Architecture domain](/foundations/architecture-domain.md) | BIZBOK v9 §6.1-6.2 (same four domains, plus "shadow systems") | partial → **yes** |
+| [Solution Architecture](/foundations/solution-architecture.md) | BIZBOK v9 §6.2, the Guild's own wording | partial → **yes** |
+
+All 10 foundations now have at least two independent bodies. The weak spots are listed in each entry's `evidence.gaps`: SEBoK quotes standards second-hand, the ISO originals are paywalled, the Gartner page blocks automated access, and BIZBOK has no glossary entry for "architecture domain".
 
 All foundations stay `draft` until you certify them. Two caveats:
 - v9.0 is an older BIZBOK. The Guild is on v15+, so a wording check against the current glossary would be ideal.
@@ -127,5 +137,7 @@ All foundations stay `draft` until you certify them. Two caveats:
 
 I also removed the lecturer's name from three foundation pages (EN + pt-br) to follow the "never cite lecturer names" rule.
 
-- [ ] Certify the 5 foundations that now meet the two-body rule (business architecture, business capability, application, data, technology architecture)
+- [ ] Certify the 5 foundations backed by BIZBOK (business architecture, business capability, application, data, technology architecture)
+  - Fix: 
+- [ ] Certify the 5 foundations backed by public sources (architecture, enterprise, enterprise architecture, architecture domain, solution architecture)
   - Fix: 

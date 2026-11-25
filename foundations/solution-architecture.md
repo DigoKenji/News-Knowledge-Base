@@ -28,13 +28,18 @@ sources:
   edition: v9.0 (2020)
   section: 'Appendix A: Glossary, Solution Architecture (PDF p. 1037); the Guild cites John Critchley, 2006'
   tier: B
+- title: 'A Guide to the Business Architecture Body of Knowledge (BIZBOK Guide)'
+  publisher: 'Business Architecture Guild'
+  edition: 'v9.0 (2020)'
+  section: '§6.1 IT Architecture Overview (PDF p. 619); §6.2 Enterprise Architecture (PDF p. 633)'
+  tier: B
 evidence:
   bodies:
   - The Open Group
   - Business Architecture Guild (BIZBOK Guide; FEAPO-adopted definitions)
-  meets_standard: 'partial'
+  meets_standard: yes
   gaps:
-  - 'The BIZBOK entry is an individual author''s definition (Critchley 2006) adopted by the Guild; a standards-body definition would make this ''yes'''
+  - 'The Guild''s own statement (§6.2) is descriptive rather than a glossary definition; its glossary entry quotes an individual author (Critchley 2006)'
 related:
 - enterprise-architecture
 - architecture
@@ -62,7 +67,11 @@ Solution architecture describes one focused business operation or change — usu
 > The discipline of generating a creative and communicable technical design that aligns a feasible business solution with stakeholder expectation within the bounds of mandated delivery parameters.
 > — Business Architecture Guild®, BIZBOK® Guide v9.0 (2020), Appendix A: Glossary, *Solution Architecture* (the Guild cites John Critchley, 2006)
 
+> Solution architecture, which is considered to be initiative or portfolio-specific, embodies aspects of business, data, application, and technical architecture.
+> — Business Architecture Guild®, BIZBOK® Guide v9.0 (2020), §6.2 Enterprise Architecture
+
 ## How they differ
+- **The Guild's own wording (§6.2) matches TOGAF's scope.** Solution architecture is specific to an initiative or portfolio and cuts across business, data, application and technical architecture, which is how TOGAF uses it (a single project or release). BIZBOK §6.1 warns against using the term loosely when the four specific domains are meant.
 - **BIZBOK v9** adopts Critchley's (2006) definition: solution architecture as a *discipline* producing a technical design that fits stakeholder expectations within delivery constraints, while TOGAF describes the *description* of a discrete operation or activity. The Guild's entry quotes an individual author, so it is weaker than the FEAPO entries.
 - TOGAF 10 keeps the definition but drops the 9.2 note tying it to a single project or release.
 - TOGAF 10 places it in a hierarchy of levels: Strategic Architecture (§4.78, executive, long-term), Segment Architecture (§4.68, program or portfolio), and Solution Architecture (project).

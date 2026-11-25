@@ -34,13 +34,19 @@ sources:
   edition: 10th Edition, 2025 update (evaluation copy)
   section: §4.8 Architecture
   tier: B
+- title: 'SEBoK - Guide to the Systems Engineering Body of Knowledge, glossary: Architecture'
+  publisher: 'BKCASE Editorial Board (INCOSE, IEEE Systems Council, Stevens Institute/SERC)'
+  edition: 'v2.x (online, accessed 2026-11-25)'
+  section: 'Glossary entry, quoting the standards listed'
+  resource: 'https://sebokwiki.org/wiki/Architecture_(glossary)'
+  tier: B
 evidence:
   bodies:
   - ISO/IEC/IEEE
   - The Open Group
-  meets_standard: partial
+  meets_standard: yes
   gaps:
-  - ISO/IEC/IEEE 42010:2022 original text (paywalled at iso.org); the ISO quote is via TOGAF 10 until checked
+  - 'The ISO 2011/2015 wording is now confirmed from a source independent of TOGAF (SEBoK); the 42010:2022 wording is still quoted via TOGAF 10 (the standard itself is paywalled)'
 related:
 - architecture-domain
 - enterprise-architecture
@@ -66,7 +72,11 @@ Uma arquitetura é o conjunto de conceitos ou propriedades fundamentais de um si
 > *Tradução livre:* 1. Os conceitos ou propriedades fundamentais de uma entidade em seu ambiente e os princípios reguladores para a realização e a evolução dessa entidade e de seus processos de ciclo de vida relacionados (Fonte: ISO/IEC/IEEE 42010:2022) 2. A estrutura de componentes, suas inter-relações e os princípios e diretrizes que regem seu desenho e sua evolução ao longo do tempo
 > — The Open Group, TOGAF Standard 10th Ed. (C220 Part 0), §4.8 Architecture
 
+> fundamental concepts or properties of a system in its environment embodied in its elements, relationships, and in the principles of its design and evolution
+> — ISO/IEC/IEEE 42010:2011 §3.2 (and ISO/IEC/IEEE 15288:2015 §4.5), as reproduced in the [SEBoK glossary: Architecture](https://sebokwiki.org/wiki/Architecture_(glossary))
+
 ## Em que diferem
+- **Redação ISO confirmada fora do TOGAF.** O SEBoK (corpo de conhecimento público mantido pelo INCOSE, IEEE Systems Council e SERC) reproduz a definição da ISO/IEC/IEEE 42010:2011 e 15288:2015 palavra por palavra como o TOGAF 9.2 a cita. A revisão de 2022 (citada no TOGAF 10) amplia "system" para "entity" e acrescenta os processos de ciclo de vida.
 - **Sistema → entidade.** A ISO 42010:2011 definia a arquitetura de um *sistema*; a edição de 2022 (como citada pelo TOGAF 10) fala em *entidade*, de modo que a definição agora abrange empresas, sistemas de sistemas e outras coisas que não são sistemas de software.
 - **Incorporados em elementos → princípios reguladores.** Em 2011, os conceitos são *incorporados em seus elementos e relações*; em 2022, essa expressão sai e entram *princípios reguladores para a realização e evolução* e *processos de ciclo de vida relacionados*. Arquitetura é menos "as partes" e mais "as decisões e princípios".
 - **Dois significados no TOGAF.** As duas edições do TOGAF mantêm um segundo significado, mais estrutural (componentes, inter-relações, princípios). A definição 2 não muda entre o 9.2 e o 10.
