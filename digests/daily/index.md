@@ -1,5 +1,6 @@
 # Daily digests
 
+- [2026-11-25](/digests/daily/2026-11-25.md) — Backend theme day: DoorDash dispatch, OpenAI's Performance Factory, an AI-native SDLC playbook, Jev scoring and market concentration. 5 notes, 5 draft concepts
 - [2026-11-24](/digests/daily/2026-11-24.md) — Agent context and evals, software supply-chain risk, modular monoliths and network resilience. 10 notes, 5 draft concepts
 - [2026-11-22](/digests/daily/2026-11-22.md) — Retail cloud-to-edge transformation, CDC to Iceberg, agent-app forensics and a cascading cloud outage. 10 notes, 5 draft concepts
 - [2026-11-21](/digests/daily/2026-11-21.md) — Verifying and governing AI-written code, zero operator access, agent memory and incidents. 10 notes, 5 draft concepts

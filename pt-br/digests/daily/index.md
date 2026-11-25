@@ -1,5 +1,6 @@
 # Resumos diários
 
+- [2026-11-25](/pt-br/digests/daily/2026-11-25.md) — Dia do tema backend: dispatch da DoorDash, a Performance Factory da OpenAI, um playbook de SDLC nativo de IA, pontuação com Jev e concentração de mercados. 5 notas, 5 conceitos em rascunho
 - [2026-11-24](/pt-br/digests/daily/2026-11-24.md) — Contexto e avaliações de agentes, risco da cadeia de suprimentos de software, monólitos modulares e resiliência de rede. 10 notas, 5 conceitos em rascunho
 - [2026-11-22](/pt-br/digests/daily/2026-11-22.md) — Transformação de varejo da nuvem à borda, CDC para Iceberg, análise forense de aplicações de agentes e uma interrupção em cascata na nuvem. 10 notas, 5 conceitos em rascunho
 - [2026-11-21](/pt-br/digests/daily/2026-11-21.md) — Verificação e governança de código escrito por IA, zero operator access, memória de agentes e incidentes. 10 notas, 5 conceitos em rascunho

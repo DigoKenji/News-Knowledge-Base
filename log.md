@@ -1,6 +1,7 @@
 # Log
 
 ## 2026-11-25
+- **Creation:** Daily run (theme day: backend-systems): 5 notes (1 architecture-lane MIT SMR Brasil item and 2 Medium deep dives from the Tue PC run, 2 backend theme picks), 5 draft concepts, 3 foundation candidates, digest /digests/daily/2026-11-25.md. Inbox empty; PC queue at 8, no refill; 3 Fetched Medium rows wait for the next days.
 - **Creation:** MBA library digest: 16 new draft concepts (8 AI/ML: gradient descent and backpropagation, regularization, tokenization, fine-tuning, prompt engineering, generative models, quantization, MLOps/LLMOps; 8 security: penetration testing, incident response, security controls, risk management and BIA, shared responsibility, network security, vulnerability management, social engineering), EN + pt-br, from the books Kenji added to FIAP-MBA/Materiais/Referencias on 2026-11-24.
 - **Update:** 38 existing concepts (AI/ML, security, cloud) got a "From the MBA library" section and book sources with chapter/page locators (EN + pt-br); certified definitions unchanged. Four seed stubs (rag, kv-cache, inference-tradeoffs, threat-modeling) got a short definition.
 - **Update:** Foundations: BIZBOK Guide v9.0 (Business Architecture Guild, FEAPO definitions) and Whelan & Meaden (2012) added as second sources (EN + pt-br). Business architecture, business capability, application, data and technology architecture now meet the two-body rule; enterprise architecture moves from no to partial; still draft. Lecturer name removed from three foundation pages.

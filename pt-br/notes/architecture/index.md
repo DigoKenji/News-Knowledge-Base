@@ -1,5 +1,6 @@
 # Notas — Arquitetura
 
+- [Como eficiência e a disrupção podem acabar com a concentração de mercados que pareciam imutáveis](/pt-br/notes/architecture/2026-11-25-como-eficiencia-e-a-disrupcao-podem-acabar-com-a-concentraca.md) — Mercados concentrados se abrem quando a regulação e os novos entrantes deslocam a concorrência de arranjos de controle para eficiência operacional e qualidade de produto.
 Deep dives da trilha de arquitetura (ADR-0009), do mais recente para o mais antigo.
 
 - [Mais controle, menos dependências: por que a DORA está forçando uma revisão da conectividade](/pt-br/notes/architecture/2026-11-24-more-control-fewer-dependencies-why-dora-is-forcing-a-connec.md) — Vários provedores de nuvem não agregam resiliência se compartilham caminhos de rede; rastreie os serviços críticos até a conectividade para encontrar pontos de falha compartilhados.

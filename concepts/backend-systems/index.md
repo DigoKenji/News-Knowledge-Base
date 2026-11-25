@@ -16,6 +16,8 @@
 
 ## Specialised
 
+- [Shadow testing](/concepts/backend-systems/shadow-testing.md) — daily run · **draft**
+- [Performance regression](/concepts/backend-systems/performance-regression.md) — daily run · **draft**
 - [Idempotency](/concepts/backend-systems/idempotency.md) — system-design
 - [CAP theorem](/concepts/backend-systems/cap-theorem.md) — system-design
 - [Saga pattern](/concepts/backend-systems/saga-pattern.md) — microservices

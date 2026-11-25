@@ -1,5 +1,6 @@
 # Notes — Architecture
 
+- [Como eficiência e a disrupção podem acabar com a concentração de mercados que pareciam imutáveis](/notes/architecture/2026-11-25-como-eficiencia-e-a-disrupcao-podem-acabar-com-a-concentraca.md) — Concentrated markets open when regulation and new entrants shift competition from controlling arrangements to operational efficiency and product quality.
 Architecture-lane deep dives (ADR-0009), newest first.
 
 - [More control, fewer dependencies: Why DORA is forcing a connectivity rethink](/notes/architecture/2026-11-24-more-control-fewer-dependencies-why-dora-is-forcing-a-connec.md) — Several cloud providers don't add resilience if they share network paths; trace critical services down to connectivity to find shared failure points.

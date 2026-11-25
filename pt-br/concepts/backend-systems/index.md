@@ -16,6 +16,8 @@
 
 ## Específicos
 
+- [Regressão de desempenho](/pt-br/concepts/backend-systems/performance-regression.md) — execução diária · **rascunho**
+- [Teste sombra](/pt-br/concepts/backend-systems/shadow-testing.md) — execução diária · **rascunho**
 - [Idempotência](/pt-br/concepts/backend-systems/idempotency.md) — system-design
 - [Teorema CAP](/pt-br/concepts/backend-systems/cap-theorem.md) — system-design
 - [Padrão Saga](/pt-br/concepts/backend-systems/saga-pattern.md) — microservices

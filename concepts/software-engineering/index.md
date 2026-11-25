@@ -15,4 +15,5 @@
 
 ## Specialised
 
+- [Spec-driven development](/concepts/software-engineering/spec-driven-development.md) — daily run · **draft**
 - [Verification tax](/concepts/software-engineering/verification-tax.md) — ai-assisted-development

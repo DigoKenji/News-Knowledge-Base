@@ -17,6 +17,8 @@
 
 ## Específicos
 
+- [Revisão adversarial](/pt-br/concepts/ai-ml/adversarial-review.md) — execução diária · **rascunho**
+- [Logit](/pt-br/concepts/ai-ml/logit.md) — execução diária · **rascunho**
 - [Geração aumentada por recuperação](/pt-br/concepts/ai-ml/rag.md) — rag
 - [GraphRAG](/pt-br/concepts/ai-ml/graph-rag.md) — rag
 - [RAG sem vetores](/pt-br/concepts/ai-ml/vectorless-rag.md) — rag

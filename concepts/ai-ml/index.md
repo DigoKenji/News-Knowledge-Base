@@ -17,6 +17,8 @@
 
 ## Specialised
 
+- [Adversarial review](/concepts/ai-ml/adversarial-review.md) — daily run · **draft**
+- [Logit](/concepts/ai-ml/logit.md) — daily run · **draft**
 - [Retrieval-augmented generation](/concepts/ai-ml/rag.md) — rag
 - [GraphRAG](/concepts/ai-ml/graph-rag.md) — rag
 - [Vectorless RAG](/concepts/ai-ml/vectorless-rag.md) — rag
