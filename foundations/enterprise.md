@@ -63,7 +63,7 @@ An enterprise is any collection of organizations that share common goals: a comp
 Defines the scope of [Enterprise Architecture](/foundations/enterprise-architecture.md). Not a synonym of *company*: one company can contain several enterprises, and one enterprise can span several companies.
 
 ## In the course
-Business Architecture (Prof. Rogério Kobayashi) frames the enterprise through purpose, mission, vision and strategy. Lectures not ingested yet.
+Business Architecture frames the enterprise through purpose, mission, vision and strategy. Lectures not ingested yet.
 
 ## Open questions
 - For MBA case studies (e.g. Tem Tudo para Carro), treat each case company as one enterprise?

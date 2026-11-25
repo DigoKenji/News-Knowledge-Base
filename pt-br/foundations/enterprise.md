@@ -68,7 +68,7 @@ Uma empresa (enterprise) é qualquer conjunto de organizações que compartilham
 Define o escopo da [Arquitetura Empresarial](/pt-br/foundations/enterprise-architecture.md). Não é sinônimo de *companhia*: uma companhia pode conter várias empresas, e uma empresa pode abranger várias companhias.
 
 ## No curso
-A Arquitetura de Negócio (Prof. Rogério Kobayashi) enquadra a empresa por meio de propósito, missão, visão e estratégia. Aulas ainda não ingeridas.
+A Arquitetura de Negócio enquadra a empresa por meio de propósito, missão, visão e estratégia. Aulas ainda não ingeridas.
 
 ## Questões em aberto
 - Para estudos de caso do MBA (por exemplo, Tem Tudo para Carro), tratar cada empresa do caso como uma única empresa?

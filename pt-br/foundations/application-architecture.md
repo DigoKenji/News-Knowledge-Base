@@ -23,12 +23,18 @@ sources:
   edition: 10th Edition, 2025 update (evaluation copy)
   section: §4.3 Application Architecture
   tier: B
+- title: 'A Guide to the Business Architecture Body of Knowledge (BIZBOK Guide)'
+  publisher: Business Architecture Guild
+  edition: v9.0 (2020)
+  section: 'Appendix A: Glossary, Application Architecture (PDF p. 1024); FEAPO definition, adopted 2017'
+  tier: B
 evidence:
   bodies:
   - The Open Group
-  meets_standard: partial
+  - Business Architecture Guild (BIZBOK Guide; FEAPO-adopted definitions)
+  meets_standard: yes
   gaps:
-  - 'A second body: ISO/IEC/IEEE 42010 (no domain-specific definition), or a textbook such as Fowler, Patterns of Enterprise Application Architecture (2002, tier C, in Materiais)'
+  - 'BIZBOK v9.0 (2020) is not the current Guild version; FEAPO wording is stable since 2017'
 related:
 - architecture-domain
 - data-architecture
@@ -53,7 +59,11 @@ A arquitetura de aplicações descreve a estrutura e a interação das aplicaç�
 > *Tradução livre:* Uma descrição da estrutura e da interação das aplicações que provêm capacidades de negócio-chave e gerenciam os ativos de dados.
 > — The Open Group, TOGAF Standard 10th Ed. (C220 Part 0), §4.3 Application Architecture
 
+> Application architecture represents the specification and structural partitioning of technology-based automation into business logic, user experience, and data perspectives as an enabler of business architecture and strategy.
+> — Business Architecture Guild®, BIZBOK® Guide v9.0 (2020), Appendix A: Glossary, *Application Architecture* (FEAPO definition, adopted 2017)
+
 ## Em que diferem
+- **O BIZBOK v9 (redação da FEAPO)** descreve a arquitetura de aplicações pela sua divisão interna (lógica de negócio, experiência do usuário, dados) e a enquadra explicitamente como habilitadora da arquitetura de negócio e da estratégia, enquanto o TOGAF descreve a estrutura e a interação das aplicações que fornecem funções ou capacidades de negócio e gerem os ativos de dados.
 - Na 9.2, as aplicações eram enquadradas como *grupos de capacidades que provêm funções de negócio-chave*; na 10, elas *provêm capacidades de negócio-chave*. A capacidade, e não a função, passou a ser a âncora de negócio, em consonância com o foco em capacidades da arquitetura de negócio.
 - Não é o mesmo que arquitetura de software: a arquitetura de aplicações do TOGAF trata do portfólio e das interações entre aplicações, e não do interior de uma aplicação.
 - **Baseline.** A KB segue o TOGAF 9.2 (orientação do curso, 2026-11-19: a 9.2 está consolidada, enquanto o TOGAF 10 ainda está sendo atualizado). A redação do TOGAF 10 é mantida aqui para mostrar o que mudou.

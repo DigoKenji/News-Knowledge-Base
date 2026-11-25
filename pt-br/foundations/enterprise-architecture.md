@@ -28,13 +28,18 @@ sources:
   edition: 10th Edition, 2025 update (evaluation copy)
   section: §3 (Enterprise Agility), "Enterprise Architecture provides a framework for change"
   tier: B
+- title: 'A Guide to the Business Architecture Body of Knowledge (BIZBOK Guide)'
+  publisher: Business Architecture Guild
+  edition: v9.0 (2020)
+  section: 'Appendix A: Glossary, Enterprise Architecture (PDF p. 1030); FEAPO definition, adopted 2017'
+  tier: B
 evidence:
   bodies:
   - The Open Group
-  meets_standard: 'no'
+  - Business Architecture Guild (BIZBOK Guide; FEAPO-adopted definitions)
+  meets_standard: 'partial'
   gaps:
-  - TOGAF 10 has no formal entry for Enterprise Architecture in its Definitions chapter (§4); it explains it in §1.1 instead
-  - 'A second body: Gartner IT glossary (tier D, blocked from cloud; Kenji can open it), FEAF v2 (US federal, public), or Ross, Weill & Robertson (2006)'
+  - 'TOGAF 10 still has no formal entry in its Definitions chapter; the Open Group side rests on the purpose statement (9.2 §1.3), so evidence is ''partial'' (two bodies, one formal definition)'
 related:
 - enterprise
 - architecture
@@ -63,7 +68,11 @@ A Arquitetura Empresarial (EA) é a arquitetura da empresa como um todo: descrev
 > *Tradução livre:* A Arquitetura Empresarial oferece um framework para a mudança, vinculado tanto à direção estratégica quanto ao valor de negócio.
 > — The Open Group, TOGAF Standard 10th Ed. (C220 Part 0), section on enterprise agility
 
+> Enterprise architecture represents the holistic planning, analysis, design, and implementation for the development and execution of strategy by applying principles and practices to guide organizations through the integration and interoperation of all other architecture domains.
+> — Business Architecture Guild®, BIZBOK® Guide v9.0 (2020), Appendix A: Glossary, *Enterprise Architecture* (FEAPO definition, adopted 2017)
+
 ## Em que diferem
+- **O BIZBOK v9 (redação da FEAPO) traz a definição formal que falta ao TOGAF**: a arquitetura corporativa como a disciplina que transforma estratégia em execução integrando todos os outros domínios de arquitetura. Ela combina com a declaração de propósito do TOGAF (9.2 §1.3, 10 §1.1), mas agora há um verbete citável de um segundo órgão.
 - A frase de propósito é palavra por palavra a mesma no TOGAF 9.2 §1.3 e no TOGAF 10 §1.1.
 - O TOGAF descreve a Arquitetura Empresarial pelo seu **propósito** (otimizar, integrar, possibilitar a mudança) em vez de definir o que ela **é**. A definição de trabalho preenche essa lacuna combinando §4.8 Architecture com §4.43 Enterprise; essa combinação é a interpretação da KB, não uma citação.
 - O TOGAF 10 enfatiza que EA não é "apenas outro nome para arquitetura de TI" (§1.1).

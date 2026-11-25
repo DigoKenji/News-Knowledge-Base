@@ -105,6 +105,27 @@ Each got a **From the MBA library** section (book, chapter/pages, one line on wh
 
 **Not used:** *Hacking: Ultimate Hacking for Beginners* (27 pp., low quality), `noname.pdf` (9-page vendor audit checklist), *Secure the Infosec Bag* and *Tribe of Hackers* (career advice), Messer's SY0-501 notes and the Syngress Security+ guide (2003) (both repeat Security+ material), *Advanced Penetration Testing* and *Becoming the Hacker* (attack playbooks, nothing defensive to add yet). Duplicates: *AI Engineering* and the risk handout were each uploaded twice.
 
-## Foundations
+## Foundations (updated with the two books added 2026-11-25)
 
-These books do not cover enterprise architecture, so they **cannot** serve as the second independent source for the 10 architecture foundations. Those stay `draft` until the BIZBOK v15 PDFs (or another second body) are in `Referencias`. Several of the new security entries (incident response, security controls, risk management) already cite two independent bodies (NIST + textbook, or AWS + CSA) and could become foundation candidates later.
+Kenji added two architecture books on 2026-11-25: the **BIZBOK Guide v9.0** (Business Architecture Guild, 2020) and **Whelan & Meaden, *Business Architecture: A Practical Guide*** (Gower, 2012). The BIZBOK glossary quotes the FEAPO-adopted definitions (2017) of business, application, data, technical and enterprise architecture, so the Guild is a second issuing body next to The Open Group for 7 of the 10 foundations:
+
+| Foundation | Second body quote | Evidence now |
+|---|---|---|
+| [Business Architecture](/foundations/business-architecture.md) | BIZBOK glossary (FEAPO) + Whelan & Meaden (tier C) | partial → **yes** |
+| [Business capability](/foundations/business-capability.md) | BIZBOK glossary *Capability* + Whelan & Meaden (tier C) | partial → **yes** |
+| [Application Architecture](/foundations/application-architecture.md) | BIZBOK glossary (FEAPO) | partial → **yes** |
+| [Data Architecture](/foundations/data-architecture.md) | BIZBOK glossary (FEAPO) | partial → **yes** |
+| [Technology Architecture](/foundations/technology-architecture.md) | BIZBOK glossary *Technical Architecture* (FEAPO) | partial → **yes** |
+| [Enterprise Architecture](/foundations/enterprise-architecture.md) | BIZBOK glossary (FEAPO); TOGAF still has no formal entry | no → partial |
+| [Solution Architecture](/foundations/solution-architecture.md) | BIZBOK glossary (quotes Critchley 2006, an individual) | stays partial |
+
+Still `partial`: Architecture, Enterprise, Architecture domain. Neither book defines them independently (Whelan & Meaden quote IEEE 1471 and TOGAF).
+
+All foundations stay `draft` until you certify them. Two caveats:
+- v9.0 is an older BIZBOK. The Guild is on v15+, so a wording check against the current glossary would be ideal.
+- The BIZBOK terms of use allow quoting for education with credit. The KB quotes only single glossary definitions, credited as "Business Architecture Guild®, BIZBOK® Guide v9.0".
+
+I also removed the lecturer's name from three foundation pages (EN + pt-br) to follow the "never cite lecturer names" rule.
+
+- [ ] Certify the 5 foundations that now meet the two-body rule (business architecture, business capability, application, data, technology architecture)
+  - Fix: 

@@ -23,12 +23,23 @@ sources:
   edition: 10th Edition, 2025 update (evaluation copy)
   section: §4.27 Business Architecture
   tier: B
+- title: 'A Guide to the Business Architecture Body of Knowledge (BIZBOK Guide)'
+  publisher: Business Architecture Guild
+  edition: v9.0 (2020)
+  section: 'Appendix A: Glossary, Business Architecture (PDF p. 1025); FEAPO definition, adopted 2017'
+  tier: B
+- title: 'Business Architecture: A Practical Guide'
+  publisher: 'Whelan, J. and Meaden, G. (2012). Gower'
+  edition: 1st (2012)
+  section: 'ch. 1 About Business Architecture, pp. 2-3; Glossary, pp. 254-255'
+  tier: C
 evidence:
   bodies:
   - The Open Group
-  meets_standard: partial
+  - Business Architecture Guild (BIZBOK Guide; FEAPO-adopted definitions)
+  meets_standard: yes
   gaps:
-  - 'BIZBOK Guide v15 public glossary (Appendix A), Business Architecture Guild: Kenji downloads the PDF from businessarchitectureguild.org (cloud fetch is blocked) into FIAP-MBA/Referencias; a search snippet suggests the Guild''s wording matches TOGAF''s, but it is not verified'
+  - 'BIZBOK v9.0 (2020) is not the current Guild version (v15+); re-check the wording if Kenji gets the current glossary'
 related:
 - business-capability
 - architecture-domain
@@ -52,16 +63,20 @@ A arquitetura de negócio é uma visão estruturada do próprio negócio — o q
 > *Tradução livre:* Uma representação de visões de negócio holísticas e multidimensionais sobre: capacidades, entrega de valor de ponta a ponta, informação e estrutura organizacional; e as relações entre essas visões de negócio e estratégias, produtos, políticas, processos, iniciativas e stakeholders.
 > — The Open Group, TOGAF Standard 10th Ed. (C220 Part 0), §4.27 Business Architecture
 
+> Business architecture represents holistic, multidimensional business views of capabilities, end-to-end value delivery, information, and organizational structure as well as the relationships among these business views and strategies, products, policies, initiatives, and stakeholders.
+> — Business Architecture Guild®, BIZBOK® Guide v9.0 (2020), Appendix A: Glossary, *Business Architecture* (FEAPO definition, adopted 2017)
+
 ## Em que diferem
+- **O BIZBOK v9 (Business Architecture Guild, redação da FEAPO) coincide quase palavra por palavra com o TOGAF 9.2**: as mesmas quatro visões e a mesma lista de elementos relacionados, com "represents" no lugar de "a representation of". Isso confirma o trecho de busca anotado antes. Whelan e Meaden (2012, p. 2) ressaltam que não existe uma definição única aceita e tratam a arquitetura de negócio como "uma coleção de ativos, métodos, processos e recursos" que viabilizam os objetivos da organização (nível C).
 - O TOGAF 10 acrescenta **processos** à lista de coisas às quais as visões de negócio se relacionam; fora isso, é idêntico ao 9.2.
-- As quatro visões centrais (capacidades, entrega de valor, informação, organização) correspondem aos domínios centrais do Guia BIZBOK; a confirmar com o texto do glossário do BIZBOK.
+- As quatro visões centrais (capacidades, entrega de valor, informação, organização) correspondem aos domínios centrais do Guia BIZBOK (confirmado pelo verbete do glossário do BIZBOK v9 acima).
 - **Baseline.** A KB segue o TOGAF 9.2 (orientação do curso, 2026-11-19: a 9.2 está consolidada, enquanto o TOGAF 10 ainda está sendo atualizado). A redação do TOGAF 10 é mantida aqui para mostrar o que mudou.
 
 ## Onde se encaixa
 Subdomínio `business-architecture`. Blocos de construção centrais: [Capacidade de negócio](/pt-br/foundations/business-capability.md), fluxo de valor (TOGAF 10 §4.85), organização e informação. Processos são modelados com BPMN (OMG).
 
 ## No curso
-Arquitetura de Negócio no MBA (Prof. Rogério Kobayashi, 2026): arquitetura de negócio, blueprints, BPMN, estratégia digital — `Materiais/Business Archictecture/MBA_Business_Architecture_2026_v2.pdf`. Aulas ainda não ingeridas.
+Arquitetura de Negócio no MBA (2026): arquitetura de negócio, blueprints, BPMN, estratégia digital — `Materiais/Business Archictecture/MBA_Business_Architecture_2026_v2.pdf`. Aulas ainda não ingeridas.
 
 ## Questões em aberto
 - O fluxo de valor deve ser a próxima entrada de fundamento (TOGAF 10 §4.85 + Series Guide G178)?

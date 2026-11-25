@@ -23,12 +23,18 @@ sources:
   edition: 10th Edition, 2025 update (evaluation copy)
   section: §4.73 Solution Architecture; §4.78 Strategic Architecture; §4.68 Segment Architecture; Appendix B.41 System
   tier: B
+- title: 'A Guide to the Business Architecture Body of Knowledge (BIZBOK Guide)'
+  publisher: Business Architecture Guild
+  edition: v9.0 (2020)
+  section: 'Appendix A: Glossary, Solution Architecture (PDF p. 1037); the Guild cites John Critchley, 2006'
+  tier: B
 evidence:
   bodies:
   - The Open Group
-  meets_standard: partial
+  - Business Architecture Guild (BIZBOK Guide; FEAPO-adopted definitions)
+  meets_standard: 'partial'
   gaps:
-  - 'A second body. TOGAF 10 has no definition of ''solution'' itself; candidates: ISO/IEC/IEEE 15288 (system, via TOGAF B.41), or a tier C source on solution architecture'
+  - 'The BIZBOK entry is an individual author''s definition (Critchley 2006) adopted by the Guild; a standards-body definition would make this ''yes'''
 related:
 - enterprise-architecture
 - architecture
@@ -57,7 +63,11 @@ A arquitetura de solução descreve uma operação ou mudança de negócio focad
 > *Tradução livre:* Uma combinação de elementos interagentes organizada para alcançar um ou mais propósitos declarados. (Fonte: ISO/IEC/IEEE 15288:2015)
 > — The Open Group, TOGAF Standard 10th Ed. (C220 Part 0), Appendix B.41 System
 
+> The discipline of generating a creative and communicable technical design that aligns a feasible business solution with stakeholder expectation within the bounds of mandated delivery parameters.
+> — Business Architecture Guild®, BIZBOK® Guide v9.0 (2020), Appendix A: Glossary, *Solution Architecture* (the Guild cites John Critchley, 2006)
+
 ## Em que diferem
+- **O BIZBOK v9** adota a definição de Critchley (2006): arquitetura de soluções como uma *disciplina* que produz um desenho técnico ajustado às expectativas dos stakeholders dentro das restrições de entrega, enquanto o TOGAF descreve a *descrição* de uma operação ou atividade específica. O verbete do Guild cita um autor individual, por isso é mais fraco que os verbetes da FEAPO.
 - O TOGAF 10 mantém a definição, mas retira a nota da 9.2 que a vinculava a um único projeto ou release.
 - O TOGAF 10 a coloca numa hierarquia de níveis: Arquitetura Estratégica (§4.78, executiva, de longo prazo), Arquitetura de Segmento (§4.68, programa ou portfólio) e Arquitetura de Solução (projeto).
 - Nenhuma das edições define *solução*. O uso no mercado varia (um produto, um entregável de projeto, um conjunto de sistemas); a KB adota a interpretação da definição de trabalho e a sinaliza.

@@ -23,13 +23,18 @@ sources:
   edition: 10th Edition, 2025 update (evaluation copy)
   section: §4.39 Data Architecture
   tier: B
+- title: 'A Guide to the Business Architecture Body of Knowledge (BIZBOK Guide)'
+  publisher: Business Architecture Guild
+  edition: v9.0 (2020)
+  section: 'Appendix A: Glossary, Data Architecture (PDF p. 1030); FEAPO definition, adopted 2017'
+  tier: B
 evidence:
   bodies:
   - The Open Group
-  meets_standard: partial
+  - Business Architecture Guild (BIZBOK Guide; FEAPO-adopted definitions)
+  meets_standard: yes
   gaps:
-  - DAMA-DMBOK2 (DAMA International), chapter on Data Architecture — book, Kenji to provide
-  - Data Architecture course slides (FIAP, Aula02–04) as tier E
+  - 'DAMA-DMBOK2 (DAMA International), chapter on Data Architecture, for the practitioner view (optional now)'
 related:
 - architecture-domain
 - application-architecture
@@ -52,7 +57,11 @@ A arquitetura de dados descreve a estrutura e a interação dos principais tipos
 > *Tradução livre:* Uma descrição da estrutura dos principais tipos e fontes de dados da empresa, dos ativos de dados lógicos, dos ativos de dados físicos e dos recursos de gerenciamento de dados.
 > — The Open Group, TOGAF Standard 10th Ed. (C220 Part 0), §4.39 Data Architecture
 
+> Data architecture represents integration of value specifications for qualitative and quantitative variables and their alignment with business architecture and strategy.
+> — Business Architecture Guild®, BIZBOK® Guide v9.0 (2020), Appendix A: Glossary, *Data Architecture* (FEAPO definition, adopted 2017)
+
 ## Em que diferem
+- **O BIZBOK v9 (redação da FEAPO)** é abstrato ("especificações de valor para variáveis qualitativas e quantitativas") e enfatiza o alinhamento com a arquitetura de negócio; o TOGAF fala concretamente de ativos de dados lógicos e físicos e de recursos de gestão de dados. O DAMA-DMBOK2 ainda daria a visão do praticante.
 - O TOGAF 10 retira **"and interaction"** ("e interação"): a arquitetura de dados descreve apenas a estrutura, e as interações ficam a cargo da arquitetura de aplicações.
 - Padrões de plataforma de dados (data lake, streaming) do curso de Arquitetura de Dados ficam no nível de solução; a definição do TOGAF está no nível de empresa.
 - **Baseline.** A KB segue o TOGAF 9.2 (orientação do curso, 2026-11-19: a 9.2 está consolidada, enquanto o TOGAF 10 ainda está sendo atualizado). A redação do TOGAF 10 é mantida aqui para mostrar o que mudou.
