@@ -28,9 +28,17 @@ sources:
 - title: LangChain (2025). The rise of "context engineering"
   resource: 'https://www.langchain.com/blog/the-rise-of-context-engineering'
   kind: practitioner
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 5 Context Length and Context Efficiency, p. 218; ch. 10 Step 1. Enhance Context, p. 450'
 relations:
 - type: part-of
   target: ai-agent
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Context engineering
@@ -55,12 +63,19 @@ Netflix (2026-11-24 note) gives coding agents curated repository docs, conventio
 
 The draft definition was tied to coding agents; it now covers any LLM application.
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 5 Context Length and Context Efficiency, p. 218; ch. 10 Step 1. Enhance Context, p. 450: Where to place information in long contexts and why context is the first architecture step.
+
 ## Sources
 
 1. Anthropic (2025). *Effective context engineering for AI agents*. <https://www.anthropic.com/research/effective-context-engineering-for-ai-agents> — Definition, context rot, compaction, note-taking and sub-agent techniques.
 2. Mei, L. et al. (2025). *A Survey of Context Engineering for Large Language Models*. arXiv:2507.13334. <https://arxiv.org/abs/2507.13334> — Academic survey framing context engineering as a discipline beyond prompt design.
 3. Liu, N. F. et al. (2024). *Lost in the Middle - How Language Models Use Long Contexts*. TACL, arXiv:2307.03172. <https://arxiv.org/abs/2307.03172> — Evidence that models use information unevenly across long contexts.
 4. LangChain (2025). *The rise of "context engineering"*. <https://www.langchain.com/blog/the-rise-of-context-engineering> — Independent practitioner framing - the right information, tools and format for the task.
+5. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 5 Context Length and Context Efficiency, p. 218; ch. 10 Step 1. Enhance Context, p. 450. Where to place information in long contexts and why context is the first architecture step.
 
 ## Relations
 - **part-of** [ai-agent](/concepts/ai-ml/ai-agent.md)

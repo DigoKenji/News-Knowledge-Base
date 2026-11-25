@@ -24,7 +24,19 @@ sources:
 - title: Silver, D. et al. (2016). Mastering the game of Go with deep neural networks and tree search. Nature 529
   resource: 'https://doi.org/10.1038/nature16961'
   kind: paper
+- title: 'Raschka, S., Liu, Y. and Mirjalili, V. (2022). Machine Learning with PyTorch and Scikit-Learn. Packt'
+  resource: 'https://books.google.com/books?vid=ISBN9781801819312'
+  kind: book
+  locator: 'ch. 19 Reinforcement Learning for Decision Making in Complex Environments, pp. 671-712'
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 2 Preference Finetuning (RLHF), pp. 83-88'
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Reinforcement learning
@@ -49,11 +61,20 @@ A model writes two answers, humans pick the better one, a reward model learns th
 
 Foundation candidate: a standards body defines this term (see sources). It moves to `foundations/` once verbatim quotes from two independent issuing bodies are collected (ADR-0010).
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Raschka, S., Liu, Y. and Mirjalili, V. (2022)**, *Machine Learning with PyTorch and Scikit-Learn*, ch. 19 Reinforcement Learning for Decision Making in Complex Environments, pp. 671-712: Agent-environment interface, Monte Carlo and Q-learning, and a deep Q-network in PyTorch.
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 2 Preference Finetuning (RLHF), pp. 83-88: How RL from human feedback is used in LLM post-training, and simpler alternatives such as DPO.
+
 ## Sources
 
 1. Sutton, R. S. and Barto, A. G. (2018). *Reinforcement Learning - An Introduction*, 2nd ed. MIT Press. <http://incompleteideas.net/book/the-book-2nd.html> — Standard textbook definition - agent, environment, reward, policy, exploration.
 2. Ouyang, L. et al. (2022). *Training language models to follow instructions with human feedback*. NeurIPS 2022, arXiv:2203.02155. <https://arxiv.org/abs/2203.02155> — RLHF applied to LLMs (InstructGPT).
 3. Silver, D. et al. (2016). *Mastering the game of Go with deep neural networks and tree search*. Nature 529. <https://doi.org/10.1038/nature16961> — Landmark deep RL result (AlphaGo), independent of the LLM context.
+4. Raschka, S., Liu, Y. and Mirjalili, V. (2022). *Machine Learning with PyTorch and Scikit-Learn*. Packt. <https://books.google.com/books?vid=ISBN9781801819312> — ch. 19 Reinforcement Learning for Decision Making in Complex Environments, pp. 671-712. Agent-environment interface, Monte Carlo and Q-learning, and a deep Q-network in PyTorch.
+5. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 2 Preference Finetuning (RLHF), pp. 83-88. How RL from human feedback is used in LLM post-training, and simpler alternatives such as DPO.
 
 ## Relations
 - (none yet)

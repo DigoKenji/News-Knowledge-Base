@@ -21,9 +21,17 @@ sources:
 - title: Amazon Web Services. Shared Responsibility Model
   resource: 'https://aws.amazon.com/compliance/shared-responsibility-model/'
   kind: docs
+- title: 'Dotson, C. (2019). Practical Cloud Security: A Guide for Secure Design and Deployment. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781492037514'
+  kind: book
+  locator: 'ch. 1 The Cloud Shared Responsibility Model, pp. 6-9'
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/cloud-infra/cloud-service-models.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Modelos de serviço (IaaS, PaaS, SaaS)
@@ -49,11 +57,18 @@ Alugar uma máquina virtual e instalar o PostgreSQL nela é IaaS; implantar uma 
 
 Candidato a fundamento: um órgão de padronização define este termo (veja as fontes). Ele passa para `foundations/` quando forem reunidas citações literais de dois órgãos emissores independentes (ADR-0010).
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Dotson, C. (2019)**, *Practical Cloud Security: A Guide for Secure Design and Deployment*, ch. 1 The Cloud Shared Responsibility Model, pp. 6-9: Como as responsabilidades de segurança mudam entre IaaS, PaaS e SaaS.
+
 ## Fontes
 
 1. Mell, P. and Grance, T. (2011). *NIST SP 800-145 - The NIST Definition of Cloud Computing*. <https://doi.org/10.6028/NIST.SP.800-145> — Definições de SaaS, PaaS e IaaS.
 2. ISO/IEC (2023). *ISO/IEC 22123-2 - Information technology - Cloud computing - Part 2 Concepts*. <https://www.iso.org/standard/80352.html> — Tipos de capacidade e categorias de serviço de nuvem (pago; citado, não transcrito).
 3. Amazon Web Services. *Shared Responsibility Model*. <https://aws.amazon.com/compliance/shared-responsibility-model/> — Como a responsabilidade muda entre provedor e cliente conforme o tipo de serviço.
+4. Dotson, C. (2019). *Practical Cloud Security: A Guide for Secure Design and Deployment*. O'Reilly. <https://books.google.com/books?vid=ISBN9781492037514> — ch. 1 The Cloud Shared Responsibility Model, pp. 6-9. Como as responsabilidades de segurança mudam entre IaaS, PaaS e SaaS.
 
 ## Relações
 - (nenhuma ainda)

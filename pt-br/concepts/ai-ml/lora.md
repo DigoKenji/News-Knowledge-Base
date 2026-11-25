@@ -28,8 +28,20 @@ sources:
 - title: Hugging Face. PEFT - LoRA conceptual guide
   resource: 'https://huggingface.co/docs/peft/main/en/conceptual_guides/lora'
   kind: docs
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 7 Parameter-Efficient Finetuning, pp. 332-347'
+- title: 'Iusztin, P. and Labonne, M. (2024). LLM Engineer''s Handbook. Packt'
+  resource: 'https://books.google.com/books?vid=ISBN9781836200079'
+  kind: book
+  locator: 'ch. 5 LoRA p. 213 and QLoRA p. 215'
 lang: pt-br
 translation_of: /concepts/ai-ml/lora.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Adaptação de baixo posto (LoRA)
@@ -50,12 +62,21 @@ LoRA torna o fine-tuning acessível e os adaptadores minúsculos (megabytes), po
 
 Treinar um adaptador LoRA de 20 MB que ensina a um modelo aberto de 8B o formato de notas de deep dive de Kenji, e carregá-lo sobre a base compartilhada só na hora de resumir.
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 7 Parameter-Efficient Finetuning, pp. 332-347: LoRA entre os métodos PEFT, com cálculo de memória.
+- **Iusztin, P. and Labonne, M. (2024)**, *LLM Engineer's Handbook*, ch. 5 LoRA p. 213 and QLoRA p. 215: Configurações práticas de LoRA/QLoRA para fine-tuning de um modelo de 8B.
+
 ## Fontes
 
 1. Hu, E. J. et al. (2022). *LoRA - Low-Rank Adaptation of Large Language Models*. ICLR 2022, arXiv:2106.09685. <https://arxiv.org/abs/2106.09685> — Método, economia de parâmetros e memória, sem latência extra de inferência.
 2. Aghajanyan, A. et al. (2021). *Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning*. ACL 2021, arXiv:2012.13255. <https://arxiv.org/abs/2012.13255> — Por que atualizações de posto baixo são suficientes.
 3. Dettmers, T. et al. (2023). *QLoRA - Efficient Finetuning of Quantized LLMs*. NeurIPS 2023, arXiv:2305.14314. <https://arxiv.org/abs/2305.14314> — LoRA sobre um modelo base quantizado em 4 bits.
 4. Hugging Face. *PEFT - LoRA conceptual guide*. <https://huggingface.co/docs/peft/main/en/conceptual_guides/lora> — Parâmetros práticos (posto, alpha, módulos-alvo) e fusão.
+5. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 7 Parameter-Efficient Finetuning, pp. 332-347. LoRA entre os métodos PEFT, com cálculo de memória.
+6. Iusztin, P. and Labonne, M. (2024). *LLM Engineer's Handbook*. Packt. <https://books.google.com/books?vid=ISBN9781836200079> — ch. 5 LoRA p. 213 and QLoRA p. 215. Configurações práticas de LoRA/QLoRA para fine-tuning de um modelo de 8B.
 
 ## Relações
 - (nenhuma ainda)

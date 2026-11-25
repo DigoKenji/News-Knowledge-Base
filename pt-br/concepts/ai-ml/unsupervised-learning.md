@@ -24,9 +24,17 @@ sources:
 - title: Goodfellow, I., Bengio, Y. and Courville, A. (2016). Deep Learning, ch. 5.8. MIT Press
   resource: 'https://www.deeplearningbook.org/'
   kind: book
+- title: 'Raschka, S., Liu, Y. and Mirjalili, V. (2022). Machine Learning with PyTorch and Scikit-Learn. Packt'
+  resource: 'https://books.google.com/books?vid=ISBN9781801819312'
+  kind: book
+  locator: 'ch. 5 PCA and dimensionality reduction, p. 139; ch. 10 Clustering Analysis, pp. 305-334'
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/ai-ml/unsupervised-learning.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Aprendizado não supervisionado e auto-supervisionado
@@ -52,11 +60,19 @@ Não supervisionado - agrupar clientes em segmentos pelo comportamento de compra
 
 Candidato a fundamento: um órgão de padronização define este termo (veja as fontes). Ele passa para `foundations/` quando forem reunidas citações literais de dois órgãos emissores independentes (ADR-0010).
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Raschka, S., Liu, Y. and Mirjalili, V. (2022)**, *Machine Learning with PyTorch and Scikit-Learn*, ch. 5 PCA and dimensionality reduction, p. 139; ch. 10 Clustering Analysis, pp. 305-334: PCA, t-SNE, k-means e clusterização hierárquica na prática.
+- **Goodfellow, I., Bengio, Y. and Courville, A. (2016)**, *Deep Learning*, §5.8 Unsupervised Learning Algorithms, p. 146; ch. 14 Autoencoders, p. 502; ch. 15 Representation Learning, p. 526: Autoencoders e aprendizado de representações, as raízes do pré-treino auto-supervisionado.
+
 ## Fontes
 
 1. Hastie, T., Tibshirani, R. and Friedman, J. (2009). *The Elements of Statistical Learning*, 2nd ed., ch. 14 Unsupervised Learning. Springer. <https://hastie.su.domains/ElemStatLearn/> — Agrupamento, PCA e outros métodos não supervisionados.
 2. Balestriero, R. et al. (2023). *A Cookbook of Self-Supervised Learning*. arXiv:2304.12210. <https://arxiv.org/abs/2304.12210> — Revisão de métodos de aprendizado auto-supervisionado e por que funcionam.
 3. Goodfellow, I., Bengio, Y. and Courville, A. (2016). *Deep Learning*, ch. 5.8. MIT Press. <https://www.deeplearningbook.org/> — Aprendizado não supervisionado no contexto do deep learning.
+4. Raschka, S., Liu, Y. and Mirjalili, V. (2022). *Machine Learning with PyTorch and Scikit-Learn*. Packt. <https://books.google.com/books?vid=ISBN9781801819312> — ch. 5 PCA and dimensionality reduction, p. 139; ch. 10 Clustering Analysis, pp. 305-334. PCA, t-SNE, k-means e clusterização hierárquica na prática.
 
 ## Relações
 - (nenhuma ainda)

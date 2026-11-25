@@ -30,6 +30,14 @@ sources:
 - title: Anthropic (2024). Building effective agents
   resource: 'https://www.anthropic.com/research/building-effective-agents'
   kind: practitioner
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 6 Agents, pp. 275-300 (tools p. 278; planning p. 281; failure modes and evaluation p. 298)'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # AI agent
@@ -50,12 +58,19 @@ Agents handle open-ended tasks whose steps cannot be scripted in advance. In exc
 
 A coding agent given "fix the failing CI job" reads the log, opens the file, edits it, reruns the test and opens a pull request, choosing each step itself.
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 6 Agents, pp. 275-300 (tools p. 278; planning p. 281; failure modes and evaluation p. 298): Agent anatomy, planning approaches and how agents fail.
+
 ## Sources
 
 1. Russell, S. and Norvig, P. (2021). *Artificial Intelligence - A Modern Approach*, 4th ed., ch. 2 Intelligent Agents. Pearson. <https://aima.cs.berkeley.edu/> — The classic definition of an agent as perceiving and acting in an environment.
 2. Yao, S. et al. (2023). *ReAct - Synergizing Reasoning and Acting in Language Models*. ICLR 2023, arXiv:2210.03629. <https://arxiv.org/abs/2210.03629> — The reason-act-observe loop behind most LLM agents.
 3. Wang, L. et al. (2024). *A Survey on Large Language Model based Autonomous Agents*. Frontiers of Computer Science, arXiv:2308.11432. <https://arxiv.org/abs/2308.11432> — Survey of agent components (profile, memory, planning, action).
 4. Anthropic (2024). *Building effective agents*. <https://www.anthropic.com/research/building-effective-agents> — Workflows vs agents, and when each is appropriate.
+5. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 6 Agents, pp. 275-300 (tools p. 278; planning p. 281; failure modes and evaluation p. 298). Agent anatomy, planning approaches and how agents fail.
 
 ## Relations
 - (none yet)

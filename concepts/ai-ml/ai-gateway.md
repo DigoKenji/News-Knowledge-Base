@@ -27,6 +27,14 @@ sources:
 - title: LiteLLM. Proxy Server (LLM Gateway) documentation
   resource: 'https://docs.litellm.ai/docs/simple_proxy'
   kind: docs
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 10 Step 3. Add Model Router and Gateway, pp. 456-460'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # AI gateway
@@ -51,11 +59,18 @@ AUMOVIO (from the 2026-11-19 note) routes all internal LLM use through Databrick
 
 The term is vendor-driven and has no standards-body definition yet; the three sources are independent vendors that agree on the feature set.
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 10 Step 3. Add Model Router and Gateway, pp. 456-460: Routers that pick a model per query and gateways that unify access, keys, fallbacks and cost control.
+
 ## Sources
 
 1. Cloudflare. *AI Gateway documentation*. <https://developers.cloudflare.com/ai-gateway/> — Caching, rate limiting, analytics, logging and fallback for model requests.
 2. Databricks. *AI Gateway documentation*. <https://docs.databricks.com/aws/en/ai-gateway/> — Governance features - permissions, usage tracking, guardrails, traffic routing.
 3. LiteLLM. *Proxy Server (LLM Gateway) documentation*. <https://docs.litellm.ai/docs/simple_proxy> — Open-source implementation - unified API, virtual keys, budgets, load balancing.
+4. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 10 Step 3. Add Model Router and Gateway, pp. 456-460. Routers that pick a model per query and gateways that unify access, keys, fallbacks and cost control.
 
 ## Relations
 - (none yet)

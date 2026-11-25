@@ -30,8 +30,16 @@ sources:
 - title: Anthropic (2024). Building effective agents
   resource: 'https://www.anthropic.com/research/building-effective-agents'
   kind: practitioner
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 6 Agents, pp. 275-300 (tools p. 278; planning p. 281; failure modes and evaluation p. 298)'
 lang: pt-br
 translation_of: /concepts/ai-ml/ai-agent.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Agente de IA
@@ -52,12 +60,19 @@ Agentes lidam com tarefas abertas cujos passos não podem ser roteirizados de an
 
 Um agente de código que recebe "corrija o job de CI que está falhando" lê o log, abre o arquivo, edita, roda o teste de novo e abre um pull request, escolhendo cada passo sozinho.
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 6 Agents, pp. 275-300 (tools p. 278; planning p. 281; failure modes and evaluation p. 298): Anatomia de agentes, abordagens de planejamento e como agentes falham.
+
 ## Fontes
 
 1. Russell, S. and Norvig, P. (2021). *Artificial Intelligence - A Modern Approach*, 4th ed., ch. 2 Intelligent Agents. Pearson. <https://aima.cs.berkeley.edu/> — A definição clássica de agente como algo que percebe e age num ambiente.
 2. Yao, S. et al. (2023). *ReAct - Synergizing Reasoning and Acting in Language Models*. ICLR 2023, arXiv:2210.03629. <https://arxiv.org/abs/2210.03629> — O loop raciocinar-agir-observar por trás da maioria dos agentes de LLM.
 3. Wang, L. et al. (2024). *A Survey on Large Language Model based Autonomous Agents*. Frontiers of Computer Science, arXiv:2308.11432. <https://arxiv.org/abs/2308.11432> — Revisão dos componentes de agentes (perfil, memória, planejamento, ação).
 4. Anthropic (2024). *Building effective agents*. <https://www.anthropic.com/research/building-effective-agents> — Workflows vs agentes, e quando cada um é apropriado.
+5. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 6 Agents, pp. 275-300 (tools p. 278; planning p. 281; failure modes and evaluation p. 298). Anatomia de agentes, abordagens de planejamento e como agentes falham.
 
 ## Relações
 - (nenhuma ainda)

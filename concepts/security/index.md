@@ -24,3 +24,11 @@
 - [Remote attestation](/concepts/security/remote-attestation.md) — appsec
 - [Memory poisoning](/concepts/security/memory-poisoning.md) — security
 - [Supply-chain attack](/concepts/security/supply-chain-attack.md) — security
+- [Penetration testing and vulnerability assessment](/concepts/security/penetration-testing.md) — appsec (draft)
+- [Incident response](/concepts/security/incident-response.md) — security (draft)
+- [Security controls](/concepts/security/security-controls.md) — security (draft)
+- [Security risk management and business impact analysis](/concepts/security/security-risk-management.md) — security (draft)
+- [Shared responsibility model](/concepts/security/shared-responsibility-model.md) — cloud-security (draft)
+- [Network security controls (firewalls, segmentation, IDS/IPS)](/concepts/security/network-security.md) — security (draft)
+- [Vulnerability management](/concepts/security/vulnerability-management.md) — security (draft)
+- [Social engineering and phishing](/concepts/security/social-engineering.md) — security (draft)

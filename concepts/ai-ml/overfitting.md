@@ -24,6 +24,14 @@ sources:
 - title: 'Zhang, C. et al. (2017). Understanding deep learning requires rethinking generalization. ICLR 2017, arXiv:1611.03530'
   resource: 'https://arxiv.org/abs/1611.03530'
   kind: paper
+- title: 'Raschka, S., Liu, Y. and Mirjalili, V. (2022). Machine Learning with PyTorch and Scikit-Learn. Packt'
+  resource: 'https://books.google.com/books?vid=ISBN9781801819312'
+  kind: book
+  locator: 'ch. 6 Debugging algorithms with learning and validation curves, pp. 180-185'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Overfitting and generalisation
@@ -45,11 +53,19 @@ A model reaches 99% accuracy on training emails but 70% on next month's emails b
 - [Concept drift](/concepts/ai-ml/concept-drift.md)
 - [Data drift](/concepts/ai-ml/data-drift.md)
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Goodfellow, I., Bengio, Y. and Courville, A. (2016)**, *Deep Learning*, §5.2 Capacity, Overfitting and Underfitting, pp. 110-120; §5.3 Hyperparameters and Validation Sets, p. 120: Capacity and the formal definitions of under- and overfitting.
+- **Raschka, S., Liu, Y. and Mirjalili, V. (2022)**, *Machine Learning with PyTorch and Scikit-Learn*, ch. 6 Debugging algorithms with learning and validation curves, pp. 180-185: Diagnosing over- and underfitting from learning and validation curves.
+
 ## Sources
 
 1. Goodfellow, I., Bengio, Y. and Courville, A. (2016). *Deep Learning*, ch. 5.2 Capacity, Overfitting and Underfitting. MIT Press. <https://www.deeplearningbook.org/> — Definitions and capacity view.
 2. Hastie, T., Tibshirani, R. and Friedman, J. (2009). *The Elements of Statistical Learning*, 2nd ed., ch. 7 Model Assessment and Selection. Springer. <https://hastie.su.domains/ElemStatLearn/> — Bias-variance trade-off and cross-validation.
 3. Zhang, C. et al. (2017). *Understanding deep learning requires rethinking generalization*. ICLR 2017, arXiv:1611.03530. <https://arxiv.org/abs/1611.03530> — Deep networks can memorise random labels; limits of the classic view.
+4. Raschka, S., Liu, Y. and Mirjalili, V. (2022). *Machine Learning with PyTorch and Scikit-Learn*. Packt. <https://books.google.com/books?vid=ISBN9781801819312> — ch. 6 Debugging algorithms with learning and validation curves, pp. 180-185. Diagnosing over- and underfitting from learning and validation curves.
 
 ## Relations
 - (none yet)

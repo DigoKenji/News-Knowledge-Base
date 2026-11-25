@@ -24,9 +24,21 @@ sources:
 - title: Krizhevsky, A., Sutskever, I. and Hinton, G. (2012). ImageNet Classification with Deep Convolutional Neural Networks. NeurIPS 2012
   resource: 'https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks'
   kind: paper
+- title: 'Raschka, S., Liu, Y. and Mirjalili, V. (2022). Machine Learning with PyTorch and Scikit-Learn. Packt'
+  resource: 'https://books.google.com/books?vid=ISBN9781801819312'
+  kind: book
+  locator: 'ch. 11-15, pp. 335-538 (MLP from scratch, PyTorch mechanics, CNNs, RNNs)'
+- title: 'Deisenroth, M. P., Faisal, A. A. and Ong, C. S. (2020). Mathematics for Machine Learning. Cambridge University Press'
+  resource: 'https://mml-book.github.io/'
+  kind: book
+  locator: '§5.6 Backpropagation and Automatic Differentiation, p. 159'
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/ai-ml/deep-learning.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Redes neurais e deep learning
@@ -53,11 +65,21 @@ As primeiras camadas de um classificador de imagens detectam bordas, as camadas 
 
 Candidato a fundamento: um órgão de padronização define este termo (veja as fontes). Ele passa para `foundations/` quando forem reunidas citações literais de dois órgãos emissores independentes (ADR-0010).
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Goodfellow, I., Bengio, Y. and Courville, A. (2016)**, *Deep Learning*, ch. 6 Deep Feedforward Networks, pp. 168-227; ch. 9 Convolutional Networks p. 330; ch. 10 Recurrent Nets p. 373: As arquiteturas centrais em profundidade (já era a referência principal aqui; localizadores acrescentados).
+- **Raschka, S., Liu, Y. and Mirjalili, V. (2022)**, *Machine Learning with PyTorch and Scikit-Learn*, ch. 11-15, pp. 335-538 (MLP from scratch, PyTorch mechanics, CNNs, RNNs): Implementa as mesmas arquiteturas em PyTorch.
+- **Deisenroth, M. P., Faisal, A. A. and Ong, C. S. (2020)**, *Mathematics for Machine Learning*, §5.6 Backpropagation and Automatic Differentiation, p. 159: A matemática do treino de redes profundas.
+
 ## Fontes
 
 1. LeCun, Y., Bengio, Y. and Hinton, G. (2015). *Deep learning*. Nature 521. <https://doi.org/10.1038/nature14539> — Definição e visão geral do deep learning pelos seus pioneiros.
 2. Goodfellow, I., Bengio, Y. and Courville, A. (2016). *Deep Learning*. MIT Press. <https://www.deeplearningbook.org/> — Livro-texto padrão - redes feedforward, backpropagation, otimização.
 3. Krizhevsky, A., Sutskever, I. and Hinton, G. (2012). *ImageNet Classification with Deep Convolutional Neural Networks*. NeurIPS 2012. <https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks> — O resultado de 2012 que iniciou a era do deep learning em visão.
+4. Raschka, S., Liu, Y. and Mirjalili, V. (2022). *Machine Learning with PyTorch and Scikit-Learn*. Packt. <https://books.google.com/books?vid=ISBN9781801819312> — ch. 11-15, pp. 335-538 (MLP from scratch, PyTorch mechanics, CNNs, RNNs). Implementa as mesmas arquiteturas em PyTorch.
+5. Deisenroth, M. P., Faisal, A. A. and Ong, C. S. (2020). *Mathematics for Machine Learning*. Cambridge University Press. <https://mml-book.github.io/> — §5.6 Backpropagation and Automatic Differentiation, p. 159. A matemática do treino de redes profundas.
 
 ## Relações
 - (nenhuma ainda)

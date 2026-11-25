@@ -30,6 +30,18 @@ sources:
 - title: 'Xu, X. et al. (2024). A Survey on Knowledge Distillation of Large Language Models. arXiv:2402.13116'
   resource: 'https://arxiv.org/abs/2402.13116'
   kind: paper
+- title: 'Tunstall, L., von Werra, L. and Wolf, T. (2022). Natural Language Processing with Transformers, revised edition. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098136796'
+  kind: book
+  locator: 'ch. 8 Making Models Smaller via Knowledge Distillation, pp. 217-229'
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 8 Model Distillation, p. 395'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Distillation
@@ -54,12 +66,21 @@ Generate 50,000 labelled support tickets with a frontier model, then fine-tune a
 
 The draft ("extract capabilities") described the adversarial case only; the definition is now the general technique, with the adversarial use as a caveat.
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Tunstall, L., von Werra, L. and Wolf, T. (2022)**, *Natural Language Processing with Transformers, revised edition*, ch. 8 Making Models Smaller via Knowledge Distillation, pp. 217-229: Distilling a fine-tuned transformer and benchmarking the student.
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 8 Model Distillation, p. 395: Distillation as a data-synthesis technique for training smaller models.
+
 ## Sources
 
 1. Hinton, G., Vinyals, O. and Dean, J. (2015). *Distilling the Knowledge in a Neural Network*. arXiv:1503.02531. <https://arxiv.org/abs/1503.02531> — Soft targets, temperature, the teacher-student method.
 2. Bucilă, C., Caruana, R. and Niculescu-Mizil, A. (2006). *Model Compression*. KDD 2006. <https://dl.acm.org/doi/10.1145/1150402.1150464> — The earlier idea of compressing an ensemble into one small model trained on its outputs.
 3. Sanh, V. et al. (2019). *DistilBERT, a distilled version of BERT*. arXiv:1910.01108. <https://arxiv.org/abs/1910.01108> — Concrete size, speed and quality figures for a distilled language model.
 4. Xu, X. et al. (2024). *A Survey on Knowledge Distillation of Large Language Models*. arXiv:2402.13116. <https://arxiv.org/abs/2402.13116> — White-box vs black-box distillation for LLMs.
+5. Tunstall, L., von Werra, L. and Wolf, T. (2022). *Natural Language Processing with Transformers, revised edition*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098136796> — ch. 8 Making Models Smaller via Knowledge Distillation, pp. 217-229. Distilling a fine-tuned transformer and benchmarking the student.
+6. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 8 Model Distillation, p. 395. Distillation as a data-synthesis technique for training smaller models.
 
 ## Relations
 - (none yet)

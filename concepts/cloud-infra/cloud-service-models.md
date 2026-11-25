@@ -21,7 +21,15 @@ sources:
 - title: Amazon Web Services. Shared Responsibility Model
   resource: 'https://aws.amazon.com/compliance/shared-responsibility-model/'
   kind: docs
+- title: 'Dotson, C. (2019). Practical Cloud Security: A Guide for Secure Design and Deployment. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781492037514'
+  kind: book
+  locator: 'ch. 1 The Cloud Shared Responsibility Model, pp. 6-9'
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Service models (IaaS, PaaS, SaaS)
@@ -47,11 +55,18 @@ Renting a virtual machine on which you install PostgreSQL is IaaS; deploying a w
 
 Foundation candidate: a standards body defines this term (see sources). It moves to `foundations/` once verbatim quotes from two independent issuing bodies are collected (ADR-0010).
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Dotson, C. (2019)**, *Practical Cloud Security: A Guide for Secure Design and Deployment*, ch. 1 The Cloud Shared Responsibility Model, pp. 6-9: How security duties shift between IaaS, PaaS and SaaS.
+
 ## Sources
 
 1. Mell, P. and Grance, T. (2011). *NIST SP 800-145 - The NIST Definition of Cloud Computing*. <https://doi.org/10.6028/NIST.SP.800-145> — Definitions of SaaS, PaaS and IaaS.
 2. ISO/IEC (2023). *ISO/IEC 22123-2 - Information technology - Cloud computing - Part 2 Concepts*. <https://www.iso.org/standard/80352.html> — Cloud capability types and service categories (paywalled; cited, not quoted).
 3. Amazon Web Services. *Shared Responsibility Model*. <https://aws.amazon.com/compliance/shared-responsibility-model/> — How responsibility shifts between provider and customer across service types.
+4. Dotson, C. (2019). *Practical Cloud Security: A Guide for Secure Design and Deployment*. O'Reilly. <https://books.google.com/books?vid=ISBN9781492037514> — ch. 1 The Cloud Shared Responsibility Model, pp. 6-9. How security duties shift between IaaS, PaaS and SaaS.
 
 ## Relations
 - (none yet)

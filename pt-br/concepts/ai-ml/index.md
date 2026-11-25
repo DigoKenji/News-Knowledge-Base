@@ -50,3 +50,11 @@
 - [Atenção latente multicabeça](/pt-br/concepts/ai-ml/multi-head-latent-attention.md) — ai-ml
 - [Engenharia de contexto](/pt-br/concepts/ai-ml/context-engineering.md) — ai-ml
 - [Adaptação de baixo posto (LoRA)](/pt-br/concepts/ai-ml/lora.md) — ai-ml
+- [Gradiente descendente e retropropagação](/pt-br/concepts/ai-ml/gradient-descent-backpropagation.md) — deep-learning (rascunho)
+- [Regularização e o trade-off viés-variância](/pt-br/concepts/ai-ml/regularization.md) — classical-ml (rascunho)
+- [Tokenização](/pt-br/concepts/ai-ml/tokenization.md) — nlp (rascunho)
+- [Fine-tuning (ajuste fino)](/pt-br/concepts/ai-ml/fine-tuning.md) — llm-engineering (rascunho)
+- [Engenharia de prompt](/pt-br/concepts/ai-ml/prompt-engineering.md) — llm-engineering (rascunho)
+- [Modelos generativos (VAE, GAN, difusão, autorregressivos)](/pt-br/concepts/ai-ml/generative-models.md) — deep-learning (rascunho)
+- [Quantização](/pt-br/concepts/ai-ml/quantization.md) — llm-engineering (rascunho)
+- [MLOps e LLMOps](/pt-br/concepts/ai-ml/mlops-llmops.md) — mlops (rascunho)

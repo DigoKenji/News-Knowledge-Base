@@ -21,9 +21,17 @@ sources:
 - title: Armbrust, M. et al. (2010). A View of Cloud Computing. Communications of the ACM 53(4)
   resource: 'https://doi.org/10.1145/1721654.1721672'
   kind: paper
+- title: 'Stallings, W. and Brown, L. (2015). Computer Security: Principles and Practice, 3rd edition. Pearson'
+  resource: 'https://books.google.com/books?vid=ISBN9780133773927'
+  kind: book
+  locator: '§5.8 Cloud Computing, pp. 180-187'
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/cloud-infra/cloud-computing.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Computação em nuvem
@@ -52,11 +60,18 @@ Uma startup lança num provedor de nuvem sem hardware: sobe duas pequenas máqui
 
 Candidato a fundamento: um órgão de padronização define este termo (veja as fontes). Ele passa para `foundations/` quando forem reunidas citações literais de dois órgãos emissores independentes (ADR-0010).
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Stallings, W. and Brown, L. (2015)**, *Computer Security: Principles and Practice, 3rd edition*, §5.8 Cloud Computing, pp. 180-187: Características, modelos de serviço e de implantação de nuvem do NIST em um livro de segurança.
+
 ## Fontes
 
 1. Mell, P. and Grance, T. (2011). *NIST SP 800-145 - The NIST Definition of Cloud Computing*. National Institute of Standards and Technology. <https://doi.org/10.6028/NIST.SP.800-145> — Definição, cinco características essenciais, modelos de serviço e de implantação.
 2. ISO/IEC (2023). *ISO/IEC 22123-1 - Information technology - Cloud computing - Part 1 Vocabulary*. <https://www.iso.org/standard/82758.html> — Vocabulário internacional de nuvem (pago; citado, não transcrito).
 3. Armbrust, M. et al. (2010). *A View of Cloud Computing*. Communications of the ACM 53(4). <https://doi.org/10.1145/1721654.1721672> — Economia da computação em nuvem e seus obstáculos.
+4. Stallings, W. and Brown, L. (2015). *Computer Security: Principles and Practice, 3rd edition*. Pearson. <https://books.google.com/books?vid=ISBN9780133773927> — §5.8 Cloud Computing, pp. 180-187. Características, modelos de serviço e de implantação de nuvem do NIST em um livro de segurança.
 
 ## Relações
 - (nenhuma ainda)

@@ -24,7 +24,15 @@ sources:
 - title: Goodfellow, I., Bengio, Y. and Courville, A. (2016). Deep Learning, ch. 5.8. MIT Press
   resource: 'https://www.deeplearningbook.org/'
   kind: book
+- title: 'Raschka, S., Liu, Y. and Mirjalili, V. (2022). Machine Learning with PyTorch and Scikit-Learn. Packt'
+  resource: 'https://books.google.com/books?vid=ISBN9781801819312'
+  kind: book
+  locator: 'ch. 5 PCA and dimensionality reduction, p. 139; ch. 10 Clustering Analysis, pp. 305-334'
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Unsupervised and self-supervised learning
@@ -50,11 +58,19 @@ Unsupervised - group customers into segments by purchase behaviour. Self-supervi
 
 Foundation candidate: a standards body defines this term (see sources). It moves to `foundations/` once verbatim quotes from two independent issuing bodies are collected (ADR-0010).
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Raschka, S., Liu, Y. and Mirjalili, V. (2022)**, *Machine Learning with PyTorch and Scikit-Learn*, ch. 5 PCA and dimensionality reduction, p. 139; ch. 10 Clustering Analysis, pp. 305-334: Hands-on PCA, t-SNE, k-means and hierarchical clustering.
+- **Goodfellow, I., Bengio, Y. and Courville, A. (2016)**, *Deep Learning*, §5.8 Unsupervised Learning Algorithms, p. 146; ch. 14 Autoencoders, p. 502; ch. 15 Representation Learning, p. 526: Autoencoders and representation learning, the roots of self-supervised pre-training.
+
 ## Sources
 
 1. Hastie, T., Tibshirani, R. and Friedman, J. (2009). *The Elements of Statistical Learning*, 2nd ed., ch. 14 Unsupervised Learning. Springer. <https://hastie.su.domains/ElemStatLearn/> — Clustering, PCA and other unsupervised methods.
 2. Balestriero, R. et al. (2023). *A Cookbook of Self-Supervised Learning*. arXiv:2304.12210. <https://arxiv.org/abs/2304.12210> — Survey of self-supervised learning methods and why they work.
 3. Goodfellow, I., Bengio, Y. and Courville, A. (2016). *Deep Learning*, ch. 5.8. MIT Press. <https://www.deeplearningbook.org/> — Unsupervised learning in the context of deep learning.
+4. Raschka, S., Liu, Y. and Mirjalili, V. (2022). *Machine Learning with PyTorch and Scikit-Learn*. Packt. <https://books.google.com/books?vid=ISBN9781801819312> — ch. 5 PCA and dimensionality reduction, p. 139; ch. 10 Clustering Analysis, pp. 305-334. Hands-on PCA, t-SNE, k-means and hierarchical clustering.
 
 ## Relations
 - (none yet)

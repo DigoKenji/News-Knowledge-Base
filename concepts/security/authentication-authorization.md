@@ -24,7 +24,19 @@ sources:
 - title: OWASP. Authentication Cheat Sheet and Authorization Cheat Sheet
   resource: 'https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html'
   kind: practitioner
+- title: 'Stallings, W. and Brown, L. (2015). Computer Security: Principles and Practice, 3rd edition. Pearson'
+  resource: 'https://books.google.com/books?vid=ISBN9780133773927'
+  kind: book
+  locator: 'ch. 3 User Authentication, pp. 72-112; ch. 4 Access Control, pp. 113-154'
+- title: 'Stuttard, D. and Pinto, M. (2008). The Web Application Hacker''s Handbook. Wiley'
+  resource: 'https://books.google.com/books?vid=ISBN9780470170779'
+  kind: book
+  locator: 'ch. 6 Attacking Authentication p. 133; ch. 8 Attacking Access Controls p. 217'
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Authentication vs authorization
@@ -51,11 +63,20 @@ Logging into GitHub with a password and security key is authentication; GitHub a
 
 Foundation candidate: a standards body defines this term (see sources). It moves to `foundations/` once verbatim quotes from two independent issuing bodies are collected (ADR-0010).
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Stallings, W. and Brown, L. (2015)**, *Computer Security: Principles and Practice, 3rd edition*, ch. 3 User Authentication, pp. 72-112; ch. 4 Access Control, pp. 113-154: Passwords, tokens, biometrics and remote authentication; DAC, RBAC and ABAC.
+- **Stuttard, D. and Pinto, M. (2008)**, *The Web Application Hacker's Handbook*, ch. 6 Attacking Authentication p. 133; ch. 8 Attacking Access Controls p. 217: How authentication and authorization fail in web apps, read as a list of design mistakes to avoid.
+
 ## Sources
 
 1. NIST (2017). *SP 800-63-3 - Digital Identity Guidelines*. <https://csrc.nist.gov/pubs/sp/800/63/3/final> — Authentication, authenticators, assurance levels.
 2. Hardt, D. (ed.) (2012). *RFC 6749 - The OAuth 2.0 Authorization Framework*. IETF. <https://www.rfc-editor.org/rfc/rfc6749> — Delegated authorization as distinct from authentication.
 3. OWASP. *Authentication Cheat Sheet* and *Authorization Cheat Sheet*. <https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html> — Practical guidance and common mistakes for both.
+4. Stallings, W. and Brown, L. (2015). *Computer Security: Principles and Practice, 3rd edition*. Pearson. <https://books.google.com/books?vid=ISBN9780133773927> — ch. 3 User Authentication, pp. 72-112; ch. 4 Access Control, pp. 113-154. Passwords, tokens, biometrics and remote authentication; DAC, RBAC and ABAC.
+5. Stuttard, D. and Pinto, M. (2008). *The Web Application Hacker's Handbook*. Wiley. <https://books.google.com/books?vid=ISBN9780470170779> — ch. 6 Attacking Authentication p. 133; ch. 8 Attacking Access Controls p. 217. How authentication and authorization fail in web apps, read as a list of design mistakes to avoid.
 
 ## Relations
 - (none yet)

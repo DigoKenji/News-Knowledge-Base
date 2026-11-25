@@ -24,9 +24,21 @@ sources:
 - title: NIST (2017). SP 800-12 Rev. 1 - An Introduction to Information Security
   resource: 'https://csrc.nist.gov/pubs/sp/800/12/r1/final'
   kind: standard
+- title: 'Stallings, W. and Brown, L. (2015). Computer Security: Principles and Practice, 3rd edition. Pearson'
+  resource: 'https://books.google.com/books?vid=ISBN9780133773927'
+  kind: book
+  locator: '§1.1 Computer Security Concepts, pp. 12-19'
+- title: 'Gibson, D. (2017). CompTIA Security+ Get Certified Get Ahead: SY0-501 Study Guide. YCDA'
+  resource: 'https://books.google.com/books?vid=ISBN9781939136053'
+  kind: book
+  locator: 'ch. 1 Mastering Security Basics, p. 61'
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/security/cia-triad.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Tríade CIA (confidencialidade, integridade, disponibilidade)
@@ -53,11 +65,20 @@ Um banco de clientes vazado quebra a confidencialidade, um valor de fatura adult
 
 Candidato a fundamento: um órgão de padronização define este termo (veja as fontes). Ele passa para `foundations/` quando forem reunidas citações literais de dois órgãos emissores independentes (ADR-0010).
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Stallings, W. and Brown, L. (2015)**, *Computer Security: Principles and Practice, 3rd edition*, §1.1 Computer Security Concepts, pp. 12-19: CIA como os três objetivos-chave, mais autenticidade e responsabilização; níveis de impacto.
+- **Gibson, D. (2017)**, *CompTIA Security+ Get Certified Get Ahead: SY0-501 Study Guide*, ch. 1 Mastering Security Basics, p. 61: Enquadramento em nível de prova de confidencialidade, integridade e disponibilidade (SY0-501, 2017).
+
 ## Fontes
 
 1. ISO/IEC (2018). *ISO/IEC 27000 - Information security management systems - Overview and vocabulary*. <https://www.iso.org/standard/73906.html> — Segurança da informação como preservação de confidencialidade, integridade e disponibilidade.
 2. NIST (2004). *FIPS 199 - Standards for Security Categorization of Federal Information and Information Systems*. <https://csrc.nist.gov/pubs/fips/199/final> — Os três objetivos de segurança e níveis de impacto.
 3. NIST (2017). *SP 800-12 Rev. 1 - An Introduction to Information Security*. <https://csrc.nist.gov/pubs/sp/800/12/r1/final> — Explicação introdutória dos objetivos e controles de segurança.
+4. Stallings, W. and Brown, L. (2015). *Computer Security: Principles and Practice, 3rd edition*. Pearson. <https://books.google.com/books?vid=ISBN9780133773927> — §1.1 Computer Security Concepts, pp. 12-19. CIA como os três objetivos-chave, mais autenticidade e responsabilização; níveis de impacto.
+5. Gibson, D. (2017). *CompTIA Security+ Get Certified Get Ahead: SY0-501 Study Guide*. YCDA. <https://books.google.com/books?vid=ISBN9781939136053> — ch. 1 Mastering Security Basics, p. 61. Enquadramento em nível de prova de confidencialidade, integridade e disponibilidade (SY0-501, 2017).
 
 ## Relações
 - (nenhuma ainda)

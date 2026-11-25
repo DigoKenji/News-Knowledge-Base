@@ -28,11 +28,19 @@ sources:
 - title: LangChain (2025). The rise of "context engineering"
   resource: 'https://www.langchain.com/blog/the-rise-of-context-engineering'
   kind: practitioner
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 5 Context Length and Context Efficiency, p. 218; ch. 10 Step 1. Enhance Context, p. 450'
 relations:
 - type: part-of
   target: ai-agent
 lang: pt-br
 translation_of: /concepts/ai-ml/context-engineering.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Engenharia de contexto
@@ -57,12 +65,19 @@ A Netflix (nota de 2026-11-24) dá aos agentes de código documentação selecio
 
 A definição do rascunho estava presa a agentes de código; agora cobre qualquer aplicação de LLM.
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 5 Context Length and Context Efficiency, p. 218; ch. 10 Step 1. Enhance Context, p. 450: Onde colocar informação em contextos longos e por que o contexto é o primeiro passo da arquitetura.
+
 ## Fontes
 
 1. Anthropic (2025). *Effective context engineering for AI agents*. <https://www.anthropic.com/research/effective-context-engineering-for-ai-agents> — Definição, context rot, compactação, anotações e técnicas de subagentes.
 2. Mei, L. et al. (2025). *A Survey of Context Engineering for Large Language Models*. arXiv:2507.13334. <https://arxiv.org/abs/2507.13334> — Revisão acadêmica que trata engenharia de contexto como disciplina além do design de prompts.
 3. Liu, N. F. et al. (2024). *Lost in the Middle - How Language Models Use Long Contexts*. TACL, arXiv:2307.03172. <https://arxiv.org/abs/2307.03172> — Evidência de que os modelos usam a informação de forma desigual em contextos longos.
 4. LangChain (2025). *The rise of "context engineering"*. <https://www.langchain.com/blog/the-rise-of-context-engineering> — Visão independente de praticantes - a informação, as ferramentas e o formato certos para a tarefa.
+5. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 5 Context Length and Context Efficiency, p. 218; ch. 10 Step 1. Enhance Context, p. 450. Onde colocar informação em contextos longos e por que o contexto é o primeiro passo da arquitetura.
 
 ## Relações
 - **part-of** [ai-agent](/pt-br/concepts/ai-ml/ai-agent.md)

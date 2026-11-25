@@ -27,8 +27,16 @@ sources:
 - title: LiteLLM. Proxy Server (LLM Gateway) documentation
   resource: 'https://docs.litellm.ai/docs/simple_proxy'
   kind: docs
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 10 Step 3. Add Model Router and Gateway, pp. 456-460'
 lang: pt-br
 translation_of: /concepts/ai-ml/ai-gateway.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Gateway de IA
@@ -53,11 +61,18 @@ A AUMOVIO (da nota de 2026-11-19) roteia todo o uso interno de LLM pelo Databric
 
 O termo vem de fornecedores e ainda não tem definição de órgão de padronização; as três fontes são fornecedores independentes que concordam no conjunto de recursos.
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 10 Step 3. Add Model Router and Gateway, pp. 456-460: Roteadores que escolhem um modelo por consulta e gateways que unificam acesso, chaves, fallbacks e controle de custo.
+
 ## Fontes
 
 1. Cloudflare. *AI Gateway documentation*. <https://developers.cloudflare.com/ai-gateway/> — Cache, limite de taxa, análise, log e fallback para requisições a modelos.
 2. Databricks. *AI Gateway documentation*. <https://docs.databricks.com/aws/en/ai-gateway/> — Recursos de governança - permissões, rastreio de uso, guardrails, roteamento de tráfego.
 3. LiteLLM. *Proxy Server (LLM Gateway) documentation*. <https://docs.litellm.ai/docs/simple_proxy> — Implementação open source - API unificada, chaves virtuais, orçamentos, balanceamento.
+4. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 10 Step 3. Add Model Router and Gateway, pp. 456-460. Roteadores que escolhem um modelo por consulta e gateways que unificam acesso, chaves, fallbacks e controle de custo.
 
 ## Relações
 - (nenhuma ainda)

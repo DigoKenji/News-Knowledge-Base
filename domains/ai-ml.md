@@ -55,6 +55,14 @@ resource: https://app.notion.com/p/38bbaf74172d81d0b60eced16e5d7c10
 - [Speculative decoding](/concepts/ai-ml/speculative-decoding.md) (draft)
 - [Prefill-decode disaggregation](/concepts/ai-ml/prefill-decode-disaggregation.md) (draft)
 - [RoPE](/concepts/ai-ml/rope.md) (draft)
+- [Gradient descent and backpropagation](/concepts/ai-ml/gradient-descent-backpropagation.md) (draft)
+- [Regularization and the bias-variance trade-off](/concepts/ai-ml/regularization.md) (draft)
+- [Tokenization](/concepts/ai-ml/tokenization.md) (draft)
+- [Fine-tuning](/concepts/ai-ml/fine-tuning.md) (draft)
+- [Prompt engineering](/concepts/ai-ml/prompt-engineering.md) (draft)
+- [Generative models (VAE, GAN, diffusion, autoregressive)](/concepts/ai-ml/generative-models.md) (draft)
+- [Quantization](/concepts/ai-ml/quantization.md) (draft)
+- [MLOps and LLMOps](/concepts/ai-ml/mlops-llmops.md) (draft)
 
 ## Notes
 Summaries in this domain live in [/notes/ai-ml/](/notes/ai-ml/index.md).

@@ -24,9 +24,17 @@ sources:
 - title: MITRE. ATLAS - Adversarial Threat Landscape for Artificial-Intelligence Systems
   resource: 'https://atlas.mitre.org/'
   kind: standard
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 5 Defensive Prompt Engineering, pp. 235-251 (jailbreaking and prompt injection p. 238; information extraction p. 243; defenses p. 248)'
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/security/ai-security.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Segurança de IA e machine learning adversarial
@@ -54,11 +62,18 @@ Evasão - adesivos numa placa de pare fazem um modelo de visão lê-la como plac
 
 Candidato a fundamento: um órgão de padronização define este termo (veja as fontes). Ele passa para `foundations/` quando forem reunidas citações literais de dois órgãos emissores independentes (ADR-0010).
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 5 Defensive Prompt Engineering, pp. 235-251 (jailbreaking and prompt injection p. 238; information extraction p. 243; defenses p. 248): Ataques a aplicações com LLM e defesas em camadas; os guardrails do cap. 10 (p. 451) trazem a visão de sistema.
+
 ## Fontes
 
 1. NIST (2025). *AI 100-2 E2025 - Adversarial Machine Learning - A Taxonomy and Terminology of Attacks and Mitigations*. <https://csrc.nist.gov/pubs/ai/100/2/e2025/final> — Taxonomia de ataques a IA preditiva e generativa.
 2. OWASP. *OWASP Top 10 for LLM Applications 2025*. <https://genai.owasp.org/llm-top-10/> — Riscos classificados para aplicações de LLM.
 3. MITRE. *ATLAS - Adversarial Threat Landscape for Artificial-Intelligence Systems*. <https://atlas.mitre.org/> — Base de conhecimento de táticas e técnicas reais contra sistemas de IA.
+4. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 5 Defensive Prompt Engineering, pp. 235-251 (jailbreaking and prompt injection p. 238; information extraction p. 243; defenses p. 248). Ataques a aplicações com LLM e defesas em camadas; os guardrails do cap. 10 (p. 451) trazem a visão de sistema.
 
 ## Relações
 - (nenhuma ainda)

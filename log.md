@@ -1,5 +1,10 @@
 # Log
 
+## 2026-11-25
+- **Creation:** MBA library digest: 16 new draft concepts (8 AI/ML: gradient descent and backpropagation, regularization, tokenization, fine-tuning, prompt engineering, generative models, quantization, MLOps/LLMOps; 8 security: penetration testing, incident response, security controls, risk management and BIA, shared responsibility, network security, vulnerability management, social engineering), EN + pt-br, from the books Kenji added to FIAP-MBA/Materiais/Referencias on 2026-11-24.
+- **Update:** 38 existing concepts (AI/ML, security, cloud) got a "From the MBA library" section and book sources with chapter/page locators (EN + pt-br); certified definitions unchanged. Four seed stubs (rag, kv-cache, inference-tradeoffs, threat-modeling) got a short definition.
+- **Review:** Checklist /reviews/2026-11-25-mba-library.md, waiting for Kenji. Architecture foundations unchanged: the new books are AI/ML and security, so they cannot be second sources (BIZBOK still missing).
+
 ## 2026-11-24
 - **Creation:** Core vocabulary batch 2: 10 software-engineering, 8 architecture, 11 backend, 9 data and 9 cloud core concepts (EN + pt-br, `subdomain: core`, draft), each with 3 sources (119 links checked); 13 flagged `foundation_candidate`. Completes the approved seed list.
 - **Certification:** Kenji certified the 22 core vocabulary concepts (AI/ML + Security, EN + pt-br).

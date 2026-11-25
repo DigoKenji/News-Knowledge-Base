@@ -24,7 +24,15 @@ sources:
 - title: MITRE. ATLAS - Adversarial Threat Landscape for Artificial-Intelligence Systems
   resource: 'https://atlas.mitre.org/'
   kind: standard
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 5 Defensive Prompt Engineering, pp. 235-251 (jailbreaking and prompt injection p. 238; information extraction p. 243; defenses p. 248)'
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # AI security and adversarial machine learning
@@ -52,11 +60,18 @@ Evasion - stickers on a stop sign make a vision model read it as a speed-limit s
 
 Foundation candidate: a standards body defines this term (see sources). It moves to `foundations/` once verbatim quotes from two independent issuing bodies are collected (ADR-0010).
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (2026-11-24). Summaries with locators; nothing copied beyond short phrases.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 5 Defensive Prompt Engineering, pp. 235-251 (jailbreaking and prompt injection p. 238; information extraction p. 243; defenses p. 248): Attacks on LLM applications and layered defences; ch. 10 guardrails (p. 451) add the system view.
+
 ## Sources
 
 1. NIST (2025). *AI 100-2 E2025 - Adversarial Machine Learning - A Taxonomy and Terminology of Attacks and Mitigations*. <https://csrc.nist.gov/pubs/ai/100/2/e2025/final> — Taxonomy of attacks on predictive and generative AI.
 2. OWASP. *OWASP Top 10 for LLM Applications 2025*. <https://genai.owasp.org/llm-top-10/> — Ranked risks for LLM applications.
 3. MITRE. *ATLAS - Adversarial Threat Landscape for Artificial-Intelligence Systems*. <https://atlas.mitre.org/> — Knowledge base of real-world tactics and techniques against AI systems.
+4. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 5 Defensive Prompt Engineering, pp. 235-251 (jailbreaking and prompt injection p. 238; information extraction p. 243; defenses p. 248). Attacks on LLM applications and layered defences; ch. 10 guardrails (p. 451) add the system view.
 
 ## Relations
 - (none yet)

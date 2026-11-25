@@ -24,9 +24,21 @@ sources:
 - title: Google. Machine Learning Crash Course
   resource: 'https://developers.google.com/machine-learning/crash-course'
   kind: docs
+- title: 'Deisenroth, M. P., Faisal, A. A. and Ong, C. S. (2020). Mathematics for Machine Learning. Cambridge University Press'
+  resource: 'https://mml-book.github.io/'
+  kind: book
+  locator: 'Part II, ch. 8 When Models Meet Data, pp. 251-288'
+- title: 'Raschka, S., Liu, Y. and Mirjalili, V. (2022). Machine Learning with PyTorch and Scikit-Learn. Packt'
+  resource: 'https://books.google.com/books?vid=ISBN9781801819312'
+  kind: book
+  locator: 'ch. 1 Giving Computers the Ability to Learn from Data, pp. 1-17'
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/ai-ml/machine-learning.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Machine learning (aprendizado de máquina)
@@ -54,11 +66,20 @@ Em vez de escrever regras sobre quais e-mails são spam, dar a um modelo 100.000
 
 Candidato a fundamento: um órgão de padronização define este termo (veja as fontes). Ele passa para `foundations/` quando forem reunidas citações literais de dois órgãos emissores independentes (ADR-0010).
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Deisenroth, M. P., Faisal, A. A. and Ong, C. S. (2020)**, *Mathematics for Machine Learning*, Part II, ch. 8 When Models Meet Data, pp. 251-288: Enquadra o aprendizado como dados + modelo + aprendizado: minimização do risco empírico, estimação de parâmetros e seleção de modelos.
+- **Raschka, S., Liu, Y. and Mirjalili, V. (2022)**, *Machine Learning with PyTorch and Scikit-Learn*, ch. 1 Giving Computers the Ability to Learn from Data, pp. 1-17: Os três tipos de aprendizado e o fluxo de ponta a ponta (pré-processamento, treino, avaliação, previsão).
+
 ## Fontes
 
 1. Mitchell, T. (1997). *Machine Learning*, ch. 1. McGraw-Hill. <https://www.cs.cmu.edu/~tom/mlbook.html> — A definição de aprendizado por E-T-P.
 2. ISO/IEC (2022). *ISO/IEC 23053 - Framework for AI systems using machine learning*. <https://www.iso.org/standard/74438.html> — Framework e termos padronizados para sistemas de ML (pago; citado, não transcrito).
 3. Google. *Machine Learning Crash Course*. <https://developers.google.com/machine-learning/crash-course> — Introdução prática - modelos, treino, função de perda, generalização.
+4. Deisenroth, M. P., Faisal, A. A. and Ong, C. S. (2020). *Mathematics for Machine Learning*. Cambridge University Press. <https://mml-book.github.io/> — Part II, ch. 8 When Models Meet Data, pp. 251-288. Enquadra o aprendizado como dados + modelo + aprendizado: minimização do risco empírico, estimação de parâmetros e seleção de modelos.
+5. Raschka, S., Liu, Y. and Mirjalili, V. (2022). *Machine Learning with PyTorch and Scikit-Learn*. Packt. <https://books.google.com/books?vid=ISBN9781801819312> — ch. 1 Giving Computers the Ability to Learn from Data, pp. 1-17. Os três tipos de aprendizado e o fluxo de ponta a ponta (pré-processamento, treino, avaliação, previsão).
 
 ## Relações
 - (nenhuma ainda)

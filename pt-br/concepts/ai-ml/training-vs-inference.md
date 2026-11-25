@@ -24,8 +24,20 @@ sources:
 - title: Google. Machine Learning Glossary - training, inference
   resource: 'https://developers.google.com/machine-learning/glossary'
   kind: docs
+- title: 'Huyen, C. (2025). AI Engineering: Building Applications with Foundation Models. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781098166304'
+  kind: book
+  locator: 'ch. 9 Inference Optimization, pp. 405-447 (inference overview p. 406; performance metrics p. 412)'
+- title: 'Iusztin, P. and Labonne, M. (2024). LLM Engineer''s Handbook. Packt'
+  resource: 'https://books.google.com/books?vid=ISBN9781836200079'
+  kind: book
+  locator: 'ch. 10 Inference Pipeline Deployment, pp. 355-400'
 lang: pt-br
 translation_of: /concepts/ai-ml/training-vs-inference.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest)
+  at: '2026-11-25T00:45:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Treino vs inferência
@@ -51,11 +63,20 @@ Um laboratório gasta meses e milhões de dólares treinando um modelo uma vez; 
 - [Adaptação de baixo posto (LoRA)](/pt-br/concepts/ai-ml/lora.md)
 - [Destilação](/pt-br/concepts/ai-ml/distillation.md)
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (2026-11-24). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Huyen, C. (2025)**, *AI Engineering: Building Applications with Foundation Models*, ch. 9 Inference Optimization, pp. 405-447 (inference overview p. 406; performance metrics p. 412): Inferência como problema de engenharia próprio: fases limitadas por computação ou memória, TTFT/TPOT, aceleradores.
+- **Iusztin, P. and Labonne, M. (2024)**, *LLM Engineer's Handbook*, ch. 10 Inference Pipeline Deployment, pp. 355-400: Tipos de implantação online, assíncrona e em lote e seus trade-offs.
+
 ## Fontes
 
 1. Goodfellow, I., Bengio, Y. and Courville, A. (2016). *Deep Learning*, ch. 6 and 8. MIT Press. <https://www.deeplearningbook.org/> — Passagem direta, backpropagation e otimização no treino.
 2. Pope, R. et al. (2023). *Efficiently Scaling Transformer Inference*. MLSys 2023, arXiv:2211.05102. <https://arxiv.org/abs/2211.05102> — Custo e latência de inferência e a distinção prefill/decode.
 3. Google. *Machine Learning Glossary* - training, inference. <https://developers.google.com/machine-learning/glossary> — Definições práticas dos dois termos.
+4. Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models*. O'Reilly. <https://books.google.com/books?vid=ISBN9781098166304> — ch. 9 Inference Optimization, pp. 405-447 (inference overview p. 406; performance metrics p. 412). Inferência como problema de engenharia próprio: fases limitadas por computação ou memória, TTFT/TPOT, aceleradores.
+5. Iusztin, P. and Labonne, M. (2024). *LLM Engineer's Handbook*. Packt. <https://books.google.com/books?vid=ISBN9781836200079> — ch. 10 Inference Pipeline Deployment, pp. 355-400. Tipos de implantação online, assíncrona e em lote e seus trade-offs.
 
 ## Relações
 - (nenhuma ainda)
