@@ -17,3 +17,4 @@
 
 - [Spec-driven development](/concepts/software-engineering/spec-driven-development.md) — daily run · **draft**
 - [Verification tax](/concepts/software-engineering/verification-tax.md) — ai-assisted-development
+- [Economies of speed](/concepts/software-engineering/economies-of-speed.md) — delivery (draft)

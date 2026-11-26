@@ -21,6 +21,14 @@ sources:
 - title: Fowler, M. (2009). TechnicalDebtQuadrant
   resource: 'https://martinfowler.com/bliki/TechnicalDebtQuadrant.html'
   kind: practitioner
+- title: 'Hohpe, G. (2020). The Software Architect Elevator: Redefining the Architect''s Role in the Digital Enterprise. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781492077541'
+  kind: book
+  locator: 'ch. 12 If You Never Kill Anything, You Will Live Among Zombies'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
+  at: '2026-11-26T20:30:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Technical debt
@@ -42,11 +50,18 @@ Hard-coding the list of news sources to launch faster is deliberate, prudent deb
 - [Strangler fig migration](/concepts/backend-systems/strangler-fig.md)
 - [Modular monolith](/concepts/architecture/modular-monolith.md)
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (Architect Elevator added 2026-11-26). Summaries with locators; nothing copied beyond short phrases.
+
+- **Hohpe, G. (2020)**, *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*, ch. 12 If You Never Kill Anything, You Will Live Among Zombies: Legacy systems as "zombies" kept alive by fear of change; the cure is to make change routine and to retire systems deliberately.
+
 ## Sources
 
 1. Cunningham, W. (1992). *The WyCash Portfolio Management System*. OOPSLA 1992 experience report. <https://c2.com/doc/oopsla92.html> — Origin of the technical debt metaphor.
 2. Kruchten, P., Nord, R. L. and Ozkaya, I. (2012). *Technical Debt - From Metaphor to Theory and Practice*. IEEE Software 29(6). <https://doi.org/10.1109/MS.2012.167> — Research framing of technical debt and its types.
 3. Fowler, M. (2009). *TechnicalDebtQuadrant*. <https://martinfowler.com/bliki/TechnicalDebtQuadrant.html> — Deliberate vs inadvertent, prudent vs reckless debt.
+4. Hohpe, G. (2020). *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*. O'Reilly. <https://books.google.com/books?vid=ISBN9781492077541> — ch. 12 If You Never Kill Anything, You Will Live Among Zombies. Legacy systems as "zombies" kept alive by fear of change; the cure is to make change routine and to retire systems deliberately.
 
 ## Relations
 - (none yet)

@@ -21,8 +21,16 @@ sources:
 - title: Fowler, M. (2009). TechnicalDebtQuadrant
   resource: 'https://martinfowler.com/bliki/TechnicalDebtQuadrant.html'
   kind: practitioner
+- title: 'Hohpe, G. (2020). The Software Architect Elevator: Redefining the Architect''s Role in the Digital Enterprise. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781492077541'
+  kind: book
+  locator: 'ch. 12 If You Never Kill Anything, You Will Live Among Zombies'
 lang: pt-br
 translation_of: /concepts/software-engineering/technical-debt.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
+  at: '2026-11-26T20:30:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Dívida técnica
@@ -44,11 +52,18 @@ Fixar no código a lista de fontes de notícias para lançar mais rápido é dí
 - [Migração strangler fig](/pt-br/concepts/backend-systems/strangler-fig.md)
 - [Monólito modular](/pt-br/concepts/architecture/modular-monolith.md)
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (Architect Elevator adicionado em 2026-11-26). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Hohpe, G. (2020)**, *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*, ch. 12 If You Never Kill Anything, You Will Live Among Zombies: Sistemas legados como "zumbis" mantidos vivos pelo medo de mudar; a cura é tornar a mudança rotineira e aposentar sistemas de forma deliberada.
+
 ## Fontes
 
 1. Cunningham, W. (1992). *The WyCash Portfolio Management System*. OOPSLA 1992 experience report. <https://c2.com/doc/oopsla92.html> — Origem da metáfora da dívida técnica.
 2. Kruchten, P., Nord, R. L. and Ozkaya, I. (2012). *Technical Debt - From Metaphor to Theory and Practice*. IEEE Software 29(6). <https://doi.org/10.1109/MS.2012.167> — Visão de pesquisa sobre dívida técnica e seus tipos.
 3. Fowler, M. (2009). *TechnicalDebtQuadrant*. <https://martinfowler.com/bliki/TechnicalDebtQuadrant.html> — Dívida deliberada vs inadvertida, prudente vs imprudente.
+4. Hohpe, G. (2020). *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*. O'Reilly. <https://books.google.com/books?vid=ISBN9781492077541> — ch. 12 If You Never Kill Anything, You Will Live Among Zombies. Sistemas legados como "zumbis" mantidos vivos pelo medo de mudar; a cura é tornar a mudança rotineira e aposentar sistemas de forma deliberada.
 
 ## Relações
 - (nenhuma ainda)

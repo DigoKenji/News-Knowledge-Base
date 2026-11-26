@@ -17,3 +17,4 @@
 
 - [Desenvolvimento orientado a especificação](/pt-br/concepts/software-engineering/spec-driven-development.md) — execução diária · **rascunho**
 - [Imposto de verificação](/pt-br/concepts/software-engineering/verification-tax.md) — ai-assisted-development
+- [Economias de velocidade](/pt-br/concepts/software-engineering/economies-of-speed.md) — delivery (rascunho)

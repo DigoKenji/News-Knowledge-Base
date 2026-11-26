@@ -14,3 +14,6 @@
 ## Específicos
 
 - [Monólito modular](/pt-br/concepts/architecture/modular-monolith.md) — architecture
+- [O elevador do arquiteto (o papel do arquiteto)](/pt-br/concepts/architecture/architect-elevator.md) — architecture-practice (rascunho)
+- [Arquitetura como opções](/pt-br/concepts/architecture/architecture-options.md) — architecture-practice (rascunho)
+- [Diagramas de arquitetura e design guiado por diagramas](/pt-br/concepts/architecture/architecture-diagrams.md) — architecture-practice (rascunho)

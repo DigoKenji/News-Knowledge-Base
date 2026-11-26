@@ -1,6 +1,9 @@
 # Log
 
 ## 2026-11-26
+- **Creation:** Software Architect Elevator digest: 4 new draft concepts (the architect elevator, architecture as options, architecture diagrams, economies of speed), EN + pt-br, from Hohpe's *The Software Architect Elevator* (2020), added by Kenji to FIAP-MBA/Materiais/Referencias on 2026-11-26.
+- **Update:** 10 existing architecture, backend, cloud and software-engineering concepts got a "From the MBA library" section and a book source with chapter locators (EN + pt-br); definitions unchanged. Foundations unchanged (the book quotes the standard definitions rather than adding a body).
+- **Review:** Checklist /reviews/2026-11-26-architect-elevator.md, waiting for Kenji.
 - **Creation:** DDIA digest: 4 new draft concepts (storage engines LSM vs B-tree, schema evolution, event sourcing, transaction isolation levels), EN + pt-br, from Kleppmann's *Designing Data-Intensive Applications*, added by Kenji to FIAP-MBA/Materiais/Referencias on 2026-11-26.
 - **Update:** 13 existing backend, data and architecture concepts got a "From the MBA library" section and a DDIA source with chapter/section locators (EN + pt-br); definitions unchanged. 11 concepts already citing DDIA checked, no change.
 - **Review:** Checklist /reviews/2026-11-26-ddia.md, waiting for Kenji.

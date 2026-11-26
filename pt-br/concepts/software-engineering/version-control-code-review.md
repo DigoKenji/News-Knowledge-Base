@@ -21,8 +21,16 @@ sources:
 - title: Google. Google Engineering Practices - Code Review
   resource: 'https://google.github.io/eng-practices/review/'
   kind: practitioner
+- title: 'Hohpe, G. (2020). The Software Architect Elevator: Redefining the Architect''s Role in the Digital Enterprise. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781492077541'
+  kind: book
+  locator: 'ch. 25 Software Is Collaboration'
 lang: pt-br
 translation_of: /concepts/software-engineering/version-control-code-review.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
+  at: '2026-11-26T20:30:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Controle de versão e revisão de código
@@ -44,11 +52,18 @@ Toda mudança neste projeto passa por um branch e um pull request no GitHub que 
 - [Imposto de verificação](/pt-br/concepts/software-engineering/verification-tax.md)
 - [Integração contínua e entrega contínua (CI/CD)](/pt-br/concepts/software-engineering/ci-cd.md)
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (Architect Elevator adicionado em 2026-11-26). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Hohpe, G. (2020)**, *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*, ch. 25 Software Is Collaboration: Controle de versão e integração contínua como ferramentas de colaboração além do código, também para documentos e planos.
+
 ## Fontes
 
 1. Chacon, S. and Straub, B. (2014). *Pro Git*, 2nd ed. Apress. <https://git-scm.com/book/en/v2> — Conceitos de controle de versão, branches e integração.
 2. Bacchelli, A. and Bird, C. (2013). *Expectations, Outcomes, and Challenges of Modern Code Review*. ICSE 2013. <https://doi.org/10.1109/ICSE.2013.6606617> — Estudo empírico de por que equipes revisam código e o que isso alcança.
 3. Google. *Google Engineering Practices - Code Review*. <https://google.github.io/eng-practices/review/> — Padrões de revisão de código usados em escala.
+4. Hohpe, G. (2020). *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*. O'Reilly. <https://books.google.com/books?vid=ISBN9781492077541> — ch. 25 Software Is Collaboration. Controle de versão e integração contínua como ferramentas de colaboração além do código, também para documentos e planos.
 
 ## Relações
 - (nenhuma ainda)

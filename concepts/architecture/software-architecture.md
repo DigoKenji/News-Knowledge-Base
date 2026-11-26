@@ -21,7 +21,15 @@ sources:
 - title: Perry, D. E. and Wolf, A. L. (1992). Foundations for the Study of Software Architecture. ACM SIGSOFT Software Engineering Notes 17(4)
   resource: 'https://doi.org/10.1145/141874.141884'
   kind: paper
+- title: 'Hohpe, G. (2020). The Software Architect Elevator: Redefining the Architect''s Role in the Digital Enterprise. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781492077541'
+  kind: book
+  locator: 'ch. 8 Is This Architecture? (Defining Software Architecture; Architectural Decisions)'
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
+  at: '2026-11-26T20:30:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Software architecture
@@ -51,11 +59,18 @@ Choosing two repositories (code and knowledge), scheduled cloud tasks and an OKF
 
 Foundation candidate: a standards body defines this term (see sources). It moves to `foundations/` once verbatim quotes from two independent issuing bodies are collected (ADR-0010).
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (Architect Elevator added 2026-11-26). Summaries with locators; nothing copied beyond short phrases.
+
+- **Hohpe, G. (2020)**, *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*, ch. 8 Is This Architecture? (Defining Software Architecture; Architectural Decisions): Compares the Garlan-Perry, ISO/IEC 42010 and TOGAF definitions and proposes a practical test: an architecture document must contain nontrivial decisions and their rationale.
+
 ## Sources
 
 1. ISO/IEC/IEEE (2022). *ISO/IEC/IEEE 42010 - Architecture description*. <https://www.iso.org/standard/74393.html> — Standard definition of architecture and architecture description (paywalled; cited).
 2. Bass, L., Clements, P. and Kazman, R. (2021). *Software Architecture in Practice*, 4th ed. Addison-Wesley. <https://www.oreilly.com/library/view/software-architecture-in/9780136885979/> — Structures, quality attributes and architecture evaluation.
 3. Perry, D. E. and Wolf, A. L. (1992). *Foundations for the Study of Software Architecture*. ACM SIGSOFT Software Engineering Notes 17(4). <https://doi.org/10.1145/141874.141884> — Early formulation of software architecture as elements, form and rationale.
+4. Hohpe, G. (2020). *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*. O'Reilly. <https://books.google.com/books?vid=ISBN9781492077541> — ch. 8 Is This Architecture? (Defining Software Architecture; Architectural Decisions). Compares the Garlan-Perry, ISO/IEC 42010 and TOGAF definitions and proposes a practical test: an architecture document must contain nontrivial decisions and their rationale.
 
 ## Relations
 - (none yet)

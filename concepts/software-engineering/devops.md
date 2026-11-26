@@ -21,6 +21,14 @@ sources:
 - title: AWS. What is DevOps?
   resource: 'https://aws.amazon.com/devops/what-is-devops/'
   kind: docs
+- title: 'Hohpe, G. (2020). The Software Architect Elevator: Redefining the Architect''s Role in the Digital Enterprise. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781492077541'
+  kind: book
+  locator: 'ch. 36 The Infinite Loop; ch. 13 Never Send a Human to Do a Machine''s Job'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
+  at: '2026-11-26T20:30:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # DevOps
@@ -44,11 +52,18 @@ The team that writes the summarizer also owns its scheduled task, its alerts and
 - [Canary / blue-green deploy](/concepts/cloud-infra/canary-deploy.md)
 - [Infrastructure as code](/concepts/cloud-infra/infrastructure-as-code.md)
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (Architect Elevator added 2026-11-26). Summaries with locators; nothing copied beyond short phrases.
+
+- **Hohpe, G. (2020)**, *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*, ch. 36 The Infinite Loop; ch. 13 Never Send a Human to Do a Machine's Job: Build-Measure-Learn and "operate to learn": operations exists to feed insight back into the product, and automation enables the loop.
+
 ## Sources
 
 1. Forsgren, N., Humble, J. and Kim, G. (2018). *Accelerate - The Science of Lean Software and DevOps*. IT Revolution. <https://itrevolution.com/product/accelerate/> — Research-based capabilities and the four key metrics.
 2. DORA. *DORA research program*. <https://dora.dev/> — Ongoing State of DevOps research.
 3. AWS. *What is DevOps?*. <https://aws.amazon.com/devops/what-is-devops/> — Practitioner definition and practices.
+4. Hohpe, G. (2020). *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*. O'Reilly. <https://books.google.com/books?vid=ISBN9781492077541> — ch. 36 The Infinite Loop; ch. 13 Never Send a Human to Do a Machine's Job. Build-Measure-Learn and "operate to learn": operations exists to feed insight back into the product, and automation enables the loop.
 
 ## Relations
 - (none yet)

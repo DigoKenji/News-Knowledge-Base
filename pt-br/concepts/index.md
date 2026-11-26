@@ -11,5 +11,5 @@ Os conceitos são agrupados por tema, uma pasta por domínio (como em `notes/`).
 | [Nuvem e Infraestrutura](/pt-br/concepts/cloud-infra/index.md) | 12 | 9 | 9 |
 | [Cibersegurança](/pt-br/concepts/security/index.md) | 28 | 10 | 8 |
 | [Dados e Ciência de Dados](/pt-br/concepts/data/index.md) | 15 | 10 | 10 |
-| [Práticas de Engenharia de Software](/pt-br/concepts/software-engineering/index.md) | 12 | 10 | 11 |
-| [Arquitetura](/pt-br/concepts/architecture/index.md) | 9 | 8 | 8 |
+| [Práticas de Engenharia de Software](/pt-br/concepts/software-engineering/index.md) | 13 | 10 | 12 |
+| [Arquitetura](/pt-br/concepts/architecture/index.md) | 12 | 8 | 11 |

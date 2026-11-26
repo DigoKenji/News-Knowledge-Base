@@ -21,7 +21,15 @@ sources:
 - title: AWS. AWS Well-Architected Framework
   resource: 'https://aws.amazon.com/architecture/well-architected/'
   kind: practitioner
+- title: 'Hohpe, G. (2020). The Software Architect Elevator: Redefining the Architect''s Role in the Digital Enterprise. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781492077541'
+  kind: book
+  locator: 'ch. 9 Architecture Is Selling Options (An Architecture Option: Elasticity; Strike Prices)'
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
+  at: '2026-11-26T20:30:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Quality attributes and trade-offs
@@ -48,11 +56,18 @@ Scenario - "when 500 users search at once during normal operation, 95% of result
 
 Foundation candidate: a standards body defines this term (see sources). It moves to `foundations/` once verbatim quotes from two independent issuing bodies are collected (ADR-0010).
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (Architect Elevator added 2026-11-26). Summaries with locators; nothing copied beyond short phrases.
+
+- **Hohpe, G. (2020)**, *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*, ch. 9 Architecture Is Selling Options (An Architecture Option: Elasticity; Strike Prices): Quality attributes such as elasticity as options with an up-front price and a strike price, worth more when demand is uncertain.
+
 ## Sources
 
 1. ISO/IEC (2023). *ISO/IEC 25010 - Product quality model*. <https://www.iso.org/standard/78176.html> — Standard quality characteristics (paywalled; cited).
 2. Bass, L., Clements, P. and Kazman, R. (2021). *Software Architecture in Practice*, 4th ed. Addison-Wesley. <https://www.oreilly.com/library/view/software-architecture-in/9780136885979/> — Quality attribute scenarios and tactics.
 3. AWS. *AWS Well-Architected Framework*. <https://aws.amazon.com/architecture/well-architected/> — Quality attributes organised as pillars with trade-off guidance.
+4. Hohpe, G. (2020). *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*. O'Reilly. <https://books.google.com/books?vid=ISBN9781492077541> — ch. 9 Architecture Is Selling Options (An Architecture Option: Elasticity; Strike Prices). Quality attributes such as elasticity as options with an up-front price and a strike price, worth more when demand is uncertain.
 
 ## Relations
 - (none yet)

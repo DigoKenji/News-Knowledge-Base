@@ -21,8 +21,16 @@ sources:
 - title: Amazon Web Services. Introduction to DevOps on AWS - Infrastructure as code (whitepaper)
   resource: 'https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/infrastructure-as-code.html'
   kind: docs
+- title: 'Hohpe, G. (2020). The Software Architect Elevator: Redefining the Architect''s Role in the Digital Enterprise. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781492077541'
+  kind: book
+  locator: 'ch. 13 Never Send a Human to Do a Machine''s Job; ch. 14 If Software Eats the World, Better Use Version Control!'
 lang: pt-br
 translation_of: /concepts/cloud-infra/infrastructure-as-code.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
+  at: '2026-11-26T20:30:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Infraestrutura como código
@@ -44,11 +52,18 @@ Um pull request acrescenta uma nova réplica de banco num arquivo Terraform. A C
 - [Plano de controle](/pt-br/concepts/backend-systems/control-plane.md)
 - [Well-Architected Framework](/pt-br/concepts/cloud-infra/well-architected.md)
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (Architect Elevator adicionado em 2026-11-26). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Hohpe, G. (2020)**, *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*, ch. 13 Never Send a Human to Do a Machine's Job; ch. 14 If Software Eats the World, Better Use Version Control!: Automatizar tudo e tornar o resto autoatendimento; quando a infraestrutura é definida por software, ela precisa de controle de versão, testes e um ciclo de entrega de software.
+
 ## Fontes
 
 1. Morris, K. (2020). *Infrastructure as Code - Dynamic Systems for the Cloud Age*, 2nd edition. O'Reilly. <https://infrastructure-as-code.com/book/> — Definição e práticas centrais de infraestrutura como código.
 2. HashiCorp. *What is Terraform?* (Terraform documentation). <https://developer.hashicorp.com/terraform/intro> — Configuração declarativa e o fluxo planejar/aplicar.
 3. Amazon Web Services. *Introduction to DevOps on AWS - Infrastructure as code* (whitepaper). <https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/infrastructure-as-code.html> — IaC como prática de DevOps na perspectiva de um provedor.
+4. Hohpe, G. (2020). *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*. O'Reilly. <https://books.google.com/books?vid=ISBN9781492077541> — ch. 13 Never Send a Human to Do a Machine's Job; ch. 14 If Software Eats the World, Better Use Version Control!. Automatizar tudo e tornar o resto autoatendimento; quando a infraestrutura é definida por software, ela precisa de controle de versão, testes e um ciclo de entrega de software.
 
 ## Relações
 - (nenhuma ainda)

@@ -25,11 +25,19 @@ sources:
   resource: 'https://dataintensive.net/'
   kind: book
   locator: 'ch. 11 Stream Processing: Messaging Systems; Change Data Capture; Event Sourcing'
+- title: 'Hohpe, G. (2020). The Software Architect Elevator: Redefining the Architect''s Role in the Digital Enterprise. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781492077541'
+  kind: book
+  locator: 'ch. 17 Your Coffee Shop Doesn''t Use Two-Phase Commit'
 lang: pt-br
 translation_of: /concepts/architecture/event-driven-architecture.md
 updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
+  at: '2026-11-26T20:30:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
@@ -60,12 +68,19 @@ Livros adicionados em FIAP-MBA/Materiais/Referencias (DDIA adicionado em 2026-11
 
 - **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 11 Stream Processing: Messaging Systems; Change Data Capture; Event Sourcing: Fluxos de eventos, brokers, CDC e event sourcing como a base de dados dos sistemas orientados a eventos.
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (Architect Elevator adicionado em 2026-11-26). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Hohpe, G. (2020)**, *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*, ch. 17 Your Coffee Shop Doesn't Use Two-Phase Commit: A fila da cafeteria como um desenho assíncrono otimizado para vazão: correlação de resultados fora de ordem, consumidores concorrentes e tratamento de erros sem transações distribuídas.
+
 ## Fontes
 
 1. Fowler, M. (2017). *What do you mean by "Event-Driven"?*. <https://martinfowler.com/articles/201701-event-driven.html> — Os quatro padrões orientados a eventos e seus trade-offs.
 2. Hohpe, G. and Woolf, B. (2003). *Enterprise Integration Patterns*. <https://www.enterpriseintegrationpatterns.com/> — Canais de mensagens, publish-subscribe, mensagens de evento.
 3. CNCF. *CloudEvents specification*. <https://cloudevents.io/> — Formato padrão de eventos, neutro em relação a fornecedores.
 4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 11 Stream Processing: Messaging Systems; Change Data Capture; Event Sourcing. Fluxos de eventos, brokers, CDC e event sourcing como a base de dados dos sistemas orientados a eventos.
+5. Hohpe, G. (2020). *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*. O'Reilly. <https://books.google.com/books?vid=ISBN9781492077541> — ch. 17 Your Coffee Shop Doesn't Use Two-Phase Commit. A fila da cafeteria como um desenho assíncrono otimizado para vazão: correlação de resultados fora de ordem, consumidores concorrentes e tratamento de erros sem transações distribuídas.
 
 ## Relações
 - (nenhuma ainda)

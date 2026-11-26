@@ -14,3 +14,6 @@
 ## Specialised
 
 - [Modular monolith](/concepts/architecture/modular-monolith.md) — architecture
+- [The architect elevator (the architect's role)](/concepts/architecture/architect-elevator.md) — architecture-practice (draft)
+- [Architecture as options](/concepts/architecture/architecture-options.md) — architecture-practice (draft)
+- [Architecture diagrams and diagram-driven design](/concepts/architecture/architecture-diagrams.md) — architecture-practice (draft)
