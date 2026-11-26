@@ -21,6 +21,14 @@ sources:
 - title: Berenson, H. et al. (1995). A Critique of ANSI SQL Isolation Levels. SIGMOD 1995
   resource: 'https://doi.org/10.1145/223784.223785'
   kind: paper
+- title: 'Kleppmann, M. (2017). Designing Data-Intensive Applications. O''Reilly'
+  resource: 'https://dataintensive.net/'
+  kind: book
+  locator: 'ch. 7 Transactions: The Meaning of ACID; Weak Isolation Levels; Serializability'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, DDIA)
+  at: '2026-11-26T10:00:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Transaction and ACID
@@ -43,11 +51,18 @@ Transferring R$100 debits account A and credits account B in one transaction. If
 - [Idempotency](/concepts/backend-systems/idempotency.md)
 - [Linearizability](/concepts/backend-systems/linearizability.md)
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (DDIA added 2026-11-26). Summaries with locators; nothing copied beyond short phrases.
+
+- **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 7 Transactions: The Meaning of ACID; Weak Isolation Levels; Serializability: What each ACID letter really promises, and why "consistency" is an application property.
+
 ## Sources
 
 1. Härder, T. and Reuter, A. (1983). *Principles of Transaction-Oriented Database Recovery*. ACM Computing Surveys 15(4). <https://doi.org/10.1145/289.291> — Origin of the ACID acronym and recovery principles.
 2. Gray, J. and Reuter, A. (1992). *Transaction Processing - Concepts and Techniques*. Morgan Kaufmann. <https://shop.elsevier.com/books/transaction-processing/gray/978-0-08-051955-5> — Reference text on transactions, logging and concurrency control.
 3. Berenson, H. et al. (1995). *A Critique of ANSI SQL Isolation Levels*. SIGMOD 1995. <https://doi.org/10.1145/223784.223785> — Isolation levels, anomalies and snapshot isolation.
+4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 7 Transactions: The Meaning of ACID; Weak Isolation Levels; Serializability. What each ACID letter really promises, and why "consistency" is an application property.
 
 ## Relations
 - (none yet)

@@ -21,6 +21,14 @@ sources:
 - title: CNCF. CloudEvents specification
   resource: 'https://cloudevents.io/'
   kind: standard
+- title: 'Kleppmann, M. (2017). Designing Data-Intensive Applications. O''Reilly'
+  resource: 'https://dataintensive.net/'
+  kind: book
+  locator: 'ch. 11 Stream Processing: Messaging Systems; Change Data Capture; Event Sourcing'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, DDIA)
+  at: '2026-11-26T10:00:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Event-driven architecture
@@ -44,11 +52,18 @@ When an order is placed, the order service publishes OrderPlaced; inventory, bil
 - [Message queue and asynchronous messaging](/concepts/backend-systems/message-queue.md)
 - [Saga pattern](/concepts/backend-systems/saga-pattern.md)
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (DDIA added 2026-11-26). Summaries with locators; nothing copied beyond short phrases.
+
+- **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 11 Stream Processing: Messaging Systems; Change Data Capture; Event Sourcing: Event streams, brokers, CDC and event sourcing as the data foundation of event-driven systems.
+
 ## Sources
 
 1. Fowler, M. (2017). *What do you mean by "Event-Driven"?*. <https://martinfowler.com/articles/201701-event-driven.html> — The four event-driven patterns and their trade-offs.
 2. Hohpe, G. and Woolf, B. (2003). *Enterprise Integration Patterns*. <https://www.enterpriseintegrationpatterns.com/> — Messaging channels, publish-subscribe, event messages.
 3. CNCF. *CloudEvents specification*. <https://cloudevents.io/> — Vendor-neutral standard format for events.
+4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 11 Stream Processing: Messaging Systems; Change Data Capture; Event Sourcing. Event streams, brokers, CDC and event sourcing as the data foundation of event-driven systems.
 
 ## Relations
 - (none yet)

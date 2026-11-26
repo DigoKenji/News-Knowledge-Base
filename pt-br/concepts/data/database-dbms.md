@@ -21,9 +21,17 @@ sources:
 - title: DAMA International (2017). DAMA-DMBOK - Data Management Body of Knowledge, 2nd edition, ch. 6 "Data Storage and Operations"
   resource: 'https://dama.org/learning-resources/dama-data-management-body-of-knowledge-dmbok/'
   kind: book
+- title: 'Kleppmann, M. (2017). Designing Data-Intensive Applications. O''Reilly'
+  resource: 'https://dataintensive.net/'
+  kind: book
+  locator: 'ch. 3 Storage and Retrieval (storage engines, indexes); ch. 2 Data Models and Query Languages'
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/data/database-dbms.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, DDIA)
+  at: '2026-11-26T10:00:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Banco de dados e SGBD
@@ -50,11 +58,18 @@ Uma clínica guarda pacientes e consultas no PostgreSQL. Duas recepcionistas mar
 
 Candidato a fundamento: um órgão de padronização define este termo (veja as fontes). Ele passa para `foundations/` quando forem reunidas citações literais de dois órgãos emissores independentes (ADR-0010).
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (DDIA adicionado em 2026-11-26). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 3 Storage and Retrieval (storage engines, indexes); ch. 2 Data Models and Query Languages: Como um banco guarda e encontra dados internamente, e os modelos de dados que expõe.
+
 ## Fontes
 
 1. ISO/IEC (2015). *ISO/IEC 2382 - Information technology - Vocabulary* (entry "database"). <https://www.iso.org/standard/63598.html> — Definição padronizada de banco de dados (pago; citado, não transcrito).
 2. Hellerstein, J. M., Stonebraker, M. and Hamilton, J. (2007). *Architecture of a Database System*. Foundations and Trends in Databases 1(2). <https://doi.org/10.1561/1900000002> — Componentes de um SGBD e como se encaixam.
 3. DAMA International (2017). *DAMA-DMBOK - Data Management Body of Knowledge*, 2nd edition, ch. 6 "Data Storage and Operations". <https://dama.org/learning-resources/dama-data-management-body-of-knowledge-dmbok/> — Gestão de bancos de dados como área de conhecimento da gestão de dados.
+4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 3 Storage and Retrieval (storage engines, indexes); ch. 2 Data Models and Query Languages. Como um banco guarda e encontra dados internamente, e os modelos de dados que expõe.
 
 ## Relações
 - (nenhuma ainda)

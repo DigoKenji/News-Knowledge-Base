@@ -41,3 +41,4 @@
 - [Cache híbrido memória-disco](/pt-br/concepts/backend-systems/hybrid-memory-disk-cache.md) — system-design
 - [Pressão de GC](/pt-br/concepts/backend-systems/gc-pressure.md) — system-design
 - [Falha em cascata](/pt-br/concepts/backend-systems/cascading-failure.md) — backend-systems
+- [Event sourcing](/pt-br/concepts/backend-systems/event-sourcing.md) — system-design (rascunho)

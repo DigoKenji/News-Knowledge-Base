@@ -5,6 +5,7 @@
 - [Modelo de dados (relacional, documento, grafo)](/pt-br/concepts/data/data-model.md) — core · **rascunho**
 - [Banco de dados e SGBD](/pt-br/concepts/data/database-dbms.md) — core · **rascunho**
 - [Transação e ACID](/pt-br/concepts/data/transactions-acid.md) — core · **rascunho**
+- [Níveis de isolamento de transações](/pt-br/concepts/data/isolation-levels.md) — core · **rascunho**
 - [OLTP versus OLAP](/pt-br/concepts/data/oltp-olap.md) — core · **rascunho**
 - [Data warehouse, data lake e lakehouse](/pt-br/concepts/data/data-warehouse-lake-lakehouse.md) — core · **rascunho**
 - [ETL / ELT e pipeline de dados](/pt-br/concepts/data/etl-elt-pipeline.md) — core · **rascunho**
@@ -17,3 +18,5 @@
 - [Sincronização Delta](/pt-br/concepts/data/delta-sync.md) — data
 - [Grafo de conhecimento](/pt-br/concepts/data/knowledge-graph.md) — data-engineering
 - [Captura de mudanças de dados (CDC)](/pt-br/concepts/data/change-data-capture.md) — data
+- [Motores de armazenamento: LSM-trees e B-trees](/pt-br/concepts/data/storage-engines-lsm-btree.md) — data-engineering (rascunho)
+- [Evolução de schema e compatibilidade de dados](/pt-br/concepts/data/schema-evolution.md) — data-engineering (rascunho)

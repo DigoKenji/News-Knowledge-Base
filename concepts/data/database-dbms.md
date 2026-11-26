@@ -21,7 +21,15 @@ sources:
 - title: DAMA International (2017). DAMA-DMBOK - Data Management Body of Knowledge, 2nd edition, ch. 6 "Data Storage and Operations"
   resource: 'https://dama.org/learning-resources/dama-data-management-body-of-knowledge-dmbok/'
   kind: book
+- title: 'Kleppmann, M. (2017). Designing Data-Intensive Applications. O''Reilly'
+  resource: 'https://dataintensive.net/'
+  kind: book
+  locator: 'ch. 3 Storage and Retrieval (storage engines, indexes); ch. 2 Data Models and Query Languages'
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, DDIA)
+  at: '2026-11-26T10:00:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Database and DBMS
@@ -48,11 +56,18 @@ A clinic stores patients and appointments in PostgreSQL. Two receptionists booki
 
 Foundation candidate: a standards body defines this term (see sources). It moves to `foundations/` once verbatim quotes from two independent issuing bodies are collected (ADR-0010).
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (DDIA added 2026-11-26). Summaries with locators; nothing copied beyond short phrases.
+
+- **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 3 Storage and Retrieval (storage engines, indexes); ch. 2 Data Models and Query Languages: How a database stores and finds data internally, and the data models it exposes.
+
 ## Sources
 
 1. ISO/IEC (2015). *ISO/IEC 2382 - Information technology - Vocabulary* (entry "database"). <https://www.iso.org/standard/63598.html> — Standard vocabulary definition of database (paywalled; cited, not quoted).
 2. Hellerstein, J. M., Stonebraker, M. and Hamilton, J. (2007). *Architecture of a Database System*. Foundations and Trends in Databases 1(2). <https://doi.org/10.1561/1900000002> — Components of a DBMS and how they fit together.
 3. DAMA International (2017). *DAMA-DMBOK - Data Management Body of Knowledge*, 2nd edition, ch. 6 "Data Storage and Operations". <https://dama.org/learning-resources/dama-data-management-body-of-knowledge-dmbok/> — Database management as a data-management knowledge area.
+4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 3 Storage and Retrieval (storage engines, indexes); ch. 2 Data Models and Query Languages. How a database stores and finds data internally, and the data models it exposes.
 
 ## Relations
 - (none yet)

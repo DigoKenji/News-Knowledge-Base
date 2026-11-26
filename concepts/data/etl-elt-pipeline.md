@@ -21,6 +21,14 @@ sources:
 - title: dbt Labs. What is dbt? (ELT transformations in the warehouse)
   resource: 'https://docs.getdbt.com/docs/introduction'
   kind: docs
+- title: 'Kleppmann, M. (2017). Designing Data-Intensive Applications. O''Reilly'
+  resource: 'https://dataintensive.net/'
+  kind: book
+  locator: 'ch. 10 Batch Processing (MapReduce and Distributed Filesystems; beyond MapReduce); ch. 12 Derived data'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, DDIA)
+  at: '2026-11-26T10:00:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # ETL / ELT and data pipeline
@@ -43,11 +51,18 @@ Every night an Airflow DAG extracts yesterday's orders from PostgreSQL, loads th
 - [Batch vs stream processing](/concepts/data/batch-stream-processing.md)
 - [Silent failure](/concepts/backend-systems/silent-failure.md)
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (DDIA added 2026-11-26). Summaries with locators; nothing copied beyond short phrases.
+
+- **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 10 Batch Processing (MapReduce and Distributed Filesystems; beyond MapReduce); ch. 12 Derived data: Pipelines as derivation of datasets from a system of record, and the Unix-philosophy design behind batch jobs.
+
 ## Sources
 
 1. DAMA International (2017). *DAMA-DMBOK - Data Management Body of Knowledge*, 2nd edition, ch. 8 "Data Integration and Interoperability". <https://dama.org/learning-resources/dama-data-management-body-of-knowledge-dmbok/> — ETL/ELT as data-integration patterns.
 2. Apache Software Foundation. *Apache Airflow documentation - Core Concepts (DAGs, tasks)*. <https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/index.html> — Pipelines as DAGs of tasks with scheduling and retries.
 3. dbt Labs. *What is dbt?* (ELT transformations in the warehouse). <https://docs.getdbt.com/docs/introduction> — In-warehouse transformation (the T of ELT) with tests.
+4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 10 Batch Processing (MapReduce and Distributed Filesystems; beyond MapReduce); ch. 12 Derived data. Pipelines as derivation of datasets from a system of record, and the Unix-philosophy design behind batch jobs.
 
 ## Relations
 - (none yet)

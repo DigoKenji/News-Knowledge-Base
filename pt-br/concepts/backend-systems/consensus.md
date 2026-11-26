@@ -21,8 +21,16 @@ sources:
 - title: Fischer, M. J., Lynch, N. A. and Paterson, M. S. (1985). Impossibility of Distributed Consensus with One Faulty Process. Journal of the ACM 32(2)
   resource: 'https://doi.org/10.1145/3149.214121'
   kind: paper
+- title: 'Kleppmann, M. (2017). Designing Data-Intensive Applications. O''Reilly'
+  resource: 'https://dataintensive.net/'
+  kind: book
+  locator: 'ch. 9 Consistency and Consensus: Distributed Transactions and Consensus (atomic commit, two-phase commit); Fault-Tolerant Consensus; The Impossibility of Consensus'
 lang: pt-br
 translation_of: /concepts/backend-systems/consensus.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, DDIA)
+  at: '2026-11-26T10:00:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Consenso
@@ -44,11 +52,18 @@ Um cluster Kubernetes guarda seu estado em um cluster etcd de 3 nós rodando Raf
 - [Plano de controle](/pt-br/concepts/backend-systems/control-plane.md)
 - [Linearizabilidade](/pt-br/concepts/backend-systems/linearizability.md)
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (DDIA adicionado em 2026-11-26). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 9 Consistency and Consensus: Distributed Transactions and Consensus (atomic commit, two-phase commit); Fault-Tolerant Consensus; The Impossibility of Consensus: Consenso, sua equivalência com o broadcast de ordem total, e por que o 2PC não é consenso tolerante a falhas.
+
 ## Fontes
 
 1. Lamport, L. (2001). *Paxos Made Simple*. ACM SIGACT News 32(4). <https://lamport.azurewebsites.net/pubs/paxos-simple.pdf> — O algoritmo Paxos e os requisitos de segurança do consenso.
 2. Ongaro, D. and Ousterhout, J. (2014). *In Search of an Understandable Consensus Algorithm*. USENIX ATC 2014. <https://raft.github.io/raft.pdf> — Raft - eleição de líder, replicação de log e quóruns de maioria.
 3. Fischer, M. J., Lynch, N. A. and Paterson, M. S. (1985). *Impossibility of Distributed Consensus with One Faulty Process*. Journal of the ACM 32(2). <https://doi.org/10.1145/3149.214121> — Resultado de impossibilidade FLP em sistemas assíncronos.
+4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 9 Consistency and Consensus: Distributed Transactions and Consensus (atomic commit, two-phase commit); Fault-Tolerant Consensus; The Impossibility of Consensus. Consenso, sua equivalência com o broadcast de ordem total, e por que o 2PC não é consenso tolerante a falhas.
 
 ## Relações
 - (nenhuma ainda)

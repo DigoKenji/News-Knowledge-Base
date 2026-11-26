@@ -21,6 +21,14 @@ sources:
 - title: Fischer, M. J., Lynch, N. A. and Paterson, M. S. (1985). Impossibility of Distributed Consensus with One Faulty Process. Journal of the ACM 32(2)
   resource: 'https://doi.org/10.1145/3149.214121'
   kind: paper
+- title: 'Kleppmann, M. (2017). Designing Data-Intensive Applications. O''Reilly'
+  resource: 'https://dataintensive.net/'
+  kind: book
+  locator: 'ch. 9 Consistency and Consensus: Distributed Transactions and Consensus (atomic commit, two-phase commit); Fault-Tolerant Consensus; The Impossibility of Consensus'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, DDIA)
+  at: '2026-11-26T10:00:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Consensus
@@ -42,11 +50,18 @@ A Kubernetes cluster stores its state in a 3-node etcd cluster running Raft. If 
 - [Control plane](/concepts/backend-systems/control-plane.md)
 - [Linearizability](/concepts/backend-systems/linearizability.md)
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (DDIA added 2026-11-26). Summaries with locators; nothing copied beyond short phrases.
+
+- **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 9 Consistency and Consensus: Distributed Transactions and Consensus (atomic commit, two-phase commit); Fault-Tolerant Consensus; The Impossibility of Consensus: Consensus, its equivalence to total order broadcast, and why 2PC is not fault-tolerant consensus.
+
 ## Sources
 
 1. Lamport, L. (2001). *Paxos Made Simple*. ACM SIGACT News 32(4). <https://lamport.azurewebsites.net/pubs/paxos-simple.pdf> — The Paxos algorithm and the safety requirements of consensus.
 2. Ongaro, D. and Ousterhout, J. (2014). *In Search of an Understandable Consensus Algorithm*. USENIX ATC 2014. <https://raft.github.io/raft.pdf> — Raft - leader election, log replication and majority quorums.
 3. Fischer, M. J., Lynch, N. A. and Paterson, M. S. (1985). *Impossibility of Distributed Consensus with One Faulty Process*. Journal of the ACM 32(2). <https://doi.org/10.1145/3149.214121> — FLP impossibility result in asynchronous systems.
+4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 9 Consistency and Consensus: Distributed Transactions and Consensus (atomic commit, two-phase commit); Fault-Tolerant Consensus; The Impossibility of Consensus. Consensus, its equivalence to total order broadcast, and why 2PC is not fault-tolerant consensus.
 
 ## Relations
 - (none yet)

@@ -21,8 +21,16 @@ sources:
 - title: Amazon Web Services. Amazon SQS Developer Guide - What is Amazon Simple Queue Service?
   resource: 'https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html'
   kind: docs
+- title: 'Kleppmann, M. (2017). Designing Data-Intensive Applications. O''Reilly'
+  resource: 'https://dataintensive.net/'
+  kind: book
+  locator: 'ch. 11 Stream Processing: Messaging Systems (message brokers vs log-based brokers); Transmitting Event Streams'
 lang: pt-br
 translation_of: /concepts/backend-systems/message-queue.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, DDIA)
+  at: '2026-11-26T10:00:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Fila de mensagens e mensageria assíncrona
@@ -46,11 +54,18 @@ Quando um usuário envia um vídeo, a API o armazena e publica uma mensagem "vid
 - [Captura de alterações de dados (CDC)](/pt-br/concepts/data/change-data-capture.md)
 - [Padrão Saga](/pt-br/concepts/backend-systems/saga-pattern.md)
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (DDIA adicionado em 2026-11-26). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 11 Stream Processing: Messaging Systems (message brokers vs log-based brokers); Transmitting Event Streams: Brokers no estilo AMQP versus brokers baseados em log, como o Kafka, e o que cada um garante.
+
 ## Fontes
 
 1. Hohpe, G. and Woolf, B. (2003). *Enterprise Integration Patterns* (Messaging patterns catalogue). <https://www.enterpriseintegrationpatterns.com/patterns/messaging/> — Canais de mensagem, ponto a ponto versus publish-subscribe, padrões de mensageria.
 2. Apache Software Foundation. *Apache Kafka documentation - Introduction and Design*. <https://kafka.apache.org/documentation/> — Mensageria baseada em log, partições, grupos de consumidores e semântica de entrega.
 3. Amazon Web Services. *Amazon SQS Developer Guide - What is Amazon Simple Queue Service?*. <https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html> — Semântica de fila gerenciada, entrega pelo menos uma vez e dead-letter queues.
+4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 11 Stream Processing: Messaging Systems (message brokers vs log-based brokers); Transmitting Event Streams. Brokers no estilo AMQP versus brokers baseados em log, como o Kafka, e o que cada um garante.
 
 ## Relações
 - (nenhuma ainda)

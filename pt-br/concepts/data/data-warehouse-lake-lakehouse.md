@@ -21,8 +21,16 @@ sources:
 - title: Apache Software Foundation. Apache Iceberg documentation
   resource: 'https://iceberg.apache.org/docs/latest/'
   kind: docs
+- title: 'Kleppmann, M. (2017). Designing Data-Intensive Applications. O''Reilly'
+  resource: 'https://dataintensive.net/'
+  kind: book
+  locator: 'ch. 3 Data Warehousing; Stars and Snowflakes; Column-Oriented Storage; ch. 10 Comparing Hadoop to Distributed Databases'
 lang: pt-br
 translation_of: /concepts/data/data-warehouse-lake-lakehouse.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, DDIA)
+  at: '2026-11-26T10:00:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Data warehouse, data lake e lakehouse
@@ -45,11 +53,18 @@ Um varejista deposita JSON bruto de clickstream e arquivos de fornecedores em ar
 - [Feature store](/pt-br/concepts/ai-ml/feature-store.md)
 - [ETL / ELT e pipeline de dados](/pt-br/concepts/data/etl-elt-pipeline.md)
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (DDIA adicionado em 2026-11-26). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 3 Data Warehousing; Stars and Snowflakes; Column-Oriented Storage; ch. 10 Comparing Hadoop to Distributed Databases: Schemas de data warehouse e armazenamento colunar, e a abordagem do Hadoop de "despejar os dados brutos primeiro" por trás dos data lakes.
+
 ## Fontes
 
 1. Inmon, W. H. (2005). *Building the Data Warehouse*, 4th edition. Wiley. <https://www.wiley.com/en-us/Building+the+Data+Warehouse%2C+4th+Edition-p-9780764599446> — Definição clássica de data warehouse.
 2. Armbrust, M., Ghodsi, A., Xin, R. and Zaharia, M. (2021). *Lakehouse - A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics*. CIDR 2021. <https://www.cidrdb.org/cidr2021/papers/cidr2021_paper17.pdf> — Definição de lakehouse e sua relação com warehouses e lakes.
 3. Apache Software Foundation. *Apache Iceberg documentation*. <https://iceberg.apache.org/docs/latest/> — Formato de tabela aberto que fornece transações e evolução de esquema sobre arquivos do lake.
+4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 3 Data Warehousing; Stars and Snowflakes; Column-Oriented Storage; ch. 10 Comparing Hadoop to Distributed Databases. Schemas de data warehouse e armazenamento colunar, e a abordagem do Hadoop de "despejar os dados brutos primeiro" por trás dos data lakes.
 
 ## Relações
 - (nenhuma ainda)

@@ -21,7 +21,15 @@ sources:
 - title: Beyer, B. et al. (eds.) (2016). Site Reliability Engineering, ch. 3 "Embracing Risk"
   resource: 'https://sre.google/sre-book/embracing-risk/'
   kind: book
+- title: 'Kleppmann, M. (2017). Designing Data-Intensive Applications. O''Reilly'
+  resource: 'https://dataintensive.net/'
+  kind: book
+  locator: 'ch. 1 Reliable, Scalable, and Maintainable Applications: Reliability (hardware, software and human faults)'
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, DDIA)
+  at: '2026-11-26T10:00:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Availability and reliability
@@ -49,11 +57,18 @@ A payments API has a 99.95% monthly availability target, which allows about 22 m
 
 Foundation candidate: a standards body defines this term (see sources). It moves to `foundations/` once verbatim quotes from two independent issuing bodies are collected (ADR-0010).
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (DDIA added 2026-11-26). Summaries with locators; nothing copied beyond short phrases.
+
+- **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 1 Reliable, Scalable, and Maintainable Applications: Reliability (hardware, software and human faults): Reliability as continuing to work correctly despite faults, and the difference between a fault and a failure.
+
 ## Sources
 
 1. ISO/IEC (2023). *ISO/IEC 25010 - Systems and software Quality Requirements and Evaluation (SQuaRE) - Product quality model*. <https://www.iso.org/standard/78176.html> — Reliability as quality characteristic with availability, fault tolerance, recoverability (paywalled; cited, not quoted).
 2. IEC. *IEC 60050-192 - International Electrotechnical Vocabulary - Dependability* (Electropedia). <https://www.electropedia.org/iev/iev.nsf/index?openform&part=192> — Standard definitions of availability and reliability.
 3. Beyer, B. et al. (eds.) (2016). *Site Reliability Engineering*, ch. 3 "Embracing Risk". <https://sre.google/sre-book/embracing-risk/> — Measuring availability, why not 100%, error budgets.
+4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 1 Reliable, Scalable, and Maintainable Applications: Reliability (hardware, software and human faults). Reliability as continuing to work correctly despite faults, and the difference between a fault and a failure.
 
 ## Relations
 - (none yet)

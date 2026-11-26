@@ -27,8 +27,16 @@ sources:
 - title: Singhal, A. (2012). Introducing the Knowledge Graph - things, not strings. Google blog
   resource: 'https://blog.google/products-and-platforms/products/search/introducing-knowledge-graph-things-not/'
   kind: practitioner
+- title: 'Kleppmann, M. (2017). Designing Data-Intensive Applications. O''Reilly'
+  resource: 'https://dataintensive.net/'
+  kind: book
+  locator: 'ch. 2 Data Models and Query Languages: Graph-Like Data Models (property graphs, triple-stores, Cypher, SPARQL)'
 lang: pt-br
 translation_of: /concepts/data/knowledge-graph.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, DDIA)
+  at: '2026-11-26T10:00:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Grafo de conhecimento
@@ -53,11 +61,18 @@ A ontologia desta KB é um pequeno grafo de conhecimento: conceitos são nós e 
 
 O rascunho dizia que grafos de conhecimento são "guardados como triplas"; isso é só o modelo RDF. A definição agora cobre grafos de propriedades também.
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (DDIA adicionado em 2026-11-26). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 2 Data Models and Query Languages: Graph-Like Data Models (property graphs, triple-stores, Cypher, SPARQL): Os modelos de grafo de propriedades e triple-store sobre os quais os grafos de conhecimento são construídos.
+
 ## Fontes
 
 1. Hogan, A. et al. (2021). *Knowledge Graphs*. ACM Computing Surveys 54(4), arXiv:2003.02320. <https://arxiv.org/abs/2003.02320> — Definição, modelos de dados, schema, raciocínio, construção.
 2. W3C (2014). *RDF 1.1 Concepts and Abstract Syntax*. W3C Recommendation. <https://www.w3.org/TR/rdf11-concepts/> — Modelo de triplas e IRIs.
 3. Singhal, A. (2012). *Introducing the Knowledge Graph - things, not strings*. Google blog. <https://blog.google/products-and-platforms/products/search/introducing-knowledge-graph-things-not/> — Origem do termo popular.
+4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 2 Data Models and Query Languages: Graph-Like Data Models (property graphs, triple-stores, Cypher, SPARQL). Os modelos de grafo de propriedades e triple-store sobre os quais os grafos de conhecimento são construídos.
 
 ## Relações
 - (nenhuma ainda)

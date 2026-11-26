@@ -21,8 +21,16 @@ sources:
 - title: Berenson, H. et al. (1995). A Critique of ANSI SQL Isolation Levels. SIGMOD 1995
   resource: 'https://doi.org/10.1145/223784.223785'
   kind: paper
+- title: 'Kleppmann, M. (2017). Designing Data-Intensive Applications. O''Reilly'
+  resource: 'https://dataintensive.net/'
+  kind: book
+  locator: 'ch. 7 Transactions: The Meaning of ACID; Weak Isolation Levels; Serializability'
 lang: pt-br
 translation_of: /concepts/data/transactions-acid.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, DDIA)
+  at: '2026-11-26T10:00:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Transação e ACID
@@ -45,11 +53,18 @@ Transferir R$100 debita a conta A e credita a conta B numa só transação. Se o
 - [Idempotência](/pt-br/concepts/backend-systems/idempotency.md)
 - [Linearizabilidade](/pt-br/concepts/backend-systems/linearizability.md)
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (DDIA adicionado em 2026-11-26). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 7 Transactions: The Meaning of ACID; Weak Isolation Levels; Serializability: O que cada letra do ACID realmente promete, e por que "consistência" é uma propriedade da aplicação.
+
 ## Fontes
 
 1. Härder, T. and Reuter, A. (1983). *Principles of Transaction-Oriented Database Recovery*. ACM Computing Surveys 15(4). <https://doi.org/10.1145/289.291> — Origem do acrônimo ACID e princípios de recuperação.
 2. Gray, J. and Reuter, A. (1992). *Transaction Processing - Concepts and Techniques*. Morgan Kaufmann. <https://shop.elsevier.com/books/transaction-processing/gray/978-0-08-051955-5> — Texto de referência sobre transações, logging e controle de concorrência.
 3. Berenson, H. et al. (1995). *A Critique of ANSI SQL Isolation Levels*. SIGMOD 1995. <https://doi.org/10.1145/223784.223785> — Níveis de isolamento, anomalias e snapshot isolation.
+4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 7 Transactions: The Meaning of ACID; Weak Isolation Levels; Serializability. O que cada letra do ACID realmente promete, e por que "consistência" é uma propriedade da aplicação.
 
 ## Relações
 - (nenhuma ainda)
