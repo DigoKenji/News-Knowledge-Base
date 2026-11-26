@@ -21,6 +21,14 @@ sources:
 - title: Apache Software Foundation. Apache Iceberg documentation
   resource: 'https://iceberg.apache.org/docs/latest/'
   kind: docs
+- title: 'Kleppmann, M. (2017). Designing Data-Intensive Applications. O''Reilly'
+  resource: 'https://dataintensive.net/'
+  kind: book
+  locator: 'ch. 3 Data Warehousing; Stars and Snowflakes; Column-Oriented Storage; ch. 10 Comparing Hadoop to Distributed Databases'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, DDIA)
+  at: '2026-11-26T10:00:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Data warehouse, data lake and lakehouse
@@ -43,11 +51,18 @@ A retailer lands raw clickstream JSON and supplier files in object storage (lake
 - [Feature store](/concepts/ai-ml/feature-store.md)
 - [ETL / ELT and data pipeline](/concepts/data/etl-elt-pipeline.md)
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (DDIA added 2026-11-26). Summaries with locators; nothing copied beyond short phrases.
+
+- **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 3 Data Warehousing; Stars and Snowflakes; Column-Oriented Storage; ch. 10 Comparing Hadoop to Distributed Databases: Warehouse schemas and columnar storage, and the Hadoop "dump raw data first" approach behind data lakes.
+
 ## Sources
 
 1. Inmon, W. H. (2005). *Building the Data Warehouse*, 4th edition. Wiley. <https://www.wiley.com/en-us/Building+the+Data+Warehouse%2C+4th+Edition-p-9780764599446> — Classic definition of the data warehouse.
 2. Armbrust, M., Ghodsi, A., Xin, R. and Zaharia, M. (2021). *Lakehouse - A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics*. CIDR 2021. <https://www.cidrdb.org/cidr2021/papers/cidr2021_paper17.pdf> — Lakehouse definition and its relation to warehouses and lakes.
 3. Apache Software Foundation. *Apache Iceberg documentation*. <https://iceberg.apache.org/docs/latest/> — Open table format providing transactions and schema evolution on lake files.
+4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 3 Data Warehousing; Stars and Snowflakes; Column-Oriented Storage; ch. 10 Comparing Hadoop to Distributed Databases. Warehouse schemas and columnar storage, and the Hadoop "dump raw data first" approach behind data lakes.
 
 ## Relations
 - (none yet)

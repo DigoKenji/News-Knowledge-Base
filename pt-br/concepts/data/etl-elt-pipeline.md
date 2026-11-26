@@ -21,8 +21,16 @@ sources:
 - title: dbt Labs. What is dbt? (ELT transformations in the warehouse)
   resource: 'https://docs.getdbt.com/docs/introduction'
   kind: docs
+- title: 'Kleppmann, M. (2017). Designing Data-Intensive Applications. O''Reilly'
+  resource: 'https://dataintensive.net/'
+  kind: book
+  locator: 'ch. 10 Batch Processing (MapReduce and Distributed Filesystems; beyond MapReduce); ch. 12 Derived data'
 lang: pt-br
 translation_of: /concepts/data/etl-elt-pipeline.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, DDIA)
+  at: '2026-11-26T10:00:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # ETL / ELT e pipeline de dados
@@ -45,11 +53,18 @@ Toda noite um DAG do Airflow extrai os pedidos de ontem do PostgreSQL, carrega-o
 - [Processamento em lote versus em fluxo (streaming)](/pt-br/concepts/data/batch-stream-processing.md)
 - [Falha silenciosa](/pt-br/concepts/backend-systems/silent-failure.md)
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (DDIA adicionado em 2026-11-26). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 10 Batch Processing (MapReduce and Distributed Filesystems; beyond MapReduce); ch. 12 Derived data: Pipelines como derivação de conjuntos de dados a partir de um registro oficial, e o desenho inspirado na filosofia Unix por trás dos jobs em lote.
+
 ## Fontes
 
 1. DAMA International (2017). *DAMA-DMBOK - Data Management Body of Knowledge*, 2nd edition, ch. 8 "Data Integration and Interoperability". <https://dama.org/learning-resources/dama-data-management-body-of-knowledge-dmbok/> — ETL/ELT como padrões de integração de dados.
 2. Apache Software Foundation. *Apache Airflow documentation - Core Concepts (DAGs, tasks)*. <https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/index.html> — Pipelines como DAGs de tarefas com agendamento e novas tentativas.
 3. dbt Labs. *What is dbt?* (ELT transformations in the warehouse). <https://docs.getdbt.com/docs/introduction> — Transformação dentro do warehouse (o T do ELT) com testes.
+4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 10 Batch Processing (MapReduce and Distributed Filesystems; beyond MapReduce); ch. 12 Derived data. Pipelines como derivação de conjuntos de dados a partir de um registro oficial, e o desenho inspirado na filosofia Unix por trás dos jobs em lote.
 
 ## Relações
 - (nenhuma ainda)

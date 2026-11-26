@@ -27,6 +27,14 @@ sources:
 - title: Singhal, A. (2012). Introducing the Knowledge Graph - things, not strings. Google blog
   resource: 'https://blog.google/products-and-platforms/products/search/introducing-knowledge-graph-things-not/'
   kind: practitioner
+- title: 'Kleppmann, M. (2017). Designing Data-Intensive Applications. O''Reilly'
+  resource: 'https://dataintensive.net/'
+  kind: book
+  locator: 'ch. 2 Data Models and Query Languages: Graph-Like Data Models (property graphs, triple-stores, Cypher, SPARQL)'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, DDIA)
+  at: '2026-11-26T10:00:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Knowledge graph
@@ -51,11 +59,18 @@ This KB's ontology is a small knowledge graph: concepts are nodes and typed rela
 
 The draft said knowledge graphs are "stored as triples"; that is only the RDF model. The definition now covers property graphs too.
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (DDIA added 2026-11-26). Summaries with locators; nothing copied beyond short phrases.
+
+- **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 2 Data Models and Query Languages: Graph-Like Data Models (property graphs, triple-stores, Cypher, SPARQL): The property-graph and triple-store models that knowledge graphs are built on.
+
 ## Sources
 
 1. Hogan, A. et al. (2021). *Knowledge Graphs*. ACM Computing Surveys 54(4), arXiv:2003.02320. <https://arxiv.org/abs/2003.02320> — Definition, data models, schema, reasoning, construction.
 2. W3C (2014). *RDF 1.1 Concepts and Abstract Syntax*. W3C Recommendation. <https://www.w3.org/TR/rdf11-concepts/> — Triple model and IRIs.
 3. Singhal, A. (2012). *Introducing the Knowledge Graph - things, not strings*. Google blog. <https://blog.google/products-and-platforms/products/search/introducing-knowledge-graph-things-not/> — Origin of the popular term.
+4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 2 Data Models and Query Languages: Graph-Like Data Models (property graphs, triple-stores, Cypher, SPARQL). The property-graph and triple-store models that knowledge graphs are built on.
 
 ## Relations
 - (none yet)

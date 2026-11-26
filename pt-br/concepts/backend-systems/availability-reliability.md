@@ -21,9 +21,17 @@ sources:
 - title: Beyer, B. et al. (eds.) (2016). Site Reliability Engineering, ch. 3 "Embracing Risk"
   resource: 'https://sre.google/sre-book/embracing-risk/'
   kind: book
+- title: 'Kleppmann, M. (2017). Designing Data-Intensive Applications. O''Reilly'
+  resource: 'https://dataintensive.net/'
+  kind: book
+  locator: 'ch. 1 Reliable, Scalable, and Maintainable Applications: Reliability (hardware, software and human faults)'
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/backend-systems/availability-reliability.md
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, DDIA)
+  at: '2026-11-26T10:00:00-03:00'
+  change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
 ---
 
 # Disponibilidade e confiabilidade
@@ -51,11 +59,18 @@ Uma API de pagamentos tem meta de 99,95% de disponibilidade mensal, o que permit
 
 Candidato a fundamento: um órgão de padronização define este termo (veja as fontes). Ele passa para `foundations/` quando forem reunidas citações literais de dois órgãos emissores independentes (ADR-0010).
 
+## Da biblioteca do MBA
+
+Livros adicionados em FIAP-MBA/Materiais/Referencias (DDIA adicionado em 2026-11-26). Resumos com localizadores; nada foi copiado além de frases curtas.
+
+- **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 1 Reliable, Scalable, and Maintainable Applications: Reliability (hardware, software and human faults): Confiabilidade como continuar funcionando corretamente apesar de falhas, e a diferença entre fault e failure.
+
 ## Fontes
 
 1. ISO/IEC (2023). *ISO/IEC 25010 - Systems and software Quality Requirements and Evaluation (SQuaRE) - Product quality model*. <https://www.iso.org/standard/78176.html> — Confiabilidade como característica de qualidade com disponibilidade, tolerância a falhas e recuperabilidade (pago; citado, não transcrito).
 2. IEC. *IEC 60050-192 - International Electrotechnical Vocabulary - Dependability* (Electropedia). <https://www.electropedia.org/iev/iev.nsf/index?openform&part=192> — Definições padronizadas de disponibilidade e confiabilidade.
 3. Beyer, B. et al. (eds.) (2016). *Site Reliability Engineering*, ch. 3 "Embracing Risk". <https://sre.google/sre-book/embracing-risk/> — Medição de disponibilidade, por que não 100%, orçamentos de erro.
+4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 1 Reliable, Scalable, and Maintainable Applications: Reliability (hardware, software and human faults). Confiabilidade como continuar funcionando corretamente apesar de falhas, e a diferença entre fault e failure.
 
 ## Relações
 - (nenhuma ainda)

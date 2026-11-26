@@ -21,6 +21,14 @@ sources:
 - title: Amazon Web Services. Amazon SQS Developer Guide - What is Amazon Simple Queue Service?
   resource: 'https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html'
   kind: docs
+- title: 'Kleppmann, M. (2017). Designing Data-Intensive Applications. O''Reilly'
+  resource: 'https://dataintensive.net/'
+  kind: book
+  locator: 'ch. 11 Stream Processing: Messaging Systems (message brokers vs log-based brokers); Transmitting Event Streams'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, DDIA)
+  at: '2026-11-26T10:00:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
 ---
 
 # Message queue and asynchronous messaging
@@ -44,11 +52,18 @@ When a user uploads a video, the API stores it and publishes a "video.uploaded" 
 - [Change data capture](/concepts/data/change-data-capture.md)
 - [Saga pattern](/concepts/backend-systems/saga-pattern.md)
 
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (DDIA added 2026-11-26). Summaries with locators; nothing copied beyond short phrases.
+
+- **Kleppmann, M. (2017)**, *Designing Data-Intensive Applications*, ch. 11 Stream Processing: Messaging Systems (message brokers vs log-based brokers); Transmitting Event Streams: AMQP-style brokers versus log-based brokers such as Kafka, and what each guarantees.
+
 ## Sources
 
 1. Hohpe, G. and Woolf, B. (2003). *Enterprise Integration Patterns* (Messaging patterns catalogue). <https://www.enterpriseintegrationpatterns.com/patterns/messaging/> — Message channels, point-to-point vs publish-subscribe, messaging patterns.
 2. Apache Software Foundation. *Apache Kafka documentation - Introduction and Design*. <https://kafka.apache.org/documentation/> — Log-based messaging, partitions, consumer groups and delivery semantics.
 3. Amazon Web Services. *Amazon SQS Developer Guide - What is Amazon Simple Queue Service?*. <https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html> — Managed queue semantics, at-least-once delivery and dead-letter queues.
+4. Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. <https://dataintensive.net/> — ch. 11 Stream Processing: Messaging Systems (message brokers vs log-based brokers); Transmitting Event Streams. AMQP-style brokers versus log-based brokers such as Kafka, and what each guarantees.
 
 ## Relations
 - (none yet)
