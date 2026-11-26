@@ -4,9 +4,10 @@ title: Criptografia
 description: Transformar dados com uma chave para que só quem tem a chave certa consiga lê-los - a criptografia simétrica usa uma chave compartilhada, a assimétrica (de chave pública) usa um par de chaves - usada para proteger dados em repouso e em trânsito.
 tags:
 - security
+- security-foundations
 - core
 domain: security
-subdomain: core
+subdomain: security-foundations
 status: stable
 verified:
 - by: Kenji
@@ -39,13 +40,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Criptografia
 
 **Definição.** A criptografia converte texto claro em texto cifrado com um algoritmo e uma chave; a decifração faz o inverso. Algoritmos simétricos como o AES (FIPS 197) são rápidos e usam a mesma chave secreta dos dois lados. Algoritmos assimétricos (RSA, curvas elípticas), introduzidos por Diffie e Hellman em 1976, usam uma chave pública que qualquer um pode conhecer e uma chave privada mantida em segredo, o que resolve a troca de chaves e permite assinaturas digitais.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `security-foundations`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

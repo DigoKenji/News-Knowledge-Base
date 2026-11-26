@@ -3,10 +3,12 @@ type: Concept
 title: Plano de controle
 description: A parte de um sistema que decide e configura o que deve acontecer - alocação, regras de roteamento, estado desejado, escalonamento - em oposição ao plano de dados, que faz o trabalho de fato em cada requisição ou pacote.
 tags:
-- backend-systems
-- system-design
-domain: backend-systems
-subdomain: system-design
+- cloud-infra
+- containers
+domain: cloud-infra
+subdomain: containers
+also_in:
+- backend-systems/distributed-systems
 status: stable
 verified:
 - by: Kenji
@@ -28,14 +30,18 @@ sources:
   resource: 'https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/control-planes-and-data-planes.html'
   kind: practitioner
 lang: pt-br
-translation_of: /concepts/backend-systems/control-plane.md
+translation_of: /concepts/cloud-infra/control-plane.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio; movido para cloud-infra'
 ---
 
 # Plano de controle
 
 **Definição.** A divisão plano de controle / plano de dados vem de redes: o plano de controle calcula rotas, o plano de dados encaminha pacotes. Em sistemas de nuvem e distribuídos, o plano de controle é a camada de gestão (APIs para criar, alterar e excluir recursos, escalonadores, controladores que reconciliam estado desejado e real), e o plano de dados é o que atende o tráfego (VMs, contêineres, balanceadores, leituras e escritas em armazenamento).
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `containers`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

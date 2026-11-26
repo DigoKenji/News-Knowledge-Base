@@ -4,9 +4,9 @@ title: Embedding posicional rotacional (RoPE)
 description: Rotary Position Embedding - uma forma de codificar a posição dos tokens rotacionando os vetores de consulta e chave por ângulos que dependem da posição, para que os scores de atenção dependam da distância relativa entre tokens.
 tags:
 - ai-ml
-- llm-engineering
+- deep-learning
 domain: ai-ml
-subdomain: llm-engineering
+subdomain: deep-learning
 status: stable
 verified:
 - by: Kenji
@@ -32,13 +32,17 @@ sources:
   kind: paper
 lang: pt-br
 translation_of: /concepts/ai-ml/rope.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Embedding posicional rotacional (RoPE)
 
 **Definição.** Transformers não têm noção própria de ordem, então a posição precisa ser injetada. O RoPE faz isso dividindo cada vetor de consulta e chave em pares de dimensões e rotacionando cada par por um ângulo proporcional à posição do token, com uma frequência diferente por par. O produto escalar entre consulta e chave rotacionadas passa a depender só da diferença entre suas posições.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `deep-learning`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

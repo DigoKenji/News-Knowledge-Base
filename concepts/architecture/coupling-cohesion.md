@@ -4,9 +4,10 @@ title: Coupling and cohesion
 description: Two measures of modular design - coupling is how much one module depends on others (aim low), cohesion is how strongly the elements inside one module belong together (aim high).
 tags:
 - architecture
+- software-architecture
 - core
 domain: architecture
-subdomain: core
+subdomain: software-architecture
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: ISO/IEC/IEEE (2017). ISO/IEC/IEEE 24765 - Systems and software engineering - Vocabulary
   resource: 'https://www.iso.org/standard/71952.html'
   kind: standard
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Coupling and cohesion
 
 **Definition.** Stevens, Myers and Constantine introduced both terms in 1974 as part of structured design. Low coupling means a change in one module rarely forces changes in others; high cohesion means a module does one well-defined job. Parnas's information hiding (1972) is the underlying principle: hide each design decision likely to change behind a stable interface.
 
-Domain: [architecture](/domains/architecture.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [architecture](/domains/architecture.md) · subdomain `software-architecture`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 
@@ -40,7 +45,7 @@ If changing the Notion page layout forces edits in the summarizer, the fetcher a
 ## Narrower concepts
 
 - [Modular monolith](/concepts/architecture/modular-monolith.md)
-- [Bounded context](/concepts/backend-systems/bounded-context.md)
+- [Bounded context](/concepts/architecture/bounded-context.md)
 - [Microservices](/concepts/architecture/microservices.md)
 
 ## Sources

@@ -3,10 +3,12 @@ type: Concept
 title: Control plane
 description: The part of a system that decides and configures what should happen - placement, routing rules, desired state, scheduling - as opposed to the data plane, which does the actual work on each request or packet.
 tags:
-- backend-systems
-- system-design
-domain: backend-systems
-subdomain: system-design
+- cloud-infra
+- containers
+domain: cloud-infra
+subdomain: containers
+also_in:
+- backend-systems/distributed-systems
 status: stable
 verified:
 - by: Kenji
@@ -27,13 +29,17 @@ sources:
 - title: AWS (2022). AWS Fault Isolation Boundaries - Control planes and data planes. Whitepaper
   resource: 'https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/control-planes-and-data-planes.html'
   kind: practitioner
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy; moved to cloud-infra'
 ---
 
 # Control plane
 
 **Definition.** The control plane / data plane split comes from networking: the control plane computes routes, the data plane forwards packets. In cloud and distributed systems, the control plane is the management layer (APIs to create, change and delete resources, schedulers, controllers that reconcile desired and actual state), and the data plane is what serves traffic (VMs, containers, load balancers, storage reads and writes).
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [cloud-infra](/domains/cloud-infra.md) · subdomain `containers`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

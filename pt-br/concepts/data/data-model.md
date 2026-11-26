@@ -4,9 +4,12 @@ title: Modelo de dados (relacional, documento, grafo)
 description: A forma como os dados são estruturados e relacionados para serem armazenados e consultados - mais comumente como tabelas relacionais, documentos aninhados ou grafos de nós e arestas - cada um adequado a formatos diferentes de dados e consultas.
 tags:
 - data
+- databases
 - core
 domain: data
-subdomain: core
+subdomain: databases
+also_in:
+- architecture/data-architecture
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -24,13 +27,17 @@ sources:
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/data/data-model.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Modelo de dados (relacional, documento, grafo)
 
 **Definição.** Um modelo de dados define as estruturas, operações e regras de integridade usadas para representar dados. O modelo relacional de Codd (1970) representa dados como relações (tabelas de linhas) manipuladas por operações de conjunto, independentes do armazenamento físico; o SQL, padronizado como ISO/IEC 9075, é sua linguagem dominante. O modelo de documentos guarda registros aninhados autocontidos (JSON); o modelo de grafo guarda entidades como nós e relacionamentos como arestas (grafos de propriedades, RDF). O DAMA-DMBOK distingue os níveis conceitual, lógico e físico de modelagem.
 
-Domínio: [data](/pt-br/domains/data.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [data](/pt-br/domains/data.md) · subdomínio `databases`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

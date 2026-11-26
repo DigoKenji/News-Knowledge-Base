@@ -4,9 +4,9 @@ title: 'Controles de segurança de rede (firewalls, segmentação, IDS/IPS)'
 description: 'Controles que restringem e observam o tráfego entre redes e hosts - firewalls que aplicam uma política de acesso, segmentação e DMZs que limitam o que cada zona alcança, VPNs que protegem o tráfego em trânsito, e sistemas de detecção ou prevenção de intrusão que identificam ataques.'
 tags:
 - security
-- security
+- security-operations
 domain: security
-subdomain: security
+subdomain: security-operations
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest)
@@ -33,13 +33,17 @@ sources:
   kind: standard
 lang: pt-br
 translation_of: /concepts/security/network-security.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Controles de segurança de rede (firewalls, segmentação, IDS/IPS)
 
 **Definição.** Um firewall fica entre redes e aplica uma política de acesso ao tráfego que passa por ele. Stallings e Brown descrevem os tipos principais: filtragem de pacotes (regras sobre endereços, portas e protocolo), inspeção com estado (acompanha conexões), gateways de aplicação e de circuito (proxies), além de firewalls de host e pessoais; e onde posicioná-los, incluindo uma DMZ para servidores públicos entre um firewall externo e um interno. A segmentação divide a rede em zonas (VLANs, sub-redes, security groups na nuvem) para que o comprometimento de uma zona não alcance tudo. Um sistema de detecção de intrusão (IDS) observa a atividade do host ou da rede por assinatura (uso indevido) ou por anomalia e gera alertas; um sistema de prevenção de intrusão (IPS) fica em linha e pode bloquear. Os fundamentos de redes de Davies (camadas OSI e TCP/IP, VLANs, VPNs, DMZ) são o vocabulário em que esses controles são escritos.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `security`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-24); rascunho aguardando certificação do Kenji.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `security-operations`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-24); rascunho aguardando certificação do Kenji.
 
 ## Como se encaixa
 

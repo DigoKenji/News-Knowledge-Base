@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: KV cache
-description: KV cache (llm-engineering).
+description: 'Memória que guarda as chaves e valores de atenção já calculados para tokens anteriores, para que o LLM não os recalcule a cada passo de decodificação - trocando memória de GPU por velocidade.'
 tags:
 - ai-ml
 - llm-engineering
@@ -29,6 +29,9 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição curta acrescentada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio; descrição real'
 ---
 
 # KV cache

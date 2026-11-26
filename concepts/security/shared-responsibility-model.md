@@ -7,6 +7,8 @@ tags:
 - cloud-security
 domain: security
 subdomain: cloud-security
+also_in:
+- cloud-infra/cloud-platforms
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest)
@@ -30,6 +32,10 @@ sources:
 - title: 'Cloud Security Alliance. Security Guidance for Critical Areas of Focus in Cloud Computing'
   resource: 'https://cloudsecurityalliance.org/research/guidance'
   kind: standard
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Shared responsibility model

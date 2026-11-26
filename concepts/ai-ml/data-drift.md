@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: Data drift
-description: Data drift (ml-governance).
+description: 'A change over time in the distribution of a model''s input data compared with its training data, which can degrade predictions and is monitored in production.'
 tags:
 - ai-ml
 - ml-governance
@@ -11,6 +11,10 @@ status: stable
 generated:
   by: claude (seed from Notion tree)
   at: '2026-11-16T01:30:00-03:00'
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy; real description'
 ---
 
 # Data drift

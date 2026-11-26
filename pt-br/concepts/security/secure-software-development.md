@@ -4,9 +4,12 @@ title: Desenvolvimento seguro de software (SSDLC)
 description: Incorporar segurança em todas as fases do ciclo de vida de desenvolvimento de software - requisitos, projeto, codificação, testes, entrega e manutenção - em vez de testá-la só no final.
 tags:
 - security
+- appsec
 - core
 domain: security
-subdomain: core
+subdomain: appsec
+also_in:
+- software-engineering/process
 status: stable
 verified:
 - by: Kenji
@@ -43,13 +46,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Desenvolvimento seguro de software (SSDLC)
 
 **Definição.** Um ciclo de vida de desenvolvimento seguro acrescenta práticas de segurança a cada etapa: requisitos de segurança, modelagem de ameaças no projeto, padrões de codificação segura, revisão de código, análise estática e dinâmica (SAST, DAST), varredura de dependências, build e entrega seguros, e resposta a vulnerabilidades após a entrega. O Secure Software Development Framework do NIST (SSDF, SP 800-218) agrupa isso em quatro áreas: preparar a organização, proteger o software, produzir software bem protegido e responder a vulnerabilidades.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `appsec`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

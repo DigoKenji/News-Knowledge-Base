@@ -4,9 +4,9 @@ title: 'Motores de armazenamento: LSM-trees e B-trees'
 description: 'As duas formas principais de os bancos organizarem dados em disco - log-structured merge trees (gravar em sequência e depois mesclar arquivos ordenados em segundo plano) e B-trees (atualizar páginas de tamanho fixo no lugar) - com LSM-trees geralmente mais rápidas para escrita e B-trees para leitura.'
 tags:
 - data
-- data-engineering
+- databases
 domain: data
-subdomain: data-engineering
+subdomain: databases
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest, DDIA)
@@ -24,13 +24,17 @@ sources:
   kind: paper
 lang: pt-br
 translation_of: /concepts/data/storage-engines-lsm-btree.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Motores de armazenamento: LSM-trees e B-trees
 
 **Definição.** Um motor de armazenamento é a parte do banco que grava os dados em disco e os encontra de novo. Kleppmann descreve duas famílias. Uma log-structured merge tree (LSM-tree) acumula as escritas em uma tabela ordenada em memória, descarrega-a no disco como um arquivo ordenado imutável (SSTable) e mescla e compacta esses arquivos em segundo plano; é usada por LevelDB, RocksDB, Cassandra e HBase. Uma B-tree divide o banco em páginas de tamanho fixo organizadas em árvore e sobrescreve as páginas no lugar, com um write-ahead log para recuperação após falhas; é o índice padrão dos bancos relacionais. Como regra prática, LSM-trees são mais rápidas para escrita e B-trees para leitura, mas Kleppmann alerta que benchmarks dependem muito da carga de trabalho e é preciso testar a sua.
 
-Domínio: [data](/pt-br/domains/data.md) · subdomínio `data-engineering`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-26); rascunho aguardando certificação do Kenji.
+Domínio: [data](/pt-br/domains/data.md) · subdomínio `databases`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-26); rascunho aguardando certificação do Kenji.
 
 ## Como se encaixa
 

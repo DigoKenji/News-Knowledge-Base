@@ -4,9 +4,12 @@ title: Data model (relational, document, graph)
 description: The way data is structured and related so it can be stored and queried - most commonly as relational tables, nested documents or graphs of nodes and edges - each fitting different shapes of data and queries.
 tags:
 - data
+- databases
 - core
 domain: data
-subdomain: core
+subdomain: databases
+also_in:
+- architecture/data-architecture
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -22,13 +25,17 @@ sources:
   resource: 'https://dataintensive.net/'
   kind: book
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Data model (relational, document, graph)
 
 **Definition.** A data model defines the structures, operations and integrity rules used to represent data. Codd's relational model (1970) represents data as relations (tables of rows) manipulated by set operations, independent of physical storage; SQL, standardised as ISO/IEC 9075, is its dominant language. The document model stores self-contained nested records (JSON); the graph model stores entities as nodes and relationships as edges (property graphs, RDF). DAMA-DMBOK distinguishes conceptual, logical and physical levels of modelling.
 
-Domain: [data](/domains/data.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [data](/domains/data.md) · subdomain `databases`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

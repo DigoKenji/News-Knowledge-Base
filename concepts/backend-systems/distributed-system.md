@@ -4,9 +4,10 @@ title: Distributed system
 description: A set of independent computers that communicate over a network and coordinate to appear to their users as a single coherent system - with partial failures, no shared clock and unreliable messages as the price.
 tags:
 - backend-systems
+- distributed-systems
 - core
 domain: backend-systems
-subdomain: core
+subdomain: distributed-systems
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: Kleppmann, M. (2017). Designing Data-Intensive Applications, ch. 8 "The Trouble with Distributed Systems"
   resource: 'https://dataintensive.net/'
   kind: book
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Distributed system
 
 **Definition.** Tanenbaum and van Steen define a distributed system as a collection of autonomous computing elements that appears to its users as a single coherent system. The elements share no memory and no global clock: they only exchange messages, which can be delayed, lost or reordered, and any one of them can fail while the others keep running.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `distributed-systems`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

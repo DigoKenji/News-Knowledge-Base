@@ -4,9 +4,10 @@ title: Virtualisation and containers
 description: Virtualisation runs several isolated virtual machines, each with its own operating system, on one physical host through a hypervisor; containers isolate applications that share the host's operating system kernel, making them lighter and faster to start.
 tags:
 - cloud-infra
+- containers
 - core
 domain: cloud-infra
-subdomain: core
+subdomain: containers
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -33,13 +34,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Virtualisation and containers
 
 **Definition.** Popek and Goldberg formalised the requirements for a virtual machine monitor (hypervisor): equivalence, resource control and efficiency. A container packages an application with its dependencies and runs it as an isolated process using kernel features (namespaces, cgroups on Linux); the Open Container Initiative (OCI) standardises image and runtime formats so the same image runs anywhere. Containers isolate less strongly than VMs, so multi-tenant platforms sometimes run containers inside lightweight VMs.
 
-Domain: [cloud-infra](/domains/cloud-infra.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [cloud-infra](/domains/cloud-infra.md) · subdomain `containers`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

@@ -3,13 +3,22 @@ type: Domain
 title: Backend e Engenharia de Sistemas
 description: 'Domínio de estudo de nível superior: Backend e Engenharia de Sistemas.'
 tags:
-- system-design
+- distributed-systems
+- reliability
+- performance
+- messaging-and-workflows
 - api-design
-- microservices
+- web-platform
+- system-design
 subdomains:
-- system-design
+- distributed-systems
+- reliability
+- performance
+- messaging-and-workflows
 - api-design
-- microservices
+- web-platform
+- system-design
+taxonomy_source: 'Kleppmann, Designing Data-Intensive Applications (2017) and the SWEBOK v4 Software Design area'
 generated:
   by: claude (seed from Notion tree)
   at: '2026-11-16T01:30:00-03:00'
@@ -21,20 +30,19 @@ translation_of: /domains/backend-systems.md
 # Backend e Engenharia de Sistemas
 
 ## Subdomínios
-- `system-design`
-- `api-design`
-- `microservices`
+
+A lista controlada para notas e conceitos deste domínio (taxonomia, 2026-11-26), baseada em Kleppmann, Designing Data-Intensive Applications (2017) and the SWEBOK v4 Software Design area. Um conceito tem exatamente um subdomínio de origem e pode aparecer em outros temas com `also_in`.
+
+- `distributed-systems` — **Sistemas distribuídos**: Nós que se coordenam por rede: replicação, consistência, consenso, CAP
+- `reliability` — **Confiabilidade e resiliência**: Manter serviços no ar sob falhas e sobrecarga: modos de falha, controle de carga, testes de caos
+- `performance` — **Desempenho e escalabilidade**: Latência, vazão, escala, cache e comportamento em tempo de execução
+- `messaging-and-workflows` — **Mensageria e fluxos**: Comunicação assíncrona e trabalho de longa duração: filas, eventos, sagas, execução durável
+- `api-design` — **APIs e protocolos**: Interfaces de serviços na prática: RPC, protocolos, versionamento
+- `web-platform` — **Plataforma web**: Servir tráfego na web: proxies, gateways, navegadores e runtimes
+- `system-design` — **Design de sistemas (geral)**: Notas que abrangem vários dos anteriores; conceitos devem preferir um subdomínio mais específico
 
 ## Conceitos
-- [Idempotência](/pt-br/concepts/backend-systems/idempotency.md)
-- [Teorema CAP](/pt-br/concepts/backend-systems/cap-theorem.md)
-- [Padrão Saga](/pt-br/concepts/backend-systems/saga-pattern.md)
-- [Migração strangler fig](/pt-br/concepts/backend-systems/strangler-fig.md)
-- [Contexto delimitado](/pt-br/concepts/backend-systems/bounded-context.md)
-- [Registro de decisão de arquitetura](/pt-br/concepts/backend-systems/adr.md)
-- [Análise de trade-offs ATAM](/pt-br/concepts/backend-systems/atam.md)
-- [gRPC](/pt-br/concepts/backend-systems/grpc.md)
-- [Versionamento de API](/pt-br/concepts/backend-systems/api-versioning.md)
+30 conceitos, agrupados por subdomínio no [índice do tema](/pt-br/concepts/backend-systems/index.md).
 
 ## Notas
 Os resumos deste domínio ficam em [/notes/backend-systems/](/pt-br/notes/backend-systems/index.md).

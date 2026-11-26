@@ -4,9 +4,12 @@ title: Segurança de IA e machine learning adversarial
 description: Proteger sistemas de IA contra ataques que miram seus dados, modelos e comportamento - envenenamento de dados de treino, evasão ou extração de modelos, prompt injection, vazamento de dados - e os novos riscos criados quando sistemas de IA recebem acesso a ferramentas e dados.
 tags:
 - security
+- ai-security
 - core
 domain: security
-subdomain: core
+subdomain: ai-security
+also_in:
+- ai-ml/ai-agents
 status: stable
 verified:
 - by: Kenji
@@ -35,13 +38,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Segurança de IA e machine learning adversarial
 
 **Definição.** A taxonomia de machine learning adversarial do NIST (AI 100-2) classifica os ataques pela fase do ciclo de vida do sistema e pelo objetivo do atacante: evasão (entradas criadas para causar saídas erradas), envenenamento (corromper dados de treino ou modelos), ataques de privacidade (extrair dados de treino ou o próprio modelo) e, para IA generativa, abusos como prompt injection e jailbreaks. Segurança de IA também cobre a segurança comum do sistema em volta, já que os modelos rodam dentro de aplicações com dados, credenciais e ferramentas.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `ai-security`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

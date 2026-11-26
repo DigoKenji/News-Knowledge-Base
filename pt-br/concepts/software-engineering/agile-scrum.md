@@ -4,9 +4,10 @@ title: Agile e Scrum
 description: Agile é um conjunto de valores e princípios para desenvolver software em iterações curtas, com colaboração próxima do cliente e abertura a mudanças; Scrum é o framework ágil mais usado, que organiza o trabalho em sprints de duração fixa com papéis e eventos definidos.
 tags:
 - software-engineering
+- process
 - core
 domain: software-engineering
-subdomain: core
+subdomain: process
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +24,17 @@ sources:
   kind: paper
 lang: pt-br
 translation_of: /concepts/software-engineering/agile-scrum.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Agile e Scrum
 
 **Definição.** O Manifesto Ágil (2001) valoriza indivíduos e interações mais que processos e ferramentas, software funcionando mais que documentação abrangente, colaboração com o cliente mais que negociação de contratos, e responder a mudanças mais que seguir um plano. O Scrum Guide define o Scrum com três responsabilidades (Product Owner, Scrum Master, Developers), eventos (Sprint, Planning, Daily Scrum, Review, Retrospective) e artefatos (Product Backlog, Sprint Backlog, Incremento).
 
-Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `process`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

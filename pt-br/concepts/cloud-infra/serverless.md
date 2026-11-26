@@ -4,9 +4,10 @@ title: Serverless (sem servidor)
 description: Um modelo de nuvem em que os desenvolvedores implantam código ou usam serviços sem provisionar ou gerenciar servidores; o provedor os executa, escala (inclusive a zero) e cobra por requisição ou tempo de execução. Funções como serviço (FaaS) é a forma mais conhecida.
 tags:
 - cloud-infra
+- cloud-platforms
 - core
 domain: cloud-infra
-subdomain: core
+subdomain: cloud-platforms
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +24,17 @@ sources:
   kind: docs
 lang: pt-br
 translation_of: /concepts/cloud-infra/serverless.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Serverless (sem servidor)
 
 **Definição.** Jonas et al. (Berkeley) definem computação serverless por três traços: computação e armazenamento desacoplados, execução de código sem gerenciar alocação de recursos e pagamento proporcional aos recursos usados em vez dos alocados. O Serverless Whitepaper da CNCF distingue FaaS (funções acionadas por eventos, como AWS Lambda) de backend como serviço (bancos, filas e autenticação gerenciados).
 
-Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `cloud-platforms`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

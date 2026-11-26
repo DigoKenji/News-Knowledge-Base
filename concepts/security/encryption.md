@@ -4,9 +4,10 @@ title: Encryption
 description: Transforming data with a key so that only holders of the right key can read it - symmetric encryption uses one shared key, asymmetric (public-key) encryption uses a key pair - used to protect data at rest and in transit.
 tags:
 - security
+- security-foundations
 - core
 domain: security
-subdomain: core
+subdomain: security-foundations
 status: stable
 verified:
 - by: Kenji
@@ -37,13 +38,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Encryption
 
 **Definition.** Encryption converts plaintext into ciphertext with an algorithm and a key; decryption reverses it. Symmetric algorithms such as AES (FIPS 197) are fast and use the same secret key on both sides. Asymmetric algorithms (RSA, elliptic-curve), introduced by Diffie and Hellman in 1976, use a public key that anyone may know and a private key kept secret, which solves key exchange and enables digital signatures.
 
-Domain: [security](/domains/security.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
+Domain: [security](/domains/security.md) · subdomain `security-foundations`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

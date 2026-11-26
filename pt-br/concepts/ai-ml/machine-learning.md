@@ -4,9 +4,10 @@ title: Machine learning (aprendizado de máquina)
 description: O ramo da IA em que sistemas melhoram numa tarefa aprendendo padrões a partir de dados, em vez de serem programados explicitamente com regras.
 tags:
 - ai-ml
+- ml-fundamentals
 - core
 domain: ai-ml
-subdomain: core
+subdomain: ml-fundamentals
 status: stable
 verified:
 - by: Kenji
@@ -39,13 +40,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Machine learning (aprendizado de máquina)
 
 **Definição.** A definição clássica de Tom Mitchell: um programa aprende com a experiência E em relação a uma tarefa T e uma medida de desempenho P se seu desempenho em T, medido por P, melhora com E. Na prática, ML ajusta os parâmetros de um modelo a dados de treino para que ele faça previsões ou decisões sobre dados novos. A ISO/IEC 23053 descreve o framework para sistemas de IA baseados em ML.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `ml-fundamentals`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

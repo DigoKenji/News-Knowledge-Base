@@ -4,7 +4,11 @@ title: Execução em Sandbox
 description: Execução de código gerado ou não confiável em um ambiente isolado, com credenciais, acesso a dados e recursos limitados, de modo que um erro ou um ataque não alcance o restante do sistema.
 tags:
 - security
+- ai-security
 domain: security
+subdomain: ai-security
+also_in:
+- ai-ml/ai-agents
 status: stable
 verified:
 - by: Kenji
@@ -21,6 +25,10 @@ relations:
   target: least-privilege
 lang: pt-br
 translation_of: /concepts/security/sandboxed-execution.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Execução em Sandbox

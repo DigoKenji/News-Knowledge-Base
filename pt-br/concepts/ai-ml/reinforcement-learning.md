@@ -4,9 +4,10 @@ title: Aprendizado por reforço
 description: Machine learning em que um agente aprende por tentativa e erro quais ações tomar num ambiente para maximizar uma recompensa acumulada, em vez de aprender com exemplos rotulados.
 tags:
 - ai-ml
+- ml-fundamentals
 - core
 domain: ai-ml
-subdomain: core
+subdomain: ml-fundamentals
 status: stable
 verified:
 - by: Kenji
@@ -39,13 +40,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Aprendizado por reforço
 
 **Definição.** No aprendizado por reforço (RL) um agente observa um estado, executa uma ação, recebe uma recompensa e um novo estado, e aprende uma política (uma regra para escolher ações) que maximiza a recompensa de longo prazo. A dificuldade central é o equilíbrio entre explorar ações novas e aproveitar o que já funciona, e atribuir recompensas a ações tomadas muito antes.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `ml-fundamentals`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

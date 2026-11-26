@@ -4,7 +4,9 @@ title: Modular monolith
 description: An application deployed as a single unit but internally divided into modules with strong, enforced boundaries - each owning its data and exposing an explicit interface - giving much of the structure of microservices without the cost of a distributed system.
 tags:
 - architecture
+- software-architecture
 domain: architecture
+subdomain: software-architecture
 status: stable
 verified:
 - by: Kenji
@@ -31,6 +33,10 @@ sources:
 relations:
 - type: uses
   target: bounded-context
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Modular monolith
@@ -59,7 +65,7 @@ An e-commerce app ships as one Spring Boot service, but the billing module can o
 4. Spring. *Spring Modulith Reference Documentation*. <https://docs.spring.io/spring-modulith/reference/> — Tooling that verifies module boundaries and supports in-process events.
 
 ## Relations
-- **uses** [bounded-context](/concepts/backend-systems/bounded-context.md)
+- **uses** [bounded-context](/concepts/architecture/bounded-context.md)
 
 ## Notes
 - [Agoda Reduces API Code Review Time by 64% with Modular Architecture](/notes/architecture/2026-11-24-agoda-reduces-api-code-review-time-by-64-with-modular-archit.md)

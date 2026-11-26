@@ -4,9 +4,10 @@ title: Autenticação vs autorização
 description: Autenticação verifica quem alguém (ou algo) é; autorização decide o que essa identidade verificada pode fazer - duas etapas separadas que muitas vezes são confundidas.
 tags:
 - security
+- iam
 - core
 domain: security
-subdomain: core
+subdomain: iam
 status: stable
 verified:
 - by: Kenji
@@ -39,13 +40,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Autenticação vs autorização
 
 **Definição.** Autenticação (authn) prova uma alegação de identidade usando fatores: algo que você sabe (senha), tem (chave de segurança, celular) ou é (biometria); autenticação multifator combina dois ou mais. Autorização (authz) aplica uma política à identidade autenticada para conceder ou negar acesso a um recurso ou ação, usando modelos como controle de acesso baseado em papéis (RBAC) ou em atributos (ABAC).
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `iam`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

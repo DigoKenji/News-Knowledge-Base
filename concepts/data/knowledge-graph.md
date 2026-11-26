@@ -4,9 +4,11 @@ title: Knowledge graph
 description: A graph that represents knowledge as entities (nodes) connected by typed, meaningful relations (edges), often with a schema or ontology, so that facts can be queried, linked across sources and reasoned over.
 tags:
 - data
-- data-engineering
+- data-science
 domain: data
-subdomain: data-engineering
+subdomain: data-science
+also_in:
+- ai-ml/rag
 status: stable
 verified:
 - by: Kenji
@@ -35,13 +37,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Knowledge graph
 
 **Definition.** Hogan et al. define a knowledge graph as "a graph of data intended to accumulate and convey knowledge of the real world, whose nodes represent entities of interest and whose edges represent relations between these entities". What separates it from a plain graph database is the emphasis on semantics: shared identifiers, types and an ontology that gives the relations meaning.
 
-Domain: [data](/domains/data.md) · subdomain `data-engineering`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [data](/domains/data.md) · subdomain `data-science`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

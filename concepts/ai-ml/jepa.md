@@ -27,6 +27,10 @@ sources:
 - title: 'Bardes, A. et al. (2024). Revisiting Feature Prediction for Learning Visual Representations from Video (V-JEPA). arXiv:2404.08471'
   resource: 'https://arxiv.org/abs/2404.08471'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Joint-embedding predictive architecture (JEPA)

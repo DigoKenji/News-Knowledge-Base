@@ -4,9 +4,12 @@ title: Observability (logs, metrics, traces)
 description: The ability to understand what is happening inside a running system from the signals it emits - mainly logs (events), metrics (numbers over time) and distributed traces (the path of one request across services) - so unknown problems can be investigated, not just known ones alerted on.
 tags:
 - cloud-infra
+- observability
 - core
 domain: cloud-infra
-subdomain: core
+subdomain: observability
+also_in:
+- backend-systems/reliability
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +24,17 @@ sources:
 - title: Beyer, B. et al. (eds.) (2016). Site Reliability Engineering, ch. 6 "Monitoring Distributed Systems"
   resource: 'https://sre.google/sre-book/monitoring-distributed-systems/'
   kind: book
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Observability (logs, metrics, traces)
 
 **Definition.** The term comes from control theory: a system is observable if its internal state can be inferred from its outputs. In software, OpenTelemetry - a CNCF standard - defines the signals (traces, metrics, logs) and a vendor-neutral way to produce and export them. Distributed tracing, described in Google's Dapper paper, propagates a trace id through every call so the latency of one request can be broken down by service.
 
-Domain: [cloud-infra](/domains/cloud-infra.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [cloud-infra](/domains/cloud-infra.md) · subdomain `observability`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

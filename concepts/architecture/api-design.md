@@ -4,9 +4,10 @@ title: API and API design
 description: An API (application programming interface) is the contract through which software components or systems talk to each other; API design is choosing its resources, operations, data formats, errors and versioning so it is easy to use and safe to evolve.
 tags:
 - architecture
+- software-architecture
 - core
 domain: architecture
-subdomain: core
+subdomain: software-architecture
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: Google Cloud. API Design Guide
   resource: 'https://docs.cloud.google.com/apis/design'
   kind: practitioner
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # API and API design
 
 **Definition.** Web APIs mostly follow REST (Fielding, 2000): resources identified by URLs, manipulated with standard HTTP methods, stateless requests. Alternatives include RPC styles such as gRPC, GraphQL, and asynchronous event APIs. The OpenAPI Specification is the standard way to describe HTTP APIs as machine-readable contracts.
 
-Domain: [architecture](/domains/architecture.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [architecture](/domains/architecture.md) · subdomain `software-architecture`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

@@ -30,6 +30,10 @@ sources:
 - title: 'Brown, T. et al. (2020). Language Models are Few-Shot Learners. NeurIPS 2020'
   resource: 'https://arxiv.org/abs/2005.14165'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Prompt engineering

@@ -4,7 +4,9 @@ title: Ataque à cadeia de suprimentos
 description: Um ataque que compromete algo de que o alvo depende - uma biblioteca de terceiros, um registro de pacotes, um sistema de build, um canal de atualização, um fornecedor ou uma ferramenta de desenvolvimento - para que o código malicioso ou o acesso chegue ao alvo por um caminho confiável em vez de um ataque direto.
 tags:
 - security
+- appsec
 domain: security
+subdomain: appsec
 status: stable
 verified:
 - by: Kenji
@@ -30,6 +32,10 @@ sources:
   kind: paper
 lang: pt-br
 translation_of: /concepts/security/supply-chain-attack.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Ataque à cadeia de suprimentos

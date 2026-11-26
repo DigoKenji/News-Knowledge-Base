@@ -183,7 +183,7 @@ The last rule carries the most weight in the article's own practice. Changes are
 
 ## 🔗 Concepts
 - [ai-agent](/concepts/ai-ml/ai-agent.md)
-- [adr](/concepts/backend-systems/adr.md)
+- [adr](/concepts/architecture/adr.md)
 - [graph-rag](/concepts/ai-ml/graph-rag.md)
 - [model-context-protocol](/concepts/ai-ml/model-context-protocol.md)
 - [Context engineering](/concepts/ai-ml/context-engineering.md)

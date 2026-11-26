@@ -4,7 +4,9 @@ title: Adversarial review
 description: A separate agent or reviewer whose job is to try to disprove a proposed diagnosis or fix before it is accepted.
 tags:
 - ai-ml
+- ai-agents
 domain: ai-ml
+subdomain: ai-agents
 status: draft
 generated:
   by: claude-haiku (Project_News daily run)
@@ -13,6 +15,10 @@ sources:
 - title: How OpenAI’s Performance Factory keeps ChatGPT fast
   resource: https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast
   kind: practitioner
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Adversarial review

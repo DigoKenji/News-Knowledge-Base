@@ -4,9 +4,10 @@ title: Software testing
 description: Executing software under controlled conditions to find defects and gain confidence it meets its requirements - at several levels (unit, integration, system/end-to-end) and with automated tests run on every change.
 tags:
 - software-engineering
+- testing
 - core
 domain: software-engineering
-subdomain: core
+subdomain: testing
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -22,13 +23,17 @@ sources:
   resource: 'https://martinfowler.com/articles/practical-test-pyramid.html'
   kind: practitioner
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Software testing
 
 **Definition.** ISO/IEC/IEEE 29119 is the international standard for software testing concepts, processes and techniques. Unit tests check one small piece in isolation, integration tests check that pieces work together, and system or end-to-end tests check the whole application as a user would. Testing can show the presence of bugs, never prove their absence (Dijkstra).
 
-Domain: [software-engineering](/domains/software-engineering.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [software-engineering](/domains/software-engineering.md) · subdomain `testing`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 
@@ -42,7 +47,7 @@ The KB validator is a test: on every run it checks that all documents have front
 
 - [Deterministic simulation testing](/concepts/backend-systems/deterministic-simulation-testing.md)
 - [Chaos engineering](/concepts/backend-systems/chaos-engineering.md)
-- [Canary / blue-green deploy](/concepts/cloud-infra/canary-deploy.md)
+- [Canary / blue-green deploy](/concepts/software-engineering/canary-deploy.md)
 
 ## Review notes for Kenji
 

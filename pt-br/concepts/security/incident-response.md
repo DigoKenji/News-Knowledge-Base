@@ -4,9 +4,9 @@ title: 'Resposta a incidentes'
 description: 'O processo preparado e repetível para lidar com um incidente de segurança - preparação, detecção e análise, contenção, erradicação e recuperação, e lições pós-incidente - conduzido por uma equipe definida, com runbooks, tratamento de evidências e planos de comunicação.'
 tags:
 - security
-- security
+- security-operations
 domain: security
-subdomain: security
+subdomain: security-operations
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest)
@@ -36,13 +36,17 @@ sources:
   kind: standard
 lang: pt-br
 translation_of: /concepts/security/incident-response.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Resposta a incidentes
 
 **Definição.** Um incidente de segurança é um evento que compromete, de fato ou potencialmente, a confidencialidade, integridade ou disponibilidade de um sistema ou de suas informações. O ciclo clássico do NIST SP 800-61 Rev. 2, usado por Chapple e Seidl, tem quatro fases: preparação; detecção e análise; contenção, erradicação e recuperação; e atividades pós-incidente. Stallings e Brown descrevem a equipe de resposta a incidentes (CSIRT) e suas funções: detectar incidentes, fazer a triagem por um ponto único de contato, responder e documentar. O NIST SP 800-61 Rev. 3 (2025) passou a mapear a resposta a incidentes nas funções do Cybersecurity Framework 2.0, em vez de um ciclo separado. Na nuvem, o guia da AWS organiza o trabalho em educar, preparar (pessoas e tecnologia), simular e iterar, e destaca que as responsabilidades seguem o modelo de responsabilidade compartilhada.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `security`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-24); rascunho aguardando certificação do Kenji.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `security-operations`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-24); rascunho aguardando certificação do Kenji.
 
 ## Como se encaixa
 

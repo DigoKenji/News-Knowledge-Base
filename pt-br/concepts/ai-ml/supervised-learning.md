@@ -1,12 +1,13 @@
 ---
 type: Concept
 title: Aprendizado supervisionado
-description: Machine learning a partir de exemplos rotulados - cada entrada vem com a saída correta - para que o modelo aprenda a prever a saída para entradas novas; as duas tarefas principais são classificação (categorias) e regressão (números).
+description: 'Aprendizado de máquina a partir de exemplos rotulados - cada entrada vem com a saída correta - para que o modelo aprenda a prever a saída de novas entradas.'
 tags:
 - ai-ml
+- ml-fundamentals
 - core
 domain: ai-ml
-subdomain: core
+subdomain: ml-fundamentals
 status: stable
 verified:
 - by: Kenji
@@ -39,13 +40,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio; descrição real'
 ---
 
 # Aprendizado supervisionado
 
 **Definição.** No aprendizado supervisionado os dados de treino são pares entrada-rótulo (x, y). O modelo aprende uma função de x para y minimizando uma função de perda que mede o quanto suas previsões se afastam dos rótulos verdadeiros, e depois é avaliado em dados separados que não viu.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `ml-fundamentals`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

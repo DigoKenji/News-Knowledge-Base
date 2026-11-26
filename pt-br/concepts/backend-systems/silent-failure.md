@@ -4,9 +4,9 @@ title: Falha silenciosa
 description: Uma falha que não gera erro - o sistema devolve uma saída que parece normal mas está errada, incompleta ou desatualizada - então o monitoramento baseado em erros e disponibilidade não a vê e o dano se acumula até alguém notar os resultados.
 tags:
 - backend-systems
-- system-design
+- reliability
 domain: backend-systems
-subdomain: system-design
+subdomain: reliability
 status: stable
 verified:
 - by: Kenji
@@ -32,13 +32,17 @@ sources:
   kind: book
 lang: pt-br
 translation_of: /concepts/backend-systems/silent-failure.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Falha silenciosa
 
 **Definição.** Uma falha silenciosa é uma falha cujos sintomas não disparam nenhum alarme: sem exceção, sem 5xx, sem crash. Os exemplos vão de corrupção silenciosa de dados no hardware até um pipeline que processa zero registros sem avisar, um cache servindo dados velhos ou um modelo de ML cuja precisão cai enquanto continua respondendo com confiança.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `reliability`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

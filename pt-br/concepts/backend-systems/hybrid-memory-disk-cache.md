@@ -4,9 +4,9 @@ title: Cache híbrido memória-disco
 description: Um cache que mantém o índice e os itens mais quentes na RAM e a parte maior e mais fria em SSD, guardando muito mais dados por servidor do que só a memória, ao custo de leituras mais lentas para itens que estão no disco.
 tags:
 - backend-systems
-- system-design
+- performance
 domain: backend-systems
-subdomain: system-design
+subdomain: performance
 status: stable
 verified:
 - by: Kenji
@@ -29,13 +29,17 @@ sources:
   kind: docs
 lang: pt-br
 translation_of: /concepts/backend-systems/hybrid-memory-disk-cache.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Cache híbrido memória-disco
 
 **Definição.** Um cache híbrido (em camadas) coloca DRAM sobre flash. As consultas verificam a memória primeiro; faltas na memória ainda podem acertar no SSD, muito mais barato por gigabyte e muito mais rápido do que ir ao banco de dados de origem. Itens são promovidos, rebaixados ou descartados entre as camadas por políticas de admissão e descarte.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `performance`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

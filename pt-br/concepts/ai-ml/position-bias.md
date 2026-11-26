@@ -4,9 +4,9 @@ title: Viés de posição
 description: Uma tendência sistemática de um modelo, especialmente quando atua como juiz ou ranqueador, de favorecer uma opção por causa de onde ela aparece (primeira, última ou numa certa posição) e não por causa do seu conteúdo.
 tags:
 - ai-ml
-- mlops
+- evaluation
 domain: ai-ml
-subdomain: mlops
+subdomain: evaluation
 status: stable
 verified:
 - by: Kenji
@@ -29,13 +29,17 @@ sources:
   kind: paper
 lang: pt-br
 translation_of: /concepts/ai-ml/position-bias.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Viés de posição
 
 **Definição.** Há viés de posição quando trocar a ordem dos candidatos muda o veredito. Em comparações em pares de LLM-as-a-judge aparece como preferência pela resposta A ou B independentemente da qualidade; em múltipla escolha, como preferência por certas letras; em contextos longos, como uso melhor da informação do começo e do fim do que do meio.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `mlops`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `evaluation`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

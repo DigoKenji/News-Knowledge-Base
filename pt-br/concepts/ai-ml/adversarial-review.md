@@ -4,7 +4,9 @@ title: Revisão adversarial
 description: Um agente ou revisor separado cuja tarefa é tentar refutar um diagnóstico ou uma correção proposta antes que sejam aceitos.
 tags:
 - ai-ml
+- ai-agents
 domain: ai-ml
+subdomain: ai-agents
 status: draft
 generated:
   by: claude-haiku (Project_News daily run)
@@ -15,6 +17,10 @@ sources:
   kind: practitioner
 lang: pt-br
 translation_of: /concepts/ai-ml/adversarial-review.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Revisão adversarial

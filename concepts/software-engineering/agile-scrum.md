@@ -4,9 +4,10 @@ title: Agile and Scrum
 description: Agile is a set of values and principles for developing software in short iterations with close customer collaboration and openness to change; Scrum is the most used agile framework, organising work into fixed-length sprints with defined roles and events.
 tags:
 - software-engineering
+- process
 - core
 domain: software-engineering
-subdomain: core
+subdomain: process
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: Dingsøyr, T. et al. (2012). A decade of agile methodologies - Towards explaining agile software development. Journal of Systems and Software 85(6)
   resource: 'https://doi.org/10.1016/j.jss.2012.02.033'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Agile and Scrum
 
 **Definition.** The Agile Manifesto (2001) values individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan. The Scrum Guide defines Scrum with three accountabilities (Product Owner, Scrum Master, Developers), events (Sprint, Planning, Daily Scrum, Review, Retrospective) and artefacts (Product Backlog, Sprint Backlog, Increment).
 
-Domain: [software-engineering](/domains/software-engineering.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [software-engineering](/domains/software-engineering.md) · subdomain `process`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

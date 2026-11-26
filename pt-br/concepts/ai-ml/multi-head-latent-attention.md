@@ -4,7 +4,9 @@ title: Atenção latente multi-cabeça
 description: Uma variante de atenção introduzida no DeepSeek-V2 que comprime as chaves e valores de cada token num pequeno vetor latente compartilhado, reduzindo o KV cache várias vezes e mantendo a qualidade próxima da atenção multi-head padrão.
 tags:
 - ai-ml
+- deep-learning
 domain: ai-ml
+subdomain: deep-learning
 status: stable
 verified:
 - by: Kenji
@@ -30,6 +32,10 @@ sources:
   kind: paper
 lang: pt-br
 translation_of: /concepts/ai-ml/multi-head-latent-attention.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Atenção latente multi-cabeça

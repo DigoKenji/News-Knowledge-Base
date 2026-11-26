@@ -4,9 +4,10 @@ title: Deployment models (public, private, hybrid)
 description: Who the cloud infrastructure is provisioned for and where it runs - public (open to anyone, run by a provider), private (one organisation), community (a group with shared concerns) or hybrid (two or more combined) - plus the common multi-cloud practice.
 tags:
 - cloud-infra
+- cloud-platforms
 - core
 domain: cloud-infra
-subdomain: core
+subdomain: cloud-platforms
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -22,13 +23,17 @@ sources:
   resource: 'https://learn.microsoft.com/en-us/azure/architecture/hybrid/hybrid-start-here'
   kind: docs
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Deployment models (public, private, hybrid)
 
 **Definition.** NIST SP 800-145 defines four deployment models: private cloud (exclusive use by a single organisation), community cloud (exclusive use by a community with shared concerns), public cloud (open use by the general public, on the provider's premises) and hybrid cloud (two or more distinct infrastructures bound together by technology that enables data and application portability). Multi-cloud, using several public providers, is a later practice described in ISO/IEC 22123.
 
-Domain: [cloud-infra](/domains/cloud-infra.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [cloud-infra](/domains/cloud-infra.md) · subdomain `cloud-platforms`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

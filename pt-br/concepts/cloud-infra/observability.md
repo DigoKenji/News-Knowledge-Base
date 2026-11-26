@@ -4,9 +4,12 @@ title: Observabilidade (logs, métricas, traces)
 description: A capacidade de entender o que está acontecendo dentro de um sistema em execução a partir dos sinais que ele emite - principalmente logs (eventos), métricas (números ao longo do tempo) e traces distribuídos (o caminho de uma requisição entre serviços) - para que problemas desconhecidos possam ser investigados, não apenas os conhecidos alertados.
 tags:
 - cloud-infra
+- observability
 - core
 domain: cloud-infra
-subdomain: core
+subdomain: observability
+also_in:
+- backend-systems/reliability
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +26,17 @@ sources:
   kind: book
 lang: pt-br
 translation_of: /concepts/cloud-infra/observability.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Observabilidade (logs, métricas, traces)
 
 **Definição.** O termo vem da teoria de controle: um sistema é observável se seu estado interno pode ser inferido a partir de suas saídas. Em software, o OpenTelemetry - um padrão da CNCF - define os sinais (traces, métricas, logs) e uma forma neutra de fornecedor para produzi-los e exportá-los. O tracing distribuído, descrito no artigo Dapper do Google, propaga um id de trace por todas as chamadas para que a latência de uma requisição possa ser decomposta por serviço.
 
-Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `observability`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

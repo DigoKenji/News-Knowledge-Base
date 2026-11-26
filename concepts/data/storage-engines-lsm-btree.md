@@ -4,9 +4,9 @@ title: 'Storage engines: LSM-trees and B-trees'
 description: 'The two main ways databases organise data on disk - log-structured merge trees (append, then merge sorted files in the background) and B-trees (update fixed-size pages in place) - with LSM-trees usually faster for writes and B-trees for reads.'
 tags:
 - data
-- data-engineering
+- databases
 domain: data
-subdomain: data-engineering
+subdomain: databases
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest, DDIA)
@@ -22,13 +22,17 @@ sources:
 - title: 'Bayer, R. and McCreight, E. (1972). Organization and Maintenance of Large Ordered Indices. Acta Informatica 1'
   resource: 'https://doi.org/10.1007/BF00288683'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Storage engines: LSM-trees and B-trees
 
 **Definition.** A storage engine is the part of a database that stores data on disk and finds it again. Kleppmann describes two families. A log-structured merge tree (LSM-tree) buffers writes in a sorted in-memory table, flushes it to disk as an immutable sorted file (SSTable), and merges and compacts those files in the background; it is used by LevelDB, RocksDB, Cassandra and HBase. A B-tree splits the database into fixed-size pages arranged as a tree and overwrites pages in place, with a write-ahead log for crash recovery; it is the standard index in relational databases. As a rule of thumb, LSM-trees are faster for writes and B-trees faster for reads, but Kleppmann warns that benchmarks are sensitive to the workload and you must test your own.
 
-Domain: [data](/domains/data.md) · subdomain `data-engineering`. New concept from the MBA library (books added to FIAP-MBA/Materiais/Referencias, 2026-11-26); draft waiting for Kenji to certify.
+Domain: [data](/domains/data.md) · subdomain `databases`. New concept from the MBA library (books added to FIAP-MBA/Materiais/Referencias, 2026-11-26); draft waiting for Kenji to certify.
 
 ## How it fits
 

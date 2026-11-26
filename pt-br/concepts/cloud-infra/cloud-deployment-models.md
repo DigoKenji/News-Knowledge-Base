@@ -4,9 +4,10 @@ title: Modelos de implantação (pública, privada, híbrida)
 description: Para quem a infraestrutura de nuvem é provisionada e onde ela roda - pública (aberta a qualquer um, operada por um provedor), privada (uma organização), comunitária (um grupo com interesses comuns) ou híbrida (duas ou mais combinadas) - além da prática comum de multinuvem.
 tags:
 - cloud-infra
+- cloud-platforms
 - core
 domain: cloud-infra
-subdomain: core
+subdomain: cloud-platforms
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -24,13 +25,17 @@ sources:
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/cloud-infra/cloud-deployment-models.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Modelos de implantação (pública, privada, híbrida)
 
 **Definição.** A NIST SP 800-145 define quatro modelos de implantação: nuvem privada (uso exclusivo de uma organização), nuvem comunitária (uso exclusivo de uma comunidade com interesses comuns), nuvem pública (uso aberto ao público, nas instalações do provedor) e nuvem híbrida (duas ou mais infraestruturas distintas ligadas por tecnologia que permite portabilidade de dados e aplicações). Multinuvem, usar vários provedores públicos, é uma prática posterior descrita na ISO/IEC 22123.
 
-Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `cloud-platforms`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

@@ -3,23 +3,28 @@ type: Domain
 title: Engenharia de IA/ML
 description: 'Domínio de estudo de nível superior: Engenharia de IA/ML.'
 tags:
-- llm-engineering
-- nlp
-- deep-learning
+- ml-fundamentals
 - classical-ml
-- mlops
+- deep-learning
+- nlp
+- llm-engineering
 - rag
 - ai-agents
+- evaluation
+- mlops
 - ml-governance
 subdomains:
-- llm-engineering
-- nlp
-- deep-learning
+- ml-fundamentals
 - classical-ml
-- mlops
+- deep-learning
+- nlp
+- llm-engineering
 - rag
 - ai-agents
+- evaluation
+- mlops
 - ml-governance
+taxonomy_source: 'ACM Computing Classification System 2012 (Computing methodologies: Machine learning, Artificial intelligence)'
 generated:
   by: claude (seed from Notion tree)
   at: '2026-11-16T01:30:00-03:00'
@@ -31,40 +36,22 @@ translation_of: /domains/ai-ml.md
 # Engenharia de IA/ML
 
 ## Subdomínios
-- `llm-engineering`
-- `nlp`
-- `deep-learning`
-- `classical-ml`
-- `mlops`
-- `rag`
-- `ai-agents`
-- `ml-governance`
+
+A lista controlada para notas e conceitos deste domínio (taxonomia, 2026-11-26), baseada em ACM Computing Classification System 2012 (Computing methodologies: Machine learning, Artificial intelligence). Um conceito tem exatamente um subdomínio de origem e pode aparecer em outros temas com `also_in`.
+
+- `ml-fundamentals` — **Fundamentos de ML**: O que são IA e ML, paradigmas de aprendizado, generalização e o ciclo de vida do modelo
+- `classical-ml` — **ML clássico**: Modelos não neurais: SVMs, métodos de kernel, árvores, redes RBF
+- `deep-learning` — **Deep learning**: Redes neurais: treinamento, arquiteturas (transformers, MoE), representações e modelos generativos
+- `nlp` — **PLN**: Processamento específico de linguagem: tokenização, representação de texto
+- `llm-engineering` — **Engenharia de LLMs**: Construir com LLMs e servi-los: adaptação, prompts, inferência e seu custo
+- `rag` — **Recuperação e RAG**: Recuperação, busca e geração aumentada por recuperação
+- `ai-agents` — **Agentes de IA**: Agentes, seu harness, memória, ferramentas e coordenação multiagente
+- `evaluation` — **Avaliação**: Medir a qualidade de modelos: métricas, calibração, juízes LLM e seus vieses
+- `mlops` — **MLOps**: Levar ML para produção: pipelines, feature stores, deploy e monitoramento
+- `ml-governance` — **Governança de ML**: Manter modelos válidos e responsáveis ao longo do tempo: drift, risco, política
 
 ## Conceitos
-- [Geração aumentada por recuperação (RAG)](/pt-br/concepts/ai-ml/rag.md)
-- [GraphRAG](/pt-br/concepts/ai-ml/graph-rag.md)
-- [RAG sem vetores](/pt-br/concepts/ai-ml/vectorless-rag.md)
-- [KV cache](/pt-br/concepts/ai-ml/kv-cache.md)
-- [Throughput/latência/custo de inferência](/pt-br/concepts/ai-ml/inference-tradeoffs.md)
-- [Orquestração multiagente](/pt-br/concepts/ai-ml/multi-agent-orchestration.md)
-- [Feature store](/pt-br/concepts/ai-ml/feature-store.md)
-- [Concept drift](/pt-br/concepts/ai-ml/concept-drift.md)
-- [Data drift](/pt-br/concepts/ai-ml/data-drift.md)
-- [Máquina de vetores de suporte (SVM)](/pt-br/concepts/ai-ml/svm.md)
-- [Rede RBF](/pt-br/concepts/ai-ml/rbf-network.md)
-- [LLM-as-a-judge](/pt-br/concepts/ai-ml/llm-as-a-judge.md) (rascunho)
-- [JEPA](/pt-br/concepts/ai-ml/jepa.md) (rascunho)
-- [Decodificação especulativa](/pt-br/concepts/ai-ml/speculative-decoding.md) (rascunho)
-- [Desagregação prefill-decode](/pt-br/concepts/ai-ml/prefill-decode-disaggregation.md) (rascunho)
-- [RoPE](/pt-br/concepts/ai-ml/rope.md) (rascunho)
-- [Gradiente descendente e retropropagação](/pt-br/concepts/ai-ml/gradient-descent-backpropagation.md) (rascunho)
-- [Regularização e o trade-off viés-variância](/pt-br/concepts/ai-ml/regularization.md) (rascunho)
-- [Tokenização](/pt-br/concepts/ai-ml/tokenization.md) (rascunho)
-- [Fine-tuning (ajuste fino)](/pt-br/concepts/ai-ml/fine-tuning.md) (rascunho)
-- [Engenharia de prompt](/pt-br/concepts/ai-ml/prompt-engineering.md) (rascunho)
-- [Modelos generativos (VAE, GAN, difusão, autorregressivos)](/pt-br/concepts/ai-ml/generative-models.md) (rascunho)
-- [Quantização](/pt-br/concepts/ai-ml/quantization.md) (rascunho)
-- [MLOps e LLMOps](/pt-br/concepts/ai-ml/mlops-llmops.md) (rascunho)
+55 conceitos, agrupados por subdomínio no [índice do tema](/pt-br/concepts/ai-ml/index.md).
 
 ## Notas
 Os resumos deste domínio ficam em [/notes/ai-ml/](/pt-br/notes/ai-ml/index.md).

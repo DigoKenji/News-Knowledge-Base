@@ -4,9 +4,10 @@ title: Balanceamento de carga e contrapressão (backpressure)
 description: O balanceamento de carga distribui as requisições entre muitos servidores; a contrapressão permite que um componente sobrecarregado sinalize para cima que é preciso desacelerar, de modo que a carga excedente seja rejeitada ou adiada cedo em vez de causar colapso.
 tags:
 - backend-systems
+- reliability
 - core
 domain: backend-systems
-subdomain: core
+subdomain: reliability
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +24,17 @@ sources:
   kind: blog
 lang: pt-br
 translation_of: /concepts/backend-systems/load-balancing-backpressure.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Balanceamento de carga e contrapressão (backpressure)
 
 **Definição.** Um balanceador de carga (DNS, proxy de camada 4 ou 7, ou biblioteca no cliente) escolhe um backend para cada requisição usando políticas como round robin, menos conexões ou escolha ponderada, e retira backends doentes usando health checks. Contrapressão é controle de fluxo na direção oposta: um consumidor que não dá conta limita sua fila e faz os produtores esperarem ou receberem um erro (descarte de carga). A especificação Reactive Streams formaliza a contrapressão baseada em demanda para fluxos assíncronos.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `reliability`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

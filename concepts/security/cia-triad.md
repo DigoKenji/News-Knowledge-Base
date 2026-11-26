@@ -4,9 +4,10 @@ title: CIA triad (confidentiality, integrity, availability)
 description: The three core goals of information security - confidentiality (only authorised parties can read information), integrity (information is not altered improperly) and availability (information and systems are usable when needed).
 tags:
 - security
+- security-foundations
 - core
 domain: security
-subdomain: core
+subdomain: security-foundations
 status: stable
 verified:
 - by: Kenji
@@ -37,13 +38,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # CIA triad (confidentiality, integrity, availability)
 
 **Definition.** ISO/IEC 27000 defines information security as the preservation of confidentiality, integrity and availability of information. NIST FIPS 199 uses the same three objectives to rate how severe a loss would be for each information system (low, moderate, high impact). Some frameworks add properties such as authenticity, accountability and non-repudiation.
 
-Domain: [security](/domains/security.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
+Domain: [security](/domains/security.md) · subdomain `security-foundations`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

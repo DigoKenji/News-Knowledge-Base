@@ -4,9 +4,9 @@ title: 'Network security controls (firewalls, segmentation, IDS/IPS)'
 description: 'Controls that restrict and watch traffic between networks and hosts - firewalls that enforce an access policy, segmentation and DMZs that limit what each zone can reach, VPNs that protect traffic in transit, and intrusion detection or prevention systems that spot attacks.'
 tags:
 - security
-- security
+- security-operations
 domain: security
-subdomain: security
+subdomain: security-operations
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest)
@@ -31,13 +31,17 @@ sources:
 - title: 'NIST (2009). SP 800-41 Rev. 1 - Guidelines on Firewalls and Firewall Policy'
   resource: 'https://csrc.nist.gov/pubs/sp/800/41/r1/final'
   kind: standard
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Network security controls (firewalls, segmentation, IDS/IPS)
 
 **Definition.** A firewall sits between networks and enforces an access policy on traffic that crosses it. Stallings and Brown describe the main types: packet-filtering (rules on addresses, ports and protocol), stateful inspection (tracks connections), application-level and circuit-level gateways (proxies), plus host-based and personal firewalls; and where to place them, including a DMZ for public-facing servers between an external and an internal firewall. Segmentation splits a network into zones (VLANs, subnets, cloud security groups) so a compromise in one zone does not reach everything. An intrusion detection system (IDS) watches host or network activity using signature (misuse) or anomaly detection and raises alerts; an intrusion prevention system (IPS) sits inline and can block. Davies's networking basics (OSI and TCP/IP layers, VLANs, VPNs, DMZ) are the vocabulary these controls are written in.
 
-Domain: [security](/domains/security.md) · subdomain `security`. New concept from the MBA library (books added to FIAP-MBA/Materiais/Referencias, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [security](/domains/security.md) · subdomain `security-operations`. New concept from the MBA library (books added to FIAP-MBA/Materiais/Referencias, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

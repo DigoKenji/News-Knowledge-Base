@@ -4,9 +4,10 @@ title: Latency, throughput and tail latency
 description: Latency is how long one request takes; throughput is how many requests a system completes per unit of time; tail latency is the slow end of the latency distribution (p99, p99.9), which users of large systems hit far more often than averages suggest.
 tags:
 - backend-systems
+- performance
 - core
 domain: backend-systems
-subdomain: core
+subdomain: performance
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: Kleppmann, M. (2017). Designing Data-Intensive Applications, ch. 1 "Describing Performance"
   resource: 'https://dataintensive.net/'
   kind: book
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Latency, throughput and tail latency
 
 **Definition.** Latency is the time between sending a request and receiving its response; throughput is the rate of completed work (requests per second, tokens per second). Because latency varies, it is described by percentiles: p50 is the median, p99 is the value 99% of requests beat. Dean and Barroso showed that when one user request fans out to many servers, the slowest server decides the response time, so rare slowness becomes common at scale.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `performance`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

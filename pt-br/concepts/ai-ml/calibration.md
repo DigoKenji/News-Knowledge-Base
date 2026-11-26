@@ -4,9 +4,9 @@ title: Calibração
 description: Quão bem a confiança declarada de um modelo corresponde à sua precisão real - de todas as respostas dadas com 80% de confiança, um modelo calibrado acerta cerca de 80% das vezes.
 tags:
 - ai-ml
-- mlops
+- evaluation
 domain: ai-ml
-subdomain: mlops
+subdomain: evaluation
 status: stable
 verified:
 - by: Kenji
@@ -29,13 +29,17 @@ sources:
   kind: docs
 lang: pt-br
 translation_of: /concepts/ai-ml/calibration.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Calibração
 
 **Definição.** Um modelo é calibrado quando suas probabilidades previstas podem ser lidas como frequências reais. Calibração é diferente de precisão: um modelo pode ser muito preciso e ainda assim confiante demais, ou fraco mas honesto sobre sua incerteza.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `mlops`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `evaluation`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

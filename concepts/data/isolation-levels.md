@@ -4,9 +4,10 @@ title: 'Transaction isolation levels'
 description: 'How far a database shields concurrent transactions from each other - from read committed and snapshot isolation to full serializability - each level preventing more anomalies (dirty reads, lost updates, write skew) at a higher cost.'
 tags:
 - data
+- databases
 - core
 domain: data
-subdomain: core
+subdomain: databases
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest, DDIA)
@@ -22,13 +23,17 @@ sources:
 - title: 'PostgreSQL Global Development Group. PostgreSQL Documentation - Transaction Isolation'
   resource: 'https://www.postgresql.org/docs/current/transaction-iso.html'
   kind: docs
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Transaction isolation levels
 
 **Definition.** Isolation is the I in ACID: ideally each transaction behaves as if it ran alone (serializability). Because that is expensive, databases offer weaker levels. Kleppmann walks through them by the anomalies they allow: read committed prevents dirty reads and dirty writes; snapshot isolation (often called repeatable read) gives each transaction a consistent snapshot, usually via multi-version concurrency control, but still allows lost updates and write skew; serializability prevents all races and is implemented by actual serial execution, two-phase locking, or serializable snapshot isolation (SSI). He stresses that level names are used inconsistently across databases, so you must check what yours actually guarantees.
 
-Domain: [data](/domains/data.md) · subdomain `core`. New concept from the MBA library (books added to FIAP-MBA/Materiais/Referencias, 2026-11-26); draft waiting for Kenji to certify.
+Domain: [data](/domains/data.md) · subdomain `databases`. New concept from the MBA library (books added to FIAP-MBA/Materiais/Referencias, 2026-11-26); draft waiting for Kenji to certify.
 
 ## How it fits
 

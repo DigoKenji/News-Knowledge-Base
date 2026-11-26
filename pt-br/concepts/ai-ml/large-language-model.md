@@ -4,9 +4,10 @@ title: Grande modelo de linguagem (LLM) e modelo de fundação
 description: Um modelo transformer com bilhões de parâmetros, pré-treinado em enormes quantidades de texto para prever o próximo token e depois ajustado para seguir instruções; modelo de fundação é a categoria mais ampla de grandes modelos pré-treinados adaptados a muitas tarefas.
 tags:
 - ai-ml
+- llm-engineering
 - core
 domain: ai-ml
-subdomain: core
+subdomain: llm-engineering
 status: stable
 verified:
 - by: Kenji
@@ -38,13 +39,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Grande modelo de linguagem (LLM) e modelo de fundação
 
 **Definição.** Um LLM aprende linguagem, fatos e padrões de raciocínio como subproduto de prever o próximo token em trilhões de tokens (pré-treino auto-supervisionado). O pós-treino (fine-tuning supervisionado com instruções, RLHF e similares) o transforma num assistente. O CRFM de Stanford cunhou "foundation model" (2021) para modelos treinados em dados amplos e em escala que podem ser adaptados a muitas tarefas; os LLMs são o principal exemplo, e muitos já são multimodais.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `llm-engineering`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

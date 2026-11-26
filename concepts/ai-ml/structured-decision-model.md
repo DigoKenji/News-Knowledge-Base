@@ -27,6 +27,10 @@ sources:
 - title: Anthropic. Structured outputs (Claude API docs)
   resource: 'https://platform.claude.com/docs/en/build-with-claude/structured-outputs'
   kind: docs
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Structured decision model

@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: Inference throughput/latency/cost
-description: Inference throughput/latency/cost (llm-engineering).
+description: 'The balance between latency, throughput and cost when serving a model - batch size, hardware, quantisation and caching move one at the expense of the others.'
 tags:
 - ai-ml
 - llm-engineering
@@ -20,6 +20,9 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; short definition added'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy; real description'
 ---
 
 # Inference throughput/latency/cost

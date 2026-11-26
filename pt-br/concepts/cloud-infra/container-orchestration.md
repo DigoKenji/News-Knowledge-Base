@@ -4,9 +4,10 @@ title: Orquestração de contêineres (Kubernetes)
 description: Automatizar a implantação, escala, rede e recuperação de contêineres em um cluster de máquinas; o Kubernetes é o orquestrador de código aberto dominante, no qual você declara o estado desejado e controladores mantêm a realidade igual a ele.
 tags:
 - cloud-infra
+- containers
 - core
 domain: cloud-infra
-subdomain: core
+subdomain: containers
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +24,17 @@ sources:
   kind: paper
 lang: pt-br
 translation_of: /concepts/cloud-infra/container-orchestration.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Orquestração de contêineres (Kubernetes)
 
 **Definição.** Um orquestrador agenda contêineres nas máquinas, reinicia-os quando falham, ajusta o número de réplicas, dá-lhes nomes de rede estáveis e balanceamento de carga, e implanta novas versões. O Kubernetes, descendente do Borg e do Omega do Google, é declarativo: os usuários enviam objetos (Deployments, Services) que descrevem o estado desejado a um servidor de API apoiado no etcd, e laços de controle reconciliam continuamente o estado real em direção a ele.
 
-Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `containers`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 
@@ -41,8 +46,8 @@ Uma equipe declara "rodar 6 réplicas de api:v2" num Deployment. Quando um nó m
 
 ## Conceitos mais específicos
 
-- [Plano de controle](/pt-br/concepts/backend-systems/control-plane.md)
-- [Deploy canary / blue-green](/pt-br/concepts/cloud-infra/canary-deploy.md)
+- [Plano de controle](/pt-br/concepts/cloud-infra/control-plane.md)
+- [Deploy canary / blue-green](/pt-br/concepts/software-engineering/canary-deploy.md)
 - [Infraestrutura como código](/pt-br/concepts/cloud-infra/infrastructure-as-code.md)
 
 ## Fontes

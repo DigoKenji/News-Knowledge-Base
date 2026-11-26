@@ -4,9 +4,10 @@ title: Transação e ACID
 description: Uma transação agrupa várias leituras e escritas em uma unidade que acontece por inteiro ou não acontece; ACID nomeia suas garantias - atomicidade, consistência, isolamento e durabilidade.
 tags:
 - data
+- databases
 - core
 domain: data
-subdomain: core
+subdomain: databases
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -31,13 +32,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Transação e ACID
 
 **Definição.** Härder e Reuter cunharam ACID em 1983. Atomicidade: todas as mudanças de uma transação são aplicadas ou nenhuma é. Consistência: a transação leva o banco de um estado válido a outro (os invariantes se mantêm). Isolamento: transações concorrentes não veem o trabalho parcial umas das outras; o nível mais forte é a serializabilidade, e níveis mais fracos (read committed, snapshot isolation) permitem anomalias específicas. Durabilidade: depois de confirmadas, as mudanças sobrevivem a quedas, tipicamente via log de escrita antecipada.
 
-Domínio: [data](/pt-br/domains/data.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [data](/pt-br/domains/data.md) · subdomínio `databases`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

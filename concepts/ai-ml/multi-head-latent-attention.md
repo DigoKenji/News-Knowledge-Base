@@ -4,7 +4,9 @@ title: Multi-head latent attention
 description: An attention variant introduced in DeepSeek-V2 that compresses each token's keys and values into one small shared latent vector, shrinking the KV cache several-fold while keeping quality close to standard multi-head attention.
 tags:
 - ai-ml
+- deep-learning
 domain: ai-ml
+subdomain: deep-learning
 status: stable
 verified:
 - by: Kenji
@@ -28,6 +30,10 @@ sources:
 - title: 'Meng, F. et al. (2025). TransMLA - Multi-Head Latent Attention Is All You Need. arXiv:2502.07864'
   resource: 'https://arxiv.org/abs/2502.07864'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Multi-head latent attention

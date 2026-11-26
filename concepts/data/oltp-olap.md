@@ -4,9 +4,10 @@ title: OLTP vs OLAP
 description: OLTP (online transaction processing) serves many small, fast reads and writes for running the business; OLAP (online analytical processing) serves fewer, large queries that scan and aggregate history to analyse it.
 tags:
 - data
+- databases
 - core
 domain: data
-subdomain: core
+subdomain: databases
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: Abadi, D. J., Madden, S. R. and Hachem, N. (2008). Column-Stores vs. Row-Stores - How Different Are They Really? SIGMOD 2008
   resource: 'https://doi.org/10.1145/1376616.1376712'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # OLTP vs OLAP
 
 **Definition.** OLTP workloads touch a few rows per request by key, need low latency and strong transactional guarantees, and are usually stored row by row. OLAP workloads read millions of rows but few columns, aggregate them (sums, counts, group-by), tolerate seconds of latency and are best served by column-oriented storage and star or snowflake schemas. Codd introduced the term OLAP in 1993; Kimball's dimensional modelling is the classic way to design for it.
 
-Domain: [data](/domains/data.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [data](/domains/data.md) · subdomain `databases`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

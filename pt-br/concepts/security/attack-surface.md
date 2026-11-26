@@ -4,9 +4,10 @@ title: Superfície de ataque
 description: A soma de todos os pontos em que um atacante poderia tentar entrar, extrair dados ou afetar um sistema - interfaces, entradas, serviços, dependências, pessoas - por isso reduzi-la é uma das medidas de segurança mais eficazes.
 tags:
 - security
+- security-foundations
 - core
 domain: security
-subdomain: core
+subdomain: security-foundations
 status: stable
 verified:
 - by: Kenji
@@ -38,13 +39,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Superfície de ataque
 
 **Definição.** Manadhata e Wing formalizaram a superfície de ataque de um sistema como o conjunto de pontos de entrada e saída, canais e itens de dados não confiáveis que um atacante pode usar. O NIST a define como o conjunto de pontos na fronteira de um sistema em que um atacante pode tentar entrar, causar um efeito ou extrair dados. Superfícies maiores significam mais lugares a defender.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `security-foundations`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

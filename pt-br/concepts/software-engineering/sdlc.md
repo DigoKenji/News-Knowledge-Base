@@ -4,9 +4,10 @@ title: Ciclo de vida de desenvolvimento de software (SDLC)
 description: A sequência de atividades que leva o software da ideia à aposentadoria - requisitos, projeto, implementação, testes, implantação, operação e manutenção - e o modelo de processo (cascata, iterativo, ágil) que as organiza.
 tags:
 - software-engineering
+- process
 - core
 domain: software-engineering
-subdomain: core
+subdomain: process
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -24,13 +25,17 @@ sources:
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/software-engineering/sdlc.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Ciclo de vida de desenvolvimento de software (SDLC)
 
 **Definição.** A ISO/IEC/IEEE 12207 define os processos de ciclo de vida de software que uma organização pode usar, da aquisição e requisitos ao desenvolvimento, operação, manutenção e descarte. Um modelo de ciclo de vida escolhe como essas atividades são sequenciadas: a cascata as executa uma vez em ordem, modelos iterativos e em espiral as repetem em ciclos com checagens de risco, e métodos ágeis as executam em incrementos curtos.
 
-Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `process`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

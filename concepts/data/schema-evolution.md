@@ -7,6 +7,8 @@ tags:
 - data-engineering
 domain: data
 subdomain: data-engineering
+also_in:
+- backend-systems/api-design
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest, DDIA)
@@ -22,6 +24,10 @@ sources:
 - title: 'Apache Software Foundation. Apache Avro Specification - Schema Resolution'
   resource: 'https://avro.apache.org/docs/1.11.1/specification/#schema-resolution'
   kind: docs
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Schema evolution and data compatibility

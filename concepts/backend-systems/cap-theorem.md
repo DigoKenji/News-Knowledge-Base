@@ -1,12 +1,12 @@
 ---
 type: Concept
 title: CAP theorem
-description: CAP theorem (system-design).
+description: 'The result that a replicated data store cannot be both linearizably consistent and fully available while the network is partitioned - it must choose one during a partition.'
 tags:
 - backend-systems
-- system-design
+- distributed-systems
 domain: backend-systems
-subdomain: system-design
+subdomain: distributed-systems
 status: stable
 generated:
   by: claude (seed from Notion tree)
@@ -20,11 +20,14 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy; real description'
 ---
 
 # CAP theorem
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `distributed-systems`.
 
 ## From the MBA library
 

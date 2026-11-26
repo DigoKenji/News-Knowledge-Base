@@ -4,7 +4,11 @@ title: Captura de alterações de dados (CDC)
 description: Capturar cada inserção, atualização e exclusão confirmada num banco de dados - geralmente lendo seu log de transações - e publicá-las como um fluxo ordenado de eventos de mudança para outros sistemas consumirem.
 tags:
 - data
+- data-engineering
 domain: data
+subdomain: data-engineering
+also_in:
+- backend-systems/messaging-and-workflows
 status: stable
 verified:
 - by: Kenji
@@ -27,6 +31,10 @@ sources:
   kind: docs
 lang: pt-br
 translation_of: /concepts/data/change-data-capture.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Captura de alterações de dados (CDC)

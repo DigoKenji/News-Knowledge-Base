@@ -4,9 +4,10 @@ title: Scalability (vertical and horizontal)
 description: A system's ability to handle growing load by adding resources - either a bigger machine (vertical, scale up) or more machines (horizontal, scale out) - while keeping performance acceptable and cost proportionate.
 tags:
 - backend-systems
+- performance
 - core
 domain: backend-systems
-subdomain: core
+subdomain: performance
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: Amazon Web Services. Reliability Pillar - AWS Well-Architected Framework ("Use horizontal scaling")
   resource: 'https://docs.aws.amazon.com/wellarchitected/latest/framework/reliability.html'
   kind: docs
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Scalability (vertical and horizontal)
 
 **Definition.** Bondi characterises scalability as the ability of a system to accommodate an increasing number of elements or load, process growing volumes of work gracefully, and be susceptible to enlargement. Vertical scaling adds CPU, memory or disk to one machine; horizontal scaling adds machines and splits work among them, which requires stateless services or partitioned data.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `performance`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

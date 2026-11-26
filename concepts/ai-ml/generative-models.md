@@ -33,6 +33,10 @@ sources:
 - title: 'Ho, J., Jain, A. and Abbeel, P. (2020). Denoising Diffusion Probabilistic Models. NeurIPS 2020'
   resource: 'https://arxiv.org/abs/2006.11239'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Generative models (VAE, GAN, diffusion, autoregressive)

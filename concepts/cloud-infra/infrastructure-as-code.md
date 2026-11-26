@@ -4,9 +4,12 @@ title: Infrastructure as code
 description: Defining servers, networks, databases and other infrastructure in version-controlled files that tools apply automatically, instead of clicking in consoles - so environments are reproducible, reviewable and repeatable.
 tags:
 - cloud-infra
+- infrastructure-automation
 - core
 domain: cloud-infra
-subdomain: core
+subdomain: infrastructure-automation
+also_in:
+- software-engineering/delivery
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +24,24 @@ sources:
 - title: Amazon Web Services. Introduction to DevOps on AWS - Infrastructure as code (whitepaper)
   resource: 'https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/infrastructure-as-code.html'
   kind: docs
+- title: 'Hohpe, G. (2020). The Software Architect Elevator: Redefining the Architect''s Role in the Digital Enterprise. O''Reilly'
+  resource: 'https://books.google.com/books?vid=ISBN9781492077541'
+  kind: book
+  locator: 'ch. 13 Never Send a Human to Do a Machine''s Job; ch. 14 If Software Eats the World, Better Use Version Control!'
+updated:
+- by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
+  at: '2026-11-26T20:30:00-03:00'
+  change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Infrastructure as code
 
 **Definition.** Morris defines infrastructure as code as an approach to automating infrastructure based on practices from software development: definitions in code, version control, testing and continuous delivery. Tools are declarative (Terraform, CloudFormation, Kubernetes manifests: describe the end state and the tool computes the changes) or imperative (scripts that list steps). Terraform's plan-then-apply cycle shows the exact changes before they are made.
 
-Domain: [cloud-infra](/domains/cloud-infra.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [cloud-infra](/domains/cloud-infra.md) · subdomain `infrastructure-automation`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 
@@ -39,14 +53,21 @@ A pull request adds a new database replica in a Terraform file. CI runs terrafor
 
 ## Narrower concepts
 
-- [Control plane](/concepts/backend-systems/control-plane.md)
+- [Control plane](/concepts/cloud-infra/control-plane.md)
 - [Well-Architected Framework](/concepts/cloud-infra/well-architected.md)
+
+## From the MBA library
+
+Books added to FIAP-MBA/Materiais/Referencias (Architect Elevator added 2026-11-26). Summaries with locators; nothing copied beyond short phrases.
+
+- **Hohpe, G. (2020)**, *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*, ch. 13 Never Send a Human to Do a Machine's Job; ch. 14 If Software Eats the World, Better Use Version Control!: Automate everything and make the rest self-service; once infrastructure is software-defined, it needs version control, testing and a software delivery life cycle.
 
 ## Sources
 
 1. Morris, K. (2020). *Infrastructure as Code - Dynamic Systems for the Cloud Age*, 2nd edition. O'Reilly. <https://infrastructure-as-code.com/book/> — Definition and core practices of infrastructure as code.
 2. HashiCorp. *What is Terraform?* (Terraform documentation). <https://developer.hashicorp.com/terraform/intro> — Declarative configuration and the plan/apply workflow.
 3. Amazon Web Services. *Introduction to DevOps on AWS - Infrastructure as code* (whitepaper). <https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/infrastructure-as-code.html> — IaC as a DevOps practice from a provider's perspective.
+4. Hohpe, G. (2020). *The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise*. O'Reilly. <https://books.google.com/books?vid=ISBN9781492077541> — ch. 13 Never Send a Human to Do a Machine's Job; ch. 14 If Software Eats the World, Better Use Version Control!. Automate everything and make the rest self-service; once infrastructure is software-defined, it needs version control, testing and a software delivery life cycle.
 
 ## Relations
 - (none yet)

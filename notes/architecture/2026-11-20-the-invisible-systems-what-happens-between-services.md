@@ -5,7 +5,7 @@ description: Service calls hide real costs, so healthy services can still produc
 resource: https://blog.bytebytego.com/p/the-invisible-systems-what-happens
 tags:
 - architecture
-- integration-and-software-architecture
+- software-architecture
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-20T07:00:00-03:00'
@@ -19,7 +19,7 @@ source: ByteByteGo
 source_type: blog
 published: '2026-11-19'
 domain: architecture
-subdomain: integration-and-software-architecture
+subdomain: software-architecture
 concepts: []
 selected_by: discovery
 content: open

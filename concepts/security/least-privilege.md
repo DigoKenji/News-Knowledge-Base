@@ -4,9 +4,10 @@ title: Least privilege and defense in depth
 description: Two basic design principles - give every user, service and program only the access it needs for its task (least privilege), and protect assets with several independent layers of controls so one failure does not expose everything (defense in depth).
 tags:
 - security
+- security-foundations
 - core
 domain: security
-subdomain: core
+subdomain: security-foundations
 status: stable
 verified:
 - by: Kenji
@@ -41,13 +42,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Least privilege and defense in depth
 
 **Definition.** Saltzer and Schroeder (1975) listed least privilege among their design principles for protection: every program and user should operate with the least set of privileges necessary to complete the job. NIST SP 800-53 turns it into control AC-6. Defense in depth, a term from military strategy, means layering people, technology and operations controls so an attacker must defeat several of them.
 
-Domain: [security](/domains/security.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
+Domain: [security](/domains/security.md) · subdomain `security-foundations`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

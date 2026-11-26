@@ -4,9 +4,10 @@ title: Microservices
 description: An architectural style that builds an application as a suite of small, independently deployable services, each owning its data and a business capability, communicating over the network.
 tags:
 - architecture
+- software-architecture
 - core
 domain: architecture
-subdomain: core
+subdomain: software-architecture
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: Newman, S. (2021). Building Microservices, 2nd ed. O'Reilly
   resource: 'https://samnewman.io/books/building_microservices_2nd_edition/'
   kind: book
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Microservices
 
 **Definition.** Lewis and Fowler (2014) describe microservices as an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, built around business capabilities and independently deployable by fully automated machinery. Each service owns its database ("decentralised data management").
 
-Domain: [architecture](/domains/architecture.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [architecture](/domains/architecture.md) · subdomain `software-architecture`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 
@@ -40,9 +45,9 @@ An online store splits into catalog, cart, payment and shipping services; the pa
 ## Narrower concepts
 
 - [Saga pattern](/concepts/backend-systems/saga-pattern.md)
-- [Bounded context](/concepts/backend-systems/bounded-context.md)
+- [Bounded context](/concepts/architecture/bounded-context.md)
 - [API versioning](/concepts/backend-systems/api-versioning.md)
-- [Strangler fig migration](/concepts/backend-systems/strangler-fig.md)
+- [Strangler fig migration](/concepts/architecture/strangler-fig.md)
 
 ## Sources
 

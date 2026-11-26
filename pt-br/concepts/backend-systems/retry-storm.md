@@ -4,9 +4,9 @@ title: Tempestade de retentativas
 description: Uma enxurrada de requisições repetidas que atinge de uma vez uma dependência em dificuldade - muitas vezes multiplicada entre camadas - adicionando carga justamente quando ela menos aguenta e mantendo-a sobrecarregada depois que o problema original passou.
 tags:
 - backend-systems
-- system-design
+- reliability
 domain: backend-systems
-subdomain: system-design
+subdomain: reliability
 status: stable
 verified:
 - by: Kenji
@@ -32,13 +32,17 @@ sources:
   kind: paper
 lang: pt-br
 translation_of: /concepts/backend-systems/retry-storm.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Tempestade de retentativas
 
 **Definição.** Um retry storm acontece quando muitos clientes respondem a erros ou timeouts repetindo a chamada, então o serviço com problema recebe um múltiplo do tráfego normal. Retentativas em várias camadas se multiplicam: se cada uma de 3 camadas tenta 3 vezes, uma ação do usuário pode virar 27 chamadas ao serviço do fundo.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `reliability`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

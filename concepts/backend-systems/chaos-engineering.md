@@ -4,9 +4,11 @@ title: Chaos engineering
 description: The practice of running controlled experiments that inject real faults into a system (often in production) to test a hypothesis about how it keeps working, so weaknesses are found before they cause outages.
 tags:
 - backend-systems
-- system-design
+- reliability
 domain: backend-systems
-subdomain: system-design
+subdomain: reliability
+also_in:
+- software-engineering/testing
 status: stable
 verified:
 - by: Kenji
@@ -27,13 +29,17 @@ sources:
 - title: AWS. What is AWS Fault Injection Service?
   resource: 'https://docs.aws.amazon.com/fis/latest/userguide/what-is.html'
   kind: docs
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Chaos engineering
 
 **Definition.** Chaos engineering is "the discipline of experimenting on a system in order to build confidence in the system's capability to withstand turbulent conditions in production" (Principles of Chaos). It is an experiment, not random breakage: you define normal behaviour, predict it will hold under a fault, inject the fault with a limited blast radius and check whether you were right.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `reliability`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

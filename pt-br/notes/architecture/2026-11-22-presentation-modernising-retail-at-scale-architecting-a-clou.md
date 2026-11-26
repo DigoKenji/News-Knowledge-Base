@@ -254,4 +254,4 @@ Sua interpretação, não a do autor: isso importa para qualquer arquiteto corpo
 ## Conceitos
 - [Agente de IA](/pt-br/concepts/ai-ml/ai-agent.md)
 - [Model Context Protocol (MCP)](/pt-br/concepts/ai-ml/model-context-protocol.md)
-- [Bounded context](/pt-br/concepts/backend-systems/bounded-context.md)
+- [Bounded context](/pt-br/concepts/architecture/bounded-context.md)

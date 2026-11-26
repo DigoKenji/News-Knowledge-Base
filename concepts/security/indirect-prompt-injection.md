@@ -4,9 +4,11 @@ title: Indirect prompt injection
 description: An attack in which instructions hidden in content an AI system reads - a web page, email, document, tool result or code comment - are treated by the model as commands, letting a third party who never talks to the system steer what it does.
 tags:
 - security
-- appsec
+- ai-security
 domain: security
-subdomain: appsec
+subdomain: ai-security
+also_in:
+- ai-ml/ai-agents
 status: stable
 verified:
 - by: Kenji
@@ -38,13 +40,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Indirect prompt injection
 
 **Definition.** Direct prompt injection is the user typing malicious instructions. Indirect prompt injection, named by Greshake et al. (2023), plants them in data the model will process later. Because LLMs receive instructions and data in the same token stream and cannot reliably tell them apart, retrieved text can override the developer's and user's intent.
 
-Domain: [security](/domains/security.md) · subdomain `appsec`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [security](/domains/security.md) · subdomain `ai-security`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

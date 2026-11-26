@@ -4,7 +4,9 @@ title: Mistura de especialistas
 description: Uma camada de rede neural feita de muitas sub-redes especialistas mais um roteador que ativa só alguns especialistas por token, de modo que o total de parâmetros cresce sem um crescimento equivalente do cálculo por token.
 tags:
 - ai-ml
+- deep-learning
 domain: ai-ml
+subdomain: deep-learning
 status: stable
 verified:
 - by: Kenji
@@ -30,6 +32,10 @@ sources:
   kind: paper
 lang: pt-br
 translation_of: /concepts/ai-ml/mixture-of-experts.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Mistura de especialistas

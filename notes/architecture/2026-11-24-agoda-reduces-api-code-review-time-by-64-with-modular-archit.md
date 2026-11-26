@@ -6,7 +6,7 @@ description: Agoda's modular-monolith framework enforces domain boundaries with 
 resource: https://www.infoq.com/news/2026/11/agoda-modular-monolith-framework
 tags:
 - architecture
-- integration-and-software-architecture
+- software-architecture
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-24T07:00:00-03:00'
@@ -20,7 +20,7 @@ source: InfoQ
 source_type: blog
 published: '2026-11-23'
 domain: architecture
-subdomain: integration-and-software-architecture
+subdomain: software-architecture
 concepts:
 - bounded-context
 - modular-monolith
@@ -177,5 +177,5 @@ This is a useful case for an architect who has inherited a tangled service and c
 - Data Mapper pattern — the persistence pattern used to keep storage models out of business logic.
 
 ## 🔗 Concepts
-- [bounded-context](/concepts/backend-systems/bounded-context.md)
+- [bounded-context](/concepts/architecture/bounded-context.md)
 - [Modular monolith](/concepts/architecture/modular-monolith.md)

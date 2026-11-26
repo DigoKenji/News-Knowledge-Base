@@ -4,9 +4,10 @@ title: Transaction and ACID
 description: A transaction groups several reads and writes into one unit that either fully happens or not at all; ACID names its guarantees - atomicity, consistency, isolation and durability.
 tags:
 - data
+- databases
 - core
 domain: data
-subdomain: core
+subdomain: databases
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -29,13 +30,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Transaction and ACID
 
 **Definition.** Härder and Reuter coined ACID in 1983. Atomicity: all of a transaction's changes are applied or none are. Consistency: a transaction moves the database from one valid state to another (invariants hold). Isolation: concurrent transactions do not see each other's partial work; the strongest level is serializability, and weaker levels (read committed, snapshot isolation) allow specific anomalies. Durability: once committed, changes survive crashes, typically via a write-ahead log.
 
-Domain: [data](/domains/data.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [data](/domains/data.md) · subdomain `databases`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

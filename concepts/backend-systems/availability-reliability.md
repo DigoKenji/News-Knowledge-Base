@@ -4,9 +4,10 @@ title: Availability and reliability
 description: Reliability is a system's ability to perform its required function without failure over time; availability is the fraction of time it is ready to be used when needed, often written as "nines" (99.9% = about 8.8 hours down a year).
 tags:
 - backend-systems
+- reliability
 - core
 domain: backend-systems
-subdomain: core
+subdomain: reliability
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -30,13 +31,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Availability and reliability
 
 **Definition.** ISO/IEC 25010 lists reliability as a quality characteristic with sub-characteristics including availability, fault tolerance and recoverability; the IEC 60050-192 dependability vocabulary defines availability as the ability to be in a state to perform as required. Avizienis et al. place both inside dependability, alongside safety, integrity and maintainability. In operations, availability is often measured as successful requests divided by total requests.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `reliability`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

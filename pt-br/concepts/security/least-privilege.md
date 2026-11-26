@@ -4,9 +4,10 @@ title: Privilégio mínimo e defesa em profundidade
 description: Dois princípios básicos de projeto - dar a cada usuário, serviço e programa só o acesso de que precisa para sua tarefa (privilégio mínimo), e proteger ativos com várias camadas independentes de controles para que uma falha não exponha tudo (defesa em profundidade).
 tags:
 - security
+- security-foundations
 - core
 domain: security
-subdomain: core
+subdomain: security-foundations
 status: stable
 verified:
 - by: Kenji
@@ -43,13 +44,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Privilégio mínimo e defesa em profundidade
 
 **Definição.** Saltzer e Schroeder (1975) incluíram o privilégio mínimo entre seus princípios de projeto para proteção: todo programa e usuário deve operar com o menor conjunto de privilégios necessário para fazer o trabalho. O NIST SP 800-53 o transforma no controle AC-6. Defesa em profundidade, termo da estratégia militar, significa sobrepor controles de pessoas, tecnologia e operações para que um atacante precise vencer vários deles.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `security-foundations`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

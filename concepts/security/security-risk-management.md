@@ -4,9 +4,9 @@ title: 'Security risk management and business impact analysis'
 description: 'The continuous cycle of identifying assets, threats and vulnerabilities, assessing likelihood and impact (including a business impact analysis of critical processes), choosing a treatment - mitigate, transfer, avoid or accept - and monitoring the result.'
 tags:
 - security
-- security
+- governance-risk
 domain: security
-subdomain: security
+subdomain: governance-risk
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest)
@@ -30,13 +30,17 @@ sources:
 - title: 'NIST (2010). SP 800-34 Rev. 1 - Contingency Planning Guide for Federal Information Systems'
   resource: 'https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final'
   kind: standard
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Security risk management and business impact analysis
 
 **Definition.** Stallings and Brown present IT security management as a cycle: set the organisational context and policy, assess risk, select and implement controls, then monitor (ch. 14-15). Risk assessment can be baseline, informal, detailed or combined; a detailed analysis identifies assets, threats and vulnerabilities, estimates likelihood and consequence, and records the resulting risk level in a risk register. Each risk then gets a response: accept, avoid, mitigate (reduce with controls) or share/transfer (for example insurance). A business impact analysis (BIA) asks how the loss of each business process would hurt the organisation over time, and sets recovery targets such as RTO (how fast) and RPO (how much data can be lost) (Gibson, ch. 9). The FIAP risk handout adds the audit view: controls must be effective and cost-justified, gaps are found by gap analysis, and the ISMS improves through plan-do-check-act.
 
-Domain: [security](/domains/security.md) · subdomain `security`. New concept from the MBA library (books added to FIAP-MBA/Materiais/Referencias, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [security](/domains/security.md) · subdomain `governance-risk`. New concept from the MBA library (books added to FIAP-MBA/Materiais/Referencias, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

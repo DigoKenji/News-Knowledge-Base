@@ -5,7 +5,7 @@ description: O framework de modular monolith da Agoda impõe limites de domínio
 resource: https://www.infoq.com/news/2026/11/agoda-modular-monolith-framework
 tags:
 - architecture
-- integration-and-software-architecture
+- software-architecture
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-24T07:00:00-03:00'
@@ -19,7 +19,7 @@ source: InfoQ
 source_type: blog
 published: '2026-11-23'
 domain: architecture
-subdomain: integration-and-software-architecture
+subdomain: software-architecture
 concepts:
 - bounded-context
 - modular-monolith
@@ -182,5 +182,5 @@ Este é um caso útil para um arquiteto que herdou um serviço emaranhado e não
 - Padrão Data Mapper — o padrão de persistência usado para manter modelos de armazenamento fora da lógica de negócio.
 
 ## 🔗 Conceitos
-- [bounded-context](/pt-br/concepts/backend-systems/bounded-context.md)
+- [bounded-context](/pt-br/concepts/architecture/bounded-context.md)
 - [Modular monolith](/pt-br/concepts/architecture/modular-monolith.md)

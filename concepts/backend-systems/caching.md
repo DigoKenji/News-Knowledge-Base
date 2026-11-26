@@ -4,9 +4,10 @@ title: Caching
 description: Keeping a copy of data in a faster or closer store so repeated reads avoid the slow original source - trading memory and the risk of serving stale data for lower latency and less load.
 tags:
 - backend-systems
+- performance
 - core
 domain: backend-systems
-subdomain: core
+subdomain: performance
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: Hennessy, J. L. and Patterson, D. A. (2017). Computer Architecture - A Quantitative Approach, 6th edition, ch. 2 "Memory Hierarchy Design"
   resource: 'https://shop.elsevier.com/books/computer-architecture/hennessy/978-0-12-811905-1'
   kind: book
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Caching
 
 **Definition.** A cache stores the results of earlier reads or computations so later requests can be served from it. It works because access patterns show locality: recently or frequently used data is likely to be used again. Key design choices are what to cache, where (CPU, process memory, a shared cache such as Redis or memcached, a CDN, the browser), how to evict (LRU, LFU, TTL) and how to keep it fresh (expiry, invalidation, write-through or write-back). HTTP caching is standardised in RFC 9111.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `performance`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

@@ -4,9 +4,9 @@ title: Position bias
 description: A systematic tendency of a model, especially when acting as a judge or ranker, to favour an option because of where it appears (first, last, or in a given slot) rather than because of its content.
 tags:
 - ai-ml
-- mlops
+- evaluation
 domain: ai-ml
-subdomain: mlops
+subdomain: evaluation
 status: stable
 verified:
 - by: Kenji
@@ -27,13 +27,17 @@ sources:
 - title: 'Shi, L. et al. (2024). Judging the Judges - A Systematic Study of Position Bias in LLM-as-a-Judge. arXiv:2406.07791'
   resource: 'https://arxiv.org/abs/2406.07791'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Position bias
 
 **Definition.** Position bias is present when swapping the order of the candidates changes the verdict. In LLM-as-a-judge pairwise comparisons it shows up as a preference for answer A or B regardless of quality; in multiple choice, as a preference for certain letters; in long contexts, as better use of information at the start and end than in the middle.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `mlops`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `evaluation`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

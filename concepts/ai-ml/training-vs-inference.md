@@ -4,9 +4,10 @@ title: Training vs inference
 description: The two phases of a model's life - training, where its parameters are learned from data (slow, expensive, done once or occasionally), and inference, where the trained model is used to produce outputs for new inputs (done for every request).
 tags:
 - ai-ml
+- ml-fundamentals
 - core
 domain: ai-ml
-subdomain: core
+subdomain: ml-fundamentals
 status: stable
 verified:
 - by: Kenji
@@ -36,13 +37,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Training vs inference
 
 **Definition.** Training runs data forward through the model, measures the error and updates the weights backwards (backpropagation), over many passes. Inference only runs the forward pass with fixed weights. For LLMs, training splits further into pre-training (self-supervised, on huge corpora) and post-training (fine-tuning, RLHF); inference splits into prefill (reading the prompt) and decode (generating tokens).
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `ml-fundamentals`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

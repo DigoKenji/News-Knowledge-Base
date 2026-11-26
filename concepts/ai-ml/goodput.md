@@ -27,6 +27,10 @@ sources:
 - title: Google Cloud (2024). Goodput metric as measure of ML productivity
   resource: 'https://cloud.google.com/blog/products/ai-machine-learning/goodput-metric-as-measure-of-ml-productivity'
   kind: practitioner
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Goodput

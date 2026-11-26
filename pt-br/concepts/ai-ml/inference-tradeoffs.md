@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: Throughput/latência/custo de inferência
-description: Throughput/latência/custo de inferência (llm-engineering).
+description: 'O equilíbrio entre latência, vazão e custo ao servir um modelo - tamanho de lote, hardware, quantização e cache melhoram um à custa dos outros.'
 tags:
 - ai-ml
 - llm-engineering
@@ -22,6 +22,9 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição curta acrescentada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio; descrição real'
 ---
 
 # Throughput/latência/custo de inferência

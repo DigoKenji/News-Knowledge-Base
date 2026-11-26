@@ -4,9 +4,11 @@ title: Prompt injection indireta
 description: Um ataque em que instruções escondidas em conteúdo que um sistema de IA lê - uma página web, e-mail, documento, resultado de ferramenta ou comentário de código - são tratadas pelo modelo como comandos, permitindo que um terceiro que nunca fala com o sistema controle o que ele faz.
 tags:
 - security
-- appsec
+- ai-security
 domain: security
-subdomain: appsec
+subdomain: ai-security
+also_in:
+- ai-ml/ai-agents
 status: stable
 verified:
 - by: Kenji
@@ -40,13 +42,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Prompt injection indireta
 
 **Definição.** Prompt injection direta é o usuário digitar instruções maliciosas. Indirect prompt injection, nomeada por Greshake et al. (2023), planta essas instruções em dados que o modelo vai processar depois. Como LLMs recebem instruções e dados no mesmo fluxo de tokens e não conseguem distingui-los com confiabilidade, um texto recuperado pode se sobrepor à intenção do desenvolvedor e do usuário.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `appsec`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `ai-security`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

@@ -26,6 +26,10 @@ sources:
 - title: 'Kudo, T. and Richardson, J. (2018). SentencePiece: A simple and language independent subword tokenizer. EMNLP 2018'
   resource: 'https://arxiv.org/abs/1808.06226'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Tokenization

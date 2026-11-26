@@ -4,9 +4,10 @@ title: Overfitting e generalização
 description: Generalização é a capacidade de um modelo de ir bem em dados novos com os quais não foi treinado; overfitting é quando um modelo aprende os dados de treino de perto demais, incluindo o ruído, e por isso vai bem no treino mas mal em dados novos.
 tags:
 - ai-ml
+- ml-fundamentals
 - core
 domain: ai-ml
-subdomain: core
+subdomain: ml-fundamentals
 status: stable
 verified:
 - by: Kenji
@@ -34,13 +35,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Overfitting e generalização
 
 **Definição.** O objetivo do ML é ter erro baixo em dados não vistos, não no conjunto de treino. O overfitting aparece como uma distância entre o desempenho no treino e na validação; underfitting é o problema oposto, um modelo simples demais para captar o padrão. A visão clássica é o trade-off entre viés e variância.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `ml-fundamentals`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

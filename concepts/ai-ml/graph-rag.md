@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: GraphRAG
-description: GraphRAG (rag).
+description: 'Retrieval-augmented generation that retrieves from a knowledge graph of entities and relations (often built by an LLM from the documents) instead of, or alongside, text chunks.'
 tags:
 - ai-ml
 - rag
@@ -14,6 +14,10 @@ generated:
 relations:
 - type: extends
   target: /concepts/ai-ml/rag.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy; real description'
 ---
 
 # GraphRAG

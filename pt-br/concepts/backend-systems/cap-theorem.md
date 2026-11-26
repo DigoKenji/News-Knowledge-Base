@@ -1,12 +1,12 @@
 ---
 type: Concept
 title: Teorema CAP
-description: Teorema CAP (system-design).
+description: 'O resultado de que um armazenamento de dados replicado não pode ser ao mesmo tempo linearizavelmente consistente e totalmente disponível enquanto a rede está particionada - precisa escolher um durante a partição.'
 tags:
 - backend-systems
-- system-design
+- distributed-systems
 domain: backend-systems
-subdomain: system-design
+subdomain: distributed-systems
 status: stable
 generated:
   by: claude (seed from Notion tree)
@@ -22,11 +22,14 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio; descrição real'
 ---
 
 # Teorema CAP
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `distributed-systems`.
 
 ## Da biblioteca do MBA
 

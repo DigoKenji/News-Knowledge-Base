@@ -5,7 +5,9 @@ description: A workflow whose progress is recorded as it runs, so it resumes fro
   a long wait instead of starting over.
 tags:
 - backend-systems
+- messaging-and-workflows
 domain: backend-systems
+subdomain: messaging-and-workflows
 status: stable
 verified:
 - by: Kenji
@@ -17,6 +19,10 @@ sources:
 - title: 15 Open Source Projects for AI Agents in Production
   resource: https://medium.com/@unicodeveloper/15-open-source-projects-for-ai-agents-in-production-fd8a329d00da
   kind: practitioner
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Durable Execution

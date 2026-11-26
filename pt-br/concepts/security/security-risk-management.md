@@ -4,9 +4,9 @@ title: 'Gestão de riscos de segurança e análise de impacto no negócio'
 description: 'O ciclo contínuo de identificar ativos, ameaças e vulnerabilidades, avaliar probabilidade e impacto (incluindo uma análise de impacto no negócio dos processos críticos), escolher um tratamento - mitigar, transferir, evitar ou aceitar - e monitorar o resultado.'
 tags:
 - security
-- security
+- governance-risk
 domain: security
-subdomain: security
+subdomain: governance-risk
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest)
@@ -32,13 +32,17 @@ sources:
   kind: standard
 lang: pt-br
 translation_of: /concepts/security/security-risk-management.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Gestão de riscos de segurança e análise de impacto no negócio
 
 **Definição.** Stallings e Brown apresentam a gestão de segurança de TI como um ciclo: definir o contexto organizacional e a política, avaliar riscos, escolher e implementar controles, e monitorar (caps. 14-15). A avaliação de riscos pode ser baseline, informal, detalhada ou combinada; uma análise detalhada identifica ativos, ameaças e vulnerabilidades, estima probabilidade e consequência, e registra o nível de risco resultante em um registro de riscos. Cada risco recebe então uma resposta: aceitar, evitar, mitigar (reduzir com controles) ou compartilhar/transferir (por exemplo, seguro). Uma análise de impacto no negócio (BIA) pergunta quanto a perda de cada processo prejudicaria a organização ao longo do tempo, e define metas de recuperação como RTO (em quanto tempo) e RPO (quantos dados podem ser perdidos) (Gibson, cap. 9). A apostila de riscos da FIAP acrescenta a visão de auditoria: controles devem ser eficazes e justificados em custo, lacunas são encontradas por análise de gap, e o SGSI melhora pelo ciclo PDCA (planejar-fazer-checar-agir).
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `security`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-24); rascunho aguardando certificação do Kenji.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `governance-risk`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-24); rascunho aguardando certificação do Kenji.
 
 ## Como se encaixa
 

@@ -1,44 +1,57 @@
 # Concepts — Backend & Systems Engineering
 
-## Core
+Grouped by subdomain, following the taxonomy on the [domain page](/domains/backend-systems.md) (Kleppmann, Designing Data-Intensive Applications (2017) and the SWEBOK v4 Software Design area). **core** marks core vocabulary; ↗ marks a concept whose home is another theme.
 
+## Distributed systems
+
+- [Consensus](/concepts/backend-systems/consensus.md) — core · **draft**
+- [Consistency models](/concepts/backend-systems/consistency-models.md) — core · **draft**
 - [Distributed system](/concepts/backend-systems/distributed-system.md) — core · **draft**
-- [Latency, throughput and tail latency](/concepts/backend-systems/latency-throughput.md) — core · **draft**
-- [Scalability (vertical and horizontal)](/concepts/backend-systems/scalability.md) — core · **draft**
+- [Replication and partitioning (sharding)](/concepts/backend-systems/replication-partitioning.md) — core · **draft**
+- [CAP theorem](/concepts/backend-systems/cap-theorem.md)
+- [Deterministic simulation testing](/concepts/backend-systems/deterministic-simulation-testing.md)
+- [Linearizability](/concepts/backend-systems/linearizability.md)
+- ↗ [Control plane](/concepts/cloud-infra/control-plane.md) — home: Cloud & Infrastructure
+
+## Reliability and resilience
+
 - [Availability and reliability](/concepts/backend-systems/availability-reliability.md) — core · **draft**
 - [Fault tolerance and redundancy](/concepts/backend-systems/fault-tolerance.md) — core · **draft**
-- [Consistency models](/concepts/backend-systems/consistency-models.md) — core · **draft**
-- [Replication and partitioning (sharding)](/concepts/backend-systems/replication-partitioning.md) — core · **draft**
-- [Consensus](/concepts/backend-systems/consensus.md) — core · **draft**
-- [Caching](/concepts/backend-systems/caching.md) — core · **draft**
-- [Message queue and asynchronous messaging](/concepts/backend-systems/message-queue.md) — core · **draft**
 - [Load balancing and backpressure](/concepts/backend-systems/load-balancing-backpressure.md) — core · **draft**
+- [Adaptive concurrency limit](/concepts/backend-systems/adaptive-concurrency-limit.md)
+- [Cascading failure](/concepts/backend-systems/cascading-failure.md)
+- [Chaos engineering](/concepts/backend-systems/chaos-engineering.md)
+- [Correlated failure](/concepts/backend-systems/correlated-failure.md)
+- [Retry storm](/concepts/backend-systems/retry-storm.md)
+- [Silent failure](/concepts/backend-systems/silent-failure.md)
+- ↗ [Observability (logs, metrics, traces)](/concepts/cloud-infra/observability.md) — home: Cloud & Infrastructure
+- ↗ [SLO error budget](/concepts/cloud-infra/slo-error-budget.md) — home: Cloud & Infrastructure
 
-## Specialised
+## Performance and scalability
 
-- [Reverse Proxy](/concepts/backend-systems/reverse-proxy.md) — backend-systems
-- [Durable Execution](/concepts/backend-systems/durable-execution.md) — backend-systems
-- [Shadow testing](/concepts/backend-systems/shadow-testing.md) — daily run · **draft**
-- [Performance regression](/concepts/backend-systems/performance-regression.md) — daily run · **draft**
-- [Idempotency](/concepts/backend-systems/idempotency.md) — system-design
-- [CAP theorem](/concepts/backend-systems/cap-theorem.md) — system-design
-- [Saga pattern](/concepts/backend-systems/saga-pattern.md) — microservices
-- [Strangler fig migration](/concepts/backend-systems/strangler-fig.md) — microservices
-- [Bounded context](/concepts/backend-systems/bounded-context.md) — microservices
-- [Architecture decision record](/concepts/backend-systems/adr.md) — system-design
-- [ATAM tradeoff analysis](/concepts/backend-systems/atam.md) — system-design
-- [gRPC](/concepts/backend-systems/grpc.md) — api-design
-- [API versioning](/concepts/backend-systems/api-versioning.md) — api-design
-- [Linearizability](/concepts/backend-systems/linearizability.md) — system-design
-- [Deterministic simulation testing](/concepts/backend-systems/deterministic-simulation-testing.md) — system-design
-- [Retry storm](/concepts/backend-systems/retry-storm.md) — system-design
-- [Adaptive concurrency limit](/concepts/backend-systems/adaptive-concurrency-limit.md) — system-design
-- [Silent failure](/concepts/backend-systems/silent-failure.md) — system-design
-- [Chaos engineering](/concepts/backend-systems/chaos-engineering.md) — system-design
-- [Control plane](/concepts/backend-systems/control-plane.md) — system-design
-- [Correlated failure](/concepts/backend-systems/correlated-failure.md) — system-design
-- [Dead-letter queue](/concepts/backend-systems/dead-letter-queue.md) — microservices
-- [Hybrid memory-disk cache](/concepts/backend-systems/hybrid-memory-disk-cache.md) — system-design
-- [GC pressure](/concepts/backend-systems/gc-pressure.md) — system-design
-- [Cascading failure](/concepts/backend-systems/cascading-failure.md) — backend-systems
-- [Event sourcing](/concepts/backend-systems/event-sourcing.md) — system-design (draft)
+- [Caching](/concepts/backend-systems/caching.md) — core · **draft**
+- [Latency, throughput and tail latency](/concepts/backend-systems/latency-throughput.md) — core · **draft**
+- [Scalability (vertical and horizontal)](/concepts/backend-systems/scalability.md) — core · **draft**
+- [GC pressure](/concepts/backend-systems/gc-pressure.md)
+- [Hybrid memory-disk cache](/concepts/backend-systems/hybrid-memory-disk-cache.md)
+
+## Messaging and workflows
+
+- [Message queue and asynchronous messaging](/concepts/backend-systems/message-queue.md) — core · **draft**
+- [Dead-letter queue](/concepts/backend-systems/dead-letter-queue.md)
+- [Durable Execution](/concepts/backend-systems/durable-execution.md)
+- [Event sourcing](/concepts/backend-systems/event-sourcing.md) — **draft**
+- [Idempotency](/concepts/backend-systems/idempotency.md)
+- [Saga pattern](/concepts/backend-systems/saga-pattern.md)
+- ↗ [Change data capture](/concepts/data/change-data-capture.md) — home: Data & Data Science
+- ↗ [Event-driven architecture](/concepts/architecture/event-driven-architecture.md) — home: Architecture
+
+## APIs and protocols
+
+- [API versioning](/concepts/backend-systems/api-versioning.md)
+- [gRPC](/concepts/backend-systems/grpc.md)
+- ↗ [Schema evolution and data compatibility](/concepts/data/schema-evolution.md) — home: Data & Data Science
+
+## Web platform
+
+- [Reverse Proxy](/concepts/backend-systems/reverse-proxy.md)

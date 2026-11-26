@@ -27,6 +27,10 @@ sources:
 - title: 'Rumelhart, D. E., Hinton, G. E. and Williams, R. J. (1986). Learning representations by back-propagating errors. Nature 323'
   resource: 'https://doi.org/10.1038/323533a0'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Gradient descent and backpropagation

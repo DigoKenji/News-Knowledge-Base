@@ -4,9 +4,9 @@ title: 'Security controls'
 description: 'Measures that reduce risk, classified by how they are implemented (management/administrative, operational, technical, physical) and by what they do (preventive, detective, corrective, deterrent, compensating).'
 tags:
 - security
-- security
+- governance-risk
 domain: security
-subdomain: security
+subdomain: governance-risk
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest)
@@ -27,13 +27,17 @@ sources:
 - title: 'NIST (2020). SP 800-53 Rev. 5 - Security and Privacy Controls for Information Systems and Organizations'
   resource: 'https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final'
   kind: standard
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Security controls
 
 **Definition.** Stallings and Brown define a control as an action, device, procedure or other measure that reduces risk by eliminating or preventing a security violation, by minimising the harm it can cause, or by discovering and reporting it so it can be corrected (p. 517). They classify controls as management (policies, planning, standards), operational (procedures carried out mainly by people) and technical (hardware and software capabilities), each of which can be supportive, preventive, or detection-and-recovery. Exam guides use a parallel scheme: technical, administrative and physical by implementation, and preventive, detective, corrective, deterrent and compensating by goal; a compensating control is an alternative used when the primary control is not feasible (Gibson, ch. 1). NIST SP 800-53 is the large catalogue of concrete controls grouped into families.
 
-Domain: [security](/domains/security.md) · subdomain `security`. New concept from the MBA library (books added to FIAP-MBA/Materiais/Referencias, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [security](/domains/security.md) · subdomain `governance-risk`. New concept from the MBA library (books added to FIAP-MBA/Materiais/Referencias, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

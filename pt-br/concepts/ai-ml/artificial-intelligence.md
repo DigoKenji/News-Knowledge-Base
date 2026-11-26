@@ -4,9 +4,10 @@ title: Inteligência artificial
 description: O campo e os sistemas que executam tarefas normalmente associadas à inteligência humana - perceber, raciocinar, aprender, decidir, gerar conteúdo - produzindo saídas como previsões, recomendações ou decisões a partir da entrada que recebem.
 tags:
 - ai-ml
+- ml-fundamentals
 - core
 domain: ai-ml
-subdomain: core
+subdomain: ml-fundamentals
 status: stable
 verified:
 - by: Kenji
@@ -27,13 +28,17 @@ sources:
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/ai-ml/artificial-intelligence.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Inteligência artificial
 
 **Definição.** IA é ao mesmo tempo um campo de pesquisa e um tipo de sistema. A OCDE (definição atualizada em 2023, também usada pelo AI Act da UE) descreve um sistema de IA como um sistema baseado em máquina que, para objetivos explícitos ou implícitos, infere a partir da entrada que recebe como gerar saídas como previsões, conteúdo, recomendações ou decisões que podem influenciar ambientes físicos ou virtuais. A ISO/IEC 22989 é o vocabulário internacional padronizado do campo.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `ml-fundamentals`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

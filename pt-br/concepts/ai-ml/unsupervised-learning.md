@@ -4,9 +4,10 @@ title: Aprendizado não supervisionado e auto-supervisionado
 description: Machine learning a partir de dados sem rótulos fornecidos por humanos - o aprendizado não supervisionado encontra estrutura como agrupamentos ou representações compactas, e o auto-supervisionado cria seus próprios rótulos a partir dos dados, por exemplo prevendo uma palavra oculta.
 tags:
 - ai-ml
+- ml-fundamentals
 - core
 domain: ai-ml
-subdomain: core
+subdomain: ml-fundamentals
 status: stable
 verified:
 - by: Kenji
@@ -35,13 +36,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Aprendizado não supervisionado e auto-supervisionado
 
 **Definição.** O aprendizado não supervisionado modela a estrutura de dados sem rótulos: agrupamento (k-means), redução de dimensionalidade (PCA), estimação de densidade e detecção de anomalias. O aprendizado auto-supervisionado é uma variante moderna que transforma dados sem rótulos numa tarefa supervisionada, escondendo parte da entrada e treinando o modelo para prevê-la.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `ml-fundamentals`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

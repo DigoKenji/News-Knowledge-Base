@@ -4,9 +4,10 @@ title: Software engineering
 description: The systematic, disciplined and measurable approach to developing, operating and maintaining software - applying engineering principles so software is built reliably, on time and at scale, by teams.
 tags:
 - software-engineering
+- process
 - core
 domain: software-engineering
-subdomain: core
+subdomain: process
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -22,13 +23,17 @@ sources:
   resource: 'http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF'
   kind: book
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Software engineering
 
 **Definition.** ISO/IEC/IEEE 24765 and the IEEE SWEBOK define software engineering as the application of a systematic, disciplined, quantifiable approach to the development, operation and maintenance of software. The term was popularised at the 1968 NATO conference, called to address the "software crisis" of late, buggy, over-budget projects.
 
-Domain: [software-engineering](/domains/software-engineering.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [software-engineering](/domains/software-engineering.md) · subdomain `process`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

@@ -4,9 +4,10 @@ title: Load balancing and backpressure
 description: Load balancing spreads incoming requests across many servers; backpressure lets an overloaded component signal upstream to slow down, so excess load is rejected or delayed early instead of causing collapse.
 tags:
 - backend-systems
+- reliability
 - core
 domain: backend-systems
-subdomain: core
+subdomain: reliability
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: Yanacek, D. Using load shedding to avoid overload. Amazon Builders' Library
   resource: 'https://builder.aws.com/content/3Eun1EEyX6p2e3VYNyRLSJzLuMV/using-load-shedding-to-avoid-overload'
   kind: blog
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Load balancing and backpressure
 
 **Definition.** A load balancer (DNS, layer-4 or layer-7 proxy, or client-side library) chooses a backend for each request using policies such as round robin, least connections or weighted choice, and removes unhealthy backends using health checks. Backpressure is flow control in the other direction: a consumer that cannot keep up bounds its queue and makes producers wait or receive an error (load shedding). The Reactive Streams specification formalises demand-based backpressure for asynchronous streams.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `reliability`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

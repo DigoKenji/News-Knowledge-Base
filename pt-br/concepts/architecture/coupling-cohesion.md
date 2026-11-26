@@ -4,9 +4,10 @@ title: Acoplamento e coesão
 description: Duas medidas de projeto modular - acoplamento é o quanto um módulo depende de outros (buscar baixo), coesão é o quanto os elementos dentro de um módulo pertencem juntos (buscar alto).
 tags:
 - architecture
+- software-architecture
 - core
 domain: architecture
-subdomain: core
+subdomain: software-architecture
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +24,17 @@ sources:
   kind: standard
 lang: pt-br
 translation_of: /concepts/architecture/coupling-cohesion.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Acoplamento e coesão
 
 **Definição.** Stevens, Myers e Constantine introduziram os dois termos em 1974 como parte do projeto estruturado. Baixo acoplamento significa que uma mudança num módulo raramente obriga mudanças em outros; alta coesão significa que um módulo faz um trabalho bem definido. A ocultação de informação de Parnas (1972) é o princípio por trás: esconder cada decisão de projeto que provavelmente vai mudar atrás de uma interface estável.
 
-Domínio: [architecture](/pt-br/domains/architecture.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [architecture](/pt-br/domains/architecture.md) · subdomínio `software-architecture`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 
@@ -42,7 +47,7 @@ Se mudar o layout das páginas do Notion obriga a editar o resumidor, o buscador
 ## Conceitos mais específicos
 
 - [Monólito modular](/pt-br/concepts/architecture/modular-monolith.md)
-- [Contexto delimitado](/pt-br/concepts/backend-systems/bounded-context.md)
+- [Contexto delimitado](/pt-br/concepts/architecture/bounded-context.md)
 - [Microservices](/pt-br/concepts/architecture/microservices.md)
 
 ## Fontes

@@ -4,9 +4,10 @@ title: Banco de dados e SGBD
 description: Um banco de dados é uma coleção organizada e persistente de dados; um sistema de gerenciamento de banco de dados (SGBD) é o software que a armazena e permite que muitos usuários a definam, consultem, atualizem e protejam com segurança e de forma concorrente.
 tags:
 - data
+- databases
 - core
 domain: data
-subdomain: core
+subdomain: databases
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -32,13 +33,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Banco de dados e SGBD
 
 **Definição.** A ISO/IEC 2382 define banco de dados como uma coleção de dados organizada segundo uma estrutura conceitual que descreve as características dos dados e seus relacionamentos. Um SGBD fornece essa estrutura mais uma linguagem de consulta, um otimizador de consultas, armazenamento e indexação, controle de concorrência, recuperação após quedas e controle de acesso. Hellerstein, Stonebraker e Hamilton descrevem a arquitetura canônica: gerenciador de processos, processador de consultas, gerenciador de armazenamento transacional e utilitários compartilhados.
 
-Domínio: [data](/pt-br/domains/data.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [data](/pt-br/domains/data.md) · subdomínio `databases`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

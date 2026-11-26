@@ -4,7 +4,9 @@ title: Mixture of experts
 description: A neural-network layer made of many expert sub-networks plus a router that activates only a few experts per token, so total parameters grow without a matching growth in compute per token.
 tags:
 - ai-ml
+- deep-learning
 domain: ai-ml
+subdomain: deep-learning
 status: stable
 verified:
 - by: Kenji
@@ -28,6 +30,10 @@ sources:
 - title: 'Jiang, A. Q. et al. (2024). Mixtral of Experts. arXiv:2401.04088'
   resource: 'https://arxiv.org/abs/2401.04088'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Mixture of experts

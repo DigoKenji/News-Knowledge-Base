@@ -4,8 +4,10 @@ title: Performance regression
 description: A measurable slowdown or reliability drop from a baseline, usually after a change, that must be traced to its
   cause before it can be fixed.
 tags:
-- backend-systems
-domain: backend-systems
+- software-engineering
+- testing
+domain: software-engineering
+subdomain: testing
 status: draft
 generated:
   by: claude-haiku (Project_News daily run)
@@ -14,6 +16,10 @@ sources:
 - title: How OpenAI’s Performance Factory keeps ChatGPT fast
   resource: https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast
   kind: practitioner
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy; moved to software-engineering'
 ---
 
 # Performance regression

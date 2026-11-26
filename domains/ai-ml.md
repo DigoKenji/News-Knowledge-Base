@@ -3,23 +3,28 @@ type: Domain
 title: AI/ML Engineering
 description: 'Top-level study domain: AI/ML Engineering.'
 tags:
-- llm-engineering
-- nlp
-- deep-learning
+- ml-fundamentals
 - classical-ml
-- mlops
+- deep-learning
+- nlp
+- llm-engineering
 - rag
 - ai-agents
+- evaluation
+- mlops
 - ml-governance
 subdomains:
-- llm-engineering
-- nlp
-- deep-learning
+- ml-fundamentals
 - classical-ml
-- mlops
+- deep-learning
+- nlp
+- llm-engineering
 - rag
 - ai-agents
+- evaluation
+- mlops
 - ml-governance
+taxonomy_source: 'ACM Computing Classification System 2012 (Computing methodologies: Machine learning, Artificial intelligence)'
 generated:
   by: claude (seed from Notion tree)
   at: '2026-11-16T01:30:00-03:00'
@@ -29,40 +34,22 @@ resource: https://app.notion.com/p/38bbaf74172d81d0b60eced16e5d7c10
 # AI/ML Engineering
 
 ## Subdomains
-- `llm-engineering`
-- `nlp`
-- `deep-learning`
-- `classical-ml`
-- `mlops`
-- `rag`
-- `ai-agents`
-- `ml-governance`
+
+The controlled list for notes and concepts in this domain (taxonomy, 2026-11-26), based on ACM Computing Classification System 2012 (Computing methodologies: Machine learning, Artificial intelligence). A concept has exactly one home subdomain and may be cross-listed elsewhere with `also_in`.
+
+- `ml-fundamentals` — **ML fundamentals**: What AI and ML are, learning paradigms, generalisation and the model life cycle
+- `classical-ml` — **Classical ML**: Non-neural models: SVMs, kernel methods, trees, RBF networks
+- `deep-learning` — **Deep learning**: Neural networks: training, architectures (transformers, MoE), representations and generative models
+- `nlp` — **NLP**: Language-specific processing: tokenisation, text representation
+- `llm-engineering` — **LLM engineering**: Building with and serving large language models: adaptation, prompting, inference and its cost
+- `rag` — **Retrieval and RAG**: Retrieval, search and retrieval-augmented generation
+- `ai-agents` — **AI agents**: Agents, their harness, memory, tools and multi-agent coordination
+- `evaluation` — **Evaluation**: Measuring model quality: metrics, calibration, LLM judges and their biases
+- `mlops` — **MLOps**: Taking ML to production: pipelines, feature stores, deployment and monitoring
+- `ml-governance` — **ML governance**: Keeping models valid and accountable over time: drift, risk, policy
 
 ## Concepts
-- [Retrieval-augmented generation](/concepts/ai-ml/rag.md)
-- [GraphRAG](/concepts/ai-ml/graph-rag.md)
-- [Vectorless RAG](/concepts/ai-ml/vectorless-rag.md)
-- [KV cache](/concepts/ai-ml/kv-cache.md)
-- [Inference throughput/latency/cost](/concepts/ai-ml/inference-tradeoffs.md)
-- [Multi-agent orchestration](/concepts/ai-ml/multi-agent-orchestration.md)
-- [Feature store](/concepts/ai-ml/feature-store.md)
-- [Concept drift](/concepts/ai-ml/concept-drift.md)
-- [Data drift](/concepts/ai-ml/data-drift.md)
-- [Support vector machine](/concepts/ai-ml/svm.md)
-- [RBF network](/concepts/ai-ml/rbf-network.md)
-- [LLM-as-a-judge](/concepts/ai-ml/llm-as-a-judge.md) (draft)
-- [JEPA](/concepts/ai-ml/jepa.md) (draft)
-- [Speculative decoding](/concepts/ai-ml/speculative-decoding.md) (draft)
-- [Prefill-decode disaggregation](/concepts/ai-ml/prefill-decode-disaggregation.md) (draft)
-- [RoPE](/concepts/ai-ml/rope.md) (draft)
-- [Gradient descent and backpropagation](/concepts/ai-ml/gradient-descent-backpropagation.md) (draft)
-- [Regularization and the bias-variance trade-off](/concepts/ai-ml/regularization.md) (draft)
-- [Tokenization](/concepts/ai-ml/tokenization.md) (draft)
-- [Fine-tuning](/concepts/ai-ml/fine-tuning.md) (draft)
-- [Prompt engineering](/concepts/ai-ml/prompt-engineering.md) (draft)
-- [Generative models (VAE, GAN, diffusion, autoregressive)](/concepts/ai-ml/generative-models.md) (draft)
-- [Quantization](/concepts/ai-ml/quantization.md) (draft)
-- [MLOps and LLMOps](/concepts/ai-ml/mlops-llmops.md) (draft)
+55 concepts, grouped by subdomain in the [theme index](/concepts/ai-ml/index.md).
 
 ## Notes
 Summaries in this domain live in [/notes/ai-ml/](/notes/ai-ml/index.md).

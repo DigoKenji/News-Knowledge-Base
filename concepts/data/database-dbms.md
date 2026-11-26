@@ -4,9 +4,10 @@ title: Database and DBMS
 description: A database is an organised, persistent collection of data; a database management system (DBMS) is the software that stores it and lets many users define, query, update and protect it safely and concurrently.
 tags:
 - data
+- databases
 - core
 domain: data
-subdomain: core
+subdomain: databases
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -30,13 +31,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Database and DBMS
 
 **Definition.** ISO/IEC 2382 defines a database as a collection of data organised according to a conceptual structure describing the characteristics of the data and their relationships. A DBMS provides that structure plus a query language, a query optimiser, storage and indexing, concurrency control, recovery after crashes and access control. Hellerstein, Stonebraker and Hamilton describe the canonical architecture: process manager, query processor, transactional storage manager and shared utilities.
 
-Domain: [data](/domains/data.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [data](/domains/data.md) · subdomain `databases`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

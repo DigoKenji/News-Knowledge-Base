@@ -4,9 +4,9 @@ title: 'Social engineering and phishing'
 description: 'Attacks that manipulate people rather than systems - phishing, spear phishing, pretexting, tailgating - by exploiting trust, authority, urgency or helpfulness, countered by awareness training, verification procedures and technical controls such as MFA.'
 tags:
 - security
-- security
+- governance-risk
 domain: security
-subdomain: security
+subdomain: governance-risk
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest)
@@ -27,13 +27,17 @@ sources:
 - title: 'MITRE ATT&CK. Initial Access tactic (TA0001), incl. Phishing'
   resource: 'https://attack.mitre.org/tactics/TA0001/'
   kind: docs
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Social engineering and phishing
 
 **Definition.** Beaver calls social engineering "people hacking": maliciously exploiting the trusting nature of people to obtain information or access (p. 67). Phishing sends deceptive messages that lure people to reveal credentials, open malware or approve payments; spear phishing targets a specific person with researched details; whaling targets executives; pretexting invents a scenario (a fake IT helpdesk call); physical variants include tailgating into buildings. Gibson explains why it works through principles such as authority, intimidation, consensus, scarcity, urgency, familiarity and trust. Stallings and Brown treat it as a propagation route for malware (trojans, spam) and as an information-theft payload (phishing), and answer it with security awareness, training and education.
 
-Domain: [security](/domains/security.md) · subdomain `security`. New concept from the MBA library (books added to FIAP-MBA/Materiais/Referencias, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [security](/domains/security.md) · subdomain `governance-risk`. New concept from the MBA library (books added to FIAP-MBA/Materiais/Referencias, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

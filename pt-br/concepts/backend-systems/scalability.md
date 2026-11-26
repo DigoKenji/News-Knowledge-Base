@@ -4,9 +4,10 @@ title: Escalabilidade (vertical e horizontal)
 description: A capacidade de um sistema de lidar com carga crescente acrescentando recursos - uma máquina maior (vertical, scale up) ou mais máquinas (horizontal, scale out) - mantendo o desempenho aceitável e o custo proporcional.
 tags:
 - backend-systems
+- performance
 - core
 domain: backend-systems
-subdomain: core
+subdomain: performance
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +24,17 @@ sources:
   kind: docs
 lang: pt-br
 translation_of: /concepts/backend-systems/scalability.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Escalabilidade (vertical e horizontal)
 
 **Definição.** Bondi caracteriza escalabilidade como a capacidade de um sistema de acomodar um número crescente de elementos ou de carga, processar volumes crescentes de trabalho de forma elegante e ser passível de ampliação. A escala vertical acrescenta CPU, memória ou disco a uma máquina; a escala horizontal acrescenta máquinas e divide o trabalho entre elas, o que exige serviços sem estado ou dados particionados.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `performance`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

@@ -4,9 +4,10 @@ title: Large language model and foundation model
 description: A transformer model with billions of parameters, pre-trained on vast text to predict the next token and then tuned to follow instructions; a foundation model is the broader category of large pre-trained models adapted to many downstream tasks.
 tags:
 - ai-ml
+- llm-engineering
 - core
 domain: ai-ml
-subdomain: core
+subdomain: llm-engineering
 status: stable
 verified:
 - by: Kenji
@@ -36,13 +37,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Large language model and foundation model
 
 **Definition.** An LLM learns language, facts and reasoning patterns as a by-product of predicting the next token over trillions of tokens (self-supervised pre-training). Post-training (supervised fine-tuning on instructions, RLHF and similar) turns it into an assistant. Stanford's CRFM coined "foundation model" (2021) for models trained on broad data at scale that can be adapted to a wide range of tasks; LLMs are the main example, and many are now multimodal.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `llm-engineering`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

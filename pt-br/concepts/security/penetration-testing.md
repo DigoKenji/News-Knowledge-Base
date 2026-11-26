@@ -36,6 +36,10 @@ sources:
   kind: docs
 lang: pt-br
 translation_of: /concepts/security/penetration-testing.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Teste de intrusão (pentest) e avaliação de vulnerabilidades

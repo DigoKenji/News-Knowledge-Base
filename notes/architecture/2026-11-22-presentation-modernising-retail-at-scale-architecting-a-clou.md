@@ -253,4 +253,4 @@ Your interpretation, not the author's: this matters for any enterprise architect
 ## Concepts
 - [AI agent](/concepts/ai-ml/ai-agent.md)
 - [Model Context Protocol (MCP)](/concepts/ai-ml/model-context-protocol.md)
-- [Bounded context](/concepts/backend-systems/bounded-context.md)
+- [Bounded context](/concepts/architecture/bounded-context.md)

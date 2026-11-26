@@ -4,9 +4,10 @@ title: Integração contínua e entrega contínua (CI/CD)
 description: Integração contínua integra as mudanças de cada desenvolvedor ao branch principal com frequência e verifica cada uma com build e testes automáticos; entrega contínua mantém o software sempre pronto para entrega, com um pipeline automatizado até a produção.
 tags:
 - software-engineering
+- delivery
 - core
 domain: software-engineering
-subdomain: core
+subdomain: delivery
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +24,17 @@ sources:
   kind: practitioner
 lang: pt-br
 translation_of: /concepts/software-engineering/ci-cd.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Integração contínua e entrega contínua (CI/CD)
 
 **Definição.** Martin Fowler descreve CI como membros de uma equipe integrando seu trabalho com frequência, pelo menos diariamente, com cada integração verificada por um build automatizado que inclui testes. A entrega contínua (Humble e Farley) estende isso para que qualquer versão aprovada no pipeline possa ser entregue com um botão; o deploy contínuo a entrega automaticamente.
 
-Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `delivery`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 
@@ -41,7 +46,7 @@ Um pull request dispara o GitHub Actions para fazer build, rodar testes e lint; 
 
 ## Conceitos mais específicos
 
-- [Deploy canary / blue-green](/pt-br/concepts/cloud-infra/canary-deploy.md)
+- [Deploy canary / blue-green](/pt-br/concepts/software-engineering/canary-deploy.md)
 - [Teste de software](/pt-br/concepts/software-engineering/software-testing.md)
 
 ## Fontes

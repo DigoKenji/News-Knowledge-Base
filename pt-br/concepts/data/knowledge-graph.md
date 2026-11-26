@@ -4,9 +4,11 @@ title: Grafo de conhecimento
 description: Um grafo que representa conhecimento como entidades (nós) ligadas por relações tipadas e com significado (arestas), muitas vezes com um schema ou ontologia, para que fatos possam ser consultados, ligados entre fontes e usados em raciocínio.
 tags:
 - data
-- data-engineering
+- data-science
 domain: data
-subdomain: data-engineering
+subdomain: data-science
+also_in:
+- ai-ml/rag
 status: stable
 verified:
 - by: Kenji
@@ -37,13 +39,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Grafo de conhecimento
 
 **Definição.** Hogan et al. definem um grafo de conhecimento como "um grafo de dados destinado a acumular e transmitir conhecimento do mundo real, cujos nós representam entidades de interesse e cujas arestas representam relações entre essas entidades". O que o separa de um simples banco de grafos é a ênfase na semântica: identificadores compartilhados, tipos e uma ontologia que dá significado às relações.
 
-Domínio: [data](/pt-br/domains/data.md) · subdomínio `data-engineering`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [data](/pt-br/domains/data.md) · subdomínio `data-science`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

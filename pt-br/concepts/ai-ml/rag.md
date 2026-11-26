@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: Geração aumentada por recuperação (RAG)
-description: Geração aumentada por recuperação (rag).
+description: 'Geração aumentada por recuperação - encontrar documentos relevantes no momento da pergunta e colocá-los no contexto do modelo, para que ele responda a partir desse material e não só da memória.'
 tags:
 - ai-ml
 - rag
@@ -26,6 +26,9 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição curta acrescentada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio; descrição real'
 ---
 
 # Geração aumentada por recuperação (RAG)

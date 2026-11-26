@@ -4,9 +4,10 @@ title: Data warehouse, data lake and lakehouse
 description: A data warehouse stores cleaned, structured data modelled for analysis; a data lake stores raw data of any format cheaply in object storage; a lakehouse adds warehouse features (transactions, schemas, fast SQL) on top of open files in a lake.
 tags:
 - data
+- analytics
 - core
 domain: data
-subdomain: core
+subdomain: analytics
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -29,13 +30,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Data warehouse, data lake and lakehouse
 
 **Definition.** Inmon defined the data warehouse as a subject-oriented, integrated, time-variant and non-volatile collection of data in support of management decisions. Data lakes, popularised in the 2010s, keep raw files (CSV, JSON, Parquet, images) in cheap storage with schema applied on read. Armbrust et al. proposed the lakehouse: open table formats (Delta Lake, Apache Iceberg, Apache Hudi) add ACID transactions, schema enforcement and indexing to lake files so one copy can serve BI, data science and ML.
 
-Domain: [data](/domains/data.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [data](/domains/data.md) · subdomain `analytics`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

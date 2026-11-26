@@ -4,9 +4,9 @@ title: LLM como juiz
 description: Usar um modelo de linguagem forte, com uma rubrica, para pontuar ou comparar as saídas de outro modelo - um substituto escalável da avaliação humana que precisa ele próprio ser validado contra julgamentos humanos.
 tags:
 - ai-ml
-- mlops
+- evaluation
 domain: ai-ml
-subdomain: mlops
+subdomain: evaluation
 status: stable
 verified:
 - by: Kenji
@@ -37,13 +37,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # LLM como juiz
 
 **Definição.** LLM-as-a-judge é um método de avaliação em que um modelo recebe uma tarefa, uma ou mais respostas candidatas e critérios de correção, e devolve uma nota, um ranking ou uma preferência. É usado onde métricas de correspondência exata falham: respostas abertas, resumos, utilidade, tom.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `mlops`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `evaluation`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

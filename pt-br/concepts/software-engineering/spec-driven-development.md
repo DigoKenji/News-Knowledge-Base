@@ -4,7 +4,9 @@ title: Desenvolvimento orientado a especificação
 description: Uma prática na qual uma especificação escrita orienta como agentes planejam e constroem software.
 tags:
 - software-engineering
+- devex
 domain: software-engineering
+subdomain: devex
 status: draft
 generated:
   by: claude-haiku (Project_News daily run)
@@ -15,6 +17,10 @@ sources:
   kind: practitioner
 lang: pt-br
 translation_of: /concepts/software-engineering/spec-driven-development.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Desenvolvimento orientado a especificação

@@ -4,9 +4,10 @@ title: Batch vs stream processing
 description: Batch processing runs over a bounded set of data collected over time (for example last night's logs); stream processing handles an unbounded flow of events continuously, producing results within seconds of each event.
 tags:
 - data
+- data-engineering
 - core
 domain: data
-subdomain: core
+subdomain: data-engineering
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: Kleppmann, M. (2017). Designing Data-Intensive Applications, ch. 10 "Batch Processing" and ch. 11 "Stream Processing"
   resource: 'https://dataintensive.net/'
   kind: book
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Batch vs stream processing
 
 **Definition.** MapReduce popularised large-scale batch processing: split a big, finite input, process pieces in parallel, combine the results. Stream processing treats data as an unbounded sequence of events; Akidau et al.'s Dataflow model frames the questions every pipeline must answer - what is computed, where in event time (windows), when results are emitted (watermarks and triggers) and how late data refines them - and shows batch as a special case of streaming.
 
-Domain: [data](/domains/data.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [data](/domains/data.md) · subdomain `data-engineering`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 
