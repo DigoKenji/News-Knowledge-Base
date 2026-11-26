@@ -6,7 +6,10 @@ description: A server that accepts requests from the public, handles HTTPS and f
 tags:
 - backend-systems
 domain: backend-systems
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-26'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-26T06:47:00-03:00'
@@ -20,7 +23,7 @@ sources:
 
 **Definition.** A server that accepts requests from the public, handles HTTPS and forwards them to the internal applications behind it.
 
-Domain: [backend-systems](/domains/backend-systems.md). Draft from the daily run on 2026-11-26; waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md). From the daily run on 2026-11-26; certified by Kenji on 2026-11-26.
 
 ## Relations
 - (none yet)

@@ -5,7 +5,10 @@ description: Sincronização de duas cópias de dados comparando hashes de bloco
 tags:
 - data
 domain: data
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-26'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-26T06:47:00-03:00'
@@ -21,7 +24,7 @@ translation_of: /concepts/data/delta-sync.md
 
 **Definição.** Sincronização de duas cópias de dados por meio da comparação de hashes de blocos e da transferência apenas dos blocos que diferem.
 
-Domínio: [data](/pt-br/domains/data.md). Rascunho da execução diária de 2026-11-26; aguardando que Kenji certifique.
+Domínio: [data](/pt-br/domains/data.md). Da execução diária de 2026-11-26; certificado por Kenji em 2026-11-26.
 
 ## Relações
 - (nenhuma por enquanto)

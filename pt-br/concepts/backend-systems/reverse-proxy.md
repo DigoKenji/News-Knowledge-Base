@@ -5,7 +5,10 @@ description: Um servidor que recebe requisições do público, processa HTTPS e 
 tags:
 - backend-systems
 domain: backend-systems
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-26'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-26T06:47:00-03:00'
@@ -21,7 +24,7 @@ translation_of: /concepts/backend-systems/reverse-proxy.md
 
 **Definição.** Um servidor que recebe requisições do público, processa HTTPS e as encaminha às aplicações internas que estão por trás dele.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md). Rascunho da execução diária de 2026-11-26; aguardando que Kenji certifique.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md). Da execução diária de 2026-11-26; certificado por Kenji em 2026-11-26.
 
 ## Relações
 - (nenhuma por enquanto)

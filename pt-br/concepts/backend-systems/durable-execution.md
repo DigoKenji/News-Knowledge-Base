@@ -5,7 +5,10 @@ description: Um fluxo de trabalho cujo progresso é registrado à medida que é 
 tags:
 - backend-systems
 domain: backend-systems
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-26'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-26T06:47:00-03:00'
@@ -21,7 +24,7 @@ translation_of: /concepts/backend-systems/durable-execution.md
 
 **Definição.** Um fluxo de trabalho cujo progresso é registrado à medida que é executado, de modo que retoma a partir da última etapa registrada após uma falha ou uma longa espera, em vez de começar do zero.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md). Rascunho da execução diária de 2026-11-26; aguardando que Kenji certifique.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md). Da execução diária de 2026-11-26; certificado por Kenji em 2026-11-26.
 
 ## Relações
 - (nenhuma por enquanto)

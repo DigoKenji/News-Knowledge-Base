@@ -6,7 +6,10 @@ description: Running generated or untrusted code in an isolated environment with
 tags:
 - security
 domain: security
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-26'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-26T06:47:00-03:00'
@@ -23,7 +26,7 @@ relations:
 
 **Definition.** Running generated or untrusted code in an isolated environment with limited credentials, data access and resources, so a mistake or attack cannot reach the rest of the system.
 
-Domain: [security](/domains/security.md). Draft from the daily run on 2026-11-26; waiting for Kenji to certify.
+Domain: [security](/domains/security.md). From the daily run on 2026-11-26; certified by Kenji on 2026-11-26.
 
 ## Relations
 - uses → [least-privilege](/concepts/security/least-privilege.md)

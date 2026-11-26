@@ -5,7 +5,10 @@ description: Execução de código gerado ou não confiável em um ambiente isol
 tags:
 - security
 domain: security
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-26'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-26T06:47:00-03:00'
@@ -24,7 +27,7 @@ translation_of: /concepts/security/sandboxed-execution.md
 
 **Definição.** Execução de código gerado ou não confiável em um ambiente isolado, com credenciais, acesso a dados e recursos limitados, de modo que um erro ou um ataque não alcance o restante do sistema.
 
-Domínio: [security](/pt-br/domains/security.md). Rascunho da execução diária de 2026-11-26; aguardando que Kenji certifique.
+Domínio: [security](/pt-br/domains/security.md). Da execução diária de 2026-11-26; certificado por Kenji em 2026-11-26.
 
 ## Relações
 - usa → [least-privilege](/pt-br/concepts/security/least-privilege.md)

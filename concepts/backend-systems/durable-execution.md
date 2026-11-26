@@ -6,7 +6,10 @@ description: A workflow whose progress is recorded as it runs, so it resumes fro
 tags:
 - backend-systems
 domain: backend-systems
-status: draft
+status: stable
+verified:
+- by: Kenji
+  at: '2026-11-26'
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-26T06:47:00-03:00'
@@ -20,7 +23,7 @@ sources:
 
 **Definition.** A workflow whose progress is recorded as it runs, so it resumes from the last recorded step after a crash or a long wait instead of starting over.
 
-Domain: [backend-systems](/domains/backend-systems.md). Draft from the daily run on 2026-11-26; waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md). From the daily run on 2026-11-26; certified by Kenji on 2026-11-26.
 
 ## Relations
 - (none yet)

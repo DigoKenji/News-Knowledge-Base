@@ -1,6 +1,7 @@
 # Log
 
 ## 2026-11-26
+- **Certification:** Kenji certified the 4 draft concepts from today's run (durable execution, sandboxed execution, reverse proxy, delta sync), EN + pt-br.
 - **Creation:** Daily run (theme day: data): 5 notes (1 architecture-lane MIT SMR Brasil item and 2 Medium deep dives from the Tue PC run, 2 data theme picks), 4 draft concepts, 3 foundation candidates, digest /digests/daily/2026-11-26.md. Inbox empty; PC queue at 9, no refill; 1 Fetched Medium row waits for the next days. The top-scoring Towards Data Science pick was skipped (article pages return 403).
 
 ## 2026-11-25
