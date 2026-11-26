@@ -1,12 +1,12 @@
 ---
 type: Concept
 title: Idempotency
-description: Idempotency (system-design).
+description: 'The property that repeating an operation has the same effect as doing it once, which makes retries and duplicate messages safe.'
 tags:
 - backend-systems
-- system-design
+- messaging-and-workflows
 domain: backend-systems
-subdomain: system-design
+subdomain: messaging-and-workflows
 status: stable
 generated:
   by: claude (seed from Notion tree)
@@ -24,6 +24,9 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy; real description'
 updated:
 - by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
   at: '2026-11-26T20:30:00-03:00'
@@ -32,7 +35,7 @@ updated:
 
 # Idempotency
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `messaging-and-workflows`.
 
 ## From the MBA library
 

@@ -4,7 +4,11 @@ title: SLO error budget
 description: An SLO is a target for a service's reliability measured by an indicator (for example 99.9% of requests succeed over 30 days); the error budget is the failure that target still allows (0.1%), which teams spend on releases and risk and protect when it runs low.
 tags:
 - cloud-infra
+- observability
 domain: cloud-infra
+subdomain: observability
+also_in:
+- backend-systems/reliability
 status: stable
 verified:
 - by: Kenji
@@ -28,6 +32,10 @@ sources:
 - title: OpenSLO. OpenSLO specification
   resource: 'https://github.com/OpenSLO/OpenSLO'
   kind: standard
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # SLO error budget

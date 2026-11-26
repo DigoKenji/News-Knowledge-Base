@@ -1,12 +1,14 @@
 ---
 type: Concept
 title: gRPC
-description: gRPC (api-design).
+description: 'Um framework de RPC de código aberto que usa HTTP/2 e Protocol Buffers para chamadas tipadas e eficientes entre serviços, incluindo streaming.'
 tags:
 - backend-systems
 - api-design
 domain: backend-systems
 subdomain: api-design
+also_in:
+- architecture/software-architecture
 status: stable
 generated:
   by: claude (seed from Notion tree)
@@ -22,6 +24,9 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio; descrição real'
 ---
 
 # gRPC

@@ -4,9 +4,9 @@ title: Calibration
 description: How well a model's stated confidence matches its actual accuracy - of all answers given with 80% confidence, a calibrated model is right about 80% of the time.
 tags:
 - ai-ml
-- mlops
+- evaluation
 domain: ai-ml
-subdomain: mlops
+subdomain: evaluation
 status: stable
 verified:
 - by: Kenji
@@ -27,13 +27,17 @@ sources:
 - title: scikit-learn. Probability calibration (user guide 1.16)
   resource: 'https://scikit-learn.org/stable/modules/calibration.html'
   kind: docs
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Calibration
 
 **Definition.** A model is calibrated when its predicted probabilities can be read as real frequencies. Calibration is separate from accuracy: a model can be highly accurate yet overconfident, or weak but honest about its uncertainty.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `mlops`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `evaluation`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

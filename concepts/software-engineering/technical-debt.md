@@ -4,9 +4,10 @@ title: Technical debt
 description: The future cost created by choosing a quick or expedient solution now instead of a better one - like financial debt, it charges "interest" as extra effort on every later change until it is paid down by refactoring.
 tags:
 - software-engineering
+- design
 - core
 domain: software-engineering
-subdomain: core
+subdomain: design
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -29,13 +30,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
   at: '2026-11-26T20:30:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Technical debt
 
 **Definition.** Ward Cunningham coined the metaphor in 1992: shipping first-time code is like going into debt, which is fine if it is paid back promptly with a rewrite; the danger is when it is never repaid. Fowler's quadrant separates deliberate from inadvertent and prudent from reckless debt.
 
-Domain: [software-engineering](/domains/software-engineering.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [software-engineering](/domains/software-engineering.md) · subdomain `design`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 
@@ -47,7 +51,7 @@ Hard-coding the list of news sources to launch faster is deliberate, prudent deb
 
 ## Narrower concepts
 
-- [Strangler fig migration](/concepts/backend-systems/strangler-fig.md)
+- [Strangler fig migration](/concepts/architecture/strangler-fig.md)
 - [Modular monolith](/concepts/architecture/modular-monolith.md)
 
 ## From the MBA library

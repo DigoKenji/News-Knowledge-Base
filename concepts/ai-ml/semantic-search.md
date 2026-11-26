@@ -30,6 +30,10 @@ sources:
 - title: Manning, C., Raghavan, P. and Schütze, H. (2008). Introduction to Information Retrieval. Cambridge University Press
   resource: 'https://nlp.stanford.edu/IR-book/'
   kind: book
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Semantic search

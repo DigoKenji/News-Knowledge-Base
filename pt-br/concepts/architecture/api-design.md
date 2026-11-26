@@ -4,9 +4,10 @@ title: API e design de APIs
 description: Uma API (interface de programação de aplicações) é o contrato pelo qual componentes ou sistemas de software conversam entre si; design de APIs é escolher seus recursos, operações, formatos de dados, erros e versionamento para que seja fácil de usar e segura de evoluir.
 tags:
 - architecture
+- software-architecture
 - core
 domain: architecture
-subdomain: core
+subdomain: software-architecture
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +24,17 @@ sources:
   kind: practitioner
 lang: pt-br
 translation_of: /concepts/architecture/api-design.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # API e design de APIs
 
 **Definição.** APIs web seguem principalmente o REST (Fielding, 2000): recursos identificados por URLs, manipulados com métodos HTTP padrão, requisições sem estado. Alternativas incluem estilos RPC como gRPC, GraphQL e APIs assíncronas por eventos. A OpenAPI Specification é a forma padrão de descrever APIs HTTP como contratos legíveis por máquina.
 
-Domínio: [architecture](/pt-br/domains/architecture.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [architecture](/pt-br/domains/architecture.md) · subdomínio `software-architecture`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

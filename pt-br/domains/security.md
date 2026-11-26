@@ -3,13 +3,22 @@ type: Domain
 title: Cibersegurança
 description: 'Domínio de estudo de nível superior: Cibersegurança.'
 tags:
+- security-foundations
 - iam
-- cloud-security
 - appsec
+- ai-security
+- cloud-security
+- security-operations
+- governance-risk
 subdomains:
+- security-foundations
 - iam
-- cloud-security
 - appsec
+- ai-security
+- cloud-security
+- security-operations
+- governance-risk
+taxonomy_source: 'CyBOK v1.1 knowledge areas and the NIST Cybersecurity Framework 2.0 functions'
 generated:
   by: claude (seed from Notion tree)
   at: '2026-11-16T01:30:00-03:00'
@@ -21,22 +30,19 @@ translation_of: /domains/security.md
 # Cibersegurança
 
 ## Subdomínios
-- `iam`
-- `cloud-security`
-- `appsec`
+
+A lista controlada para notas e conceitos deste domínio (taxonomia, 2026-11-26), baseada em CyBOK v1.1 knowledge areas and the NIST Cybersecurity Framework 2.0 functions. Um conceito tem exatamente um subdomínio de origem e pode aparecer em outros temas com `also_in`.
+
+- `security-foundations` — **Fundamentos de segurança**: Objetivos e princípios centrais: CIA, ameaça/vulnerabilidade/risco, menor privilégio, criptografia
+- `iam` — **Identidade e acesso**: Autenticação, autorização, protocolos de identidade e zero trust
+- `appsec` — **Segurança de aplicações e software**: Desenvolvimento seguro, classes de vulnerabilidade, modelagem de ameaças, testes, cadeia de suprimentos
+- `ai-security` — **Segurança de IA**: Ataques e defesas de sistemas de IA e agentes
+- `cloud-security` — **Segurança em nuvem**: Responsabilidades e controles de segurança específicos da nuvem
+- `security-operations` — **Operações de segurança**: Detectar e responder: redes, gestão de vulnerabilidades, resposta a incidentes
+- `governance-risk` — **Governança e risco**: Gestão de risco, frameworks de controles e fatores humanos
 
 ## Conceitos
-- [OAuth 2.0](/pt-br/concepts/security/oauth2.md)
-- [OpenID Connect](/pt-br/concepts/security/oidc.md)
-- [Modelagem de ameaças](/pt-br/concepts/security/threat-modeling.md)
-- [Teste de intrusão (pentest) e avaliação de vulnerabilidades](/pt-br/concepts/security/penetration-testing.md) (rascunho)
-- [Resposta a incidentes](/pt-br/concepts/security/incident-response.md) (rascunho)
-- [Controles de segurança](/pt-br/concepts/security/security-controls.md) (rascunho)
-- [Gestão de riscos de segurança e análise de impacto no negócio](/pt-br/concepts/security/security-risk-management.md) (rascunho)
-- [Modelo de responsabilidade compartilhada](/pt-br/concepts/security/shared-responsibility-model.md) (rascunho)
-- [Controles de segurança de rede (firewalls, segmentação, IDS/IPS)](/pt-br/concepts/security/network-security.md) (rascunho)
-- [Gestão de vulnerabilidades](/pt-br/concepts/security/vulnerability-management.md) (rascunho)
-- [Engenharia social e phishing](/pt-br/concepts/security/social-engineering.md) (rascunho)
+28 conceitos, agrupados por subdomínio no [índice do tema](/pt-br/concepts/security/index.md).
 
 ## Notas
 Os resumos deste domínio ficam em [/notes/security/](/pt-br/notes/security/index.md).

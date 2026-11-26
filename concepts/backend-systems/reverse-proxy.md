@@ -5,7 +5,9 @@ description: A server that accepts requests from the public, handles HTTPS and f
   behind it.
 tags:
 - backend-systems
+- web-platform
 domain: backend-systems
+subdomain: web-platform
 status: stable
 verified:
 - by: Kenji
@@ -17,6 +19,10 @@ sources:
 - title: 15 self-hosted apps that quietly replaced my paid subscriptions
   resource: https://medium.com/@sarathm09/15-self-hosted-apps-that-quietly-replaced-my-paid-subscriptions-f84d6d4fc712
   kind: practitioner
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Reverse Proxy

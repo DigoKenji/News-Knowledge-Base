@@ -4,9 +4,10 @@ title: Treino vs inferência
 description: As duas fases da vida de um modelo - treino, em que seus parâmetros são aprendidos com dados (lento, caro, feito uma vez ou de vez em quando), e inferência, em que o modelo treinado é usado para produzir saídas para entradas novas (feita a cada requisição).
 tags:
 - ai-ml
+- ml-fundamentals
 - core
 domain: ai-ml
-subdomain: core
+subdomain: ml-fundamentals
 status: stable
 verified:
 - by: Kenji
@@ -38,13 +39,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Treino vs inferência
 
 **Definição.** O treino passa os dados pelo modelo, mede o erro e atualiza os pesos de trás para frente (backpropagation), em muitas passagens. A inferência só executa a passagem direta com pesos fixos. Em LLMs, o treino se divide em pré-treino (auto-supervisionado, em corpora enormes) e pós-treino (fine-tuning, RLHF); a inferência se divide em prefill (ler o prompt) e decode (gerar tokens).
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `ml-fundamentals`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

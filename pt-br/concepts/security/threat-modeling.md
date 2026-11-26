@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: Modelagem de ameaças
-description: Modelagem de ameaças (appsec).
+description: 'Descobrir de forma sistemática o que pode dar errado em um sistema - modelando fluxos de dados e fronteiras de confiança, listando ameaças (por exemplo, com STRIDE) e decidindo mitigações.'
 tags:
 - security
 - appsec
@@ -26,6 +26,9 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição curta acrescentada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio; descrição real'
 ---
 
 # Modelagem de ameaças

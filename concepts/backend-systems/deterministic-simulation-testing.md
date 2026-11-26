@@ -4,9 +4,11 @@ title: Deterministic simulation testing
 description: Testing a distributed system by running all of its nodes in one process against simulated time, network, disk and randomness controlled by a seed, injecting faults, so any failure can be replayed exactly.
 tags:
 - backend-systems
-- system-design
+- distributed-systems
 domain: backend-systems
-subdomain: system-design
+subdomain: distributed-systems
+also_in:
+- software-engineering/testing
 status: stable
 verified:
 - by: Kenji
@@ -27,13 +29,17 @@ sources:
 - title: Antithesis. Deterministic simulation testing (docs and resources)
   resource: 'https://antithesis.com/docs/introduction/welcome/'
   kind: practitioner
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Deterministic simulation testing
 
 **Definition.** Deterministic simulation testing (DST) removes every source of non-determinism from a system under test (threads, clocks, network timing, I/O, random numbers) by routing them through a simulator driven by one pseudo-random seed. The simulator then explores millions of interleavings and fault combinations, and a failing seed reproduces the exact same run every time.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `distributed-systems`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

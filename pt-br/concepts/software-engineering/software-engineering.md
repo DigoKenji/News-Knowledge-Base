@@ -4,9 +4,10 @@ title: Engenharia de software
 description: A abordagem sistemática, disciplinada e mensurável para desenvolver, operar e manter software - aplicando princípios de engenharia para que o software seja construído de forma confiável, no prazo e em escala, por equipes.
 tags:
 - software-engineering
+- process
 - core
 domain: software-engineering
-subdomain: core
+subdomain: process
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -24,13 +25,17 @@ sources:
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/software-engineering/software-engineering.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Engenharia de software
 
 **Definição.** A ISO/IEC/IEEE 24765 e o SWEBOK do IEEE definem engenharia de software como a aplicação de uma abordagem sistemática, disciplinada e quantificável ao desenvolvimento, operação e manutenção de software. O termo foi popularizado na conferência da OTAN de 1968, convocada para tratar da "crise do software": projetos atrasados, cheios de bugs e acima do orçamento.
 
-Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `process`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

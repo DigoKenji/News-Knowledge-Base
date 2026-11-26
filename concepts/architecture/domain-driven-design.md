@@ -4,9 +4,12 @@ title: Domain-driven design (DDD)
 description: An approach to software design that models the code closely on the business domain, using a shared language with domain experts and dividing large systems into bounded contexts with explicit boundaries.
 tags:
 - architecture
+- software-architecture
 - core
 domain: architecture
-subdomain: core
+subdomain: software-architecture
+also_in:
+- software-engineering/design
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +24,17 @@ sources:
 - title: Microsoft. Using domain analysis to model microservices (Azure Architecture Center)
   resource: 'https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis'
   kind: docs
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Domain-driven design (DDD)
 
 **Definition.** Eric Evans introduced DDD in 2003. Strategic design splits a complex domain into bounded contexts, each with its own model and ubiquitous language, and maps how they relate (context maps). Tactical design provides building blocks inside a context: entities, value objects, aggregates, domain events, repositories and services.
 
-Domain: [architecture](/domains/architecture.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [architecture](/domains/architecture.md) · subdomain `software-architecture`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 
@@ -39,7 +46,7 @@ DDD is the most common way to find good boundaries for microservices or modular-
 
 ## Narrower concepts
 
-- [Bounded context](/concepts/backend-systems/bounded-context.md)
+- [Bounded context](/concepts/architecture/bounded-context.md)
 - [Microservices](/concepts/architecture/microservices.md)
 - [Modular monolith](/concepts/architecture/modular-monolith.md)
 

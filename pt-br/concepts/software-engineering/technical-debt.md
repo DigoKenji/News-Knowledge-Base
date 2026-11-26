@@ -4,9 +4,10 @@ title: Dívida técnica
 description: O custo futuro criado ao escolher agora uma solução rápida ou conveniente em vez de uma melhor - como uma dívida financeira, cobra "juros" na forma de esforço extra em cada mudança posterior até ser paga com refatoração.
 tags:
 - software-engineering
+- design
 - core
 domain: software-engineering
-subdomain: core
+subdomain: design
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -31,13 +32,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
   at: '2026-11-26T20:30:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Dívida técnica
 
 **Definição.** Ward Cunningham criou a metáfora em 1992: entregar código de primeira é como contrair uma dívida, o que é aceitável se ela for paga logo com uma reescrita; o perigo é quando nunca é paga. O quadrante de Fowler separa dívida deliberada de inadvertida e prudente de imprudente.
 
-Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `design`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 
@@ -49,7 +53,7 @@ Fixar no código a lista de fontes de notícias para lançar mais rápido é dí
 
 ## Conceitos mais específicos
 
-- [Migração strangler fig](/pt-br/concepts/backend-systems/strangler-fig.md)
+- [Migração strangler fig](/pt-br/concepts/architecture/strangler-fig.md)
 - [Monólito modular](/pt-br/concepts/architecture/modular-monolith.md)
 
 ## Da biblioteca do MBA

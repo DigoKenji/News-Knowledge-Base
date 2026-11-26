@@ -4,7 +4,11 @@ title: Memory poisoning
 description: An attack that plants false or malicious entries in an AI agent's long-term memory or knowledge store, so that the agent later retrieves them as trusted context and acts on them, possibly long after and for other users.
 tags:
 - security
+- ai-security
 domain: security
+subdomain: ai-security
+also_in:
+- ai-ml/ai-agents
 status: stable
 verified:
 - by: Kenji
@@ -28,6 +32,10 @@ sources:
 - title: 'Dong, S. et al. (2025). Memory Injection Attacks on LLM Agents via Query-Only Interaction (MINJA). arXiv:2503.03704'
   resource: 'https://arxiv.org/abs/2503.03704'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Memory poisoning

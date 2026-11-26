@@ -4,9 +4,12 @@ title: Infrastructure as code
 description: Defining servers, networks, databases and other infrastructure in version-controlled files that tools apply automatically, instead of clicking in consoles - so environments are reproducible, reviewable and repeatable.
 tags:
 - cloud-infra
+- infrastructure-automation
 - core
 domain: cloud-infra
-subdomain: core
+subdomain: infrastructure-automation
+also_in:
+- software-engineering/delivery
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -29,13 +32,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
   at: '2026-11-26T20:30:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Infrastructure as code
 
 **Definition.** Morris defines infrastructure as code as an approach to automating infrastructure based on practices from software development: definitions in code, version control, testing and continuous delivery. Tools are declarative (Terraform, CloudFormation, Kubernetes manifests: describe the end state and the tool computes the changes) or imperative (scripts that list steps). Terraform's plan-then-apply cycle shows the exact changes before they are made.
 
-Domain: [cloud-infra](/domains/cloud-infra.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [cloud-infra](/domains/cloud-infra.md) · subdomain `infrastructure-automation`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 
@@ -47,7 +53,7 @@ A pull request adds a new database replica in a Terraform file. CI runs terrafor
 
 ## Narrower concepts
 
-- [Control plane](/concepts/backend-systems/control-plane.md)
+- [Control plane](/concepts/cloud-infra/control-plane.md)
 - [Well-Architected Framework](/concepts/cloud-infra/well-architected.md)
 
 ## From the MBA library

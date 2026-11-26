@@ -155,7 +155,7 @@ Vocabulary entries the daily run proposed from the articles it summarized, expan
   - Seen in: [Resilience testing your agents on Amazon Bedrock AgentCore](/notes/ai-ml/2026-11-19-resilience-testing-your-agents-on-amazon-bedrock-agentcore.md); [Building Reliability Into the Cloud: Observability as the Control Plane for Multi-Region Failover](/notes/cloud-infra/2026-11-20-building-reliability-into-the-cloud-observability-as-the-con.md)
   - Sources: 3 (1 practitioner, 1 paper, 1 docs)
   - Fix: 
-- [x] **C26 · [Control plane](/concepts/backend-systems/control-plane.md)** — The part of a system that decides and configures what should happen - placement, routing rules, desired state, scheduling - as opposed to the data plane, which does the actual work on each request or packet.
+- [x] **C26 · [Control plane](/concepts/cloud-infra/control-plane.md)** — The part of a system that decides and configures what should happen - placement, routing rules, desired state, scheduling - as opposed to the data plane, which does the actual work on each request or packet.
   - Seen in: [OpenAI Just Open-Sourced Symphony. Every AI Startup Should Pay Attention](/notes/ai-ml/2026-11-20-openai-just-open-sourced-symphony-every-ai-startup-should-pa.md); [How Google Traced GKE API Timeouts to a Linux Kernel TCP Bug](/notes/cloud-infra/2026-11-21-how-google-traced-gke-api-timeouts-to-a-linux-kernel-tcp-bug.md); [Probing DNS at Cloudflare](/notes/cloud-infra/2026-11-24-probing-dns-at-cloudflare.md)
   - Sources: 3 (1 standard, 1 docs, 1 practitioner)
   - ⚠️ Note: The draft narrowed this to job orchestration ("decides what work runs, when"); it is now the general control/data-plane split, of which job scheduling is one case.

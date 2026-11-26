@@ -4,9 +4,12 @@ title: Event-driven architecture
 description: An architectural style in which components communicate by producing and reacting to events - records that something happened - usually through a broker, so producers do not need to know who consumes them.
 tags:
 - architecture
+- software-architecture
 - core
 domain: architecture
-subdomain: core
+subdomain: software-architecture
+also_in:
+- backend-systems/messaging-and-workflows
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -33,6 +36,9 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 updated:
 - by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
   at: '2026-11-26T20:30:00-03:00'
@@ -43,7 +49,7 @@ updated:
 
 **Definition.** An event is an immutable fact ("OrderPlaced at 10:42"). Fowler distinguishes four patterns often lumped together: event notification, event-carried state transfer, event sourcing (storing state as the log of events) and CQRS. Brokers such as Kafka, RabbitMQ or cloud event buses deliver events; CloudEvents standardises their format.
 
-Domain: [architecture](/domains/architecture.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [architecture](/domains/architecture.md) · subdomain `software-architecture`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

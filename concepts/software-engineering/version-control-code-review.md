@@ -4,9 +4,10 @@ title: Version control and code review
 description: Version control records every change to code (who, what, when, why) so teams can work in parallel and roll back; code review has another engineer examine each change before it is merged, to catch defects and share knowledge.
 tags:
 - software-engineering
+- delivery
 - core
 domain: software-engineering
-subdomain: core
+subdomain: delivery
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -29,13 +30,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
   at: '2026-11-26T20:30:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Version control and code review
 
 **Definition.** A version control system (Git is the de facto standard) stores the history of a codebase as commits, supports branches for parallel work and merges them back. Modern code review happens on pull requests: a reviewer reads the diff, comments, and approves before merge. Bacchelli and Bird found at Microsoft that finding defects is the stated goal, but knowledge transfer and team awareness are major real outcomes.
 
-Domain: [software-engineering](/domains/software-engineering.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [software-engineering](/domains/software-engineering.md) · subdomain `delivery`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

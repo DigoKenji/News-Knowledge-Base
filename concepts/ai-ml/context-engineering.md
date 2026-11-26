@@ -4,7 +4,9 @@ title: Context engineering
 description: Designing and managing everything a model sees at each call - instructions, retrieved documents, memory, tool definitions and results, history - so it has exactly the information it needs, in a form it can use, within a finite window.
 tags:
 - ai-ml
+- llm-engineering
 domain: ai-ml
+subdomain: llm-engineering
 status: stable
 verified:
 - by: Kenji
@@ -39,6 +41,9 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Context engineering

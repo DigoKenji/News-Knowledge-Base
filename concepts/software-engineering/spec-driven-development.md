@@ -4,7 +4,9 @@ title: Spec-driven development
 description: A practice in which a written specification drives how agents plan and build software.
 tags:
 - software-engineering
+- devex
 domain: software-engineering
+subdomain: devex
 status: draft
 generated:
   by: claude-haiku (Project_News daily run)
@@ -13,6 +15,10 @@ sources:
 - title: After waterfall, agile, and DevOps — Anthropic’s AI-Native SDLC playbook
   resource: https://medium.com/@vateo/after-waterfall-agile-and-devops-anthropics-ai-native-sdlc-playbook-0131a3a9156e
   kind: practitioner
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Spec-driven development

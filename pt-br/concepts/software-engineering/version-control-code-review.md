@@ -4,9 +4,10 @@ title: Controle de versão e revisão de código
 description: O controle de versão registra cada mudança no código (quem, o quê, quando, por quê) para que equipes trabalhem em paralelo e possam reverter; a revisão de código faz outro engenheiro examinar cada mudança antes de ser integrada, para pegar defeitos e compartilhar conhecimento.
 tags:
 - software-engineering
+- delivery
 - core
 domain: software-engineering
-subdomain: core
+subdomain: delivery
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -31,13 +32,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
   at: '2026-11-26T20:30:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Controle de versão e revisão de código
 
 **Definição.** Um sistema de controle de versão (o Git é o padrão de fato) guarda o histórico de uma base de código como commits, suporta branches para trabalho em paralelo e os integra de volta. A revisão de código moderna acontece em pull requests: um revisor lê o diff, comenta e aprova antes da integração. Bacchelli e Bird viram na Microsoft que encontrar defeitos é o objetivo declarado, mas transferência de conhecimento e consciência da equipe são resultados reais importantes.
 
-Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `delivery`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

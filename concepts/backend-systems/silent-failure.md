@@ -4,9 +4,9 @@ title: Silent failure
 description: A failure that produces no error - the system returns output that looks normal but is wrong, incomplete or stale - so monitoring based on errors and uptime does not see it and damage accumulates until someone notices the results.
 tags:
 - backend-systems
-- system-design
+- reliability
 domain: backend-systems
-subdomain: system-design
+subdomain: reliability
 status: stable
 verified:
 - by: Kenji
@@ -30,13 +30,17 @@ sources:
 - title: Beyer, B. et al. (eds.) (2016). Site Reliability Engineering, ch. 6 Monitoring Distributed Systems. O'Reilly / Google
   resource: 'https://sre.google/sre-book/monitoring-distributed-systems/'
   kind: book
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Silent failure
 
 **Definition.** A silent failure is a fault whose symptoms do not trip any alarm: no exception, no 5xx, no crash. Examples range from hardware silent data corruption to a pipeline that quietly processes zero records, a cache serving stale data, or an ML model whose accuracy degrades while still answering confidently.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `reliability`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

@@ -4,9 +4,9 @@ title: 'Regularization and the bias-variance trade-off'
 description: 'Techniques that reduce overfitting by limiting how closely a model can fit its training data (penalties, dropout, early stopping, augmentation), framed by the trade-off between bias (too simple) and variance (too sensitive to the sample).'
 tags:
 - ai-ml
-- classical-ml
+- ml-fundamentals
 domain: ai-ml
-subdomain: classical-ml
+subdomain: ml-fundamentals
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest)
@@ -27,13 +27,17 @@ sources:
 - title: 'Srivastava, N. et al. (2014). Dropout: A Simple Way to Prevent Neural Networks from Overfitting. JMLR 15'
   resource: 'https://jmlr.org/papers/v15/srivastava14a.html'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Regularization and the bias-variance trade-off
 
 **Definition.** Goodfellow et al. define regularization as any modification to a learning algorithm intended to reduce its generalisation error but not its training error. The bias-variance view explains why it helps: expected error splits into bias (systematic error from a model too simple to capture the pattern), variance (error from the model changing a lot with each training sample) and irreducible noise. More capacity lowers bias and raises variance; regularization trades a little bias for a large cut in variance. Common techniques are L2 (weight decay) and L1 penalties on weight size (L1 also drives weights to exactly zero, giving sparse models), dropout (randomly switching off units during training), early stopping (halt when validation error starts rising), data augmentation and ensembling.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `classical-ml`. New concept from the MBA library (books added to FIAP-MBA/Materiais/Referencias, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `ml-fundamentals`. New concept from the MBA library (books added to FIAP-MBA/Materiais/Referencias, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

@@ -35,6 +35,10 @@ relations:
   target: /concepts/ai-ml/kv-cache.md
 - type: part-of
   target: /concepts/ai-ml/inference-tradeoffs.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Prefill-decode disaggregation

@@ -4,9 +4,12 @@ title: Quality attributes and trade-offs
 description: The measurable properties that say how well a system works - performance, availability, security, modifiability, scalability, cost and so on - which drive architecture and usually trade off against each other.
 tags:
 - architecture
+- software-architecture
 - core
 domain: architecture
-subdomain: core
+subdomain: software-architecture
+also_in:
+- software-engineering/process
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -30,13 +33,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
   at: '2026-11-26T20:30:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Quality attributes and trade-offs
 
 **Definition.** ISO/IEC 25010 defines a product quality model with characteristics such as functional suitability, performance efficiency, compatibility, interaction capability, reliability, security, maintainability, flexibility and safety. Bass, Clements and Kazman make them concrete with quality attribute scenarios: stimulus, environment, response and a measurable response measure.
 
-Domain: [architecture](/domains/architecture.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [architecture](/domains/architecture.md) · subdomain `software-architecture`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 
@@ -48,7 +54,7 @@ Scenario - "when 500 users search at once during normal operation, 95% of result
 
 ## Narrower concepts
 
-- [ATAM tradeoff analysis](/concepts/backend-systems/atam.md)
+- [ATAM tradeoff analysis](/concepts/architecture/atam.md)
 - [Well-Architected Framework](/concepts/cloud-infra/well-architected.md)
 - [SLO error budget](/concepts/cloud-infra/slo-error-budget.md)
 

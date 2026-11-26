@@ -4,9 +4,9 @@ title: Linearizabilidade
 description: O modelo de consistência mais forte para um único objeto - toda operação parece acontecer instantaneamente num ponto entre seu início e seu fim, então todos os clientes veem uma única ordem atualizada das operações, coerente com o tempo real.
 tags:
 - backend-systems
-- system-design
+- distributed-systems
 domain: backend-systems
-subdomain: system-design
+subdomain: distributed-systems
 status: stable
 verified:
 - by: Kenji
@@ -32,13 +32,17 @@ sources:
   kind: practitioner
 lang: pt-br
 translation_of: /concepts/backend-systems/linearizability.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Linearizabilidade
 
 **Definição.** Um sistema é linearizável se, para toda execução, existe uma ordem total das operações que (1) obedece à especificação sequencial de cada objeto e (2) respeita o tempo real: se a operação A terminou antes de B começar, A vem antes de B. Informalmente, o sistema se comporta como se houvesse uma única cópia dos dados, mesmo que esteja replicado.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `distributed-systems`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

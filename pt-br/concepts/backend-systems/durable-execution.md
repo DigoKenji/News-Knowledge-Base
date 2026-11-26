@@ -4,7 +4,9 @@ title: Execução Durável
 description: Um fluxo de trabalho cujo progresso é registrado à medida que é executado, de modo que retoma a partir da última etapa registrada após uma falha ou uma longa espera, em vez de começar do zero.
 tags:
 - backend-systems
+- messaging-and-workflows
 domain: backend-systems
+subdomain: messaging-and-workflows
 status: stable
 verified:
 - by: Kenji
@@ -18,6 +20,10 @@ sources:
   kind: practitioner
 lang: pt-br
 translation_of: /concepts/backend-systems/durable-execution.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Execução Durável

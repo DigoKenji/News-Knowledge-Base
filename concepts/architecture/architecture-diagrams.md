@@ -22,6 +22,10 @@ sources:
 - title: 'ISO/IEC/IEEE 42010 - Architecture description (overview site)'
   resource: 'http://www.iso-architecture.org/42010/'
   kind: standard
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Architecture diagrams and diagram-driven design
@@ -45,7 +49,7 @@ A slide shows six boxes labelled with product names. Redrawn with labelled arrow
 ## Related concepts
 
 - [The architect elevator (the architect's role)](/concepts/architecture/architect-elevator.md)
-- [Architecture decision record](/concepts/backend-systems/adr.md)
+- [Architecture decision record](/concepts/architecture/adr.md)
 
 ## Sources
 

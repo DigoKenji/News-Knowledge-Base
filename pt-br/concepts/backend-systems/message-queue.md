@@ -4,9 +4,10 @@ title: Fila de mensagens e mensageria assíncrona
 description: Um componente que permite aos serviços se comunicarem enviando mensagens a uma fila ou tópico em vez de se chamarem diretamente, desacoplando remetentes e destinatários no tempo, na taxa e na localização.
 tags:
 - backend-systems
+- messaging-and-workflows
 - core
 domain: backend-systems
-subdomain: core
+subdomain: messaging-and-workflows
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -31,13 +32,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Fila de mensagens e mensageria assíncrona
 
 **Definição.** Hohpe e Woolf descrevem a mensageria como comunicação assíncrona por canais: uma fila ponto a ponto entrega cada mensagem a um consumidor (distribuição de trabalho), enquanto um tópico publish-subscribe a entrega a cada assinante. Brokers como RabbitMQ ou Amazon SQS guardam mensagens até serem consumidas; sistemas baseados em log como o Apache Kafka mantêm um log ordenado e reproduzível por partição. A entrega é tipicamente pelo menos uma vez, então os consumidores precisam ser idempotentes.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `messaging-and-workflows`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

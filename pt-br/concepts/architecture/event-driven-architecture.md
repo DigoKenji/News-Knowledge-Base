@@ -4,9 +4,12 @@ title: Arquitetura orientada a eventos
 description: Um estilo arquitetural em que componentes se comunicam produzindo e reagindo a eventos - registros de que algo aconteceu - geralmente por meio de um broker, para que produtores não precisem saber quem os consome.
 tags:
 - architecture
+- software-architecture
 - core
 domain: architecture
-subdomain: core
+subdomain: software-architecture
+also_in:
+- backend-systems/messaging-and-workflows
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -35,6 +38,9 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 updated:
 - by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
   at: '2026-11-26T20:30:00-03:00'
@@ -45,7 +51,7 @@ updated:
 
 **Definição.** Um evento é um fato imutável ("PedidoRealizado às 10:42"). Fowler distingue quatro padrões que costumam ser confundidos: notificação de evento, transferência de estado carregada no evento, event sourcing (guardar o estado como o log de eventos) e CQRS. Brokers como Kafka, RabbitMQ ou barramentos de eventos na nuvem entregam os eventos; o CloudEvents padroniza seu formato.
 
-Domínio: [architecture](/pt-br/domains/architecture.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [architecture](/pt-br/domains/architecture.md) · subdomínio `software-architecture`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

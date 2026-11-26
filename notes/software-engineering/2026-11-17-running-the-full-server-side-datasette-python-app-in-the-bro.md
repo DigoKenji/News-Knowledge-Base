@@ -5,7 +5,7 @@ description: Datasette Lite now runs the full server-side Datasette app in the b
 resource: https://simonwillison.net/2026/Nov/17/datasette-lite/
 tags:
 - software-engineering
-- web-platform
+- devex
 generated:
   by: claude-haiku (Project_News daily run)
   at: '2026-11-17T21:40:00-03:00'
@@ -19,7 +19,7 @@ source: Simon Willison
 source_type: blog
 published: '2026-11-17'
 domain: software-engineering
-subdomain: web-platform
+subdomain: devex
 concepts: []
 selected_by: discovery
 content: open

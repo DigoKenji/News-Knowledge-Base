@@ -27,6 +27,10 @@ sources:
 - title: 'Yang, J. et al. (2024). SWE-agent - Agent-Computer Interfaces Enable Automated Software Engineering. NeurIPS 2024, arXiv:2405.15793'
   resource: 'https://arxiv.org/abs/2405.15793'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Agent harness

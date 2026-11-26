@@ -4,9 +4,10 @@ title: Data warehouse, data lake e lakehouse
 description: Um data warehouse guarda dados limpos e estruturados, modelados para análise; um data lake guarda dados brutos de qualquer formato de forma barata em armazenamento de objetos; um lakehouse acrescenta recursos de warehouse (transações, esquemas, SQL rápido) sobre arquivos abertos em um lake.
 tags:
 - data
+- analytics
 - core
 domain: data
-subdomain: core
+subdomain: analytics
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -31,13 +32,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Data warehouse, data lake e lakehouse
 
 **Definição.** Inmon definiu o data warehouse como uma coleção de dados orientada a assuntos, integrada, variante no tempo e não volátil, em apoio às decisões gerenciais. Os data lakes, popularizados nos anos 2010, guardam arquivos brutos (CSV, JSON, Parquet, imagens) em armazenamento barato, com esquema aplicado na leitura. Armbrust et al. propuseram o lakehouse: formatos de tabela abertos (Delta Lake, Apache Iceberg, Apache Hudi) acrescentam transações ACID, imposição de esquema e indexação aos arquivos do lake para que uma única cópia sirva BI, ciência de dados e ML.
 
-Domínio: [data](/pt-br/domains/data.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [data](/pt-br/domains/data.md) · subdomínio `analytics`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

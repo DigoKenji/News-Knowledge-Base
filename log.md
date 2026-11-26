@@ -1,6 +1,7 @@
 # Log
 
 ## 2026-11-26
+- **Restructure:** Concept taxonomy (News-Automation ADR-0013): each domain page now holds the controlled subdomain list with scope notes and the body of knowledge it follows (ACM CCS, SWEBOK v4, TOGAF 9.2, DDIA, NIST, DMBOK, CyBOK). All 172 concepts reclassified (EN + pt-br): one home subdomain each, `core` is now a tag, 28 cross-listings via `also_in`. Eight concepts moved theme: ADR, ATAM, bounded context and strangler fig to architecture; control plane to cloud-infra; shadow testing, performance regression and canary/blue-green deploy to software-engineering. Theme indexes are grouped by subdomain with ↗ cross-listings. 26 seed placeholder descriptions replaced with real one-liners. Architecture subdomain `integration-and-software-architecture` renamed `software-architecture` (4 notes) and `architecture-practice` added.
 - **Creation:** Software Architect Elevator digest: 4 new draft concepts (the architect elevator, architecture as options, architecture diagrams, economies of speed), EN + pt-br, from Hohpe's *The Software Architect Elevator* (2020), added by Kenji to FIAP-MBA/Materiais/Referencias on 2026-11-26.
 - **Update:** 10 existing architecture, backend, cloud and software-engineering concepts got a "From the MBA library" section and a book source with chapter locators (EN + pt-br); definitions unchanged. Foundations unchanged (the book quotes the standard definitions rather than adding a body).
 - **Review:** Checklist /reviews/2026-11-26-architect-elevator.md, waiting for Kenji.

@@ -7,6 +7,8 @@ tags:
 - data-engineering
 domain: data
 subdomain: data-engineering
+also_in:
+- backend-systems/api-design
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest, DDIA)
@@ -24,6 +26,10 @@ sources:
   kind: docs
 lang: pt-br
 translation_of: /concepts/data/schema-evolution.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Evolução de schema e compatibilidade de dados

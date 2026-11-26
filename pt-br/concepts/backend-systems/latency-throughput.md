@@ -4,9 +4,10 @@ title: Latência, vazão e latência de cauda
 description: Latência é quanto tempo uma requisição leva; vazão é quantas requisições o sistema conclui por unidade de tempo; latência de cauda é a ponta lenta da distribuição de latência (p99, p99,9), que usuários de sistemas grandes encontram muito mais do que as médias sugerem.
 tags:
 - backend-systems
+- performance
 - core
 domain: backend-systems
-subdomain: core
+subdomain: performance
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +24,17 @@ sources:
   kind: book
 lang: pt-br
 translation_of: /concepts/backend-systems/latency-throughput.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Latência, vazão e latência de cauda
 
 **Definição.** Latência é o tempo entre enviar uma requisição e receber a resposta; vazão é a taxa de trabalho concluído (requisições por segundo, tokens por segundo). Como a latência varia, ela é descrita por percentis: p50 é a mediana, p99 é o valor que 99% das requisições superam. Dean e Barroso mostraram que, quando uma requisição de usuário se espalha por muitos servidores, o servidor mais lento decide o tempo de resposta, então a lentidão rara se torna comum em escala.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `performance`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

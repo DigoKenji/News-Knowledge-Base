@@ -4,9 +4,10 @@ title: Software development life cycle (SDLC)
 description: The sequence of activities that takes software from idea to retirement - requirements, design, implementation, testing, deployment, operation and maintenance - and the process model (waterfall, iterative, agile) that organises them.
 tags:
 - software-engineering
+- process
 - core
 domain: software-engineering
-subdomain: core
+subdomain: process
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -22,13 +23,17 @@ sources:
   resource: 'https://doi.org/10.1109/2.59'
   kind: paper
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Software development life cycle (SDLC)
 
 **Definition.** ISO/IEC/IEEE 12207 defines the software life cycle processes an organisation can use, from acquisition and requirements through development, operation, maintenance and disposal. A life cycle model chooses how these activities are sequenced: waterfall runs them once in order, iterative and spiral models repeat them in cycles with risk checks, and agile methods run them in short increments.
 
-Domain: [software-engineering](/domains/software-engineering.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [software-engineering](/domains/software-engineering.md) · subdomain `process`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

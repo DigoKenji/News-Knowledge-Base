@@ -4,9 +4,9 @@ title: Pressão de GC
 description: A carga que um programa impõe ao coletor de lixo - principalmente pela taxa de alocação e pelo tamanho e densidade de ponteiros do heap vivo - que aparece como CPU gasta coletando, pausas mais longas ou frequentes e maior latência de cauda.
 tags:
 - backend-systems
-- system-design
+- performance
 domain: backend-systems
-subdomain: system-design
+subdomain: performance
 status: stable
 verified:
 - by: Kenji
@@ -29,13 +29,17 @@ sources:
   kind: docs
 lang: pt-br
 translation_of: /concepts/backend-systems/gc-pressure.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Pressão de GC
 
 **Definição.** Pressão de GC é o quanto uma aplicação faz o coletor de lixo trabalhar. Taxas altas de alocação tornam as coletas mais frequentes; um heap vivo grande, com muitos objetos e referências, torna cada coleta (marcação, cópia) mais cara. O resultado é menos CPU para a aplicação e picos de latência durante as pausas.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `performance`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

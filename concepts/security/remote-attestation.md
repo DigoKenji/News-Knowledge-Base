@@ -27,6 +27,10 @@ sources:
 - title: AWS. Cryptographic attestation (AWS Nitro Enclaves User Guide)
   resource: 'https://docs.aws.amazon.com/enclaves/latest/user/set-up-attestation.html'
   kind: docs
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Remote attestation

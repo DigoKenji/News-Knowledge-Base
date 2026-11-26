@@ -4,9 +4,10 @@ title: Consistency models
 description: The rules a distributed data store promises about which values reads can return when data is copied across nodes - from strong (every read sees the latest write) to eventual (replicas converge if writes stop).
 tags:
 - backend-systems
+- distributed-systems
 - core
 domain: backend-systems
-subdomain: core
+subdomain: distributed-systems
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: Kleppmann, M. (2017). Designing Data-Intensive Applications, ch. 5 and ch. 9 "Consistency and Consensus"
   resource: 'https://dataintensive.net/'
   kind: book
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Consistency models
 
 **Definition.** A consistency model is a contract between a data store and its clients about the order and visibility of operations. Strong models such as linearizability make the system behave like a single copy; weaker models such as causal consistency, read-your-writes or eventual consistency allow stale reads in exchange for lower latency and higher availability. Jepsen maintains a widely used map of these models and how they relate.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `distributed-systems`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

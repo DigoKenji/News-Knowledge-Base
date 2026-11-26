@@ -4,9 +4,9 @@ title: 'Controles de segurança'
 description: 'Medidas que reduzem risco, classificadas pela forma de implementação (gerenciais/administrativas, operacionais, técnicas, físicas) e pelo que fazem (preventivas, detectivas, corretivas, dissuasivas, compensatórias).'
 tags:
 - security
-- security
+- governance-risk
 domain: security
-subdomain: security
+subdomain: governance-risk
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest)
@@ -29,13 +29,17 @@ sources:
   kind: standard
 lang: pt-br
 translation_of: /concepts/security/security-controls.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Controles de segurança
 
 **Definição.** Stallings e Brown definem controle como uma ação, dispositivo, procedimento ou outra medida que reduz risco eliminando ou prevenindo uma violação de segurança, minimizando o dano que ela pode causar, ou descobrindo-a e reportando-a para que seja corrigida (p. 517). Eles classificam os controles em gerenciais (políticas, planejamento, normas), operacionais (procedimentos executados principalmente por pessoas) e técnicos (recursos de hardware e software), e cada um pode ser de suporte, preventivo ou de detecção e recuperação. Os guias de certificação usam um esquema paralelo: técnicos, administrativos e físicos pela implementação, e preventivos, detectivos, corretivos, dissuasivos e compensatórios pelo objetivo; um controle compensatório é uma alternativa usada quando o controle principal não é viável (Gibson, cap. 1). O NIST SP 800-53 é o grande catálogo de controles concretos agrupados em famílias.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `security`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-24); rascunho aguardando certificação do Kenji.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `governance-risk`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-24); rascunho aguardando certificação do Kenji.
 
 ## Como se encaixa
 

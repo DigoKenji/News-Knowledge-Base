@@ -4,9 +4,11 @@ title: 'Event sourcing'
 description: 'Guardar o estado de uma aplicação como um log somente de acréscimo de eventos de domínio imutáveis ("pedido feito", "item enviado") e derivar o estado atual reproduzindo-os, em vez de sobrescrever registros no lugar.'
 tags:
 - backend-systems
-- system-design
+- messaging-and-workflows
 domain: backend-systems
-subdomain: system-design
+subdomain: messaging-and-workflows
+also_in:
+- architecture/software-architecture
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest, DDIA)
@@ -24,13 +26,17 @@ sources:
   kind: docs
 lang: pt-br
 translation_of: /concepts/backend-systems/event-sourcing.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Event sourcing
 
 **Definição.** Kleppmann coloca o event sourcing ao lado do change data capture: os dois guardam todas as mudanças de estado da aplicação como um log de eventos, mas em níveis diferentes. No CDC a aplicação atualiza um banco livremente e o log de mudanças é extraído por baixo; no event sourcing a aplicação é construída explicitamente sobre eventos imutáveis gravados em um event store somente de acréscimo, onde atualizações e exclusões são desencorajadas ou proibidas, e cada evento registra algo que aconteceu no nível da aplicação, e não uma mudança de estado de baixo nível. O estado atual é uma visão derivada, calculada reproduzindo os eventos (muitas vezes com snapshots para ganhar velocidade). A técnica veio da comunidade de domain-driven design e costuma andar junto com CQRS, que separa o modelo de escrita (eventos) dos modelos de leitura.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-26); rascunho aguardando certificação do Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `messaging-and-workflows`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-26); rascunho aguardando certificação do Kenji.
 
 ## Como se encaixa
 

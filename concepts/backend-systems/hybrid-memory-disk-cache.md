@@ -4,9 +4,9 @@ title: Hybrid memory-disk cache
 description: A cache that keeps its index and hottest items in RAM and the larger, colder part on SSD, so it holds far more data per server than memory alone at a cost of slower reads for items that live on disk.
 tags:
 - backend-systems
-- system-design
+- performance
 domain: backend-systems
-subdomain: system-design
+subdomain: performance
 status: stable
 verified:
 - by: Kenji
@@ -27,13 +27,17 @@ sources:
 - title: Memcached. Extstore (wiki)
   resource: 'https://github.com/memcached/memcached/wiki/Extstore'
   kind: docs
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Hybrid memory-disk cache
 
 **Definition.** A hybrid (tiered) cache layers DRAM over flash. Lookups check memory first; misses in memory may still hit on SSD, which is much cheaper per gigabyte and much faster than going to the backing database. Items are promoted, demoted or evicted between tiers by admission and eviction policies.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `performance`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

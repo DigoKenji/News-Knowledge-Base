@@ -4,7 +4,9 @@ title: Proxy Reverso
 description: Um servidor que recebe requisições do público, processa HTTPS e as encaminha às aplicações internas que estão por trás dele.
 tags:
 - backend-systems
+- web-platform
 domain: backend-systems
+subdomain: web-platform
 status: stable
 verified:
 - by: Kenji
@@ -18,6 +20,10 @@ sources:
   kind: practitioner
 lang: pt-br
 translation_of: /concepts/backend-systems/reverse-proxy.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Proxy Reverso

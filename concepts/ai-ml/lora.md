@@ -4,7 +4,9 @@ title: Low-rank adaptation (LoRA)
 description: Low-Rank Adaptation - a parameter-efficient fine-tuning method that freezes a model's weights and trains small low-rank matrices added to some layers, cutting trainable parameters by orders of magnitude with little quality loss.
 tags:
 - ai-ml
+- llm-engineering
 domain: ai-ml
+subdomain: llm-engineering
 status: stable
 verified:
 - by: Kenji
@@ -40,6 +42,9 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Low-rank adaptation (LoRA)

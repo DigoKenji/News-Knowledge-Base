@@ -1,12 +1,14 @@
 ---
 type: Concept
 title: Saga pattern
-description: Saga pattern (microservices).
+description: 'Running a business transaction across services as a sequence of local transactions, each with a compensating action that undoes it if a later step fails.'
 tags:
 - backend-systems
-- microservices
+- messaging-and-workflows
 domain: backend-systems
-subdomain: microservices
+subdomain: messaging-and-workflows
+also_in:
+- architecture/software-architecture
 status: stable
 generated:
   by: claude (seed from Notion tree)
@@ -23,11 +25,14 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
   at: '2026-11-26T20:30:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy; real description'
 ---
 
 # Saga pattern
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `microservices`.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `messaging-and-workflows`.
 
 ## From the MBA library
 

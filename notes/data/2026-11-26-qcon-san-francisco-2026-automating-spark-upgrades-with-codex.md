@@ -140,6 +140,6 @@ The article's stated goal is that experimentation stays repeatable, observable a
 
 ## Concepts
 - [ai-agent](/concepts/ai-ml/ai-agent.md)
-- [shadow-testing](/concepts/backend-systems/shadow-testing.md)
+- [shadow-testing](/concepts/software-engineering/shadow-testing.md)
 - [authentication-authorization](/concepts/security/authentication-authorization.md)
 - [observability](/concepts/cloud-infra/observability.md)

@@ -5,7 +5,7 @@ description: Substituir middleware da era BizTalk por serviços nativos da nuvem
 resource: https://aws.amazon.com/blogs/architecture/how-country-road-group-built-a-pattern-driven-integration-solution-on-aws/
 tags:
 - architecture
-- integration-and-software-architecture
+- software-architecture
 - idempotency
 - saga-pattern
 generated:
@@ -21,7 +21,7 @@ source: AWS Architecture
 source_type: blog
 published: '2026-11-19'
 domain: architecture
-subdomain: integration-and-software-architecture
+subdomain: software-architecture
 concepts:
 - idempotency
 - saga-pattern

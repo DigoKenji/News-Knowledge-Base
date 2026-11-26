@@ -66,7 +66,7 @@ Application architecture describes the structure and interaction of the enterpri
 - **Baseline.** The KB follows TOGAF 9.2 (course guidance, 2026-11-19: 9.2 is consolidated, while TOGAF 10 is still being updated). TOGAF 10 wording is kept here to show what changed.
 
 ## Where it sits
-Domain subdomain `application-architecture`. Inside-the-application design (patterns, microservices) is filed under `integration-and-software-architecture`.
+Domain subdomain `application-architecture`. Inside-the-application design (patterns, microservices) is filed under `software-architecture`.
 
 ## In the course
 Técnicas de Arquitetura (Fowler PoEAA, Enterprise Integration Patterns, microservices material). Lectures not ingested yet.

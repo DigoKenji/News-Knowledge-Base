@@ -4,9 +4,12 @@ title: Secure software development (SSDLC)
 description: Building security into every phase of the software development life cycle - requirements, design, coding, testing, release and maintenance - instead of testing for it only at the end.
 tags:
 - security
+- appsec
 - core
 domain: security
-subdomain: core
+subdomain: appsec
+also_in:
+- software-engineering/process
 status: stable
 verified:
 - by: Kenji
@@ -41,13 +44,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Secure software development (SSDLC)
 
 **Definition.** A secure software development life cycle adds security practices to each stage: security requirements, threat modelling during design, secure coding standards, code review, static and dynamic analysis (SAST, DAST), dependency scanning, secure build and release, and vulnerability response after release. NIST's Secure Software Development Framework (SSDF, SP 800-218) groups these into four practice areas: prepare the organisation, protect the software, produce well-secured software, and respond to vulnerabilities.
 
-Domain: [security](/domains/security.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
+Domain: [security](/domains/security.md) · subdomain `appsec`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

@@ -4,9 +4,10 @@ title: Cache (caching)
 description: Manter uma cópia dos dados em um armazenamento mais rápido ou mais próximo para que leituras repetidas evitem a fonte original lenta - trocando memória e o risco de servir dados desatualizados por menor latência e menos carga.
 tags:
 - backend-systems
+- performance
 - core
 domain: backend-systems
-subdomain: core
+subdomain: performance
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +24,17 @@ sources:
   kind: book
 lang: pt-br
 translation_of: /concepts/backend-systems/caching.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Cache (caching)
 
 **Definição.** Um cache guarda os resultados de leituras ou cálculos anteriores para que requisições posteriores sejam servidas a partir dele. Funciona porque os padrões de acesso têm localidade: dados usados recente ou frequentemente tendem a ser usados de novo. As escolhas principais são o que guardar, onde (CPU, memória do processo, um cache compartilhado como Redis ou memcached, uma CDN, o navegador), como despejar (LRU, LFU, TTL) e como manter atualizado (expiração, invalidação, write-through ou write-back). O cache HTTP é padronizado na RFC 9111.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `performance`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

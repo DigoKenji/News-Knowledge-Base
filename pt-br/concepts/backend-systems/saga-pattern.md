@@ -1,12 +1,14 @@
 ---
 type: Concept
 title: Padrão Saga
-description: Padrão Saga (microservices).
+description: 'Executar uma transação de negócio entre serviços como uma sequência de transações locais, cada uma com uma ação compensatória que a desfaz se um passo posterior falhar.'
 tags:
 - backend-systems
-- microservices
+- messaging-and-workflows
 domain: backend-systems
-subdomain: microservices
+subdomain: messaging-and-workflows
+also_in:
+- architecture/software-architecture
 status: stable
 generated:
   by: claude (seed from Notion tree)
@@ -25,11 +27,14 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
   at: '2026-11-26T20:30:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio; descrição real'
 ---
 
 # Padrão Saga
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `microservices`.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `messaging-and-workflows`.
 
 ## Da biblioteca do MBA
 

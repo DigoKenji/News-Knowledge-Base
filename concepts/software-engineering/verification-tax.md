@@ -4,9 +4,9 @@ title: Verification tax
 description: The growing share of engineering time spent reviewing, testing and correcting AI-generated code, which can cancel out the speed gained by generating it - a recent, informal term rather than an established one.
 tags:
 - software-engineering
-- ai-assisted-development
+- devex
 domain: software-engineering
-subdomain: ai-assisted-development
+subdomain: devex
 status: stable
 verified:
 - by: Kenji
@@ -27,13 +27,17 @@ sources:
 - title: Stack Overflow (2025). 2025 Developer Survey - AI
   resource: 'https://survey.stackoverflow.co/2025/ai'
   kind: practitioner
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Verification tax
 
 **Definition.** The verification tax is the cost of checking work you did not write yourself. With AI coding assistants, writing code gets cheaper but every line still has to be understood, reviewed and tested by someone accountable for it. As generated volume rises, review becomes the bottleneck and the net productivity gain can shrink or turn negative.
 
-Domain: [software-engineering](/domains/software-engineering.md) · subdomain `ai-assisted-development`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [software-engineering](/domains/software-engineering.md) · subdomain `devex`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

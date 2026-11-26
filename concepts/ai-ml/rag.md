@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: Retrieval-augmented generation
-description: Retrieval-augmented generation (rag).
+description: 'Retrieval-augmented generation - finding relevant documents at query time and putting them in the model''s context so it answers from that material rather than from memory alone.'
 tags:
 - ai-ml
 - rag
@@ -24,6 +24,9 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; short definition added'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy; real description'
 ---
 
 # Retrieval-augmented generation

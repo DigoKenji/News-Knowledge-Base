@@ -4,7 +4,9 @@ title: Engenharia de contexto
 description: Projetar e gerenciar tudo o que um modelo vê em cada chamada - instruções, documentos recuperados, memória, definições e resultados de ferramentas, histórico - para que tenha exatamente a informação de que precisa, numa forma utilizável, dentro de uma janela finita.
 tags:
 - ai-ml
+- llm-engineering
 domain: ai-ml
+subdomain: llm-engineering
 status: stable
 verified:
 - by: Kenji
@@ -41,6 +43,9 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Engenharia de contexto

@@ -4,9 +4,9 @@ title: Arquitetura zero-trust
 description: Um modelo de segurança que não concede confiança implícita com base na localização de rede - toda requisição a um recurso é autenticada, autorizada e avaliada contra uma política (identidade, saúde do dispositivo, contexto) no momento em que é feita, com acesso de privilégio mínimo.
 tags:
 - security
-- appsec
+- iam
 domain: security
-subdomain: appsec
+subdomain: iam
 status: stable
 verified:
 - by: Kenji
@@ -29,13 +29,17 @@ sources:
   kind: standard
 lang: pt-br
 translation_of: /concepts/security/zero-trust-architecture.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Arquitetura zero-trust
 
 **Definição.** O NIST SP 800-207 define zero trust como um conjunto de princípios que "assume que não há confiança implícita concedida a ativos ou contas de usuário baseada apenas em sua localização física ou de rede". Uma arquitetura zero trust (ZTA) é o plano de uma empresa que aplica esses princípios: proteger recursos e não segmentos de rede, e decidir o acesso por sessão.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `appsec`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `iam`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

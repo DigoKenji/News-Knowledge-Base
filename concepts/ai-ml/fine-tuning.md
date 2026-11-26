@@ -30,6 +30,10 @@ sources:
 - title: 'Rafailov, R. et al. (2023). Direct Preference Optimization: Your Language Model is Secretly a Reward Model. NeurIPS 2023'
   resource: 'https://arxiv.org/abs/2305.18290'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Fine-tuning

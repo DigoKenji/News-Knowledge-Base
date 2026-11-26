@@ -4,7 +4,9 @@ title: Logit
 description: O score bruto e não normalizado que um modelo atribui a cada token do vocabulário antes que o softmax converta os scores em probabilidades.
 tags:
 - ai-ml
+- deep-learning
 domain: ai-ml
+subdomain: deep-learning
 status: draft
 generated:
   by: claude-haiku (Project_News daily run)
@@ -15,6 +17,10 @@ sources:
   kind: practitioner
 lang: pt-br
 translation_of: /concepts/ai-ml/logit.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Logit

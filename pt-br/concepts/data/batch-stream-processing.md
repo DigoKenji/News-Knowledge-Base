@@ -4,9 +4,10 @@ title: Processamento em lote versus em fluxo (streaming)
 description: O processamento em lote roda sobre um conjunto limitado de dados acumulados ao longo do tempo (por exemplo os logs da noite anterior); o processamento em fluxo trata um fluxo ilimitado de eventos continuamente, produzindo resultados segundos após cada evento.
 tags:
 - data
+- data-engineering
 - core
 domain: data
-subdomain: core
+subdomain: data-engineering
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +24,17 @@ sources:
   kind: book
 lang: pt-br
 translation_of: /concepts/data/batch-stream-processing.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Processamento em lote versus em fluxo (streaming)
 
 **Definição.** O MapReduce popularizou o processamento em lote em grande escala: dividir uma entrada grande e finita, processar as partes em paralelo, combinar os resultados. O processamento em fluxo trata dados como uma sequência ilimitada de eventos; o modelo Dataflow de Akidau et al. enquadra as perguntas que todo pipeline precisa responder - o que é calculado, onde no tempo do evento (janelas), quando os resultados são emitidos (watermarks e gatilhos) e como dados atrasados os refinam - e mostra o lote como caso particular do fluxo.
 
-Domínio: [data](/pt-br/domains/data.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [data](/pt-br/domains/data.md) · subdomínio `data-engineering`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

@@ -37,6 +37,10 @@ relations:
   target: /concepts/ai-ml/inference-tradeoffs.md
 lang: pt-br
 translation_of: /concepts/ai-ml/prefill-decode-disaggregation.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Desagregação prefill-decode

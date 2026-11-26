@@ -5,7 +5,7 @@ description: A pattern is only applied when a recorded decision, a record on des
 resource: https://www.architectureandgovernance.com/uncategorized/open-questions-in-pattern-application
 tags:
 - architecture
-- integration-and-software-architecture
+- software-architecture
 - adr
 generated:
   by: claude-haiku (Project_News daily run)
@@ -20,7 +20,7 @@ source: Architecture & Governance Magazine
 source_type: blog
 published: '2026-11-18'
 domain: architecture
-subdomain: integration-and-software-architecture
+subdomain: software-architecture
 concepts:
 - adr
 selected_by: discovery
@@ -204,4 +204,4 @@ This is your interpretation, not the author's. In architecture governance, the a
 - Quality attribute scenarios — the article's six-scenario card; read how a measurable response is specified.
 
 ## 🔗 Concepts
-- [adr](/concepts/backend-systems/adr.md)
+- [adr](/concepts/architecture/adr.md)

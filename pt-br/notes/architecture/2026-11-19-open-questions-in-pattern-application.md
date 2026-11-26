@@ -5,7 +5,7 @@ description: Um padrão só é aplicado quando existem juntos uma decisão regis
 resource: https://www.architectureandgovernance.com/uncategorized/open-questions-in-pattern-application
 tags:
 - architecture
-- integration-and-software-architecture
+- software-architecture
 - adr
 generated:
   by: claude-haiku (Project_News daily run)
@@ -20,7 +20,7 @@ source: Architecture & Governance Magazine
 source_type: blog
 published: '2026-11-18'
 domain: architecture
-subdomain: integration-and-software-architecture
+subdomain: software-architecture
 concepts:
 - adr
 selected_by: discovery
@@ -206,4 +206,4 @@ Esta é a sua interpretação, não a do autor. Na governança de arquitetura, o
 - Cenários de atributos de qualidade — o cartão de seis cenários do artigo; leia como uma resposta mensurável é especificada.
 
 ## 🔗 Conceitos
-- [adr](/pt-br/concepts/backend-systems/adr.md)
+- [adr](/pt-br/concepts/architecture/adr.md)

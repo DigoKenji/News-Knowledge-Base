@@ -4,9 +4,12 @@ title: Infraestrutura como código
 description: Definir servidores, redes, bancos de dados e outra infraestrutura em arquivos versionados que ferramentas aplicam automaticamente, em vez de clicar em consoles - para que os ambientes sejam reproduzíveis, revisáveis e repetíveis.
 tags:
 - cloud-infra
+- infrastructure-automation
 - core
 domain: cloud-infra
-subdomain: core
+subdomain: infrastructure-automation
+also_in:
+- software-engineering/delivery
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -31,13 +34,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
   at: '2026-11-26T20:30:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Infraestrutura como código
 
 **Definição.** Morris define infraestrutura como código como uma abordagem para automatizar infraestrutura baseada em práticas de desenvolvimento de software: definições em código, controle de versão, testes e entrega contínua. As ferramentas são declarativas (Terraform, CloudFormation, manifestos Kubernetes: descrevem o estado final e a ferramenta calcula as mudanças) ou imperativas (scripts que listam passos). O ciclo planejar-e-aplicar do Terraform mostra as mudanças exatas antes de serem feitas.
 
-Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `infrastructure-automation`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 
@@ -49,7 +55,7 @@ Um pull request acrescenta uma nova réplica de banco num arquivo Terraform. A C
 
 ## Conceitos mais específicos
 
-- [Plano de controle](/pt-br/concepts/backend-systems/control-plane.md)
+- [Plano de controle](/pt-br/concepts/cloud-infra/control-plane.md)
 - [Well-Architected Framework](/pt-br/concepts/cloud-infra/well-architected.md)
 
 ## Da biblioteca do MBA

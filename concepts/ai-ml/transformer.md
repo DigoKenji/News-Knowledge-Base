@@ -4,9 +4,10 @@ title: Transformer and attention
 description: The neural network architecture behind modern LLMs, built on self-attention - a mechanism that lets every token weigh every other token in the input to decide what is relevant - processing sequences in parallel instead of word by word.
 tags:
 - ai-ml
+- deep-learning
 - core
 domain: ai-ml
-subdomain: core
+subdomain: deep-learning
 status: stable
 verified:
 - by: Kenji
@@ -40,13 +41,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Transformer and attention
 
 **Definition.** Introduced in "Attention Is All You Need" (2017), the transformer stacks layers of multi-head self-attention and feed-forward networks. In attention, each token produces a query, a key and a value; the query is compared with all keys to get weights, and the output is the weighted mix of values. Positional information is added separately (for example with RoPE).
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `deep-learning`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: OpenID Connect
-description: OpenID Connect (iam).
+description: 'Uma camada de identidade sobre o OAuth 2.0 que permite às aplicações verificar quem é o usuário por meio de um ID token assinado por um provedor de identidade (single sign-on).'
 tags:
 - security
 - iam
@@ -16,6 +16,10 @@ relations:
   target: /concepts/security/oauth2.md
 lang: pt-br
 translation_of: /concepts/security/oidc.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio; descrição real'
 ---
 
 # OpenID Connect

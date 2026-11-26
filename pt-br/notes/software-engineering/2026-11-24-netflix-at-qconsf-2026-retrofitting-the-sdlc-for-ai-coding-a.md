@@ -184,7 +184,7 @@ A última regra tem o maior peso na prática descrita pelo próprio artigo. As m
 
 ## 🔗 Conceitos
 - [ai-agent](/pt-br/concepts/ai-ml/ai-agent.md)
-- [adr](/pt-br/concepts/backend-systems/adr.md)
+- [adr](/pt-br/concepts/architecture/adr.md)
 - [graph-rag](/pt-br/concepts/ai-ml/graph-rag.md)
 - [model-context-protocol](/pt-br/concepts/ai-ml/model-context-protocol.md)
 - [Engenharia de contexto](/pt-br/concepts/ai-ml/context-engineering.md)

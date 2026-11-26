@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: Threat modeling
-description: Threat modeling (appsec).
+description: 'Systematically working out what can go wrong in a system - modelling its data flows and trust boundaries, listing threats (for example with STRIDE) and deciding mitigations.'
 tags:
 - security
 - appsec
@@ -24,6 +24,9 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; short definition added'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy; real description'
 ---
 
 # Threat modeling

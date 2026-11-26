@@ -4,9 +4,12 @@ title: AI security and adversarial machine learning
 description: Protecting AI systems against attacks that target their data, models and behaviour - poisoning training data, evading or extracting models, prompt injection, data leakage - and the new risks created when AI systems are given access to tools and data.
 tags:
 - security
+- ai-security
 - core
 domain: security
-subdomain: core
+subdomain: ai-security
+also_in:
+- ai-ml/ai-agents
 status: stable
 verified:
 - by: Kenji
@@ -33,13 +36,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # AI security and adversarial machine learning
 
 **Definition.** NIST's adversarial machine learning taxonomy (AI 100-2) classifies attacks by the system's lifecycle stage and the attacker's goal: evasion (inputs crafted to cause wrong outputs), poisoning (corrupting training data or models), privacy attacks (extracting training data or the model itself), and, for generative AI, abuse such as prompt injection and jailbreaks. AI security also covers ordinary security of the surrounding system, since models run inside applications with data, credentials and tools.
 
-Domain: [security](/domains/security.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
+Domain: [security](/domains/security.md) · subdomain `ai-security`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

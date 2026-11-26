@@ -4,9 +4,10 @@ title: Computação em nuvem
 description: Um modelo de acesso sob demanda, via rede, a um conjunto compartilhado de recursos computacionais configuráveis (servidores, armazenamento, redes, aplicações) que podem ser provisionados e liberados rapidamente com mínimo esforço de gestão, pagando pelo que se usa.
 tags:
 - cloud-infra
+- cloud-platforms
 - core
 domain: cloud-infra
-subdomain: core
+subdomain: cloud-platforms
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -32,13 +33,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Computação em nuvem
 
 **Definição.** A NIST SP 800-145 define computação em nuvem como um modelo que permite acesso ubíquo, conveniente e sob demanda, via rede, a um conjunto compartilhado de recursos computacionais configuráveis que podem ser rapidamente provisionados e liberados com mínimo esforço de gestão ou interação com o provedor. Ela nomeia cinco características essenciais (autoatendimento sob demanda, amplo acesso à rede, agrupamento de recursos, elasticidade rápida, serviço medido), três modelos de serviço e quatro modelos de implantação. A ISO/IEC 22123-1 fornece o vocabulário internacional.
 
-Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `cloud-platforms`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

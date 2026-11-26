@@ -4,9 +4,9 @@ title: 'Incident response'
 description: 'The prepared, repeatable process for handling a security incident - preparation, detection and analysis, containment, eradication and recovery, and post-incident lessons - run by a defined team with runbooks, evidence handling and communication plans.'
 tags:
 - security
-- security
+- security-operations
 domain: security
-subdomain: security
+subdomain: security-operations
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest)
@@ -34,13 +34,17 @@ sources:
 - title: 'NIST (2025). SP 800-61 Rev. 3 - Incident Response Recommendations and Considerations for Cybersecurity Risk Management'
   resource: 'https://csrc.nist.gov/pubs/sp/800/61/r3/final'
   kind: standard
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Incident response
 
 **Definition.** A security incident is an event that actually or potentially jeopardises the confidentiality, integrity or availability of a system or its information. The classic lifecycle in NIST SP 800-61 Rev. 2, used by Chapple and Seidl, has four phases: preparation; detection and analysis; containment, eradication and recovery; and post-incident activity. Stallings and Brown describe the computer security incident response team (CSIRT) and its functions: detecting incidents, triage through a single point of contact, responding, and documenting. NIST SP 800-61 Rev. 3 (2025) now maps incident response onto the Cybersecurity Framework 2.0 functions rather than a separate lifecycle. In the cloud, the AWS guide organises the work as educate, prepare (people and technology), simulate and iterate, and stresses that responsibilities follow the shared responsibility model.
 
-Domain: [security](/domains/security.md) · subdomain `security`. New concept from the MBA library (books added to FIAP-MBA/Materiais/Referencias, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [security](/domains/security.md) · subdomain `security-operations`. New concept from the MBA library (books added to FIAP-MBA/Materiais/Referencias, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

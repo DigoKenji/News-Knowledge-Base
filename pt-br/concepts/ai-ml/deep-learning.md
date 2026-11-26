@@ -4,9 +4,10 @@ title: Redes neurais e deep learning
 description: Machine learning com redes neurais - camadas de unidades simples conectadas cujos pesos são aprendidos com dados - em que "profundo" significa muitas camadas que aprendem representações cada vez mais abstratas automaticamente.
 tags:
 - ai-ml
+- deep-learning
 - core
 domain: ai-ml
-subdomain: core
+subdomain: deep-learning
 status: stable
 verified:
 - by: Kenji
@@ -39,13 +40,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Redes neurais e deep learning
 
 **Definição.** Uma rede neural calcula sua saída passando a entrada por camadas; cada unidade faz uma soma ponderada das entradas e aplica uma função não linear. O treino ajusta os pesos com gradiente descendente, usando backpropagation para calcular quanto cada peso contribuiu para o erro. Deep learning usa redes com muitas camadas, que aprendem características diretamente dos dados brutos em vez de depender de características feitas à mão.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `deep-learning`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

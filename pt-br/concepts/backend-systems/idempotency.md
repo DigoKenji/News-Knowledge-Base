@@ -1,12 +1,12 @@
 ---
 type: Concept
 title: Idempotência
-description: Idempotência (system-design).
+description: 'A propriedade de que repetir uma operação tem o mesmo efeito que executá-la uma vez, o que torna seguras as novas tentativas e as mensagens duplicadas.'
 tags:
 - backend-systems
-- system-design
+- messaging-and-workflows
 domain: backend-systems
-subdomain: system-design
+subdomain: messaging-and-workflows
 status: stable
 generated:
   by: claude (seed from Notion tree)
@@ -26,6 +26,9 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio; descrição real'
 updated:
 - by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
   at: '2026-11-26T20:30:00-03:00'
@@ -34,7 +37,7 @@ updated:
 
 # Idempotência
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `messaging-and-workflows`.
 
 ## Da biblioteca do MBA
 

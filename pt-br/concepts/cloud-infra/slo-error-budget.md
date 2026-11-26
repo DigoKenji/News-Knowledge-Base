@@ -4,7 +4,11 @@ title: Orçamento de erros de SLO
 description: Um SLO é uma meta de confiabilidade de um serviço medida por um indicador (por exemplo 99,9% das requisições com sucesso em 30 dias); o orçamento de erros é a falha que essa meta ainda permite (0,1%), que os times gastam com releases e riscos e protegem quando está acabando.
 tags:
 - cloud-infra
+- observability
 domain: cloud-infra
+subdomain: observability
+also_in:
+- backend-systems/reliability
 status: stable
 verified:
 - by: Kenji
@@ -30,6 +34,10 @@ sources:
   kind: standard
 lang: pt-br
 translation_of: /concepts/cloud-infra/slo-error-budget.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Orçamento de erros de SLO

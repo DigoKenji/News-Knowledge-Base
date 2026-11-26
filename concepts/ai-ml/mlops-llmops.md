@@ -23,6 +23,10 @@ sources:
 - title: 'Sculley, D. et al. (2015). Hidden Technical Debt in Machine Learning Systems. NeurIPS 2015'
   resource: 'https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # MLOps and LLMOps

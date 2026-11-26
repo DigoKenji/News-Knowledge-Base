@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: Concept drift
-description: Concept drift (ml-governance).
+description: 'A change over time in the relationship between a model''s inputs and the correct output, so a model trained on past data becomes wrong even if the inputs look the same.'
 tags:
 - ai-ml
 - ml-governance
@@ -14,6 +14,10 @@ generated:
 relations:
 - type: alternative-to
   target: /concepts/ai-ml/data-drift.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy; real description'
 ---
 
 # Concept drift

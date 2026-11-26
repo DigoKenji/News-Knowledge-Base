@@ -4,9 +4,10 @@ title: Virtualização e contêineres
 description: A virtualização executa várias máquinas virtuais isoladas, cada uma com o próprio sistema operacional, em um host físico através de um hipervisor; os contêineres isolam aplicações que compartilham o kernel do sistema operacional do host, tornando-os mais leves e rápidos de iniciar.
 tags:
 - cloud-infra
+- containers
 - core
 domain: cloud-infra
-subdomain: core
+subdomain: containers
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -35,13 +36,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Virtualização e contêineres
 
 **Definição.** Popek e Goldberg formalizaram os requisitos de um monitor de máquina virtual (hipervisor): equivalência, controle de recursos e eficiência. Um contêiner empacota uma aplicação com suas dependências e a executa como processo isolado usando recursos do kernel (namespaces, cgroups no Linux); a Open Container Initiative (OCI) padroniza os formatos de imagem e runtime para que a mesma imagem rode em qualquer lugar. Contêineres isolam menos que VMs, então plataformas multi-inquilino às vezes rodam contêineres dentro de VMs leves.
 
-Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `containers`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

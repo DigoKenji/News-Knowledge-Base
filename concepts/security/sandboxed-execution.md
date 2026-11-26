@@ -5,7 +5,11 @@ description: Running generated or untrusted code in an isolated environment with
   so a mistake or attack cannot reach the rest of the system.
 tags:
 - security
+- ai-security
 domain: security
+subdomain: ai-security
+also_in:
+- ai-ml/ai-agents
 status: stable
 verified:
 - by: Kenji
@@ -20,6 +24,10 @@ sources:
 relations:
 - type: uses
   target: least-privilege
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Sandboxed Execution

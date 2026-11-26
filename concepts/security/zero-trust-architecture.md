@@ -4,9 +4,9 @@ title: Zero-trust architecture
 description: A security model that grants no implicit trust based on network location - every request to a resource is authenticated, authorised and evaluated against policy (identity, device health, context) at the time it is made, with least-privilege access.
 tags:
 - security
-- appsec
+- iam
 domain: security
-subdomain: appsec
+subdomain: iam
 status: stable
 verified:
 - by: Kenji
@@ -27,13 +27,17 @@ sources:
 - title: CISA (2023). Zero Trust Maturity Model v2.0
   resource: 'https://www.cisa.gov/zero-trust-maturity-model'
   kind: standard
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Zero-trust architecture
 
 **Definition.** NIST SP 800-207 defines zero trust as a set of principles that "assumes there is no implicit trust granted to assets or user accounts based solely on their physical or network location". A zero trust architecture (ZTA) is an enterprise's plan that applies those principles: protect resources rather than network segments, and decide access per session.
 
-Domain: [security](/domains/security.md) · subdomain `appsec`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [security](/domains/security.md) · subdomain `iam`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

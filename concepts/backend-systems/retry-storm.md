@@ -4,9 +4,9 @@ title: Retry storm
 description: A surge of retried requests that hits a struggling dependency all at once - often multiplied across layers - adding load exactly when it can least cope and keeping it overloaded after the original problem is gone.
 tags:
 - backend-systems
-- system-design
+- reliability
 domain: backend-systems
-subdomain: system-design
+subdomain: reliability
 status: stable
 verified:
 - by: Kenji
@@ -30,13 +30,17 @@ sources:
 - title: Huang, L. et al. (2022). Metastable Failures in the Wild. OSDI 2022
   resource: 'https://www.usenix.org/conference/osdi22/presentation/huang-lexiang'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Retry storm
 
 **Definition.** A retry storm happens when many clients respond to errors or timeouts by retrying, so the failing service receives a multiple of its normal traffic. Retries at several layers multiply: if each of 3 layers tries 3 times, one user action can become 27 calls to the bottom service.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `reliability`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

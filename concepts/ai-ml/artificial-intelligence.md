@@ -4,9 +4,10 @@ title: Artificial intelligence
 description: The field and the systems that perform tasks normally associated with human intelligence - perceiving, reasoning, learning, deciding, generating content - by producing outputs such as predictions, recommendations or decisions from the input they receive.
 tags:
 - ai-ml
+- ml-fundamentals
 - core
 domain: ai-ml
-subdomain: core
+subdomain: ml-fundamentals
 status: stable
 verified:
 - by: Kenji
@@ -25,13 +26,17 @@ sources:
   resource: 'https://aima.cs.berkeley.edu/'
   kind: book
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Artificial intelligence
 
 **Definition.** AI is both a research field and a kind of system. The OECD (definition updated in 2023, also used by the EU AI Act) describes an AI system as a machine-based system that, for explicit or implicit objectives, infers from the input it receives how to generate outputs such as predictions, content, recommendations or decisions that can influence physical or virtual environments. ISO/IEC 22989 is the international standard vocabulary for the field.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `ml-fundamentals`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

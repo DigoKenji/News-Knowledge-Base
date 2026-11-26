@@ -4,9 +4,10 @@ title: Consensus
 description: The problem of getting several nodes to agree on one value (or one ordered log of commands) even when some nodes crash or messages are delayed - solved in practice by algorithms such as Paxos and Raft.
 tags:
 - backend-systems
+- distributed-systems
 - core
 domain: backend-systems
-subdomain: core
+subdomain: distributed-systems
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -29,13 +30,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Consensus
 
 **Definition.** A consensus algorithm lets a group of processes agree on a value such that all non-faulty processes decide the same value, the value was proposed by someone, and they eventually decide. Fischer, Lynch and Paterson proved no deterministic algorithm can guarantee this in a fully asynchronous system with even one crash, so practical algorithms (Paxos, Raft) are always safe and make progress when the network is calm enough. They need a majority (quorum) of nodes alive.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `distributed-systems`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 
@@ -47,7 +51,7 @@ A Kubernetes cluster stores its state in a 3-node etcd cluster running Raft. If 
 
 ## Narrower concepts
 
-- [Control plane](/concepts/backend-systems/control-plane.md)
+- [Control plane](/concepts/cloud-infra/control-plane.md)
 - [Linearizability](/concepts/backend-systems/linearizability.md)
 
 ## From the MBA library

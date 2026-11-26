@@ -4,9 +4,12 @@ title: Governança de dados e qualidade de dados
 description: Governança de dados é o exercício de autoridade e controle sobre como os dados são geridos - responsabilidade, políticas, padrões e prestação de contas; qualidade de dados é o quanto os dados servem ao uso pretendido, medida por dimensões como exatidão, completude, consistência e atualidade.
 tags:
 - data
+- data-governance
 - core
 domain: data
-subdomain: core
+subdomain: data-governance
+also_in:
+- architecture/data-architecture
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -24,13 +27,17 @@ sources:
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/data/data-governance-quality.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Governança de dados e qualidade de dados
 
 **Definição.** O DAMA-DMBOK define governança de dados como o exercício de autoridade, controle e decisão compartilhada (planejamento, monitoramento e fiscalização) sobre a gestão dos ativos de dados, e a coloca no centro do seu framework. A ISO/IEC 25012 define um modelo de qualidade de dados com características inerentes (exatidão, completude, consistência, credibilidade, atualidade) e dependentes do sistema (disponibilidade, portabilidade, recuperabilidade); a ISO 8000 trata da qualidade de dados para troca de dados mestres.
 
-Domínio: [data](/pt-br/domains/data.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [data](/pt-br/domains/data.md) · subdomínio `data-governance`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

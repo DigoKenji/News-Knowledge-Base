@@ -4,9 +4,12 @@ title: DevOps
 description: A culture and set of practices that unite software development and IT operations - shared ownership, automation, fast feedback and measurement - so teams deliver changes quickly and reliably.
 tags:
 - software-engineering
+- delivery
 - core
 domain: software-engineering
-subdomain: core
+subdomain: delivery
+also_in:
+- cloud-infra/infrastructure-automation
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -29,13 +32,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
   at: '2026-11-26T20:30:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # DevOps
 
 **Definition.** DevOps emerged around 2009 to break the wall between developers (who want change) and operations (who want stability). Its practices include CI/CD, infrastructure as code, monitoring and observability, blameless postmortems and "you build it, you run it" ownership. The DORA research programme (the book Accelerate) showed that elite performers deploy more often and also fail less.
 
-Domain: [software-engineering](/domains/software-engineering.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [software-engineering](/domains/software-engineering.md) · subdomain `delivery`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 
@@ -49,7 +55,7 @@ The team that writes the summarizer also owns its scheduled task, its alerts and
 
 - [Continuous integration and continuous delivery (CI/CD)](/concepts/software-engineering/ci-cd.md)
 - [SLO error budget](/concepts/cloud-infra/slo-error-budget.md)
-- [Canary / blue-green deploy](/concepts/cloud-infra/canary-deploy.md)
+- [Canary / blue-green deploy](/concepts/software-engineering/canary-deploy.md)
 - [Infrastructure as code](/concepts/cloud-infra/infrastructure-as-code.md)
 
 ## From the MBA library

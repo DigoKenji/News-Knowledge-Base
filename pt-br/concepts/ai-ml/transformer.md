@@ -4,9 +4,10 @@ title: Transformer e atenção
 description: A arquitetura de rede neural por trás dos LLMs modernos, construída sobre self-attention - um mecanismo que permite a cada token ponderar todos os outros tokens da entrada para decidir o que é relevante - processando sequências em paralelo em vez de palavra por palavra.
 tags:
 - ai-ml
+- deep-learning
 - core
 domain: ai-ml
-subdomain: core
+subdomain: deep-learning
 status: stable
 verified:
 - by: Kenji
@@ -42,13 +43,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Transformer e atenção
 
 **Definição.** Apresentado em "Attention Is All You Need" (2017), o transformer empilha camadas de self-attention multi-head e redes feed-forward. Na atenção, cada token produz uma consulta (query), uma chave (key) e um valor (value); a consulta é comparada com todas as chaves para obter pesos, e a saída é a mistura ponderada dos valores. A informação de posição é adicionada à parte (por exemplo com RoPE).
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `deep-learning`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

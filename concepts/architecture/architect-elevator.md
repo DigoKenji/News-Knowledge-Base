@@ -22,6 +22,10 @@ sources:
 - title: 'Bredemeyer, D. and Malan, R. (2002-2006). The Role of the Architect. Bredemeyer Consulting white paper'
   resource: 'https://www.bredemeyer.com/pdf_files/role.pdf'
   kind: practitioner
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # The architect elevator (the architect's role)
@@ -45,7 +49,7 @@ The board wants faster time to market. The architect translates that downwards i
 ## Related concepts
 
 - [Architecture as options](/concepts/architecture/architecture-options.md)
-- [Architecture decision record](/concepts/backend-systems/adr.md)
+- [Architecture decision record](/concepts/architecture/adr.md)
 
 ## Sources
 

@@ -4,9 +4,10 @@ title: Serverless
 description: A cloud model where developers deploy code or use services without provisioning or managing servers; the provider runs, scales (including to zero) and bills them per request or execution time. Functions as a service (FaaS) is the best-known form.
 tags:
 - cloud-infra
+- cloud-platforms
 - core
 domain: cloud-infra
-subdomain: core
+subdomain: cloud-platforms
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: Amazon Web Services. What is AWS Lambda? (Lambda Developer Guide)
   resource: 'https://docs.aws.amazon.com/lambda/latest/dg/welcome.html'
   kind: docs
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Serverless
 
 **Definition.** Jonas et al. (Berkeley) define serverless computing by three traits: decoupled computation and storage, executing code without managing resource allocation, and paying in proportion to resources used instead of resources allocated. The CNCF Serverless Whitepaper distinguishes FaaS (event-triggered functions such as AWS Lambda) from backend as a service (managed databases, queues, authentication).
 
-Domain: [cloud-infra](/domains/cloud-infra.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [cloud-infra](/domains/cloud-infra.md) · subdomain `cloud-platforms`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

@@ -4,9 +4,10 @@ title: Metadata and data catalog
 description: Metadata is data about data - what a dataset contains, where it came from, who owns it and how it may be used; a data catalog is the searchable inventory of an organisation's datasets built from that metadata, often with lineage.
 tags:
 - data
+- data-governance
 - core
 domain: data
-subdomain: core
+subdomain: data-governance
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: OpenLineage. OpenLineage specification and documentation
   resource: 'https://openlineage.io/docs/'
   kind: docs
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Metadata and data catalog
 
 **Definition.** DAMA-DMBOK groups metadata into business (definitions, owners, rules), technical (schemas, types, locations, lineage) and operational (run times, volumes, quality results). A data catalog collects these so people can discover, understand and trust data. W3C's DCAT vocabulary standardises how catalogs and datasets are described for exchange, and OpenLineage standardises lineage events emitted by pipelines.
 
-Domain: [data](/domains/data.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [data](/domains/data.md) · subdomain `data-governance`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

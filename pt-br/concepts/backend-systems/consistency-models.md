@@ -4,9 +4,10 @@ title: Modelos de consistência
 description: As regras que um armazenamento de dados distribuído promete sobre quais valores as leituras podem retornar quando os dados são copiados entre nós - do forte (toda leitura vê a última escrita) ao eventual (as réplicas convergem se as escritas pararem).
 tags:
 - backend-systems
+- distributed-systems
 - core
 domain: backend-systems
-subdomain: core
+subdomain: distributed-systems
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +24,17 @@ sources:
   kind: book
 lang: pt-br
 translation_of: /concepts/backend-systems/consistency-models.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Modelos de consistência
 
 **Definição.** Um modelo de consistência é um contrato entre um armazenamento de dados e seus clientes sobre a ordem e a visibilidade das operações. Modelos fortes como a linearizabilidade fazem o sistema se comportar como uma única cópia; modelos mais fracos como consistência causal, ler-as-próprias-escritas ou consistência eventual permitem leituras desatualizadas em troca de menor latência e maior disponibilidade. O Jepsen mantém um mapa muito usado desses modelos e de como se relacionam.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `distributed-systems`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

@@ -4,9 +4,11 @@ title: Teste de simulação determinística
 description: Testar um sistema distribuído rodando todos os seus nós num único processo contra tempo, rede, disco e aleatoriedade simulados e controlados por uma semente, injetando falhas, para que qualquer falha possa ser reproduzida exatamente.
 tags:
 - backend-systems
-- system-design
+- distributed-systems
 domain: backend-systems
-subdomain: system-design
+subdomain: distributed-systems
+also_in:
+- software-engineering/testing
 status: stable
 verified:
 - by: Kenji
@@ -29,13 +31,17 @@ sources:
   kind: practitioner
 lang: pt-br
 translation_of: /concepts/backend-systems/deterministic-simulation-testing.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Teste de simulação determinística
 
 **Definição.** Teste por simulação determinística (DST) remove toda fonte de não determinismo do sistema testado (threads, relógios, tempo de rede, I/O, números aleatórios) fazendo-as passar por um simulador guiado por uma única semente pseudoaleatória. O simulador então explora milhões de intercalações e combinações de falhas, e uma semente que falha reproduz exatamente a mesma execução sempre.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `distributed-systems`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

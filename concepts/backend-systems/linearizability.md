@@ -4,9 +4,9 @@ title: Linearizability
 description: The strongest single-object consistency model - every operation appears to happen instantly at one point between its start and its end, so all clients see one up-to-date order of operations consistent with real time.
 tags:
 - backend-systems
-- system-design
+- distributed-systems
 domain: backend-systems
-subdomain: system-design
+subdomain: distributed-systems
 status: stable
 verified:
 - by: Kenji
@@ -30,13 +30,17 @@ sources:
 - title: Bailis, P. (2014). Linearizability versus Serializability
   resource: 'https://www.bailis.org/blog/linearizability-versus-serializability/'
   kind: practitioner
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Linearizability
 
 **Definition.** A system is linearizable if, for every execution, there is a total order of operations that (1) matches each object's sequential specification and (2) respects real time: if operation A finished before B started, A comes before B. Informally, the system behaves as if there were a single copy of the data, even if it is replicated.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `distributed-systems`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

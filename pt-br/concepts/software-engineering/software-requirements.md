@@ -4,9 +4,12 @@ title: Requisitos e atributos de qualidade
 description: Declarações do que um sistema deve fazer (requisitos funcionais) e de quão bem deve fazê-lo (requisitos não funcionais ou atributos de qualidade como desempenho, segurança, disponibilidade e manutenibilidade).
 tags:
 - software-engineering
+- process
 - core
 domain: software-engineering
-subdomain: core
+subdomain: process
+also_in:
+- architecture/software-architecture
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -24,13 +27,17 @@ sources:
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/software-engineering/software-requirements.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Requisitos e atributos de qualidade
 
 **Definição.** A ISO/IEC/IEEE 29148 trata da engenharia de requisitos: levantar, analisar, especificar, validar e gerenciar requisitos. Requisitos funcionais descrevem comportamento ("o usuário pode exportar um relatório"); requisitos não funcionais restringem qualidades ("a exportação termina em menos de 3 segundos para 10.000 linhas"). A ISO/IEC 25010 fornece o modelo padrão de qualidade de produto que dá nome a essas qualidades.
 
-Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `process`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 
@@ -43,7 +50,7 @@ Funcional - "enviar um digest diário ao Telegram". Não funcional - "entregá-l
 ## Conceitos mais específicos
 
 - [Atributos de qualidade e trade-offs](/pt-br/concepts/architecture/quality-attributes.md)
-- [Análise de trade-offs ATAM](/pt-br/concepts/backend-systems/atam.md)
+- [Análise de trade-offs ATAM](/pt-br/concepts/architecture/atam.md)
 
 ## Notas de revisão para Kenji
 

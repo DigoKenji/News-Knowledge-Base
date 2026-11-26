@@ -4,9 +4,10 @@ title: FinOps and cloud cost
 description: An operational framework and cultural practice that brings engineering, finance and business together to manage variable cloud spending - making costs visible, allocating them to teams and optimising them for business value.
 tags:
 - cloud-infra
+- cloud-platforms
 - core
 domain: cloud-infra
-subdomain: core
+subdomain: cloud-platforms
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: Amazon Web Services. Cost Optimization Pillar - AWS Well-Architected Framework
   resource: 'https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-optimization.html'
   kind: docs
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # FinOps and cloud cost
 
 **Definition.** The FinOps Foundation (part of the Linux Foundation) defines FinOps as an operational framework and cultural practice which maximises the business value of cloud, enables timely data-driven decision making and creates financial accountability through collaboration between engineering, finance and business teams. Its life cycle has three phases - inform (visibility and allocation), optimise (rightsizing, commitments, waste removal) and operate (governance and continuous improvement).
 
-Domain: [cloud-infra](/domains/cloud-infra.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [cloud-infra](/domains/cloud-infra.md) · subdomain `cloud-platforms`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

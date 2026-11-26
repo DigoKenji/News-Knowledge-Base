@@ -4,7 +4,9 @@ title: Delta Sync
 description: Synchronising two copies of data by comparing block hashes and transferring only the blocks that differ.
 tags:
 - data
+- data-engineering
 domain: data
+subdomain: data-engineering
 status: stable
 verified:
 - by: Kenji
@@ -16,6 +18,10 @@ sources:
 - title: 'sqlite3_rsync: Database Remote-Copy Tool For SQLite'
   resource: https://simonwillison.net/2026/Nov/26/sqlite3-rsync
   kind: practitioner
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Delta Sync

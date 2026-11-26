@@ -4,9 +4,10 @@ title: Disponibilidade e confiabilidade
 description: Confiabilidade é a capacidade de um sistema de executar sua função sem falhar ao longo do tempo; disponibilidade é a fração do tempo em que ele está pronto para uso quando necessário, frequentemente expressa em "noves" (99,9% = cerca de 8,8 horas fora do ar por ano).
 tags:
 - backend-systems
+- reliability
 - core
 domain: backend-systems
-subdomain: core
+subdomain: reliability
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -32,13 +33,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Disponibilidade e confiabilidade
 
 **Definição.** A ISO/IEC 25010 lista confiabilidade como característica de qualidade, com subcaracterísticas que incluem disponibilidade, tolerância a falhas e recuperabilidade; o vocabulário de dependabilidade IEC 60050-192 define disponibilidade como a capacidade de estar em condições de funcionar como requerido. Avizienis et al. colocam ambas dentro da dependabilidade, ao lado de segurança, integridade e manutenibilidade. Em operações, a disponibilidade é frequentemente medida como requisições bem-sucedidas divididas pelo total de requisições.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `reliability`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

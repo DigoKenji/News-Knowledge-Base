@@ -4,9 +4,9 @@ title: LLM-as-a-judge
 description: Using a strong language model, with a rubric, to score or compare the outputs of another model - a scalable stand-in for human evaluation that must itself be validated against human judgments.
 tags:
 - ai-ml
-- mlops
+- evaluation
 domain: ai-ml
-subdomain: mlops
+subdomain: evaluation
 status: stable
 verified:
 - by: Kenji
@@ -35,13 +35,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # LLM-as-a-judge
 
 **Definition.** LLM-as-a-judge is an evaluation method in which a model receives a task, one or more candidate answers and grading criteria, and returns a score, a ranking or a preference. It is used where exact-match metrics fail: open-ended answers, summaries, helpfulness, tone.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `mlops`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `evaluation`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

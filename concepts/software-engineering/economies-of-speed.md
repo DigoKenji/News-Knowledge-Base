@@ -22,6 +22,10 @@ sources:
 - title: 'Reinertsen, D. G. (2009). The Principles of Product Development Flow. Celeritas'
   resource: 'https://books.google.com/books?vid=ISBN9781935401001'
   kind: book
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Economies of speed

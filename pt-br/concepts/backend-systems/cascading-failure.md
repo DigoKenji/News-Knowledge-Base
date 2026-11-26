@@ -4,7 +4,9 @@ title: Falha em cascata
 description: Uma falha que se espalha porque a reação à falha de um componente - carga extra, retentativas, tráfego de failover - sobrecarrega outros componentes, que então falham e repassam sua carga adiante.
 tags:
 - backend-systems
+- reliability
 domain: backend-systems
+subdomain: reliability
 status: stable
 verified:
 - by: Kenji
@@ -27,6 +29,10 @@ sources:
   kind: practitioner
 lang: pt-br
 translation_of: /concepts/backend-systems/cascading-failure.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Falha em cascata

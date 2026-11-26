@@ -4,9 +4,9 @@ title: 'Regularização e o trade-off viés-variância'
 description: 'Técnicas que reduzem o overfitting limitando o quanto um modelo pode se ajustar aos dados de treino (penalidades, dropout, early stopping, aumento de dados), dentro do trade-off entre viés (simples demais) e variância (sensível demais à amostra).'
 tags:
 - ai-ml
-- classical-ml
+- ml-fundamentals
 domain: ai-ml
-subdomain: classical-ml
+subdomain: ml-fundamentals
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest)
@@ -29,13 +29,17 @@ sources:
   kind: paper
 lang: pt-br
 translation_of: /concepts/ai-ml/regularization.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Regularização e o trade-off viés-variância
 
 **Definição.** Goodfellow et al. definem regularização como qualquer modificação no algoritmo de aprendizado que pretende reduzir o erro de generalização, mas não o erro de treino. A visão viés-variância explica por que ajuda: o erro esperado se divide em viés (erro sistemático de um modelo simples demais para captar o padrão), variância (erro de um modelo que muda muito a cada amostra de treino) e ruído irredutível. Mais capacidade reduz o viés e aumenta a variância; a regularização troca um pouco de viés por um corte grande de variância. As técnicas comuns são penalidades L2 (weight decay) e L1 sobre o tamanho dos pesos (a L1 também zera pesos, gerando modelos esparsos), dropout (desligar unidades aleatoriamente no treino), early stopping (parar quando o erro de validação começa a subir), aumento de dados e ensembles.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `classical-ml`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-24); rascunho aguardando certificação do Kenji.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `ml-fundamentals`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-24); rascunho aguardando certificação do Kenji.
 
 ## Como se encaixa
 

@@ -4,9 +4,9 @@ title: Rotary position embedding (RoPE)
 description: Rotary Position Embedding - a way to encode token positions by rotating query and key vectors by position-dependent angles, so attention scores depend on the relative distance between tokens.
 tags:
 - ai-ml
-- llm-engineering
+- deep-learning
 domain: ai-ml
-subdomain: llm-engineering
+subdomain: deep-learning
 status: stable
 verified:
 - by: Kenji
@@ -30,13 +30,17 @@ sources:
 - title: 'Vaswani, A. et al. (2017). Attention Is All You Need. NeurIPS 2017, arXiv:1706.03762'
   resource: 'https://arxiv.org/abs/1706.03762'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Rotary position embedding (RoPE)
 
 **Definition.** Transformers have no built-in sense of order, so position must be injected. RoPE does this by splitting each query and key vector into pairs of dimensions and rotating each pair by an angle proportional to the token's position, with a different frequency per pair. The dot product of a rotated query and key then depends only on their positions' difference.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `llm-engineering`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `deep-learning`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

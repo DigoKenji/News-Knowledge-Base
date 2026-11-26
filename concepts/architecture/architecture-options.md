@@ -22,6 +22,10 @@ sources:
 - title: 'Sullivan, K. J. et al. (2001). The Structure and Value of Modularity in Software Design. ESEC/FSE 2001'
   resource: 'https://doi.org/10.1145/503209.503224'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Architecture as options
@@ -46,7 +50,7 @@ A team unsure which payment providers it will need puts payments behind an inter
 
 - [Quality attributes and trade-offs](/concepts/architecture/quality-attributes.md)
 - [Coupling and cohesion](/concepts/architecture/coupling-cohesion.md)
-- [Architecture decision record](/concepts/backend-systems/adr.md)
+- [Architecture decision record](/concepts/architecture/adr.md)
 
 ## Sources
 

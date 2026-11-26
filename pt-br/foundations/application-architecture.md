@@ -69,7 +69,7 @@ A arquitetura de aplicações descreve a estrutura e a interação das aplicaç�
 - **Baseline.** A KB segue o TOGAF 9.2 (orientação do curso, 2026-11-19: a 9.2 está consolidada, enquanto o TOGAF 10 ainda está sendo atualizado). A redação do TOGAF 10 é mantida aqui para mostrar o que mudou.
 
 ## Onde se encaixa
-Subdomínio `application-architecture` do domínio [Arquitetura](/pt-br/domains/architecture.md). O desenho interno de uma aplicação (padrões, microsserviços) fica em `integration-and-software-architecture`.
+Subdomínio `application-architecture` do domínio [Arquitetura](/pt-br/domains/architecture.md). O desenho interno de uma aplicação (padrões, microsserviços) fica em `software-architecture`.
 
 ## No curso
 Técnicas de Arquitetura (Fowler PoEAA, Enterprise Integration Patterns, material sobre microsserviços). Aulas ainda não ingeridas.

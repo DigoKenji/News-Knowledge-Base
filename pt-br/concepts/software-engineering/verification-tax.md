@@ -4,9 +4,9 @@ title: Imposto de verificação
 description: A parcela crescente do tempo de engenharia gasta revisando, testando e corrigindo código gerado por IA, que pode anular a velocidade ganha ao gerá-lo - um termo recente e informal, não estabelecido.
 tags:
 - software-engineering
-- ai-assisted-development
+- devex
 domain: software-engineering
-subdomain: ai-assisted-development
+subdomain: devex
 status: stable
 verified:
 - by: Kenji
@@ -29,13 +29,17 @@ sources:
   kind: practitioner
 lang: pt-br
 translation_of: /concepts/software-engineering/verification-tax.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Imposto de verificação
 
 **Definição.** O imposto de verificação é o custo de checar um trabalho que você não escreveu. Com assistentes de código com IA, escrever código fica mais barato, mas cada linha ainda precisa ser entendida, revisada e testada por alguém responsável por ela. À medida que o volume gerado cresce, a revisão vira o gargalo e o ganho líquido de produtividade pode diminuir ou ficar negativo.
 
-Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `ai-assisted-development`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `devex`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

@@ -252,5 +252,5 @@ This is my interpretation, not the author's. The Factory is a governed workflow:
 - [latency-throughput](/concepts/backend-systems/latency-throughput.md)
 - [silent-failure](/concepts/backend-systems/silent-failure.md)
 - [ci-cd](/concepts/software-engineering/ci-cd.md)
-- [performance-regression](/concepts/backend-systems/performance-regression.md)
+- [performance-regression](/concepts/software-engineering/performance-regression.md)
 - [adversarial-review](/concepts/ai-ml/adversarial-review.md)

@@ -4,7 +4,9 @@ title: Cascading failure
 description: A failure that spreads because the reaction to one component failing - extra load, retries, failover traffic - overloads other components, which then fail and pass their load on in turn.
 tags:
 - backend-systems
+- reliability
 domain: backend-systems
+subdomain: reliability
 status: stable
 verified:
 - by: Kenji
@@ -25,6 +27,10 @@ sources:
 - title: Amazon Builders' Library (AWS Builder Center). Using load shedding to avoid overload
   resource: 'https://builder.aws.com/content/3Eun1EEyX6p2e3VYNyRLSJzLuMV/using-load-shedding-to-avoid-overload'
   kind: practitioner
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Cascading failure

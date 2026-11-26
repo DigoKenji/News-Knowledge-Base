@@ -141,6 +141,6 @@ A meta declarada do artigo é que a experimentação seja repetível, observáve
 
 ## Conceitos
 - [ai-agent](/pt-br/concepts/ai-ml/ai-agent.md)
-- [shadow-testing](/pt-br/concepts/backend-systems/shadow-testing.md)
+- [shadow-testing](/pt-br/concepts/software-engineering/shadow-testing.md)
 - [authentication-authorization](/pt-br/concepts/security/authentication-authorization.md)
 - [observability](/pt-br/concepts/cloud-infra/observability.md)

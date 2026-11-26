@@ -4,9 +4,9 @@ title: Correlated failure
 description: Several components that were meant to fail independently fail together because they share a hidden cause - a dependency, a configuration push, a software bug, a power or network domain - which defeats redundancy designed on the assumption of independence.
 tags:
 - backend-systems
-- system-design
+- reliability
 domain: backend-systems
-subdomain: system-design
+subdomain: reliability
 status: stable
 verified:
 - by: Kenji
@@ -27,13 +27,17 @@ sources:
 - title: AWS (2021). Summary of the AWS Service Event in the Northern Virginia (US-EAST-1) Region
   resource: 'https://aws.amazon.com/message/12721/'
   kind: practitioner
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Correlated failure
 
 **Definition.** Failures are correlated when the failure of one component makes the failure of another more likely. Redundancy math (two 99.9% replicas give 99.9999%) assumes independence; correlated failures break that assumption, so real availability is much lower than the math says.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `reliability`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

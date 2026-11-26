@@ -3,8 +3,10 @@ type: Concept
 title: Regressão de desempenho
 description: Uma queda mensurável de velocidade ou de confiabilidade em relação a uma linha de base, geralmente após uma mudança, que precisa ser rastreada até sua causa antes de poder ser corrigida.
 tags:
-- backend-systems
-domain: backend-systems
+- software-engineering
+- testing
+domain: software-engineering
+subdomain: testing
 status: draft
 generated:
   by: claude-haiku (Project_News daily run)
@@ -14,7 +16,11 @@ sources:
   resource: https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast
   kind: practitioner
 lang: pt-br
-translation_of: /concepts/backend-systems/performance-regression.md
+translation_of: /concepts/software-engineering/performance-regression.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio; movido para software-engineering'
 ---
 
 # Regressão de desempenho

@@ -4,9 +4,10 @@ title: Software architecture
 description: The fundamental structure of a software system - its main elements, their relationships and the principles governing its design and evolution - and the discipline of making those high-impact decisions.
 tags:
 - architecture
+- software-architecture
 - core
 domain: architecture
-subdomain: core
+subdomain: software-architecture
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -30,13 +31,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
   at: '2026-11-26T20:30:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Software architecture
 
 **Definition.** ISO/IEC/IEEE 42010 defines architecture as the fundamental concepts or properties of a system in its environment, embodied in its elements, relationships, and the principles of its design and evolution (the same wording the KB's TOGAF foundation quotes). Bass, Clements and Kazman define software architecture as the set of structures needed to reason about the system, comprising software elements, the relations among them and the properties of both.
 
-Domain: [architecture](/domains/architecture.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [architecture](/domains/architecture.md) · subdomain `software-architecture`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 
@@ -51,8 +55,8 @@ Choosing two repositories (code and knowledge), scheduled cloud tasks and an OKF
 - [Architectural style](/concepts/architecture/architectural-style.md)
 - [Quality attributes and trade-offs](/concepts/architecture/quality-attributes.md)
 - [Coupling and cohesion](/concepts/architecture/coupling-cohesion.md)
-- [Architecture decision record](/concepts/backend-systems/adr.md)
-- [ATAM tradeoff analysis](/concepts/backend-systems/atam.md)
+- [Architecture decision record](/concepts/architecture/adr.md)
+- [ATAM tradeoff analysis](/concepts/architecture/atam.md)
 - [Modular monolith](/concepts/architecture/modular-monolith.md)
 
 ## Review notes for Kenji

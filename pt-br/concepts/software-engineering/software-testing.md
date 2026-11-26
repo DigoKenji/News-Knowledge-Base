@@ -4,9 +4,10 @@ title: Teste de software
 description: Executar software sob condições controladas para encontrar defeitos e ganhar confiança de que atende aos requisitos - em vários níveis (unidade, integração, sistema/ponta a ponta) e com testes automatizados rodando a cada mudança.
 tags:
 - software-engineering
+- testing
 - core
 domain: software-engineering
-subdomain: core
+subdomain: testing
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -24,13 +25,17 @@ sources:
 foundation_candidate: true
 lang: pt-br
 translation_of: /concepts/software-engineering/software-testing.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Teste de software
 
 **Definição.** A ISO/IEC/IEEE 29119 é o padrão internacional para conceitos, processos e técnicas de teste de software. Testes de unidade verificam uma pequena parte isoladamente, testes de integração verificam se as partes funcionam juntas, e testes de sistema ou ponta a ponta verificam a aplicação inteira como um usuário faria. Testes podem mostrar a presença de bugs, nunca provar sua ausência (Dijkstra).
 
-Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [software-engineering](/pt-br/domains/software-engineering.md) · subdomínio `testing`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 
@@ -44,7 +49,7 @@ O validador da KB é um teste: a cada execução verifica se todos os documentos
 
 - [Teste de simulação determinística](/pt-br/concepts/backend-systems/deterministic-simulation-testing.md)
 - [Engenharia do caos](/pt-br/concepts/backend-systems/chaos-engineering.md)
-- [Deploy canary / blue-green](/pt-br/concepts/cloud-infra/canary-deploy.md)
+- [Deploy canary / blue-green](/pt-br/concepts/software-engineering/canary-deploy.md)
 
 ## Notas de revisão para Kenji
 

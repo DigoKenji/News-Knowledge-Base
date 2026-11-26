@@ -1,12 +1,14 @@
 ---
 type: Concept
 title: API versioning
-description: API versioning (api-design).
+description: 'Changing an API without breaking existing clients - by keeping changes backward compatible or by running explicit versions side by side until clients move.'
 tags:
 - backend-systems
 - api-design
 domain: backend-systems
 subdomain: api-design
+also_in:
+- architecture/software-architecture
 status: stable
 generated:
   by: claude (seed from Notion tree)
@@ -20,6 +22,9 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy; real description'
 ---
 
 # API versioning

@@ -4,9 +4,10 @@ title: ETL / ELT e pipeline de dados
 description: Um pipeline de dados é uma cadeia de etapas automatizadas que move dados das fontes aos destinos; ETL transforma os dados antes de carregá-los no destino, ELT carrega os dados brutos primeiro e os transforma dentro do destino.
 tags:
 - data
+- data-engineering
 - core
 domain: data
-subdomain: core
+subdomain: data-engineering
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -31,13 +32,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # ETL / ELT e pipeline de dados
 
 **Definição.** Extrair, transformar e carregar (ETL) puxa dados dos sistemas operacionais, limpa-os e os reformata numa camada de processamento separada, e depois os carrega num warehouse. Com warehouses em nuvem escaláveis, o ELT se tornou comum: os dados brutos são carregados como estão e transformados com SQL dentro do warehouse (por exemplo com dbt). Um pipeline costuma ser orquestrado como um grafo acíclico dirigido (DAG) de tarefas com agendamentos, dependências, novas tentativas e monitoramento (por exemplo Apache Airflow).
 
-Domínio: [data](/pt-br/domains/data.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [data](/pt-br/domains/data.md) · subdomínio `data-engineering`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

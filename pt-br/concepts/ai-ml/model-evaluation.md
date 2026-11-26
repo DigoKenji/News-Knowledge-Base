@@ -4,9 +4,10 @@ title: Avaliação de modelos e métricas
 description: Medir o quão bem um modelo se sai em dados que não viu, com métricas escolhidas para a tarefa - acurácia, precisão, recall, F1, AUC para classificação; medidas de erro para regressão; benchmarks e juízes humanos ou modelos para IA generativa.
 tags:
 - ai-ml
+- evaluation
 - core
 domain: ai-ml
-subdomain: core
+subdomain: evaluation
 status: stable
 verified:
 - by: Kenji
@@ -42,13 +43,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Avaliação de modelos e métricas
 
 **Definição.** A avaliação estima o desempenho no mundo real testando em dados separados e resumindo os resultados com métricas que refletem o que importa no caso de uso. Precisão é a parcela dos positivos previstos que estão corretos; recall é a parcela dos positivos reais encontrados; F1 equilibra os dois. Regressão usa MAE ou RMSE. A ISO/IEC TS 4213 padroniza como avaliar desempenho de classificação.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `evaluation`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

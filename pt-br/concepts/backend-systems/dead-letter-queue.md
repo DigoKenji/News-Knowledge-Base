@@ -4,9 +4,9 @@ title: Dead-letter queue
 description: Uma fila separada para onde um sistema de mensageria manda mensagens que não conseguiu entregar ou processar após um número definido de tentativas, para que parem de bloquear ou circular na fila principal e possam ser inspecionadas, corrigidas e reprocessadas.
 tags:
 - backend-systems
-- microservices
+- messaging-and-workflows
 domain: backend-systems
-subdomain: microservices
+subdomain: messaging-and-workflows
 status: stable
 verified:
 - by: Kenji
@@ -29,13 +29,17 @@ sources:
   kind: docs
 lang: pt-br
 translation_of: /concepts/backend-systems/dead-letter-queue.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Dead-letter queue
 
 **Definição.** Uma dead-letter queue (DLQ), ou dead letter channel nos Enterprise Integration Patterns, isola mensagens "venenosas": malformadas, expiradas, rejeitadas ou que continuam falhando no consumidor. Separá-las mantém o fluxo principal saudável e preserva as mensagens com falha em vez de descartá-las.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `microservices`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `messaging-and-workflows`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

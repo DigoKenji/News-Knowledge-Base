@@ -4,7 +4,11 @@ title: Change data capture
 description: Capturing every insert, update and delete committed in a database - usually by reading its transaction log - and publishing them as an ordered stream of change events for other systems to consume.
 tags:
 - data
+- data-engineering
 domain: data
+subdomain: data-engineering
+also_in:
+- backend-systems/messaging-and-workflows
 status: stable
 verified:
 - by: Kenji
@@ -25,6 +29,10 @@ sources:
 - title: Debezium. Debezium Features (reference documentation)
   resource: 'https://debezium.io/documentation/reference/stable/features.html'
   kind: docs
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Change data capture

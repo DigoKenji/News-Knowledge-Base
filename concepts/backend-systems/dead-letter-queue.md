@@ -4,9 +4,9 @@ title: Dead-letter queue
 description: A separate queue where a messaging system puts messages it could not deliver or process after a set number of attempts, so they stop blocking or looping in the main queue and can be inspected, fixed and replayed.
 tags:
 - backend-systems
-- microservices
+- messaging-and-workflows
 domain: backend-systems
-subdomain: microservices
+subdomain: messaging-and-workflows
 status: stable
 verified:
 - by: Kenji
@@ -27,13 +27,17 @@ sources:
 - title: RabbitMQ. Dead Letter Exchanges
   resource: 'https://www.rabbitmq.com/docs/dlx'
   kind: docs
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Dead-letter queue
 
 **Definition.** A dead-letter queue (DLQ), or dead letter channel in Enterprise Integration Patterns, isolates "poison" messages: ones that are malformed, expired, rejected, or that keep failing in the consumer. Moving them aside keeps the main flow healthy and preserves the failed messages instead of dropping them.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `microservices`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `messaging-and-workflows`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

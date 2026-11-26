@@ -4,9 +4,12 @@ title: Data governance and data quality
 description: Data governance is the exercise of authority and control over how data is managed - ownership, policies, standards and accountability; data quality is how fit the data is for its intended use, measured by dimensions such as accuracy, completeness, consistency and timeliness.
 tags:
 - data
+- data-governance
 - core
 domain: data
-subdomain: core
+subdomain: data-governance
+also_in:
+- architecture/data-architecture
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -22,13 +25,17 @@ sources:
   resource: 'https://doi.org/10.1080/07421222.1996.11518099'
   kind: paper
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Data governance and data quality
 
 **Definition.** DAMA-DMBOK defines data governance as the exercise of authority, control and shared decision-making (planning, monitoring and enforcement) over the management of data assets, and places it at the centre of its framework. ISO/IEC 25012 defines a data quality model with inherent characteristics (accuracy, completeness, consistency, credibility, currentness) and system-dependent ones (availability, portability, recoverability); ISO 8000 covers data quality for master data exchange.
 
-Domain: [data](/domains/data.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [data](/domains/data.md) · subdomain `data-governance`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

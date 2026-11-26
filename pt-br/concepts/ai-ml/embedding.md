@@ -4,9 +4,10 @@ title: Embedding
 description: Uma lista de números aprendida (um vetor) que representa um item - uma palavra, frase, imagem ou usuário - de modo que itens com significado parecido fiquem próximos, permitindo que o software compare significados com simples cálculos de distância.
 tags:
 - ai-ml
+- deep-learning
 - core
 domain: ai-ml
-subdomain: core
+subdomain: deep-learning
 status: stable
 verified:
 - by: Kenji
@@ -42,13 +43,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Embedding
 
 **Definição.** Um embedding mapeia um objeto discreto ou complexo num espaço vetorial contínuo de algumas centenas a alguns milhares de dimensões. O mapeamento é aprendido, então a geometria carrega significado: a distância (muitas vezes similaridade de cosseno) reflete semelhança, e direções podem codificar relações. O word2vec (2013) popularizou os embeddings de palavras; hoje encoders transformer produzem embeddings para frases e documentos inteiros.
 
-Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
+Domínio: [ai-ml](/pt-br/domains/ai-ml.md) · subdomínio `deep-learning`. Entrada do vocabulário central (lista aprovada, 2026-11-24); certificado por Kenji em 2026-11-24.
 
 ## Como se encaixa
 

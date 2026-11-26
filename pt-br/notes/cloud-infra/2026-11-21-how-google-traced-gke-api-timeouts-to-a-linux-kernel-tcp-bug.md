@@ -118,4 +118,4 @@ Esta é a sua interpretação, não a do autor. Em uma arquitetura de plataforma
 - Protocolo PROXY — o tratamento de proxy que o Google corrigiu na sua segunda correção.
 
 ## Conceitos
-- [control-plane](/pt-br/concepts/backend-systems/control-plane.md)
+- [control-plane](/pt-br/concepts/cloud-infra/control-plane.md)

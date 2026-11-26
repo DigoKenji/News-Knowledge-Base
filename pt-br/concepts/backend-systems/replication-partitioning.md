@@ -4,9 +4,10 @@ title: Replicação e particionamento (sharding)
 description: Replicação mantém cópias dos mesmos dados em vários nós para disponibilidade e escala de leitura; particionamento (sharding) divide os dados para que cada nó guarde apenas uma parte, para escala de escrita e armazenamento. A maioria dos bancos grandes combina os dois.
 tags:
 - backend-systems
+- distributed-systems
 - core
 domain: backend-systems
-subdomain: core
+subdomain: distributed-systems
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +24,17 @@ sources:
   kind: book
 lang: pt-br
 translation_of: /concepts/backend-systems/replication-partitioning.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Replicação e particionamento (sharding)
 
 **Definição.** As estratégias de replicação são líder único (um nó aceita escritas e as transmite aos seguidores), multilíder e sem líder (leituras e escritas por quórum, como no Dynamo da Amazon). O particionamento atribui cada registro a uma partição por faixa de chave ou por hash da chave; o hashing consistente limita quantos dados se movem quando nós entram ou saem. Cada partição geralmente é replicada.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `distributed-systems`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

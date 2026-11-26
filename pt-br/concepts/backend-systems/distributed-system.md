@@ -4,9 +4,10 @@ title: Sistema distribuído
 description: Um conjunto de computadores independentes que se comunicam por rede e se coordenam para parecer aos usuários um único sistema coerente - ao preço de falhas parciais, ausência de relógio comum e mensagens não confiáveis.
 tags:
 - backend-systems
+- distributed-systems
 - core
 domain: backend-systems
-subdomain: core
+subdomain: distributed-systems
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +24,17 @@ sources:
   kind: book
 lang: pt-br
 translation_of: /concepts/backend-systems/distributed-system.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Sistema distribuído
 
 **Definição.** Tanenbaum e van Steen definem um sistema distribuído como uma coleção de elementos computacionais autônomos que aparece para os usuários como um único sistema coerente. Os elementos não compartilham memória nem relógio global: apenas trocam mensagens, que podem atrasar, se perder ou chegar fora de ordem, e qualquer um deles pode falhar enquanto os outros continuam funcionando.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `distributed-systems`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

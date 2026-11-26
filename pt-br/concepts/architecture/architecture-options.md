@@ -24,6 +24,10 @@ sources:
   kind: paper
 lang: pt-br
 translation_of: /concepts/architecture/architecture-options.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Arquitetura como opções
@@ -48,7 +52,7 @@ Um time que não sabe de quais provedores de pagamento vai precisar coloca pagam
 
 - [Atributos de qualidade e trade-offs](/pt-br/concepts/architecture/quality-attributes.md)
 - [Acoplamento e coesão](/pt-br/concepts/architecture/coupling-cohesion.md)
-- [Registro de decisão de arquitetura](/pt-br/concepts/backend-systems/adr.md)
+- [Registro de decisão de arquitetura](/pt-br/concepts/architecture/adr.md)
 
 ## Fontes
 

@@ -4,9 +4,10 @@ title: Fault tolerance and redundancy
 description: The ability of a system to keep delivering correct service when some of its components fail, usually achieved by redundancy (spare copies of components or data), error detection and recovery.
 tags:
 - backend-systems
+- reliability
 - core
 domain: backend-systems
-subdomain: core
+subdomain: reliability
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: Brooker, M. Timeouts, retries, and backoff with jitter. Amazon Builders' Library
   resource: 'https://builder.aws.com/content/3EumjoZascWd1oZiEgL8ORlv3qE/timeouts-retries-and-backoff-with-jitter'
   kind: blog
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Fault tolerance and redundancy
 
 **Definition.** Avizienis, Laprie, Randell and Landwehr give the standard chain: a fault (a defect or cause) can activate into an error (a wrong internal state), which can propagate into a failure (service deviates from what is required). Fault tolerance is the set of means that avoid service failure in the presence of faults: error detection, recovery (rollback, rollforward, failover) and fault masking through redundancy.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `reliability`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

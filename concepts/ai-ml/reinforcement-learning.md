@@ -4,9 +4,10 @@ title: Reinforcement learning
 description: Machine learning in which an agent learns by trial and error which actions to take in an environment to maximise a cumulative reward, rather than from labelled examples.
 tags:
 - ai-ml
+- ml-fundamentals
 - core
 domain: ai-ml
-subdomain: core
+subdomain: ml-fundamentals
 status: stable
 verified:
 - by: Kenji
@@ -37,13 +38,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Reinforcement learning
 
 **Definition.** In reinforcement learning (RL) an agent observes a state, takes an action, receives a reward and a new state, and learns a policy (a rule for choosing actions) that maximises long-term reward. The central difficulty is the trade-off between exploring new actions and exploiting what already works, and crediting rewards to actions taken long before.
 
-Domain: [ai-ml](/domains/ai-ml.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
+Domain: [ai-ml](/domains/ai-ml.md) · subdomain `ml-fundamentals`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

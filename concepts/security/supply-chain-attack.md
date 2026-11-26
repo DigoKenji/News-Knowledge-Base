@@ -4,7 +4,9 @@ title: Supply-chain attack
 description: An attack that compromises something a target depends on - a third-party library, package registry, build system, update channel, vendor or developer tool - so the malicious code or access reaches the target through a trusted path instead of a direct attack.
 tags:
 - security
+- appsec
 domain: security
+subdomain: appsec
 status: stable
 verified:
 - by: Kenji
@@ -28,6 +30,10 @@ sources:
 - title: 'Ohm, M. et al. (2020). Backstabber''s Knife Collection - A Review of Open Source Software Supply Chain Attacks. DIMVA 2020, arXiv:2005.09535'
   resource: 'https://arxiv.org/abs/2005.09535'
   kind: paper
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Supply-chain attack

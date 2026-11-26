@@ -4,9 +4,9 @@ title: Adaptive concurrency limit
 description: A limit on how many requests a service handles at once that adjusts itself from observed latency or errors - shrinking quickly when the service shows congestion and growing back cautiously when it recovers - instead of a fixed, hand-tuned number.
 tags:
 - backend-systems
-- system-design
+- reliability
 domain: backend-systems
-subdomain: system-design
+subdomain: reliability
 status: stable
 verified:
 - by: Kenji
@@ -27,13 +27,17 @@ sources:
 - title: Envoy Proxy. Adaptive Concurrency filter
   resource: 'https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_filters/adaptive_concurrency_filter'
   kind: docs
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Adaptive concurrency limit
 
 **Definition.** An adaptive concurrency limit applies TCP congestion-control ideas to services. The server (or client) keeps a limit on in-flight requests; excess requests are rejected fast or queued briefly. The limit is continuously re-estimated from signals such as round-trip latency compared to its no-load minimum, or from timeouts and drops.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `reliability`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: OpenID Connect
-description: OpenID Connect (iam).
+description: 'An identity layer on top of OAuth 2.0 that lets applications verify who the user is through a signed ID token from an identity provider (single sign-on).'
 tags:
 - security
 - iam
@@ -14,6 +14,10 @@ generated:
 relations:
 - type: extends
   target: /concepts/security/oauth2.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy; real description'
 ---
 
 # OpenID Connect

@@ -4,9 +4,9 @@ title: Limite adaptativo de concorrência
 description: Um limite de quantas requisições um serviço atende ao mesmo tempo que se ajusta sozinho pela latência ou pelos erros observados - encolhendo rápido quando o serviço mostra congestionamento e crescendo de volta com cautela quando se recupera - em vez de um número fixo ajustado à mão.
 tags:
 - backend-systems
-- system-design
+- reliability
 domain: backend-systems
-subdomain: system-design
+subdomain: reliability
 status: stable
 verified:
 - by: Kenji
@@ -29,13 +29,17 @@ sources:
   kind: docs
 lang: pt-br
 translation_of: /concepts/backend-systems/adaptive-concurrency-limit.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Limite adaptativo de concorrência
 
 **Definição.** Um limite de concorrência adaptativo aplica ideias de controle de congestionamento do TCP a serviços. O servidor (ou o cliente) mantém um limite de requisições em andamento; o excesso é rejeitado rapidamente ou fica pouco tempo na fila. O limite é reestimado continuamente a partir de sinais como a latência de ida e volta comparada ao seu mínimo sem carga, ou a partir de timeouts e descartes.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `reliability`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

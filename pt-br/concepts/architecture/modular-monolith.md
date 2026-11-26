@@ -4,7 +4,9 @@ title: Monólito modular
 description: Uma aplicação implantada como uma única unidade mas dividida internamente em módulos com fronteiras fortes e garantidas - cada um dono de seus dados e expondo uma interface explícita - que dá boa parte da estrutura de microservices sem o custo de um sistema distribuído.
 tags:
 - architecture
+- software-architecture
 domain: architecture
+subdomain: software-architecture
 status: stable
 verified:
 - by: Kenji
@@ -33,6 +35,10 @@ relations:
   target: bounded-context
 lang: pt-br
 translation_of: /concepts/architecture/modular-monolith.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Monólito modular
@@ -61,7 +67,7 @@ Um app de e-commerce é entregue como um único serviço Spring Boot, mas o mód
 4. Spring. *Spring Modulith Reference Documentation*. <https://docs.spring.io/spring-modulith/reference/> — Ferramenta que verifica fronteiras de módulos e suporta eventos no mesmo processo.
 
 ## Relações
-- **uses** [bounded-context](/pt-br/concepts/backend-systems/bounded-context.md)
+- **uses** [bounded-context](/pt-br/concepts/architecture/bounded-context.md)
 
 ## Notas
 - [Agoda reduz em 64% o tempo de revisão de código de API com arquitetura modular](/pt-br/notes/architecture/2026-11-24-agoda-reduces-api-code-review-time-by-64-with-modular-archit.md)

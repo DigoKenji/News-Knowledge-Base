@@ -4,9 +4,12 @@ title: Atributos de qualidade e trade-offs
 description: As propriedades mensuráveis que dizem quão bem um sistema funciona - desempenho, disponibilidade, segurança, modificabilidade, escalabilidade, custo e assim por diante - que guiam a arquitetura e geralmente competem entre si.
 tags:
 - architecture
+- software-architecture
 - core
 domain: architecture
-subdomain: core
+subdomain: software-architecture
+also_in:
+- software-engineering/process
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -32,13 +35,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
   at: '2026-11-26T20:30:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Atributos de qualidade e trade-offs
 
 **Definição.** A ISO/IEC 25010 define um modelo de qualidade de produto com características como adequação funcional, eficiência de desempenho, compatibilidade, capacidade de interação, confiabilidade, segurança, manutenibilidade, flexibilidade e proteção (safety). Bass, Clements e Kazman as tornam concretas com cenários de atributo de qualidade: estímulo, ambiente, resposta e uma medida de resposta mensurável.
 
-Domínio: [architecture](/pt-br/domains/architecture.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [architecture](/pt-br/domains/architecture.md) · subdomínio `software-architecture`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 
@@ -50,7 +56,7 @@ Cenário - "quando 500 usuários buscam ao mesmo tempo em operação normal, 95%
 
 ## Conceitos mais específicos
 
-- [Análise de trade-offs ATAM](/pt-br/concepts/backend-systems/atam.md)
+- [Análise de trade-offs ATAM](/pt-br/concepts/architecture/atam.md)
 - [Well-Architected Framework](/pt-br/concepts/cloud-infra/well-architected.md)
 - [Orçamento de erros de SLO](/pt-br/concepts/cloud-infra/slo-error-budget.md)
 

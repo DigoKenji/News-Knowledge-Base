@@ -4,9 +4,10 @@ title: Authentication vs authorization
 description: Authentication verifies who someone (or something) is; authorization decides what that verified identity is allowed to do - two separate steps that are often confused.
 tags:
 - security
+- iam
 - core
 domain: security
-subdomain: core
+subdomain: iam
 status: stable
 verified:
 - by: Kenji
@@ -37,13 +38,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Authentication vs authorization
 
 **Definition.** Authentication (authn) proves an identity claim using factors: something you know (password), have (security key, phone) or are (biometrics); multi-factor authentication combines two or more. Authorization (authz) applies a policy to the authenticated identity to grant or deny access to a resource or action, using models such as role-based (RBAC) or attribute-based (ABAC) access control.
 
-Domain: [security](/domains/security.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
+Domain: [security](/domains/security.md) · subdomain `iam`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

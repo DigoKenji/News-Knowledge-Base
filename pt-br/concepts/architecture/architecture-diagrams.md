@@ -24,6 +24,10 @@ sources:
   kind: standard
 lang: pt-br
 translation_of: /concepts/architecture/architecture-diagrams.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Diagramas de arquitetura e design guiado por diagramas
@@ -47,7 +51,7 @@ Um slide mostra seis caixas com nomes de produtos. Redesenhado com setas rotulad
 ## Conceitos relacionados
 
 - [O elevador do arquiteto (o papel do arquiteto)](/pt-br/concepts/architecture/architect-elevator.md)
-- [Registro de decisão de arquitetura](/pt-br/concepts/backend-systems/adr.md)
+- [Registro de decisão de arquitetura](/pt-br/concepts/architecture/adr.md)
 
 ## Fontes
 

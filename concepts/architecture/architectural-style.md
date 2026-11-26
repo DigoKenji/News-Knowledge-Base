@@ -4,9 +4,10 @@ title: Architectural style
 description: A named family of architectures that share the same kinds of components, connectors and constraints - such as layered, monolith, microservices, event-driven or client-server - each with known strengths and weaknesses.
 tags:
 - architecture
+- software-architecture
 - core
 domain: architecture
-subdomain: core
+subdomain: software-architecture
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: Richards, M. and Ford, N. (2020). Fundamentals of Software Architecture. O'Reilly
   resource: 'https://www.oreilly.com/library/view/fundamentals-of-software/9781492043447/'
   kind: book
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Architectural style
 
 **Definition.** Garlan and Shaw described architectural styles as vocabularies of component and connector types plus constraints on how they can be combined. Fielding's dissertation, which defined REST, treats a style as a coordinated set of constraints. Richards and Ford group modern styles into monolithic (layered, modular monolith, microkernel) and distributed (service-based, event-driven, microservices, space-based).
 
-Domain: [architecture](/domains/architecture.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [architecture](/domains/architecture.md) · subdomain `software-architecture`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 
@@ -50,7 +55,7 @@ Project_News is mostly a pipeline style (fetch → select → summarise → file
 3. Richards, M. and Ford, N. (2020). *Fundamentals of Software Architecture*. O'Reilly. <https://www.oreilly.com/library/view/fundamentals-of-software/9781492043447/> — Modern catalogue of styles with trade-off ratings.
 
 ## Relations
-- (none yet)
+- **related** [Design pattern](/concepts/software-engineering/design-pattern.md)
 
 ## Notes
 Notes tagged with this concept are listed in the concept index after each run.

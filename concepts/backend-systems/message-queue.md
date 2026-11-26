@@ -4,9 +4,10 @@ title: Message queue and asynchronous messaging
 description: A component that lets services communicate by sending messages to a queue or topic instead of calling each other directly, so senders and receivers are decoupled in time, rate and location.
 tags:
 - backend-systems
+- messaging-and-workflows
 - core
 domain: backend-systems
-subdomain: core
+subdomain: messaging-and-workflows
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -29,13 +30,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, DDIA)
   at: '2026-11-26T10:00:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Message queue and asynchronous messaging
 
 **Definition.** Hohpe and Woolf describe messaging as asynchronous communication through channels: a point-to-point queue delivers each message to one consumer (work distribution), while a publish-subscribe topic delivers it to every subscriber. Brokers such as RabbitMQ or Amazon SQS hold messages until they are consumed; log-based systems such as Apache Kafka keep an ordered, replayable log per partition. Delivery is typically at-least-once, so consumers must be idempotent.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `messaging-and-workflows`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

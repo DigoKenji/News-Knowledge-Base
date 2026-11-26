@@ -4,9 +4,10 @@ title: Tolerância a falhas e redundância
 description: A capacidade de um sistema de continuar entregando serviço correto quando alguns de seus componentes falham, geralmente obtida por redundância (cópias reservas de componentes ou dados), detecção de erros e recuperação.
 tags:
 - backend-systems
+- reliability
 - core
 domain: backend-systems
-subdomain: core
+subdomain: reliability
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +24,17 @@ sources:
   kind: blog
 lang: pt-br
 translation_of: /concepts/backend-systems/fault-tolerance.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Tolerância a falhas e redundância
 
 **Definição.** Avizienis, Laprie, Randell e Landwehr apresentam a cadeia padrão: uma falta (defeito ou causa) pode ser ativada como erro (estado interno incorreto), que pode se propagar como falha (o serviço se desvia do requerido). Tolerância a falhas é o conjunto de meios que evitam a falha do serviço na presença de faltas: detecção de erros, recuperação (rollback, rollforward, failover) e mascaramento por redundância.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `reliability`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

@@ -40,7 +40,7 @@ Each got a "From the MBA library" section and a book source with a chapter locat
 - [ ] [Event-driven architecture](/concepts/architecture/event-driven-architecture.md) (draft) — ch. 17 Your Coffee Shop Doesn't Use Two-Phase Commit
 - [ ] [Saga pattern](/concepts/backend-systems/saga-pattern.md) (stable) — ch. 17 Your Coffee Shop Doesn't Use Two-Phase Commit (Write-off; Retry; Compensating Action)
 - [ ] [Idempotency](/concepts/backend-systems/idempotency.md) (stable) — ch. 17 Your Coffee Shop Doesn't Use Two-Phase Commit (Retry)
-- [ ] [Architecture decision record](/concepts/backend-systems/adr.md) (stable) — ch. 6 Making Decisions; ch. 8 Is This Architecture? (Architectural Decisions)
+- [ ] [Architecture decision record](/concepts/architecture/adr.md) (stable) — ch. 6 Making Decisions; ch. 8 Is This Architecture? (Architectural Decisions)
 - [ ] [Technical debt](/concepts/software-engineering/technical-debt.md) (draft) — ch. 12 If You Never Kill Anything, You Will Live Among Zombies
 - [ ] [Infrastructure as code](/concepts/cloud-infra/infrastructure-as-code.md) (draft) — ch. 13 Never Send a Human to Do a Machine's Job; ch. 14 If Software Eats the World, Better Use Version Control!
 - [ ] [DevOps](/concepts/software-engineering/devops.md) (draft) — ch. 36 The Infinite Loop; ch. 13 Never Send a Human to Do a Machine's Job

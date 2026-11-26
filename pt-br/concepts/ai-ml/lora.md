@@ -4,7 +4,9 @@ title: Adaptação de baixo posto (LoRA)
 description: Low-Rank Adaptation - um método de fine-tuning eficiente em parâmetros que congela os pesos do modelo e treina pequenas matrizes de posto baixo adicionadas a algumas camadas, reduzindo os parâmetros treináveis em ordens de grandeza com pouca perda de qualidade.
 tags:
 - ai-ml
+- llm-engineering
 domain: ai-ml
+subdomain: llm-engineering
 status: stable
 verified:
 - by: Kenji
@@ -42,6 +44,9 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Adaptação de baixo posto (LoRA)

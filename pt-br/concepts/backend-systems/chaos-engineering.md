@@ -4,9 +4,11 @@ title: Engenharia do caos
 description: A prática de rodar experimentos controlados que injetam falhas reais num sistema (muitas vezes em produção) para testar uma hipótese sobre como ele continua funcionando, para que fraquezas sejam encontradas antes de causar quedas.
 tags:
 - backend-systems
-- system-design
+- reliability
 domain: backend-systems
-subdomain: system-design
+subdomain: reliability
+also_in:
+- software-engineering/testing
 status: stable
 verified:
 - by: Kenji
@@ -29,13 +31,17 @@ sources:
   kind: docs
 lang: pt-br
 translation_of: /concepts/backend-systems/chaos-engineering.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Engenharia do caos
 
 **Definição.** Chaos engineering é "a disciplina de experimentar num sistema para criar confiança na sua capacidade de resistir a condições turbulentas em produção" (Principles of Chaos). É um experimento, não quebra aleatória: você define o comportamento normal, prevê que ele se mantém sob uma falha, injeta a falha com raio de impacto limitado e verifica se estava certo.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `reliability`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

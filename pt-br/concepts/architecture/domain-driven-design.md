@@ -4,9 +4,12 @@ title: Domain-driven design (DDD)
 description: Uma abordagem de projeto de software que modela o código bem próximo do domínio de negócio, usando uma linguagem compartilhada com especialistas do domínio e dividindo sistemas grandes em bounded contexts com fronteiras explícitas.
 tags:
 - architecture
+- software-architecture
 - core
 domain: architecture
-subdomain: core
+subdomain: software-architecture
+also_in:
+- software-engineering/design
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +26,17 @@ sources:
   kind: docs
 lang: pt-br
 translation_of: /concepts/architecture/domain-driven-design.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Domain-driven design (DDD)
 
 **Definição.** Eric Evans introduziu o DDD em 2003. O projeto estratégico divide um domínio complexo em bounded contexts, cada um com seu próprio modelo e linguagem ubíqua, e mapeia como eles se relacionam (mapas de contexto). O projeto tático fornece blocos de construção dentro de um contexto: entidades, objetos de valor, agregados, eventos de domínio, repositórios e serviços.
 
-Domínio: [architecture](/pt-br/domains/architecture.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [architecture](/pt-br/domains/architecture.md) · subdomínio `software-architecture`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 
@@ -41,7 +48,7 @@ O DDD é a forma mais comum de encontrar boas fronteiras para microservices ou m
 
 ## Conceitos mais específicos
 
-- [Contexto delimitado](/pt-br/concepts/backend-systems/bounded-context.md)
+- [Contexto delimitado](/pt-br/concepts/architecture/bounded-context.md)
 - [Microservices](/pt-br/concepts/architecture/microservices.md)
 - [Monólito modular](/pt-br/concepts/architecture/modular-monolith.md)
 

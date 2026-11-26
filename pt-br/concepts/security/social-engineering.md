@@ -4,9 +4,9 @@ title: 'Engenharia social e phishing'
 description: 'Ataques que manipulam pessoas em vez de sistemas - phishing, spear phishing, pretexto, tailgating - explorando confiança, autoridade, urgência ou disposição para ajudar, combatidos com treinamento de conscientização, procedimentos de verificação e controles técnicos como MFA.'
 tags:
 - security
-- security
+- governance-risk
 domain: security
-subdomain: security
+subdomain: governance-risk
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest)
@@ -29,13 +29,17 @@ sources:
   kind: docs
 lang: pt-br
 translation_of: /concepts/security/social-engineering.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Engenharia social e phishing
 
 **Definição.** Beaver chama a engenharia social de "hackear pessoas": explorar maliciosamente a natureza confiante das pessoas para obter informações ou acesso (p. 67). O phishing envia mensagens enganosas que levam pessoas a revelar credenciais, abrir malware ou aprovar pagamentos; o spear phishing mira uma pessoa específica com detalhes pesquisados; o whaling mira executivos; o pretexto inventa um cenário (uma falsa ligação do suporte de TI); variantes físicas incluem o tailgating (entrar atrás de alguém) em prédios. Gibson explica por que funciona por princípios como autoridade, intimidação, consenso, escassez, urgência, familiaridade e confiança. Stallings e Brown a tratam como via de propagação de malware (trojans, spam) e como carga de roubo de informação (phishing), e respondem com conscientização, treinamento e educação em segurança.
 
-Domínio: [security](/pt-br/domains/security.md) · subdomínio `security`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-24); rascunho aguardando certificação do Kenji.
+Domínio: [security](/pt-br/domains/security.md) · subdomínio `governance-risk`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-24); rascunho aguardando certificação do Kenji.
 
 ## Como se encaixa
 

@@ -4,9 +4,10 @@ title: OLTP versus OLAP
 description: OLTP (processamento transacional online) atende muitas leituras e escritas pequenas e rápidas para operar o negócio; OLAP (processamento analítico online) atende menos consultas, grandes, que varrem e agregam o histórico para analisá-lo.
 tags:
 - data
+- databases
 - core
 domain: data
-subdomain: core
+subdomain: databases
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +24,17 @@ sources:
   kind: paper
 lang: pt-br
 translation_of: /concepts/data/oltp-olap.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # OLTP versus OLAP
 
 **Definição.** Cargas OLTP tocam poucas linhas por requisição, por chave, precisam de baixa latência e garantias transacionais fortes, e costumam ser armazenadas linha a linha. Cargas OLAP leem milhões de linhas mas poucas colunas, agregam-nas (somas, contagens, group by), toleram segundos de latência e são melhor atendidas por armazenamento colunar e esquemas estrela ou floco de neve. Codd introduziu o termo OLAP em 1993; a modelagem dimensional de Kimball é a forma clássica de projetar para ele.
 
-Domínio: [data](/pt-br/domains/data.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [data](/pt-br/domains/data.md) · subdomínio `databases`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

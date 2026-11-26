@@ -4,9 +4,10 @@ title: Modelos de serviço (IaaS, PaaS, SaaS)
 description: As três formas padronizadas de oferecer capacidade de nuvem - infraestrutura (IaaS, alugar máquinas virtuais, armazenamento e redes), plataforma (PaaS, implantar seu código num runtime gerenciado) e software (SaaS, usar uma aplicação pronta) - que diferem em quanto o provedor gerencia.
 tags:
 - cloud-infra
+- cloud-platforms
 - core
 domain: cloud-infra
-subdomain: core
+subdomain: cloud-platforms
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -32,13 +33,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Modelos de serviço (IaaS, PaaS, SaaS)
 
 **Definição.** A NIST SP 800-145 define Software como Serviço (o consumidor usa as aplicações do provedor), Plataforma como Serviço (o consumidor implanta as próprias aplicações usando linguagens, bibliotecas e ferramentas do provedor, sem gerenciar a infraestrutura subjacente) e Infraestrutura como Serviço (o consumidor provisiona processamento, armazenamento e redes e controla sistemas operacionais e aplicações). A ISO/IEC 22123 descreve as mesmas capacidades em termos de tipos de capacidade e categorias de serviço de nuvem.
 
-Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `cloud-platforms`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

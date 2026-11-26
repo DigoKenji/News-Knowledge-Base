@@ -4,9 +4,10 @@ title: Replication and partitioning (sharding)
 description: Replication keeps copies of the same data on several nodes for availability and read scale; partitioning (sharding) splits the data so each node holds only part of it, for write and storage scale. Most large databases combine both.
 tags:
 - backend-systems
+- distributed-systems
 - core
 domain: backend-systems
-subdomain: core
+subdomain: distributed-systems
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -21,13 +22,17 @@ sources:
 - title: Kleppmann, M. (2017). Designing Data-Intensive Applications, ch. 5 "Replication" and ch. 6 "Partitioning"
   resource: 'https://dataintensive.net/'
   kind: book
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Replication and partitioning (sharding)
 
 **Definition.** Replication strategies are single-leader (one node accepts writes and streams them to followers), multi-leader, and leaderless (quorum reads and writes, as in Amazon's Dynamo). Partitioning assigns each record to a partition by key range or by hash of the key; consistent hashing limits how much data moves when nodes join or leave. Each partition is usually replicated.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `distributed-systems`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

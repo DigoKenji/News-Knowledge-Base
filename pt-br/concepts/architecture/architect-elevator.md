@@ -24,6 +24,10 @@ sources:
   kind: practitioner
 lang: pt-br
 translation_of: /concepts/architecture/architect-elevator.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # O elevador do arquiteto (o papel do arquiteto)
@@ -47,7 +51,7 @@ O conselho quer lançar produtos mais rápido. O arquiteto traduz isso para baix
 ## Conceitos relacionados
 
 - [Arquitetura como opções](/pt-br/concepts/architecture/architecture-options.md)
-- [Registro de decisão de arquitetura](/pt-br/concepts/backend-systems/adr.md)
+- [Registro de decisão de arquitetura](/pt-br/concepts/architecture/adr.md)
 
 ## Fontes
 

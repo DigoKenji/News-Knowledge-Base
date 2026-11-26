@@ -4,7 +4,9 @@ title: Sincronização Delta
 description: Sincronização de duas cópias de dados comparando hashes de blocos e transferindo apenas os blocos que diferem.
 tags:
 - data
+- data-engineering
 domain: data
+subdomain: data-engineering
 status: stable
 verified:
 - by: Kenji
@@ -18,6 +20,10 @@ sources:
   kind: practitioner
 lang: pt-br
 translation_of: /concepts/data/delta-sync.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Sincronização Delta

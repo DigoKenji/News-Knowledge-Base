@@ -4,9 +4,10 @@ title: 'Níveis de isolamento de transações'
 description: 'O quanto um banco protege transações concorrentes umas das outras - de read committed e snapshot isolation até a serializabilidade completa - com cada nível evitando mais anomalias (leituras sujas, atualizações perdidas, write skew) a um custo maior.'
 tags:
 - data
+- databases
 - core
 domain: data
-subdomain: core
+subdomain: databases
 status: draft
 generated:
   by: claude-opus (interactive, project thread; MBA library digest, DDIA)
@@ -24,13 +25,17 @@ sources:
   kind: docs
 lang: pt-br
 translation_of: /concepts/data/isolation-levels.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Níveis de isolamento de transações
 
 **Definição.** O isolamento é o I do ACID: idealmente, cada transação se comporta como se rodasse sozinha (serializabilidade). Como isso é caro, os bancos oferecem níveis mais fracos. Kleppmann os percorre pelas anomalias que permitem: read committed evita leituras sujas e escritas sujas; snapshot isolation (muitas vezes chamado de repeatable read) dá a cada transação um retrato consistente, geralmente via controle de concorrência multiversão, mas ainda permite atualizações perdidas e write skew; a serializabilidade evita todas as condições de corrida e é implementada por execução serial de fato, bloqueio em duas fases (2PL) ou serializable snapshot isolation (SSI). Ele ressalta que os nomes dos níveis são usados de forma inconsistente entre bancos, então é preciso verificar o que o seu realmente garante.
 
-Domínio: [data](/pt-br/domains/data.md) · subdomínio `core`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-26); rascunho aguardando certificação do Kenji.
+Domínio: [data](/pt-br/domains/data.md) · subdomínio `databases`. Novo conceito da biblioteca do MBA (livros adicionados em FIAP-MBA/Materiais/Referencias, 2026-11-26); rascunho aguardando certificação do Kenji.
 
 ## Como se encaixa
 

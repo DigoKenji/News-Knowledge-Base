@@ -4,9 +4,10 @@ title: FinOps e custo de nuvem
 description: Um framework operacional e prática cultural que reúne engenharia, finanças e negócio para gerenciar o gasto variável de nuvem - tornando os custos visíveis, alocando-os às equipes e otimizando-os em função do valor para o negócio.
 tags:
 - cloud-infra
+- cloud-platforms
 - core
 domain: cloud-infra
-subdomain: core
+subdomain: cloud-platforms
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -23,13 +24,17 @@ sources:
   kind: docs
 lang: pt-br
 translation_of: /concepts/cloud-infra/finops.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # FinOps e custo de nuvem
 
 **Definição.** A FinOps Foundation (parte da Linux Foundation) define FinOps como um framework operacional e prática cultural que maximiza o valor de negócio da nuvem, permite decisões oportunas baseadas em dados e cria responsabilidade financeira por meio da colaboração entre engenharia, finanças e negócio. Seu ciclo de vida tem três fases - informar (visibilidade e alocação), otimizar (dimensionamento correto, compromissos, eliminação de desperdício) e operar (governança e melhoria contínua).
 
-Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [cloud-infra](/pt-br/domains/cloud-infra.md) · subdomínio `cloud-platforms`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 

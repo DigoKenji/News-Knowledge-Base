@@ -4,9 +4,10 @@ title: Service models (IaaS, PaaS, SaaS)
 description: The three standard ways cloud capability is offered - infrastructure (IaaS, rent virtual machines, storage and networks), platform (PaaS, deploy your code on a managed runtime) and software (SaaS, use a finished application) - differing in how much the provider manages.
 tags:
 - cloud-infra
+- cloud-platforms
 - core
 domain: cloud-infra
-subdomain: core
+subdomain: cloud-platforms
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -30,13 +31,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Service models (IaaS, PaaS, SaaS)
 
 **Definition.** NIST SP 800-145 defines Software as a Service (the consumer uses the provider's applications), Platform as a Service (the consumer deploys its own applications using the provider's languages, libraries and tools, without managing the underlying infrastructure) and Infrastructure as a Service (the consumer provisions processing, storage and networks and controls operating systems and applications). ISO/IEC 22123 describes the same capabilities in terms of cloud capability types and service categories.
 
-Domain: [cloud-infra](/domains/cloud-infra.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [cloud-infra](/domains/cloud-infra.md) · subdomain `cloud-platforms`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 

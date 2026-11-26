@@ -4,9 +4,9 @@ title: Falha correlacionada
 description: Vários componentes que deveriam falhar de forma independente falham juntos porque compartilham uma causa oculta - uma dependência, uma mudança de configuração, um bug de software, um domínio de energia ou rede - o que derrota a redundância projetada supondo independência.
 tags:
 - backend-systems
-- system-design
+- reliability
 domain: backend-systems
-subdomain: system-design
+subdomain: reliability
 status: stable
 verified:
 - by: Kenji
@@ -29,13 +29,17 @@ sources:
   kind: practitioner
 lang: pt-br
 translation_of: /concepts/backend-systems/correlated-failure.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Falha correlacionada
 
 **Definição.** Falhas são correlacionadas quando a falha de um componente torna mais provável a falha de outro. A matemática da redundância (duas réplicas de 99,9% dão 99,9999%) supõe independência; falhas correlacionadas quebram essa suposição, então a disponibilidade real fica muito abaixo do que a conta diz.
 
-Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `system-design`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
+Domínio: [backend-systems](/pt-br/domains/backend-systems.md) · subdomínio `reliability`. Expandido em 2026-11-24 com fontes independentes; certificado por Kenji em 2026-11-24.
 
 ## Como funciona
 

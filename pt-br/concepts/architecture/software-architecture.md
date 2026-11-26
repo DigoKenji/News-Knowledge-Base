@@ -4,9 +4,10 @@ title: Arquitetura de software
 description: A estrutura fundamental de um sistema de software - seus principais elementos, suas relações e os princípios que regem seu projeto e evolução - e a disciplina de tomar essas decisões de alto impacto.
 tags:
 - architecture
+- software-architecture
 - core
 domain: architecture
-subdomain: core
+subdomain: software-architecture
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -32,13 +33,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest, Architect Elevator)
   at: '2026-11-26T20:30:00-03:00'
   change: 'adicionadas citações da biblioteca do MBA; definição inalterada'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Arquitetura de software
 
 **Definição.** A ISO/IEC/IEEE 42010 define arquitetura como os conceitos ou propriedades fundamentais de um sistema em seu ambiente, incorporados em seus elementos, relações e nos princípios de seu projeto e evolução (a mesma redação citada no fundamento de TOGAF da KB). Bass, Clements e Kazman definem arquitetura de software como o conjunto de estruturas necessárias para raciocinar sobre o sistema, composto por elementos de software, as relações entre eles e as propriedades de ambos.
 
-Domínio: [architecture](/pt-br/domains/architecture.md) · subdomínio `core`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
+Domínio: [architecture](/pt-br/domains/architecture.md) · subdomínio `software-architecture`. Entrada do vocabulário central (lista aprovada, 2026-11-24); rascunho aguardando a certificação de Kenji.
 
 ## Como se encaixa
 
@@ -53,8 +57,8 @@ Escolher dois repositórios (código e conhecimento), tarefas agendadas na nuvem
 - [Estilo arquitetural](/pt-br/concepts/architecture/architectural-style.md)
 - [Atributos de qualidade e trade-offs](/pt-br/concepts/architecture/quality-attributes.md)
 - [Acoplamento e coesão](/pt-br/concepts/architecture/coupling-cohesion.md)
-- [Registro de decisão de arquitetura](/pt-br/concepts/backend-systems/adr.md)
-- [Análise de trade-offs ATAM](/pt-br/concepts/backend-systems/atam.md)
+- [Registro de decisão de arquitetura](/pt-br/concepts/architecture/adr.md)
+- [Análise de trade-offs ATAM](/pt-br/concepts/architecture/atam.md)
 - [Monólito modular](/pt-br/concepts/architecture/modular-monolith.md)
 
 ## Notas de revisão para Kenji

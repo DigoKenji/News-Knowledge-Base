@@ -278,6 +278,6 @@ This is your interpretation, not the author's. In architecture governance, the a
 - Canary and progressive delivery with automated rollback — the release-gating pattern the article depends on.
 
 ## 🔗 Concepts
-- [control-plane](/concepts/backend-systems/control-plane.md)
-- [canary-deploy](/concepts/cloud-infra/canary-deploy.md)
+- [control-plane](/concepts/cloud-infra/control-plane.md)
+- [canary-deploy](/concepts/software-engineering/canary-deploy.md)
 - [SLO error budget](/concepts/cloud-infra/slo-error-budget.md)

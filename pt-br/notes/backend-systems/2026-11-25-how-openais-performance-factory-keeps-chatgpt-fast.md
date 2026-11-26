@@ -253,5 +253,5 @@ Esta é a minha interpretação, não a do autor. A Factory é um fluxo governad
 - [latency-throughput](/pt-br/concepts/backend-systems/latency-throughput.md)
 - [silent-failure](/pt-br/concepts/backend-systems/silent-failure.md)
 - [ci-cd](/pt-br/concepts/software-engineering/ci-cd.md)
-- [performance-regression](/pt-br/concepts/backend-systems/performance-regression.md)
+- [performance-regression](/pt-br/concepts/software-engineering/performance-regression.md)
 - [adversarial-review](/pt-br/concepts/ai-ml/adversarial-review.md)

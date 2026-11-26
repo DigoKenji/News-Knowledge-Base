@@ -4,9 +4,12 @@ title: Requirements and quality attributes
 description: Statements of what a system must do (functional requirements) and how well it must do it (non-functional requirements or quality attributes such as performance, security, availability and maintainability).
 tags:
 - software-engineering
+- process
 - core
 domain: software-engineering
-subdomain: core
+subdomain: process
+also_in:
+- architecture/software-architecture
 status: draft
 generated:
   by: claude-opus (interactive, project thread; core vocabulary)
@@ -22,13 +25,17 @@ sources:
   resource: 'https://www.computer.org/education/bodies-of-knowledge/software-engineering'
   kind: standard
 foundation_candidate: true
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Requirements and quality attributes
 
 **Definition.** ISO/IEC/IEEE 29148 covers requirements engineering: eliciting, analysing, specifying, validating and managing requirements. Functional requirements describe behaviour ("the user can export a report"); non-functional requirements constrain qualities ("export finishes in under 3 seconds for 10,000 rows"). ISO/IEC 25010 provides the standard product quality model that names these qualities.
 
-Domain: [software-engineering](/domains/software-engineering.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
+Domain: [software-engineering](/domains/software-engineering.md) · subdomain `process`. Core vocabulary entry (approved seed list, 2026-11-24); draft waiting for Kenji to certify.
 
 ## How it fits
 
@@ -41,7 +48,7 @@ Functional - "send a daily digest to Telegram". Non-functional - "deliver it by 
 ## Narrower concepts
 
 - [Quality attributes and trade-offs](/concepts/architecture/quality-attributes.md)
-- [ATAM tradeoff analysis](/concepts/backend-systems/atam.md)
+- [ATAM tradeoff analysis](/concepts/architecture/atam.md)
 
 ## Review notes for Kenji
 

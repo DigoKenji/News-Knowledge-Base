@@ -4,9 +4,10 @@ title: Identity and access management (IAM)
 description: The processes and systems that manage digital identities (people, services, devices) through their lifecycle and control what each identity can access - covering provisioning, authentication, authorization, federation and access reviews.
 tags:
 - security
+- iam
 - core
 domain: security
-subdomain: core
+subdomain: iam
 status: stable
 verified:
 - by: Kenji
@@ -40,13 +41,16 @@ updated:
 - by: claude-opus (interactive, project thread; MBA library digest)
   at: '2026-11-25T00:45:00-03:00'
   change: 'added MBA library citations; definition unchanged'
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # Identity and access management (IAM)
 
 **Definition.** IAM answers "who is this, and what may they do?" across an organisation. It includes the identity lifecycle (joiner, mover, leaver), an identity provider that authenticates users, single sign-on and federation with standards such as SAML and OpenID Connect, permission models (roles, policies), and governance (periodic access reviews, audit logs). Cloud providers have their own IAM services for controlling access to resources.
 
-Domain: [security](/domains/security.md) · subdomain `core`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
+Domain: [security](/domains/security.md) · subdomain `iam`. Core vocabulary entry (approved seed list, 2026-11-24); certified by Kenji on 2026-11-24.
 
 ## How it fits
 

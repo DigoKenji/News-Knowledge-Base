@@ -4,9 +4,9 @@ title: GC pressure
 description: The load a program puts on its garbage collector - mainly through allocation rate and the size and pointer-density of the live heap - which shows up as CPU spent collecting, longer or more frequent pauses, and higher tail latency.
 tags:
 - backend-systems
-- system-design
+- performance
 domain: backend-systems
-subdomain: system-design
+subdomain: performance
 status: stable
 verified:
 - by: Kenji
@@ -27,13 +27,17 @@ sources:
 - title: Oracle. Java SE 21 HotSpot Virtual Machine Garbage Collection Tuning Guide
   resource: 'https://docs.oracle.com/en/java/javase/21/gctuning/'
   kind: docs
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomy: subdomain set from domain taxonomy'
 ---
 
 # GC pressure
 
 **Definition.** GC pressure is how hard an application makes the garbage collector work. High allocation rates make collections more frequent; a large live heap with many objects and references makes each collection (marking, copying) more expensive. The result is less CPU for the application and latency spikes during pauses.
 
-Domain: [backend-systems](/domains/backend-systems.md) · subdomain `system-design`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
+Domain: [backend-systems](/domains/backend-systems.md) · subdomain `performance`. Expanded on 2026-11-24 with independent sources; certified by Kenji on 2026-11-24.
 
 ## How it works
 

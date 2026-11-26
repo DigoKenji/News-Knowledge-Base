@@ -4,7 +4,11 @@ title: Envenenamento de memória
 description: Um ataque que planta entradas falsas ou maliciosas na memória de longo prazo ou na base de conhecimento de um agente de IA, para que o agente depois as recupere como contexto confiável e aja com base nelas, possivelmente muito tempo depois e para outros usuários.
 tags:
 - security
+- ai-security
 domain: security
+subdomain: ai-security
+also_in:
+- ai-ml/ai-agents
 status: stable
 verified:
 - by: Kenji
@@ -30,6 +34,10 @@ sources:
   kind: paper
 lang: pt-br
 translation_of: /concepts/security/memory-poisoning.md
+updated:
+- by: claude-opus (interactive, project thread; concept taxonomy)
+  at: '2026-11-26T21:30:00-03:00'
+  change: 'taxonomia: subdomínio definido pela taxonomia do domínio'
 ---
 
 # Envenenamento de memória
