@@ -14,5 +14,6 @@
 
 ## Específicos
 
+- [Sincronização Delta](/pt-br/concepts/data/delta-sync.md) — data
 - [Grafo de conhecimento](/pt-br/concepts/data/knowledge-graph.md) — data-engineering
 - [Captura de mudanças de dados (CDC)](/pt-br/concepts/data/change-data-capture.md) — data

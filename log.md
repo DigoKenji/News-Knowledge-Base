@@ -1,5 +1,8 @@
 # Log
 
+## 2026-11-26
+- **Creation:** Daily run (theme day: data): 5 notes (1 architecture-lane MIT SMR Brasil item and 2 Medium deep dives from the Tue PC run, 2 data theme picks), 4 draft concepts, 3 foundation candidates, digest /digests/daily/2026-11-26.md. Inbox empty; PC queue at 9, no refill; 1 Fetched Medium row waits for the next days. The top-scoring Towards Data Science pick was skipped (article pages return 403).
+
 ## 2026-11-25
 - **Creation:** Daily run (theme day: backend-systems): 5 notes (1 architecture-lane MIT SMR Brasil item and 2 Medium deep dives from the Tue PC run, 2 backend theme picks), 5 draft concepts, 3 foundation candidates, digest /digests/daily/2026-11-25.md. Inbox empty; PC queue at 8, no refill; 3 Fetched Medium rows wait for the next days.
 - **Creation:** MBA library digest: 16 new draft concepts (8 AI/ML: gradient descent and backpropagation, regularization, tokenization, fine-tuning, prompt engineering, generative models, quantization, MLOps/LLMOps; 8 security: penetration testing, incident response, security controls, risk management and BIA, shared responsibility, network security, vulnerability management, social engineering), EN + pt-br, from the books Kenji added to FIAP-MBA/Materiais/Referencias on 2026-11-24.

@@ -1,5 +1,7 @@
 # Notes — Data & Data Science
 
+- [QCon San Francisco 2026: Automating Spark Upgrades with Codex Agents at OpenAI](/notes/data/2026-11-26-qcon-san-francisco-2026-automating-spark-upgrades-with-codex.md) — Agents create the most value in open-ended platform operations when deterministic systems provide the guarantees and guardrails.
+- [sqlite3_rsync: Database Remote-Copy Tool For SQLite](/notes/data/2026-11-26-sqlite3-rsync-database-remote-copy-tool-for-sqlite.md) — sqlite3_rsync copies or syncs SQLite databases over SSH, sending only differing pages and avoiding full local duplicates.
 - [What is a semantic knowledge graph, and does your AI need one?](/notes/data/2026-11-22-what-is-a-semantic-knowledge-graph-and-does-your-ai-need-one.md) — Agentic AI needs a semantic layer and knowledge graphs that encode business context, not just data, to act reliably.
 - [How United Airlines streams database changes to Apache Iceberg with Amazon Data Firehose](/notes/data/2026-11-22-how-united-airlines-streams-database-changes-to-apache-icebe.md) — A serverless CDC pipeline from Aurora MySQL into Iceberg gives near-real-time data that several query engines can read.
 - [AI on Excel Sheet: NVIDIA's Kumo Runs 23x Faster Than Google's TabFM](/notes/data/2026-11-20-ai-on-excel-sheet-nvidias-kumo-runs-23x-faster-than-googles.md) — NVIDIA's Kumo predicts from tables with no training run, and an independent benchmark confirms its speed, but its top rivals carry business-use restrictions.

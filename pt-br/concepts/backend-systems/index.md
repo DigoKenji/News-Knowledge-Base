@@ -16,6 +16,8 @@
 
 ## Específicos
 
+- [Execução Durável](/pt-br/concepts/backend-systems/durable-execution.md) — backend-systems
+- [Proxy Reverso](/pt-br/concepts/backend-systems/reverse-proxy.md) — backend-systems
 - [Regressão de desempenho](/pt-br/concepts/backend-systems/performance-regression.md) — execução diária · **rascunho**
 - [Teste sombra](/pt-br/concepts/backend-systems/shadow-testing.md) — execução diária · **rascunho**
 - [Idempotência](/pt-br/concepts/backend-systems/idempotency.md) — system-design

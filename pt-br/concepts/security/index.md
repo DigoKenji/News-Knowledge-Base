@@ -15,6 +15,7 @@
 
 ## Específicos
 
+- [Execução em Sandbox](/pt-br/concepts/security/sandboxed-execution.md) — security
 - [OAuth 2.0](/pt-br/concepts/security/oauth2.md) — iam
 - [OpenID Connect](/pt-br/concepts/security/oidc.md) — iam
 - [Modelagem de ameaças](/pt-br/concepts/security/threat-modeling.md) — appsec

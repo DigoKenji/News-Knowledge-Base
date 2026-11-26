@@ -1,5 +1,6 @@
 # Notes — AI/ML Engineering
 
+- [15 Open Source Projects for AI Agents in Production](/notes/ai-ml/2026-11-26-15-open-source-projects-for-ai-agents-in-production.md) — Choose production agent tools by the job each component performs, and separate named deployments from mere vendor claims.
 - [Jev Clearly Explained](/notes/ai-ml/2026-11-25-jev-clearly-explained.md) — Bounded decisions should be scored rather than generated: one forward pass yields calibrated probabilities code can threshold, though correctness still needs independent evaluation.
 - [LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents](/notes/ai-ml/2026-11-24-livelora-exact-kv-cache-migration-across-lora-updates-for-ll.md) — LiveLoRA migrates active agent sessions to a new LoRA adapter without replaying history, reaching a 68.98x publication speedup on a 32-session benchmark.
 - [How to build and maintain an agentic evaluation](/notes/ai-ml/2026-11-24-how-to-build-and-maintain-an-agentic-evaluation.md) — Agentic evaluations are trustworthy only when every component is built, validated and shared openly, since each one moves the score.

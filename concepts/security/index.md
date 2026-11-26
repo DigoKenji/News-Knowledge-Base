@@ -15,6 +15,7 @@
 
 ## Specialised
 
+- [Sandboxed Execution](/concepts/security/sandboxed-execution.md) — security
 - [OAuth 2.0](/concepts/security/oauth2.md) — iam
 - [OpenID Connect](/concepts/security/oidc.md) — iam
 - [Threat modeling](/concepts/security/threat-modeling.md) — appsec

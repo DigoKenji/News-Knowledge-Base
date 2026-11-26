@@ -16,6 +16,8 @@
 
 ## Specialised
 
+- [Reverse Proxy](/concepts/backend-systems/reverse-proxy.md) — backend-systems
+- [Durable Execution](/concepts/backend-systems/durable-execution.md) — backend-systems
 - [Shadow testing](/concepts/backend-systems/shadow-testing.md) — daily run · **draft**
 - [Performance regression](/concepts/backend-systems/performance-regression.md) — daily run · **draft**
 - [Idempotency](/concepts/backend-systems/idempotency.md) — system-design
