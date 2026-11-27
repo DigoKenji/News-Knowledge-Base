@@ -1,5 +1,6 @@
 # Daily digests
 
+- [2026-11-27](/digests/daily/2026-11-27.md) — Cloud theme day: Docker vs Kubernetes, the 30-minute Lambda timeout, AI investment under platform uncertainty, spec-driven development and AI projects to watch in 2027. 5 notes, 4 draft concepts
 - [2026-11-26](/digests/daily/2026-11-26.md) — Data theme day: sqlite3_rsync, agent-run Spark upgrades at OpenAI, open source agent tooling, self-hosting and adaptive strategy. 5 notes, 4 draft concepts
 - [2026-11-25](/digests/daily/2026-11-25.md) — Backend theme day: DoorDash dispatch, OpenAI's Performance Factory, an AI-native SDLC playbook, Jev scoring and market concentration. 5 notes, 5 draft concepts
 - [2026-11-24](/digests/daily/2026-11-24.md) — Agent context and evals, software supply-chain risk, modular monoliths and network resilience. 10 notes, 5 draft concepts

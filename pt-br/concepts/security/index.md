@@ -34,6 +34,7 @@ Agrupados por subdomínio, conforme a taxonomia da [página do domínio](/pt-br/
 - [Prompt injection indireta](/pt-br/concepts/security/indirect-prompt-injection.md)
 - [Envenenamento de memória](/pt-br/concepts/security/memory-poisoning.md)
 - [Execução em Sandbox](/pt-br/concepts/security/sandboxed-execution.md)
+- [Marca d'água textual](/pt-br/concepts/security/text-watermarking.md) — **draft**
 
 ## Segurança em nuvem
 

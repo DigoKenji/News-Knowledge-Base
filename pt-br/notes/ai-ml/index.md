@@ -1,5 +1,6 @@
 # Notas — Engenharia de AI/ML
 
+- [10 Próximos Projetos de IA em 2027 que Podem Mudar o Futuro da Tecnologia](/pt-br/notes/ai-ml/2026-11-27-10-upcoming-ai-projects-in-2027-that-could-change-the-future.md) — A IA está passando de responder perguntas para agir em mundos digitais e físicos, e a confiabilidade é a parte difícil.
 - [15 projetos open source para agentes de IA em produção](/pt-br/notes/ai-ml/2026-11-26-15-open-source-projects-for-ai-agents-in-production.md) — Escolha ferramentas para agentes em produção pela tarefa que cada componente executa, e separe implantações nomeadas de simples afirmações de fornecedores.
 - [Jev explicado com clareza](/pt-br/notes/ai-ml/2026-11-25-jev-clearly-explained.md) — Decisões limitadas devem ser pontuadas em vez de geradas: uma única passagem direta produz probabilidades calibradas que o código pode comparar com limiares, embora a correção ainda exija avaliação independente.
 - [LiveLoRA: Migração exata de KV cache entre atualizações LoRA para agentes LLM](/pt-br/notes/ai-ml/2026-11-24-livelora-exact-kv-cache-migration-across-lora-updates-for-ll.md) — LiveLoRA migra sessões ativas de agentes para um novo adaptador LoRA sem reproduzir o histórico, alcançando um ganho de 68.98x na velocidade de publicação em um benchmark de 32 sessões.

@@ -1,5 +1,6 @@
 # Notes — Architecture
 
+- [Como construir IA apesar do paradoxo da base inacabada](/notes/architecture/2026-11-27-como-construir-ia-apesar-do-paradoxo-da-base-inacabada.md) — Generative AI is not yet a mature platform, so firms should invest in learning, complementary assets and organizational capability that survive architectural change.
 - [O cubo da vitória no mundo gasoso: seis chaves estratégicas para 2027](/notes/architecture/2026-11-26-o-cubo-da-vitoria-no-mundo-gasoso-seis-chaves-estrategicas-p.md) — Strategy must be prototyped continuously, backed by six interlocking capabilities for a volatile, gas-like business context.
 - [Como eficiência e a disrupção podem acabar com a concentração de mercados que pareciam imutáveis](/notes/architecture/2026-11-25-como-eficiencia-e-a-disrupcao-podem-acabar-com-a-concentraca.md) — Concentrated markets open when regulation and new entrants shift competition from controlling arrangements to operational efficiency and product quality.
 Architecture-lane deep dives (ADR-0009), newest first.

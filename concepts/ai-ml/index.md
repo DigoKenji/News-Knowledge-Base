@@ -30,6 +30,7 @@ Grouped by subdomain, following the taxonomy on the [domain page](/domains/ai-ml
 - [Mixture of experts](/concepts/ai-ml/mixture-of-experts.md)
 - [Multi-head latent attention](/concepts/ai-ml/multi-head-latent-attention.md)
 - [Rotary position embedding (RoPE)](/concepts/ai-ml/rope.md)
+- [World models](/concepts/ai-ml/world-models.md) — **draft**
 
 ## NLP
 

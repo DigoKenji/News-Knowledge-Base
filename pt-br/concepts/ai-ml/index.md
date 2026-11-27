@@ -30,6 +30,7 @@ Agrupados por subdomínio, conforme a taxonomia da [página do domínio](/pt-br/
 - [Mistura de especialistas](/pt-br/concepts/ai-ml/mixture-of-experts.md)
 - [Atenção latente multi-cabeça](/pt-br/concepts/ai-ml/multi-head-latent-attention.md)
 - [Embedding posicional rotacional (RoPE)](/pt-br/concepts/ai-ml/rope.md)
+- [Modelos de mundo](/pt-br/concepts/ai-ml/world-models.md) — **draft**
 
 ## PLN
 

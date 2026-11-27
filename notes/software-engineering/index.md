@@ -1,5 +1,6 @@
 # Notes — Software Engineering Practice
 
+- [The Best Developer Is No Longer the One Who Writes the Best Code](/notes/software-engineering/2026-11-27-the-best-developer-is-no-longer-the-one-who-writes-the-best.md) — Spec-driven development shifts developer value from coding speed to precise intent and rigorous verification, raising the bar.
 - [15 self-hosted apps that quietly replaced my paid subscriptions](/notes/software-engineering/2026-11-26-15-self-hosted-apps-that-quietly-replaced-my-paid-subscripti.md) — Fifteen self-hosted apps on one small box can replace most paid subscriptions, but only if you accept running and backing up the server.
 - [After waterfall, agile, and DevOps — Anthropic’s AI-Native SDLC playbook](/notes/software-engineering/2026-11-25-after-waterfall-agile-and-devops-anthropics-ai-native-sdlc-p.md) — AI-native SDLC replaces handoff meetings with versioned artifacts and write-time governance, since faster coding alone leaves the pipeline slow.
 - [The FAA outage is a warning about technical debt in the AI era](/notes/software-engineering/2026-11-24-the-faa-outage-is-a-warning-about-technical-debt-in-the-ai-e.md) — AI-assisted coding speeds delivery, but its gains survive only with sustained investment in retiring technical debt.

@@ -1,5 +1,7 @@
 # Notes — Cloud & Infrastructure
 
+- [AWS Lambda Doubles Its Timeout to 30 Minutes after Eight Years at 15](/notes/cloud-infra/2026-11-27-aws-lambda-doubles-its-timeout-to-30-minutes-after-eight-yea.md) — AWS doubled Lambda's timeout to 30 minutes, but queues, streams and concurrency limits must be checked before the new value is safe.
+- [EP234: Docker vs Kubernetes](/notes/cloud-infra/2026-11-27-ep234-docker-vs-kubernetes.md) — Docker packages applications and Kubernetes orchestrates them across machines; the article also explains Redis internals, model tradeoffs, watermarking and nine distributed patterns.
 - [Probing DNS at Cloudflare](/notes/cloud-infra/2026-11-24-probing-dns-at-cloudflare.md) — Cloudflare extended its Flamingo testing framework to probe DNS propagation continuously, and uses those SLO measurements to gate releases.
 - [Microsoft outage: A cascading failure that started with an undetected bug](/notes/cloud-infra/2026-11-22-microsoft-outage-a-cascading-failure-that-started-with-an-un.md) — A latent defect, a test environment unlike production and a shared gateway under extra load turned a July change into a day-long outage.
 - [How Google Traced GKE API Timeouts to a Linux Kernel TCP Bug](/notes/cloud-infra/2026-11-21-how-google-traced-gke-api-timeouts-to-a-linux-kernel-tcp-bug.md) — Intermittent GKE API timeouts came from three interacting bugs in PSC, Envoy and the Linux kernel, fixed by a kernel patch.

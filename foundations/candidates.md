@@ -75,3 +75,6 @@ Seed list from the MBA syllabus (2026-11-18). Daily runs append terms they meet 
 - business ecosystem — first seen in [O cubo da vitória no mundo gasoso: seis chaves estratégicas para 2027](/notes/architecture/2026-11-26-o-cubo-da-vitoria-no-mundo-gasoso-seis-chaves-estrategicas-p.md)
 - strategic planning — first seen in [O cubo da vitória no mundo gasoso: seis chaves estratégicas para 2027](/notes/architecture/2026-11-26-o-cubo-da-vitoria-no-mundo-gasoso-seis-chaves-estrategicas-p.md)
 - ambidexterity — first seen in [O cubo da vitória no mundo gasoso: seis chaves estratégicas para 2027](/notes/architecture/2026-11-26-o-cubo-da-vitoria-no-mundo-gasoso-seis-chaves-estrategicas-p.md)
+- platforming — first seen in [Como construir IA apesar do paradoxo da base inacabada](/notes/architecture/2026-11-27-como-construir-ia-apesar-do-paradoxo-da-base-inacabada.md)
+- complementary assets — first seen in [Como construir IA apesar do paradoxo da base inacabada](/notes/architecture/2026-11-27-como-construir-ia-apesar-do-paradoxo-da-base-inacabada.md)
+- general-purpose technology — first seen in [Como construir IA apesar do paradoxo da base inacabada](/notes/architecture/2026-11-27-como-construir-ia-apesar-do-paradoxo-da-base-inacabada.md)

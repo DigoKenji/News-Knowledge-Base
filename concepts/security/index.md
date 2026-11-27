@@ -34,6 +34,7 @@ Grouped by subdomain, following the taxonomy on the [domain page](/domains/secur
 - [Indirect prompt injection](/concepts/security/indirect-prompt-injection.md)
 - [Memory poisoning](/concepts/security/memory-poisoning.md)
 - [Sandboxed Execution](/concepts/security/sandboxed-execution.md)
+- [Text watermarking](/concepts/security/text-watermarking.md) — **draft**
 
 ## Cloud security
 

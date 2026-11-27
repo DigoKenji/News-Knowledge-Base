@@ -1,5 +1,6 @@
 # Notes — AI/ML Engineering
 
+- [10 Upcoming AI Projects in 2027 That Could Change the Future of Technology](/notes/ai-ml/2026-11-27-10-upcoming-ai-projects-in-2027-that-could-change-the-future.md) — AI is shifting from answering questions toward acting in digital and physical worlds, and reliability is the hard part.
 - [15 Open Source Projects for AI Agents in Production](/notes/ai-ml/2026-11-26-15-open-source-projects-for-ai-agents-in-production.md) — Choose production agent tools by the job each component performs, and separate named deployments from mere vendor claims.
 - [Jev Clearly Explained](/notes/ai-ml/2026-11-25-jev-clearly-explained.md) — Bounded decisions should be scored rather than generated: one forward pass yields calibrated probabilities code can threshold, though correctness still needs independent evaluation.
 - [LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents](/notes/ai-ml/2026-11-24-livelora-exact-kv-cache-migration-across-lora-updates-for-ll.md) — LiveLoRA migrates active agent sessions to a new LoRA adapter without replaying history, reaching a 68.98x publication speedup on a 32-session benchmark.

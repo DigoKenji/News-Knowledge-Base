@@ -24,6 +24,7 @@ Agrupados por subdomínio, conforme a taxonomia da [página do domínio](/pt-br/
 - [Falha correlacionada](/pt-br/concepts/backend-systems/correlated-failure.md)
 - [Tempestade de retentativas](/pt-br/concepts/backend-systems/retry-storm.md)
 - [Falha silenciosa](/pt-br/concepts/backend-systems/silent-failure.md)
+- [Circuit breaker](/pt-br/concepts/backend-systems/circuit-breaker.md) — **draft**
 - ↗ [Observabilidade (logs, métricas, traces)](/pt-br/concepts/cloud-infra/observability.md) — origem: Nuvem e Infraestrutura
 - ↗ [Orçamento de erros de SLO](/pt-br/concepts/cloud-infra/slo-error-budget.md) — origem: Nuvem e Infraestrutura
 
@@ -43,6 +44,7 @@ Agrupados por subdomínio, conforme a taxonomia da [página do domínio](/pt-br/
 - [Event sourcing](/pt-br/concepts/backend-systems/event-sourcing.md) — **rascunho**
 - [Idempotência](/pt-br/concepts/backend-systems/idempotency.md)
 - [Padrão Saga](/pt-br/concepts/backend-systems/saga-pattern.md)
+- [Visibility timeout](/pt-br/concepts/backend-systems/visibility-timeout.md) — **draft**
 - ↗ [Captura de alterações de dados (CDC)](/pt-br/concepts/data/change-data-capture.md) — origem: Dados e Ciência de Dados
 - ↗ [Arquitetura orientada a eventos](/pt-br/concepts/architecture/event-driven-architecture.md) — origem: Arquitetura
 

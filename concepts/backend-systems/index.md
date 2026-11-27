@@ -24,6 +24,7 @@ Grouped by subdomain, following the taxonomy on the [domain page](/domains/backe
 - [Correlated failure](/concepts/backend-systems/correlated-failure.md)
 - [Retry storm](/concepts/backend-systems/retry-storm.md)
 - [Silent failure](/concepts/backend-systems/silent-failure.md)
+- [Circuit breaker](/concepts/backend-systems/circuit-breaker.md) — **draft**
 - ↗ [Observability (logs, metrics, traces)](/concepts/cloud-infra/observability.md) — home: Cloud & Infrastructure
 - ↗ [SLO error budget](/concepts/cloud-infra/slo-error-budget.md) — home: Cloud & Infrastructure
 
@@ -43,6 +44,7 @@ Grouped by subdomain, following the taxonomy on the [domain page](/domains/backe
 - [Event sourcing](/concepts/backend-systems/event-sourcing.md) — **draft**
 - [Idempotency](/concepts/backend-systems/idempotency.md)
 - [Saga pattern](/concepts/backend-systems/saga-pattern.md)
+- [Visibility timeout](/concepts/backend-systems/visibility-timeout.md) — **draft**
 - ↗ [Change data capture](/concepts/data/change-data-capture.md) — home: Data & Data Science
 - ↗ [Event-driven architecture](/concepts/architecture/event-driven-architecture.md) — home: Architecture
 

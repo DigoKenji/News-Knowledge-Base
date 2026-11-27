@@ -77,3 +77,6 @@ Lista inicial a partir do programa do MBA (2026-11-18). As execuções diárias 
 - ecossistema de negócios — visto pela primeira vez em [O cubo da vitória no mundo gasoso: seis chaves estratégicas para 2027](/pt-br/notes/architecture/2026-11-26-o-cubo-da-vitoria-no-mundo-gasoso-seis-chaves-estrategicas-p.md)
 - planejamento estratégico — visto pela primeira vez em [O cubo da vitória no mundo gasoso: seis chaves estratégicas para 2027](/pt-br/notes/architecture/2026-11-26-o-cubo-da-vitoria-no-mundo-gasoso-seis-chaves-estrategicas-p.md)
 - ambidestria — visto pela primeira vez em [O cubo da vitória no mundo gasoso: seis chaves estratégicas para 2027](/pt-br/notes/architecture/2026-11-26-o-cubo-da-vitoria-no-mundo-gasoso-seis-chaves-estrategicas-p.md)
+- plataformização — visto pela primeira vez em [Como construir IA apesar do paradoxo da base inacabada](/pt-br/notes/architecture/2026-11-27-como-construir-ia-apesar-do-paradoxo-da-base-inacabada.md)
+- ativos complementares — visto pela primeira vez em [Como construir IA apesar do paradoxo da base inacabada](/pt-br/notes/architecture/2026-11-27-como-construir-ia-apesar-do-paradoxo-da-base-inacabada.md)
+- tecnologia de propósito geral — visto pela primeira vez em [Como construir IA apesar do paradoxo da base inacabada](/pt-br/notes/architecture/2026-11-27-como-construir-ia-apesar-do-paradoxo-da-base-inacabada.md)
