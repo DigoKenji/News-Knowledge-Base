@@ -53,6 +53,7 @@ Grouped by subdomain, following the taxonomy on the [domain page](/domains/ai-ml
 - [Quantization](/concepts/ai-ml/quantization.md) — **draft**
 - [Speculative decoding](/concepts/ai-ml/speculative-decoding.md)
 - [Structured decision model](/concepts/ai-ml/structured-decision-model.md)
+- [Hallucination](/concepts/ai-ml/hallucination.md) — **draft**
 
 ## Retrieval and RAG
 
@@ -62,6 +63,7 @@ Grouped by subdomain, following the taxonomy on the [domain page](/domains/ai-ml
 - [Semantic search](/concepts/ai-ml/semantic-search.md)
 - [Vectorless RAG](/concepts/ai-ml/vectorless-rag.md)
 - ↗ [Knowledge graph](/concepts/data/knowledge-graph.md) — home: Data & Data Science
+- ↗ [Ontology](/concepts/data/ontology.md) — home: Data & Data Science
 
 ## AI agents
 
@@ -92,3 +94,4 @@ Grouped by subdomain, following the taxonomy on the [domain page](/domains/ai-ml
 
 - [Concept drift](/concepts/ai-ml/concept-drift.md)
 - [Data drift](/concepts/ai-ml/data-drift.md)
+- [Human-in-the-loop](/concepts/ai-ml/human-in-the-loop.md) — **draft**

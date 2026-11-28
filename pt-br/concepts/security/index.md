@@ -9,6 +9,7 @@ Agrupados por subdomínio, conforme a taxonomia da [página do domínio](/pt-br/
 - [Criptografia](/pt-br/concepts/security/encryption.md) — core
 - [Privilégio mínimo e defesa em profundidade](/pt-br/concepts/security/least-privilege.md) — core
 - [Ameaça, vulnerabilidade e risco](/pt-br/concepts/security/threat-vulnerability-risk.md) — core
+- [Privacidade diferencial](/pt-br/concepts/security/differential-privacy.md) — **rascunho**
 
 ## Identidade e acesso
 
@@ -35,6 +36,7 @@ Agrupados por subdomínio, conforme a taxonomia da [página do domínio](/pt-br/
 - [Envenenamento de memória](/pt-br/concepts/security/memory-poisoning.md)
 - [Execução em Sandbox](/pt-br/concepts/security/sandboxed-execution.md)
 - [Marca d'água textual](/pt-br/concepts/security/text-watermarking.md) — **draft**
+- [Inferência de pertencimento](/pt-br/concepts/security/membership-inference.md) — **rascunho**
 
 ## Segurança em nuvem
 

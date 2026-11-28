@@ -27,7 +27,9 @@ Agrupados por subdomínio, conforme a taxonomia da [página do domínio](/pt-br/
 
 - [Governança de dados e qualidade de dados](/pt-br/concepts/data/data-governance-quality.md) — core · **rascunho**
 - [Metadados e catálogo de dados](/pt-br/concepts/data/metadata-catalog.md) — core · **rascunho**
+- ↗ [Privacidade diferencial](/pt-br/concepts/security/differential-privacy.md) — origem: Cibersegurança
 
 ## Ciência de dados
 
 - [Grafo de conhecimento](/pt-br/concepts/data/knowledge-graph.md)
+- [Ontologia](/pt-br/concepts/data/ontology.md) — **rascunho**

@@ -1,5 +1,6 @@
 # Notas — Engenharia de AI/ML
 
+- [OKF + RAG: The Ultimate AI Agent Architecture](/pt-br/notes/ai-ml/2026-11-28-okf-rag-the-ultimate-ai-agent-architecture.md) — Conhecimento curado em Markdown somado à busca RAG dá aos agentes fatos determinísticos e amplo alcance, evitando respostas alucinadas em dados críticos.
 - [10 Próximos Projetos de IA em 2027 que Podem Mudar o Futuro da Tecnologia](/pt-br/notes/ai-ml/2026-11-27-10-upcoming-ai-projects-in-2027-that-could-change-the-future.md) — A IA está passando de responder perguntas para agir em mundos digitais e físicos, e a confiabilidade é a parte difícil.
 - [15 projetos open source para agentes de IA em produção](/pt-br/notes/ai-ml/2026-11-26-15-open-source-projects-for-ai-agents-in-production.md) — Escolha ferramentas para agentes em produção pela tarefa que cada componente executa, e separe implantações nomeadas de simples afirmações de fornecedores.
 - [Jev explicado com clareza](/pt-br/notes/ai-ml/2026-11-25-jev-clearly-explained.md) — Decisões limitadas devem ser pontuadas em vez de geradas: uma única passagem direta produz probabilidades calibradas que o código pode comparar com limiares, embora a correção ainda exija avaliação independente.

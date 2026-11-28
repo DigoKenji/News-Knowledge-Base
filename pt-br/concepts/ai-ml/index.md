@@ -53,6 +53,7 @@ Agrupados por subdomínio, conforme a taxonomia da [página do domínio](/pt-br/
 - [Quantização](/pt-br/concepts/ai-ml/quantization.md) — **rascunho**
 - [Decodificação especulativa](/pt-br/concepts/ai-ml/speculative-decoding.md)
 - [Modelo de decisão estruturado](/pt-br/concepts/ai-ml/structured-decision-model.md)
+- [Alucinação](/pt-br/concepts/ai-ml/hallucination.md) — **rascunho**
 
 ## Recuperação e RAG
 
@@ -62,6 +63,7 @@ Agrupados por subdomínio, conforme a taxonomia da [página do domínio](/pt-br/
 - [Busca semântica](/pt-br/concepts/ai-ml/semantic-search.md)
 - [RAG sem vetores](/pt-br/concepts/ai-ml/vectorless-rag.md)
 - ↗ [Grafo de conhecimento](/pt-br/concepts/data/knowledge-graph.md) — origem: Dados e Ciência de Dados
+- ↗ [Ontologia](/pt-br/concepts/data/ontology.md) — origem: Dados e Ciência de Dados
 
 ## Agentes de IA
 
@@ -92,3 +94,4 @@ Agrupados por subdomínio, conforme a taxonomia da [página do domínio](/pt-br/
 
 - [Drift de conceito](/pt-br/concepts/ai-ml/concept-drift.md)
 - [Drift de dados](/pt-br/concepts/ai-ml/data-drift.md)
+- [Humano no loop](/pt-br/concepts/ai-ml/human-in-the-loop.md) — **rascunho**

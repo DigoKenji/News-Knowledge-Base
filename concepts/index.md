@@ -6,10 +6,10 @@ Concepts are grouped by theme, one folder per domain (like `notes/`). Each theme
 
 | Theme | Concepts | Core | Drafts |
 |---|---|---|---|
-| [AI/ML Engineering](/concepts/ai-ml/index.md) | 56 | 12 | 11 |
+| [AI/ML Engineering](/concepts/ai-ml/index.md) | 58 | 12 | 13 |
 | [Backend & Systems Engineering](/concepts/backend-systems/index.md) | 32 | 11 | 14 |
 | [Cloud & Infrastructure](/concepts/cloud-infra/index.md) | 12 | 9 | 9 |
-| [Cybersecurity](/concepts/security/index.md) | 29 | 10 | 9 |
-| [Data & Data Science](/concepts/data/index.md) | 15 | 10 | 12 |
+| [Cybersecurity](/concepts/security/index.md) | 31 | 10 | 11 |
+| [Data & Data Science](/concepts/data/index.md) | 16 | 10 | 13 |
 | [Software Engineering Practice](/concepts/software-engineering/index.md) | 16 | 10 | 14 |
 | [Architecture](/concepts/architecture/index.md) | 16 | 8 | 11 |

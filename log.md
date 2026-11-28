@@ -1,5 +1,8 @@
 # Log
 
+## 2026-11-28
+- **Creation:** Daily run (theme day: security): 5 notes (1 architecture-lane MIT SMR Brasil item on high-reliability organizations, 2 security theme picks: OpenAI and Cisco's Shirudo and an arXiv paper on validating re-identification tests under the EDPB anonymisation guidelines, 2 Medium deep dives from the PC run on ontologies/semantic layers and OKF + RAG), 5 draft concepts (hallucination, human-in-the-loop, ontology, differential privacy, membership inference), 6 foundation candidates, digest /digests/daily/2026-11-28.md. Inbox empty; PC queue at 8, no refill; 2 Fetched Medium rows wait for the next days.
+
 ## 2026-11-27
 - **Creation:** Daily run (theme day: cloud-infra): 5 notes (1 architecture-lane MIT SMR Brasil item and 2 Medium deep dives from the PC run, 2 cloud theme picks: ByteByteGo EP234 and InfoQ on the 30-minute Lambda timeout), 4 draft concepts (circuit breaker, visibility timeout, text watermarking, world models), 3 foundation candidates, digest /digests/daily/2026-11-27.md. Inbox empty; PC queue at 8, no refill; 4 Fetched Medium rows wait for the next days. Only 2 cloud candidates scored 3 or more this week.
 

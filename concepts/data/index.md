@@ -27,7 +27,9 @@ Grouped by subdomain, following the taxonomy on the [domain page](/domains/data.
 
 - [Data governance and data quality](/concepts/data/data-governance-quality.md) — core · **draft**
 - [Metadata and data catalog](/concepts/data/metadata-catalog.md) — core · **draft**
+- ↗ [Differential privacy](/concepts/security/differential-privacy.md) — home: Cybersecurity
 
 ## Data science
 
 - [Knowledge graph](/concepts/data/knowledge-graph.md)
+- [Ontology](/concepts/data/ontology.md) — **draft**

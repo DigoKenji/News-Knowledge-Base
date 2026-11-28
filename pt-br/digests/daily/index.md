@@ -1,5 +1,6 @@
 # Resumos diários
 
+- [2026-11-28](/pt-br/digests/daily/2026-11-28.md) — Dia temático de segurança: OpenAI e o Shirudo da Cisco, testes de reidentificação validados sob as diretrizes do EDPB, organizações de alta confiabilidade, ontologias e camadas semânticas, e OKF + RAG. 5 notas, 5 conceitos em rascunho
 - [2026-11-27](/pt-br/digests/daily/2026-11-27.md) — Dia temático de cloud: Docker vs Kubernetes, o timeout de 30 minutos do Lambda, investimento em IA sob incerteza de plataforma, desenvolvimento orientado por especificação e projetos de IA para acompanhar em 2027. 5 notas, 4 conceitos em rascunho
 - [2026-11-26](/pt-br/digests/daily/2026-11-26.md) — Dia do tema dados: sqlite3_rsync, upgrades do Spark executados por agentes na OpenAI, ferramentas open source para agentes, self-hosting e estratégia adaptativa. 5 notas, 4 conceitos em rascunho
 - [2026-11-25](/pt-br/digests/daily/2026-11-25.md) — Dia do tema backend: dispatch da DoorDash, a Performance Factory da OpenAI, um playbook de SDLC nativo de IA, pontuação com Jev e concentração de mercados. 5 notas, 5 conceitos em rascunho

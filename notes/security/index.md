@@ -1,5 +1,7 @@
 # Notes — Cybersecurity
 
+- [Model Weights, Airlocks and Sandboxes: A Call for Technical Validation of Re-identification Tests under the EDPB Anonymisation Guidelines](/notes/security/2026-11-28-model-weights-airlocks-and-sandboxes-a-call-for-technical-va.md) — A failed re-identification test may just be too weak, so such tests need validated detection limits, bias and uncertainty before counting as anonymity evidence.
+- [OpenAI and Cisco introduce Shirudo](/notes/security/2026-11-28-openai-and-cisco-introduce-shirudo.md) — OpenAI and Cisco's open-source Shirudo uses eBPF shields to block exploits in running Linux systems while patches are prepared.
 - [What 5,400 Malicious npm Packages Reveal about Software Supply Chain Risk in 2026](/notes/security/2026-11-24-what-5-400-malicious-npm-packages-reveal-about-software-supp.md) — Once counted by campaign, malicious npm publishing is steady; rare compromises of legitimate packages carry nearly all downloads.
 - [Preflight: Agentic Last-Mile Verification for AI Software Supply Chains](/notes/security/2026-11-24-preflight-agentic-last-mile-verification-for-ai-software-sup.md) — Preflight executes a dependency through the calls a program actually makes, exposing malicious behavior that import-only probes miss.
 - [Everything you always wanted to know about Secure Exclaves but were afraid to ask](/notes/security/2026-11-22-everything-you-always-wanted-to-know-about-secure-exclaves-b.md) — Apple's Secure Exclaves process camera and microphone data in isolated runtimes so only minimal metadata reaches the main OS.

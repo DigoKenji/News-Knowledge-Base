@@ -9,6 +9,7 @@ Grouped by subdomain, following the taxonomy on the [domain page](/domains/secur
 - [Encryption](/concepts/security/encryption.md) — core
 - [Least privilege and defense in depth](/concepts/security/least-privilege.md) — core
 - [Threat, vulnerability and risk](/concepts/security/threat-vulnerability-risk.md) — core
+- [Differential privacy](/concepts/security/differential-privacy.md) — **draft**
 
 ## Identity and access
 
@@ -35,6 +36,7 @@ Grouped by subdomain, following the taxonomy on the [domain page](/domains/secur
 - [Memory poisoning](/concepts/security/memory-poisoning.md)
 - [Sandboxed Execution](/concepts/security/sandboxed-execution.md)
 - [Text watermarking](/concepts/security/text-watermarking.md) — **draft**
+- [Membership inference](/concepts/security/membership-inference.md) — **draft**
 
 ## Cloud security
 
